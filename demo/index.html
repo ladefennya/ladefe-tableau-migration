@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>LADEFE · Información censal</title>
+  <meta name="description" content="Piloto de reemplazo del tablero Tableau de información censal de LADEFE.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="mark">L</span><div><strong>LADEFE</strong><small>Sistema de Monitoreo</small></div></div>
+    <span class="status"><i></i> Fuente migrada desde Tableau</span>
+  </header>
+  <main>
+    <section class="intro">
+      <div><p class="eyebrow">Aspectos demográficos</p><h1 id="title">Información censal</h1><p id="description">Cargando datos del tablero…</p></div>
+      <div class="updated"><span>Última carga</span><strong id="updated">—</strong></div>
+    </section>
+
+    <section class="filters" aria-label="Filtros">
+      <label>Indicador<select id="indicator"></select></label>
+      <label>Tipo de dato<select id="type"></select></label>
+      <label>Año<select id="year"></select></label>
+      <button id="reset" type="button">Restablecer</button>
+    </section>
+
+    <div id="message" class="message" role="status">Preparando visualizaciones…</div>
+
+    <section id="dashboard" class="dashboard" hidden>
+      <div class="kpis">
+        <article><span>Valor nacional</span><strong id="national">—</strong><small id="nationalNote"></small></article>
+        <article><span>Territorios con datos</span><strong id="territories">—</strong><small>unidades geográficas</small></article>
+        <article><span>Serie disponible</span><strong id="range">—</strong><small id="records"></small></article>
+      </div>
+
+      <div class="grid">
+        <article class="panel chart-panel">
+          <header><div><p class="eyebrow">Evolución</p><h2>Serie temporal</h2></div><span id="seriesLabel"></span></header>
+          <svg id="lineChart" viewBox="0 0 760 330" role="img" aria-label="Evolución temporal del indicador"></svg>
+        </article>
+
+        <article class="panel ranking-panel">
+          <header><div><p class="eyebrow">Territorio</p><h2>Comparación</h2></div><span id="rankingYear"></span></header>
+          <div id="ranking" class="ranking"></div>
+        </article>
+      </div>
+
+      <article class="panel table-panel">
+        <header><div><p class="eyebrow">Detalle</p><h2>Datos visibles</h2></div><button id="download" type="button">Descargar CSV</button></header>
+        <div class="table-wrap"><table><thead><tr><th>Territorio</th><th>Año</th><th>Mes</th><th>Apertura</th><th class="num">Valor</th></tr></thead><tbody id="rows"></tbody></table></div>
+      </article>
+    </section>
+  </main>
+  <footer>Prototipo funcional · Migración de 71 tableros LADEFE</footer>
+  <script src="app.js" defer></script>
+</body>
+</html>
