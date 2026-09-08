@@ -71,7 +71,12 @@ function setup(data,restore){
   $("description").textContent=data.dashboard.description||"";$("updated").textContent=formatDate(data.dashboard.lastDataLoad);
   const indicators=data.indicators.slice().sort((a,b)=>(Number(a.order)||9999)-(Number(b.order)||9999)||String(a.name).localeCompare(String(b.name),"es",{numeric:true}));
   fill($("indicator"),indicators.map(x=>({value:x.id,label:x.name})));
-  const requested=restore?params.get("indicador"):null;if(indicators.some(x=>String(x.id)===requested))$("indicator").value=requested;
+  const requested=restore?params.get("indicador"):null;
+  if(indicators.some(x=>String(x.id)===requested))$("indicator").value=requested;
+  else{
+    const featured=indicators.find(x=>{const types=ownTypes(String(x.id));return types.includes("MAPA")&&types.includes("SERIE_TEMPORAL")})||indicators.find(x=>ownTypes(String(x.id)).some(type=>type==="MAPA"||type==="SERIE_TEMPORAL"))||indicators[0];
+    $("indicator").value=String(featured?.id||"");
+  }
   rebuildFilters(restore);
 }
 function formatDate(value){const match=String(value||"").match(/^(\d{4})-(\d{2})-(\d{2})/);return match?`${match[3]}/${match[2]}/${match[1]}`:"Sin informar"}
@@ -96,6 +101,7 @@ function render(){
   const latestRows=rows.filter(r=>String(r.year)===latest),national=latestRows.filter(r=>/total|argentina|nacional|país/i.test((r.geoName||"")+" "+[r.opening,r.mode1,r.mode2].filter(Boolean).join(" ")));
   if(national.length===1){$("national").textContent=fmt(rowValue(national[0],indicator));$("nationalNote").textContent=unitLabel(indicator)+" · "+latest}else{$("national").textContent="—";$("nationalNote").textContent=national.length>1?"Seleccioná una apertura para obtener un valor único":"Sin agregado nacional"}
   const mapRows=ownView("MAPA"),seriesRows=ownView("SERIE_TEMPORAL");$("chartPanel").hidden=!seriesRows.length;$("territoryPanel").hidden=!mapRows.length;$("capabilityMessage").hidden=Boolean(seriesRows.length||mapRows.length);
+  const visualGrid=$("chartPanel").parentElement;visualGrid.classList.toggle("single",Boolean(seriesRows.length)!==Boolean(mapRows.length));visualGrid.classList.toggle("empty",!seriesRows.length&&!mapRows.length);
   $("territories").textContent=mapRows.length?unique(mapRows.filter(r=>String(r.year)===($("year").value||String(Math.max(...unique(mapRows,"year").map(Number))))),"geoName").length:"—";
   if(seriesRows.length)drawLine(seriesRows,indicator);if(mapRows.length)drawMap(mapRows,indicator);drawTable(rows,indicator);syncUrl();
   $("message").textContent="Indicador actualizado: "+rows.length+" registros, "+unitLabel(indicator);

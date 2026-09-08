@@ -1,0 +1,4 @@
+.grid.single>.panel:not([hidden]),
+.grid.empty>#capabilityMessage{
+  grid-column:1/-1;
+}
