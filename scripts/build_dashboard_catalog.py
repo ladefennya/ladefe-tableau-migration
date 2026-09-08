@@ -79,10 +79,20 @@ def main() -> int:
             indicator_id = txt(row.get("INDICADOR_ID"))
             if board_id and indicator_id not in ("", "0"):
                 by_dashboard[board_id].append(row)
-        if by_dashboard:
+        named_dashboards = [
+            row for row in dashboards
+            if txt(row.get("TABLERO_NOMBRE")).strip().lower() not in ("", "seleccione")
+        ]
+        named_ids = {
+            txt(row.get("TABLERO_ID")) for row in named_dashboards
+            if txt(row.get("TABLERO_ID")) in by_dashboard
+        }
+        if named_ids:
+            dashboard_id = max(named_ids, key=lambda key: len(by_dashboard[key]))
+        elif by_dashboard:
             dashboard_id = max(by_dashboard, key=lambda key: len(by_dashboard[key]))
         else:
-            dashboard_id = txt(dashboards[0].get("TABLERO_ID")) if dashboards else ""
+            dashboard_id = txt(named_dashboards[0].get("TABLERO_ID")) if named_dashboards else (txt(dashboards[0].get("TABLERO_ID")) if dashboards else "")
             empty_dashboards.append(workbook)
         target = next((row for row in dashboards if txt(row.get("TABLERO_ID")) == dashboard_id), None)
         if target is None:
