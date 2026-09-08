@@ -29,8 +29,10 @@ jobs:
           node tests/semantics.test.js
           node tests/pilot_values.test.js
           node tests/view_relations.test.js
+          node tests/map_utils.test.js
           node --check demo/app.js
           node --check demo/semantics.js
+          node --check demo/map-utils.js
 
       - name: Download and inspect all Tableau workbooks
         run: |

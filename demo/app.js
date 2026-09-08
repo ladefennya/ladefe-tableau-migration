@@ -15,6 +15,7 @@ const TOPICS={
   "grupos-prioritarios":"Grupos prioritarios"
 };
 const SEM=window.LadefeSemantics;
+const MAP=window.LadefeMap;
 
 function fill(select,values,all=false){
   select.innerHTML=(all?'<option value="">Todas</option>':"")+values.map(v=>'<option value="'+esc(v.value??v)+'">'+esc(v.label??v)+'</option>').join("");
@@ -129,24 +130,22 @@ function drawLine(rows,indicator){
   const step=Math.max(1,Math.ceil(categories.length/7));categories.forEach((c,i)=>{if(i%step===0||i===categories.length-1)svg.insertAdjacentHTML("beforeend",'<text class="tick" x="'+sx(i)+'" y="'+(H-16)+'" text-anchor="middle">'+esc(c.label)+'</text>')});
 }
 
-function norm(value){return String(value||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toUpperCase().replace(/[^A-Z]/g,"")}
-function provinceKey(value){const n=norm(value);if(n.includes("CIUDADAUTONOMA")||n==="CABA"||n.includes("CAPITALFEDERAL"))return"CABA";if(n.includes("TIERRADELFUEGO"))return"TIERRADELFUEGO";return n.replace(/^PROVINCIADE/,"")}
-function featureName(feature){const p=feature.properties||{};return p.nam||p.nombre||p.NAME_1||p.fna||"Provincia"}
-function rings(geometry){if(!geometry)return[];if(geometry.type==="Polygon")return geometry.coordinates;if(geometry.type==="MultiPolygon")return geometry.coordinates.flat();return[]}
 async function ensureGeo(){if(state.geo)return state.geo;const response=await fetch("provincias.geojson");if(!response.ok)throw new Error("No se pudo cargar la geometría");return state.geo=await response.json()}
 async function drawMap(source,indicator){
   const svg=$("mapChart"),selectionId=String(currentIndicator()?.id);svg.innerHTML='<text x="210" y="235" text-anchor="middle" class="tick">Cargando mapa…</text>';
   const years=unique(source,"year").map(Number).filter(Number.isFinite),requested=Number($("year").value),year=years.includes(requested)?requested:Math.max(...years),rows=source.filter(r=>Number(r.year)===year),byGeo=new Map(),ambiguous=[];
-  rows.forEach(r=>{const key=provinceKey(r.geoName);if(key){if(!byGeo.has(key))byGeo.set(key,[]);byGeo.get(key).push(r)}});const values=new Map();byGeo.forEach((items,key)=>{if(items.length===1)values.set(key,rowValue(items[0],indicator));else ambiguous.push(key)});
-  $("rankingYear").textContent="Año "+year+" · "+unitLabel(indicator)+(ambiguous.length?" · "+ambiguous.length+" territorios ambiguos omitidos":"");drawRanking(values,indicator);
-  const geo=await ensureGeo();if(String(currentIndicator()?.id)!==selectionId)return;paintMap(values,svg,geo,indicator);
+  rows.forEach(r=>{const key=MAP.provinceKey(r.geoName);if(key){if(!byGeo.has(key))byGeo.set(key,[]);byGeo.get(key).push(r)}});const values=new Map(),labels=new Map();byGeo.forEach((items,key)=>{if(items.length===1){values.set(key,rowValue(items[0],indicator));labels.set(key,MAP.territoryLabel(items[0].geoName))}else ambiguous.push(key)});
+  const scale=MAP.discreteScale([...values.values()]);$("rankingYear").textContent="Año "+year+" · "+unitLabel(indicator)+(ambiguous.length?" · "+ambiguous.length+" territorios ambiguos omitidos":"");drawRanking(values,indicator,labels,scale);drawLegend(scale);
+  const geo=await ensureGeo();if(String(currentIndicator()?.id)!==selectionId)return;paintMap(values,svg,geo,indicator,scale);
 }
-function paintMap(values,svg,geo,indicator){
-  svg.innerHTML="";const nums=[...values.values()].filter(Number.isFinite),lo=Math.min(...nums),hi=Math.max(...nums);$("mapMin").textContent=nums.length?fmt(lo):"Menor";$("mapMax").textContent=nums.length?fmt(hi):"Mayor";
-  const color=value=>{if(!Number.isFinite(value))return"#e6ecef";const t=(value-lo)/(hi-lo||1),a=[217,238,240],b=[0,130,130],c=[11,36,63],mix=(x,y,z)=>Math.round(x+(y-x)*z),rgb=t<.55?a.map((x,i)=>mix(x,b[i],t/.55)):b.map((x,i)=>mix(x,c[i],(t-.55)/.45));return"rgb("+rgb.join(",")+")"},project=([x,y])=>[(x+74)/21*360+30,(y+21)/-34*430+18];
-  for(const feature of geo.features||[]){const name=featureName(feature),value=values.get(provinceKey(name));let d="";for(const ring of rings(feature.geometry)){const points=ring.filter(([x,y])=>x>=-74.5&&x<=-52.5&&y>=-56&&y<=-20).map(project);if(points.length>2)d+=points.map((p,i)=>(i?"L":"M")+p[0].toFixed(1)+","+p[1].toFixed(1)).join("")+"Z"}if(d){const label=name+": "+(Number.isFinite(value)?fmt(value)+" "+unitLabel(indicator):"sin dato");svg.insertAdjacentHTML("beforeend",'<path tabindex="0" role="img" aria-label="'+esc(label)+'" class="province" d="'+d+'" fill="'+color(value)+'"><title>'+esc(label)+'</title></path>')}}
+function drawLegend(scale){
+  $("mapLegend").innerHTML='<span class="legend-title">Intervalos</span>'+scale.ranges.map(range=>'<span class="legend-bin"><i style="background:'+range.color+'"></i><small>'+esc(fmt(range.from))+"–"+esc(fmt(range.to))+"</small></span>").join("")+'<span class="legend-bin"><i style="background:'+MAP.MISSING+'"></i><small>Sin dato</small></span>';
 }
-function drawRanking(values,indicator){const rows=[...values].filter(([,value])=>Number.isFinite(value)).map(([name,value])=>({name,value})).sort((a,b)=>b.value-a.value),max=Math.max(...rows.map(x=>Math.abs(x.value)),1);$("ranking").innerHTML=rows.map(x=>'<div class="rank"><span class="rank-name" title="'+esc(x.name)+'">'+esc(x.name)+'</span><span class="bar"><i style="width:'+Math.max(2,Math.abs(x.value)/max*100)+'%"></i></span><span class="rank-value">'+esc(fmt(x.value))+'</span></div>').join("");$("ranking").setAttribute("aria-label","Ranking provincial, "+unitLabel(indicator))}
+function paintMap(values,svg,geo,indicator,scale){
+  svg.innerHTML="";const project=MAP.projector(geo,420,470,18);
+  for(const feature of geo.features||[]){const name=MAP.featureName(feature),value=values.get(MAP.provinceKey(name)),d=MAP.pathForFeature(feature,project);if(d){const label=name+": "+(Number.isFinite(value)?fmt(value)+" "+unitLabel(indicator):"sin dato");svg.insertAdjacentHTML("beforeend",'<path tabindex="0" role="img" aria-label="'+esc(label)+'" class="province" d="'+d+'" fill="'+scale.color(value)+'"><title>'+esc(label)+'</title></path>')}}
+}
+function drawRanking(values,indicator,labels,scale){const rows=[...values].filter(([,value])=>Number.isFinite(value)).map(([key,value])=>({name:labels.get(key)||key,value})).sort((a,b)=>b.value-a.value),max=Math.max(...rows.map(x=>Math.abs(x.value)),1);$("ranking").innerHTML=rows.map(x=>'<div class="rank"><span class="rank-name" title="'+esc(x.name)+'">'+esc(x.name)+'</span><span class="bar"><i style="width:'+Math.max(2,Math.abs(x.value)/max*100)+'%;background:'+scale.color(x.value)+'"></i></span><span class="rank-value">'+esc(fmt(x.value))+'</span></div>').join("");$("ranking").setAttribute("aria-label","Ranking provincial, "+unitLabel(indicator))}
 function drawTable(rows,indicator){$("rows").innerHTML=rows.slice(0,250).map(r=>'<tr><td>'+esc(r.geoName||"—")+'</td><td>'+esc(r.year||"—")+'</td><td>'+esc(r.month||"—")+'</td><td>'+esc([r.opening,r.mode1,r.mode2].filter(Boolean).join(" · ")||"—")+'</td><td class="num">'+esc(fmt(rowValue(r,indicator)))+'</td></tr>').join("")}
 function download(){
   const indicator=currentIndicator(),cols=["geoName","year","month","opening","mode1","mode2","displayValue","unit","rawValue","auxiliaryValue"],safe=value=>{let text=String(value??"");if(/^[=+\-@]/.test(text))text="'"+text;return '"'+text.replaceAll('"','""')+'"'},lines=[cols.join(","),...state.selected.map(r=>[r.geoName,r.year,r.month,r.opening,r.mode1,r.mode2,rowValue(r,indicator),unitLabel(indicator),rawValue(r),r.aux].map(safe).join(","))],url=URL.createObjectURL(new Blob(["\ufeff"+lines.join("\n")],{type:"text/csv;charset=utf-8"})),a=document.createElement("a");a.href=url;a.download="ladefe-"+$("board").value+".csv";a.click();URL.revokeObjectURL(url)

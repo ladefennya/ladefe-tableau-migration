@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>LADEFE · Sistema de Monitoreo</title>
   <meta name="description" content="Demo técnico de migración del Sistema de Monitoreo de LADEFE.">
-  <link rel="stylesheet" href="styles.css?v=20260908-4">
-  <link rel="stylesheet" href="layout-fixes.css?v=20260908-4">
+  <link rel="stylesheet" href="styles.css?v=20260908-5">
+  <link rel="stylesheet" href="layout-fixes.css?v=20260908-5">
 </head>
 <body>
   <a class="skip-link" href="#content">Saltar al contenido</a>
@@ -56,7 +56,7 @@
         <article id="territoryPanel" class="panel ranking-panel">
           <header><div><p class="eyebrow">Territorio</p><h2>Comparación provincial</h2></div><span id="rankingYear"></span></header>
           <svg id="mapChart" class="map" viewBox="0 0 420 470" role="img" aria-label="Mapa de provincias argentinas"></svg>
-          <div class="legend"><span id="mapMin">Menor</span><i></i><span id="mapMax">Mayor</span></div>
+          <div id="mapLegend" class="legend" aria-label="Escala de colores del mapa"></div>
           <div id="ranking" class="ranking" aria-label="Ranking provincial"></div>
         </article>
 
@@ -70,7 +70,8 @@
     </section>
   </main>
   <footer>Demo técnico en validación · Migración de 71 tableros LADEFE</footer>
-  <script src="semantics.js?v=20260908-4" defer></script>
-  <script src="app.js?v=20260908-4" defer></script>
+  <script src="semantics.js?v=20260908-5" defer></script>
+  <script src="map-utils.js?v=20260908-5" defer></script>
+  <script src="app.js?v=20260908-5" defer></script>
 </body>
 </html>

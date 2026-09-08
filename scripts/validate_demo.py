@@ -93,6 +93,8 @@ def main() -> int:
     assert "currentIndicator()?.id)!==indicatorId" not in app, "Related maps must not be discarded after geometry loads"
     assert (args.demo / "view-relations.json").is_file(), "Missing explicit curated view relations"
     assert "view-relations.json" in app, "Demo must load explicit curated view relations"
+    assert (args.demo / "map-utils.js").is_file(), "Missing tested map projection utilities"
+    assert "LadefeMap" in app, "Demo must use the tested map projection utilities"
     print(f"Validated {len(dashboards)} dashboards, {total_rows:,} rows, {derived_rows:,} derived display values and a {geo_path.stat().st_size:,}-byte map")
     return 0
 
