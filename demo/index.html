@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>LADEFE · Sistema de Monitoreo</title>
   <meta name="description" content="Demo técnico de migración del Sistema de Monitoreo de LADEFE.">
-  <link rel="stylesheet" href="styles.css?v=20260908-6">
-  <link rel="stylesheet" href="layout-fixes.css?v=20260908-6">
+  <link rel="stylesheet" href="styles.css?v=20260908-7">
+  <link rel="stylesheet" href="layout-fixes.css?v=20260908-7">
 </head>
 <body>
   <a class="skip-link" href="#content">Saltar al contenido</a>
@@ -24,10 +24,18 @@
       <label>Tema<select id="topic"></select></label>
       <label>Tablero<select id="board"></select></label>
       <label>Indicador<select id="indicator"></select></label>
-      <label>Vista de datos<select id="type"></select></label>
-      <label>Año<select id="year"></select></label>
+      <label id="typeField">Vista de datos<select id="type"></select></label>
+      <label id="yearField">Año<select id="year"></select></label>
       <button id="reset" type="button">Restablecer</button>
-      <p class="filter-note">Cada visualización identifica el indicador que utiliza. Las vistas relacionadas sólo aparecen cuando existe una relación curada para el piloto.</p>
+      <div class="filter-footer">
+        <label class="map-toggle"><input id="mapOnly" type="checkbox"><span id="mapOnlyText">Sólo con mapa</span></label>
+        <p class="filter-note">Los filtros sin opciones alternativas se ocultan. Las vistas relacionadas sólo aparecen cuando existe una relación curada.</p>
+      </div>
+      <div class="indicator-context" aria-live="polite">
+        <span id="indicatorCode" class="code-badge" hidden></span>
+        <strong id="indicatorTitle">Indicador</strong>
+        <span id="capabilities" class="capabilities"></span>
+      </div>
     </section>
 
     <p id="relationNotice" class="relation-notice" role="note" hidden></p>
@@ -70,8 +78,9 @@
     </section>
   </main>
   <footer>Demo técnico en validación · Migración de 71 tableros LADEFE</footer>
-  <script src="semantics.js?v=20260908-6" defer></script>
-  <script src="map-utils.js?v=20260908-6" defer></script>
-  <script src="app.js?v=20260908-6" defer></script>
+  <script src="semantics.js?v=20260908-7" defer></script>
+  <script src="map-utils.js?v=20260908-7" defer></script>
+  <script src="ui-utils.js?v=20260908-7" defer></script>
+  <script src="app.js?v=20260908-7" defer></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-const state={catalog:[],data:null,relations:{dashboards:{}},selected:[],geo:null,request:0,bound:false};
+const state={catalog:[],data:null,indicators:[],relations:{dashboards:{}},selected:[],geo:null,request:0,bound:false};
 const $=id=>document.getElementById(id);
 const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const fmt=v=>Number.isFinite(Number(v))?new Intl.NumberFormat("es-AR",{maximumFractionDigits:2}).format(Number(v)):"—";
@@ -16,6 +16,7 @@ const TOPICS={
 };
 const SEM=window.LadefeSemantics;
 const MAP=window.LadefeMap;
+const UI=window.LadefeUI;
 
 function fill(select,values,all=false){
   select.innerHTML=(all?'<option value="">Todas</option>':"")+values.map(v=>'<option value="'+esc(v.value??v)+'">'+esc(v.label??v)+'</option>').join("");
@@ -32,14 +33,15 @@ function fillBoards(topic,selected){
 function currentIndicator(){return state.data?.indicators.find(x=>String(x.id)===$("indicator").value)||null}
 function indicatorById(id){return state.data?.indicators.find(x=>String(x.id)===String(id))||null}
 function base(){const id=$("indicator").value;return state.data?.rows.filter(r=>String(r.indicatorId)===id)||[]}
-function ownView(type){return base().filter(r=>r.type===type)}
-function viewSpec(type){
-  const selected=currentIndicator(),own=ownView(type);if(own.length)return{rows:own,indicator:selected,related:false};
+function ownRows(id,type){return state.data?.rows.filter(r=>String(r.indicatorId)===String(id)&&r.type===type)||[]}
+function viewSpecFor(id,type){
+  const selected=indicatorById(id),own=ownRows(id,type);if(own.length)return{rows:own,indicator:selected,related:false};
   const relation=(state.relations.dashboards?.[$("board").value]||[]).find(item=>item.members.map(String).includes(String(selected?.id))),field=type==="MAPA"?"mapIndicatorId":"seriesIndicatorId",target=relation?.[field],indicator=indicatorById(target);
   if(!indicator||indicator.unitCode!==selected?.unitCode)return{rows:[],indicator:selected,related:false};
   const rows=state.data.rows.filter(row=>String(row.indicatorId)===String(target)&&row.type===type);
   return{rows,indicator,related:Boolean(rows.length),relation};
 }
+function viewSpec(type){return viewSpecFor($("indicator").value,type)}
 function rawValue(row){return SEM.rawValue(row)}
 function rowValue(row,indicator=currentIndicator()){return SEM.displayValue(row,indicator)}
 function unitLabel(indicator=currentIndicator()){return indicator?.unitDescription||indicator?.unit||"Valor"}
@@ -56,11 +58,26 @@ function bind(){
   $("topic").addEventListener("change",()=>{fillBoards($("topic").value);loadBoard($("board").value)});
   $("board").addEventListener("change",()=>loadBoard($("board").value));
   $("indicator").addEventListener("change",()=>rebuildFilters());
+  $("mapOnly").addEventListener("change",()=>{refreshIndicatorOptions($("indicator").value);rebuildFilters()});
   ["type","year"].forEach(id=>$(id).addEventListener("change",render));
-  $("reset").onclick=()=>{const preferred=state.data.indicators.find(i=>ownTypes(String(i.id)).length)||state.data.indicators[0];$("indicator").value=String(preferred?.id||"");rebuildFilters()};
+  $("reset").onclick=()=>{$("mapOnly").checked=false;refreshIndicatorOptions();rebuildFilters()};
   $("download").onclick=download;
 }
-function ownTypes(id){return [...new Set(state.data.rows.filter(r=>String(r.indicatorId)===id).map(r=>r.type).filter(Boolean))]}
+function ownTypes(id){return [...new Set((state.data?.rows||[]).filter(r=>String(r.indicatorId)===String(id)).map(r=>r.type).filter(Boolean))]}
+function indicatorCapabilities(id){
+  const own=ownTypes(id),related=[];
+  for(const type of ["SERIE_TEMPORAL","MAPA"]){const spec=viewSpecFor(id,type);if(spec.related)related.push(type)}
+  return UI.capabilityLabels(own,related);
+}
+function hasMap(id){return Boolean(viewSpecFor(id,"MAPA").rows.length)}
+function preferredIndicator(indicators){return indicators.find(x=>{const types=ownTypes(x.id);return types.includes("MAPA")&&types.includes("SERIE_TEMPORAL")})||indicators.find(x=>hasMap(x.id))||indicators.find(x=>ownTypes(x.id).includes("SERIE_TEMPORAL"))||indicators[0]}
+function refreshIndicatorOptions(preferredId){
+  const available=$("mapOnly").checked?state.indicators.filter(x=>hasMap(x.id)):state.indicators;
+  fill($("indicator"),available.map(x=>({value:x.id,label:UI.splitIndicatorName(x.name).title})));
+  const preferred=available.find(x=>String(x.id)===String(preferredId))||preferredIndicator(available);
+  $("indicator").value=String(preferred?.id||"");
+  $("indicator").title=UI.splitIndicatorName(preferred?.name).title;
+}
 
 async function bootstrap(){
   bind();const response=await fetch("catalog.json");if(!response.ok)throw new Error("HTTP "+response.status);
@@ -79,14 +96,13 @@ function setup(data,restore){
   state.data=data;const params=new URLSearchParams(location.search);
   $("title").textContent=data.dashboard.name||"Tablero LADEFE";document.title="LADEFE · "+$("title").textContent;
   $("description").textContent=data.dashboard.description||"";$("updated").textContent=formatDate(data.dashboard.lastDataLoad);
-  const indicators=data.indicators.slice().sort((a,b)=>(Number(a.order)||9999)-(Number(b.order)||9999)||String(a.name).localeCompare(String(b.name),"es",{numeric:true}));
-  fill($("indicator"),indicators.map(x=>({value:x.id,label:x.name})));
+  state.indicators=data.indicators.slice().sort((a,b)=>(Number(a.order)||9999)-(Number(b.order)||9999)||String(a.name).localeCompare(String(b.name),"es",{numeric:true}));
+  const mapCount=state.indicators.filter(x=>hasMap(x.id)).length,anyMap=mapCount>0;
+  if(restore)$("mapOnly").checked=params.get("solo_mapa")==="1";
+  if(!anyMap)$("mapOnly").checked=false;
+  $("mapOnly").disabled=!anyMap;$("mapOnlyText").textContent=anyMap?`Sólo con mapa (${mapCount} de ${state.indicators.length})`:"Sin mapas disponibles";
   const requested=restore?params.get("indicador"):null;
-  if(indicators.some(x=>String(x.id)===requested))$("indicator").value=requested;
-  else{
-    const featured=indicators.find(x=>{const types=ownTypes(String(x.id));return types.includes("MAPA")&&types.includes("SERIE_TEMPORAL")})||indicators.find(x=>ownTypes(String(x.id)).some(type=>type==="MAPA"||type==="SERIE_TEMPORAL"))||indicators[0];
-    $("indicator").value=String(featured?.id||"");
-  }
+  refreshIndicatorOptions(requested);
   rebuildFilters(restore);
 }
 function formatDate(value){const match=String(value||"").match(/^(\d{4})-(\d{2})-(\d{2})/);return match?`${match[3]}/${match[2]}/${match[1]}`:"Sin informar"}
@@ -94,16 +110,25 @@ function rebuildFilters(restore=false){
   const rows=base(),params=new URLSearchParams(location.search),type=restore?params.get("vista"):null,year=restore?params.get("anio"):null;
   const types=unique(rows,"type").map(value=>({value,label:VIEW_LABELS[value]||value}));fill($("type"),types,true);if(types.some(x=>x.value===type))$("type").value=type;
   const years=unique(rows,"year").sort((a,b)=>Number(b)-Number(a));fill($("year"),years,true);if(years.includes(year))$("year").value=year;
+  $("typeField").hidden=types.length<=1;$("yearField").hidden=years.length<=1;
   render();
 }
 function filtered(){return base().filter(r=>(!$("type").value||r.type===$("type").value)&&(!$("year").value||String(r.year)===$("year").value))}
 function syncUrl(){
   if(!state.data)return;const url=new URL(location.href);url.searchParams.set("tablero",$("board").value);url.searchParams.set("indicador",$("indicator").value);
-  $("type").value?url.searchParams.set("vista",$("type").value):url.searchParams.delete("vista");$("year").value?url.searchParams.set("anio",$("year").value):url.searchParams.delete("anio");history.replaceState(null,"",url);
+  $("type").value?url.searchParams.set("vista",$("type").value):url.searchParams.delete("vista");$("year").value?url.searchParams.set("anio",$("year").value):url.searchParams.delete("anio");
+  $("mapOnly").checked?url.searchParams.set("solo_mapa","1"):url.searchParams.delete("solo_mapa");history.replaceState(null,"",url);
+}
+
+function renderIndicatorContext(indicator){
+  const parts=UI.splitIndicatorName(indicator?.name),capabilities=indicatorCapabilities(indicator?.id),code=$("indicatorCode");
+  code.hidden=!parts.code;code.textContent=parts.code;$("indicatorTitle").textContent=parts.title||"Indicador";$("indicator").title=parts.title;
+  $("capabilities").innerHTML=capabilities.map(item=>'<span class="'+(item.related?"related":"")+'" title="'+(item.related?"Vista relacionada y curada provisionalmente":"Vista propia del indicador")+'">'+esc(item.label)+'</span>').join("");
 }
 
 function render(){
   const rows=filtered(),indicator=currentIndicator(),years=unique(base(),"year").map(Number).filter(Number.isFinite),latest=$("year").value||String(Math.max(...years));
+  renderIndicatorContext(indicator);
   state.selected=rows;$("message").hidden=true;$("dashboard").hidden=false;$("records").textContent=rows.length+" registros seleccionados";$("range").textContent=years.length?Math.min(...years)+"–"+Math.max(...years):"—";
   $("unit").textContent=unitLabel(indicator);$("definition").textContent=cleanText(indicator?.definition);$("methodology").textContent=cleanText(indicator?.methodology);
   const groupIds=new Set(base().map(r=>String(r.groupId||""))),sources=state.data.groups.filter(g=>groupIds.has(String(g.id))).map(g=>g.sources).filter(Boolean);$("source").textContent=sources.length?[...new Set(sources)].join(" · "):"No informada";
@@ -111,7 +136,7 @@ function render(){
   const latestRows=rows.filter(r=>String(r.year)===latest),national=latestRows.filter(r=>/total|argentina|nacional|país/i.test((r.geoName||"")+" "+[r.opening,r.mode1,r.mode2].filter(Boolean).join(" ")));
   if(national.length===1){$("national").textContent=fmt(rowValue(national[0],indicator));$("nationalNote").textContent=unitLabel(indicator)+" · "+latest}else{$("national").textContent="—";$("nationalNote").textContent=national.length>1?"Seleccioná una apertura para obtener un valor único":"Sin agregado nacional"}
   const map=viewSpec("MAPA"),series=viewSpec("SERIE_TEMPORAL"),mapRows=map.rows,seriesRows=series.rows;$("chartPanel").hidden=!seriesRows.length;$("territoryPanel").hidden=!mapRows.length;$("capabilityMessage").hidden=Boolean(seriesRows.length||mapRows.length);
-  const related=[series.related?"evolución: "+series.indicator.name:null,map.related?"territorio: "+map.indicator.name:null].filter(Boolean);$("relationNotice").hidden=!related.length;$("relationNotice").textContent=related.length?"Relación curada provisionalmente para este piloto (validación temática pendiente) — "+related.join(" · "):"";
+  const related=[series.related?"evolución: "+UI.splitIndicatorName(series.indicator.name).title:null,map.related?"territorio: "+UI.splitIndicatorName(map.indicator.name).title:null].filter(Boolean);$("relationNotice").hidden=!related.length;$("relationNotice").textContent=related.length?"Relación curada provisionalmente para este piloto (validación temática pendiente) — "+related.join(" · "):"";
   const visualGrid=$("chartPanel").parentElement;visualGrid.classList.toggle("single",Boolean(seriesRows.length)!==Boolean(mapRows.length));visualGrid.classList.toggle("empty",!seriesRows.length&&!mapRows.length);
   $("territories").textContent=mapRows.length?unique(mapRows.filter(r=>String(r.year)===($("year").value||String(Math.max(...unique(mapRows,"year").map(Number))))),"geoName").length:"—";
   if(seriesRows.length)drawLine(seriesRows,series.indicator);if(mapRows.length)drawMap(mapRows,map.indicator);drawTable(rows,indicator);syncUrl();
@@ -119,7 +144,7 @@ function render(){
 }
 
 function drawLine(rows,indicator){
-  const svg=$("lineChart");svg.innerHTML="";$("seriesLabel").textContent=indicator.name+" · "+unitLabel(indicator);
+  const svg=$("lineChart");svg.innerHTML="";$("seriesLabel").textContent=UI.splitIndicatorName(indicator.name).title+" · "+unitLabel(indicator);
   const categories=[...new Map(rows.slice().sort((a,b)=>periodRank(a)-periodRank(b)).map(r=>[periodLabel(r),r])).entries()].map(([label,row])=>({label,rank:periodRank(row)})),index=new Map(categories.map((x,i)=>[x.label,i])),groups=new Map();
   rows.forEach(r=>{const name=dimensionLabel(r),value=rowValue(r,indicator),label=periodLabel(r);if(!Number.isFinite(value)||!index.has(label))return;if(!groups.has(name))groups.set(name,new Map());const points=groups.get(name);if(points.has(label)){points.set(label,null)}else points.set(label,value)});
   const valid=[...groups].map(([name,points])=>({name,points:[...points].filter(([,v])=>Number.isFinite(v)).map(([label,value])=>({i:index.get(label),label,value})).sort((a,b)=>a.i-b.i)})).filter(x=>x.points.length);

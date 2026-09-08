@@ -95,6 +95,11 @@ def main() -> int:
     assert "view-relations.json" in app, "Demo must load explicit curated view relations"
     assert (args.demo / "map-utils.js").is_file(), "Missing tested map projection utilities"
     assert "LadefeMap" in app, "Demo must use the tested map projection utilities"
+    assert (args.demo / "ui-utils.js").is_file(), "Missing tested navigation utilities"
+    assert "LadefeUI" in app, "Demo must use the tested navigation utilities"
+    html = (args.demo / "index.html").read_text(encoding="utf-8")
+    assert 'id="mapOnly"' in html, "Demo must expose the map-only indicator filter"
+    assert 'id="capabilities"' in html, "Demo must explain indicator capabilities"
     print(f"Validated {len(dashboards)} dashboards, {total_rows:,} rows, {derived_rows:,} derived display values and a {geo_path.stat().st_size:,}-byte map")
     return 0
 
