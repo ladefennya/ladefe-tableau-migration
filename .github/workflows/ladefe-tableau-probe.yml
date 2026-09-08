@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   probe:
@@ -12,10 +12,10 @@ jobs:
     timeout-minutes: 30
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
           cache: pip
@@ -24,13 +24,41 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Download and inspect Tableau workbooks
-        run: python scripts/tableau_probe.py --config config/test_workbooks.csv --out output --sample-rows 25
+        run: |
+          rm -rf output
+          python scripts/tableau_probe.py --config config/test_workbooks.csv --out output --sample-rows 25
 
       - name: Show summary
         if: always()
         run: cat output/SUMMARY.md || true
 
-      - name: Upload technical inventory
+      - name: Publish latest technical inventory in repository
+        if: success()
+        run: |
+          rm -rf results/latest
+          mkdir -p results/latest
+          cp             output/SUMMARY.md             output/report.json             output/workbooks.csv             output/worksheets.csv             output/dashboards.csv             output/fields.csv             output/filters.csv             output/parameters.csv             output/connections.csv             output/relations.csv             output/actions.csv             output/hyper_tables.csv             output/hyper_columns.csv             results/latest/
+
+          {
+            echo "# Provenance"
+            echo
+            echo "- Workflow run: ${GITHUB_RUN_ID}"
+            echo "- Source commit: ${GITHUB_SHA}"
+            echo "- Generated at (UTC): $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+            echo "- Full raw package: GitHub Actions artifact \`ladefe-tableau-probe\`"
+          } > results/latest/PROVENANCE.md
+
+          git config user.name "ladefe-tableau-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add results/latest
+          if git diff --cached --quiet; then
+            echo "No changes in results/latest"
+          else
+            git commit -m "Update latest Tableau probe results [skip ci]"
+            git push
+          fi
+
+      - name: Upload full technical inventory
         if: always()
         uses: actions/upload-artifact@v4
         with:
