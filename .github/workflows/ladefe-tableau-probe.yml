@@ -39,12 +39,16 @@ jobs:
       - name: Build canonical backend and census demo
         run: python scripts/build_canonical.py --out output --demo-out demo/data.json
 
+      - name: Build cross-family pilots
+        run: python scripts/build_pilots.py --canonical output/canonical --demo demo
+
       - name: Show summaries
         if: always()
         run: |
           cat output/SUMMARY.md || true
           cat output/SCALE_SUMMARY.md || true
           cat output/canonical/CANONICAL_SUMMARY.md || true
+          cat output/canonical/PILOT_SUMMARY.md || true
 
       - name: Publish latest inventory, canonical data and demo dataset
         if: success()
@@ -63,10 +67,12 @@ jobs:
           done
 
           cp output/canonical/CANONICAL_SUMMARY.md results/latest/
+          cp output/canonical/PILOT_SUMMARY.md results/latest/
           cp output/canonical/canonical_stats.csv results/latest/
           cp output/canonical/schema.json results/latest/
           cp output/canonical/*.csv.gz data/canonical/
           cp output/canonical/CANONICAL_SUMMARY.md data/canonical/
+          cp output/canonical/PILOT_SUMMARY.md data/canonical/
           cp output/canonical/canonical_stats.csv data/canonical/
           cp output/canonical/schema.json data/canonical/
 
@@ -81,7 +87,7 @@ jobs:
 
           git config user.name "ladefe-tableau-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add results/latest data/canonical demo/data.json
+          git add results/latest data/canonical demo
           if git diff --cached --quiet; then
             echo "No generated changes"
           else
