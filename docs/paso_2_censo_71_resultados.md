@@ -118,3 +118,7 @@ El principal riesgo ya no es acceder a Tableau ni interpretar los workbooks. Los
 Construir el primer adaptador y producto funcional sobre la familia F01 usando Información censal como caso inicial. Luego conectar Pobreza, Matrícula secundaria, Natalidad y Justicia juvenil al mismo motor para demostrar reutilización transversal.
 
 En paralelo, debe generarse una tabla canónica deduplicada de los 71 extractos y un catálogo de indicadores. Ese será el backend inicial del reemplazo.
+
+## Actualización del gate semántico
+
+La auditoría posterior del demo confirmó que la arquitectura reutilizable escala, pero también que no corresponde inferir automáticamente qué mapa y qué serie “acompañan” a cada indicador. La revisión de 127 solicitudes en seis pilotos habilitó provisionalmente tres familias conceptuales y bloqueó las asociaciones ambiguas. El detalle y el camino de aprobación están en `docs/VIEW_RELATION_REVIEW.md`.

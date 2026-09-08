@@ -54,6 +54,8 @@ El script redacta atributos que parezcan credenciales (`password`, `token`, `sec
 
 El siguiente gate del proyecto es validar una muestra arquetípica contra Tableau y con responsables temáticos antes de escalar la certificación a los 71 tableros.
 
+La decisión y los bloqueos de asociación entre mapa, serie y distribución están documentados en `docs/VIEW_RELATION_REVIEW.md`.
+
 ## Matriz previa de los cinco pilotos
 
 `docs/piloto_5_matriz.csv` resume la fuente de reemplazo probable y los filtros/variables que esperamos contrastar contra el `.twb/.hyper`. Sirve para distinguir qué metadatos son sustantivos y cuáles son elementos administrativos del dashboard.
