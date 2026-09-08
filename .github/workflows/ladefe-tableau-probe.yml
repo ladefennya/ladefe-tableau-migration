@@ -23,6 +23,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Validate source
+        run: |
+          python -m py_compile scripts/*.py
+          node --check demo/app.js
+
       - name: Download and inspect all Tableau workbooks
         run: |
           rm -rf output
@@ -31,17 +36,21 @@ jobs:
       - name: Analyze structural families and duplication
         run: python scripts/analyze_inventory.py --out output
 
+      - name: Build canonical backend and census demo
+        run: python scripts/build_canonical.py --out output --demo-out demo/data.json
+
       - name: Show summaries
         if: always()
         run: |
           cat output/SUMMARY.md || true
           cat output/SCALE_SUMMARY.md || true
+          cat output/canonical/CANONICAL_SUMMARY.md || true
 
-      - name: Publish latest technical inventory in repository
+      - name: Publish latest inventory, canonical data and demo dataset
         if: success()
         run: |
-          rm -rf results/latest
-          mkdir -p results/latest
+          rm -rf results/latest data/canonical
+          mkdir -p results/latest data/canonical
           for file in \
             SUMMARY.md SCALE_SUMMARY.md report.json \
             workbooks.csv worksheets.csv dashboards.csv fields.csv filters.csv \
@@ -53,22 +62,30 @@ jobs:
             cp "output/$file" results/latest/
           done
 
+          cp output/canonical/CANONICAL_SUMMARY.md results/latest/
+          cp output/canonical/canonical_stats.csv results/latest/
+          cp output/canonical/schema.json results/latest/
+          cp output/canonical/*.csv.gz data/canonical/
+          cp output/canonical/CANONICAL_SUMMARY.md data/canonical/
+          cp output/canonical/canonical_stats.csv data/canonical/
+          cp output/canonical/schema.json data/canonical/
+
           {
             echo "# Provenance"
             echo
             echo "- Workflow run: ${GITHUB_RUN_ID}"
             echo "- Source commit: ${GITHUB_SHA}"
             echo "- Generated at (UTC): $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
-            echo "- Full raw package: GitHub Actions artifact \`ladefe-tableau-probe\`"
+            echo "- Full raw package: GitHub Actions artifact `ladefe-tableau-probe`"
           } > results/latest/PROVENANCE.md
 
           git config user.name "ladefe-tableau-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add results/latest
+          git add results/latest data/canonical demo/data.json
           if git diff --cached --quiet; then
-            echo "No changes in results/latest"
+            echo "No generated changes"
           else
-            git commit -m "Update latest Tableau probe results [skip ci]"
+            git commit -m "Update canonical Tableau data and demo [skip ci]"
             git push
           fi
 
