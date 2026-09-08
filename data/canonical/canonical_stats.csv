@@ -1,0 +1,8 @@
+﻿table,columns,input_rows,unique_rows,duplicate_rows_removed,deduplication_pct,source_links,max_occurrences,schema_variants
+Configuracion,12,71,1,70,98.59,71,71,1
+Datos,22,901025,25792,875233,97.14,901025,71,1
+Grupos Indicadores,7,9515,152,9363,98.4,9515,71,1
+Indicadores,11,48956,935,48021,98.09,48956,71,1
+Tableros,7,141,72,69,48.94,141,70,1
+Temas,4,142,9,133,93.66,142,71,1
+shp,10,1704,24,1680,98.59,1704,71,1
