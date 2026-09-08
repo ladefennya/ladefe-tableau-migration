@@ -135,14 +135,14 @@ async function drawMap(source,indicator){
   const svg=$("mapChart"),selectionId=String(currentIndicator()?.id);svg.innerHTML='<text x="210" y="235" text-anchor="middle" class="tick">Cargando mapa…</text>';
   const years=unique(source,"year").map(Number).filter(Number.isFinite),requested=Number($("year").value),year=years.includes(requested)?requested:Math.max(...years),rows=source.filter(r=>Number(r.year)===year),byGeo=new Map(),ambiguous=[];
   rows.forEach(r=>{const key=MAP.provinceKey(r.geoName);if(key){if(!byGeo.has(key))byGeo.set(key,[]);byGeo.get(key).push(r)}});const values=new Map(),labels=new Map();byGeo.forEach((items,key)=>{if(items.length===1){values.set(key,rowValue(items[0],indicator));labels.set(key,MAP.territoryLabel(items[0].geoName))}else ambiguous.push(key)});
-  const scale=MAP.discreteScale([...values.values()]);$("rankingYear").textContent="Año "+year+" · "+unitLabel(indicator)+(ambiguous.length?" · "+ambiguous.length+" territorios ambiguos omitidos":"");drawRanking(values,indicator,labels,scale);drawLegend(scale);
-  const geo=await ensureGeo();if(String(currentIndicator()?.id)!==selectionId)return;paintMap(values,svg,geo,indicator,scale);
+  const scale=MAP.discreteScale([...values.values()]);$("rankingYear").textContent="Año "+year+" · "+unitLabel(indicator)+(ambiguous.length?" · "+ambiguous.length+" territorios ambiguos omitidos":"");drawRanking(values,indicator,labels,scale);
+  const geo=await ensureGeo();if(String(currentIndicator()?.id)!==selectionId)return;const project=MAP.projector(geo,420,470,18),hasMissing=(geo.features||[]).some(feature=>MAP.pathForFeature(feature,project)&&!Number.isFinite(values.get(MAP.provinceKey(MAP.featureName(feature)))));drawLegend(scale,hasMissing);paintMap(values,svg,geo,indicator,scale,project);
 }
-function drawLegend(scale){
-  $("mapLegend").innerHTML='<span class="legend-title">Intervalos</span>'+scale.ranges.map(range=>'<span class="legend-bin"><i style="background:'+range.color+'"></i><small>'+esc(fmt(range.from))+"–"+esc(fmt(range.to))+"</small></span>").join("")+'<span class="legend-bin"><i style="background:'+MAP.MISSING+'"></i><small>Sin dato</small></span>';
+function drawLegend(scale,hasMissing){
+  $("mapLegend").innerHTML='<span class="legend-title">Intervalos</span>'+scale.ranges.map(range=>'<span class="legend-bin"><i style="background:'+range.color+'"></i><small>'+esc(fmt(range.from))+"–"+esc(fmt(range.to))+"</small></span>").join("")+(hasMissing?'<span class="legend-bin"><i style="background:'+MAP.MISSING+'"></i><small>Sin dato</small></span>':"");
 }
-function paintMap(values,svg,geo,indicator,scale){
-  svg.innerHTML="";const project=MAP.projector(geo,420,470,18);
+function paintMap(values,svg,geo,indicator,scale,project){
+  svg.innerHTML="";
   for(const feature of geo.features||[]){const name=MAP.featureName(feature),value=values.get(MAP.provinceKey(name)),d=MAP.pathForFeature(feature,project);if(d){const label=name+": "+(Number.isFinite(value)?fmt(value)+" "+unitLabel(indicator):"sin dato");svg.insertAdjacentHTML("beforeend",'<path tabindex="0" role="img" aria-label="'+esc(label)+'" class="province" d="'+d+'" fill="'+scale.color(value)+'"><title>'+esc(label)+'</title></path>')}}
 }
 function drawRanking(values,indicator,labels,scale){const rows=[...values].filter(([,value])=>Number.isFinite(value)).map(([key,value])=>({name:labels.get(key)||key,value})).sort((a,b)=>b.value-a.value),max=Math.max(...rows.map(x=>Math.abs(x.value)),1);$("ranking").innerHTML=rows.map(x=>'<div class="rank"><span class="rank-name" title="'+esc(x.name)+'">'+esc(x.name)+'</span><span class="bar"><i style="width:'+Math.max(2,Math.abs(x.value)/max*100)+'%;background:'+scale.color(x.value)+'"></i></span><span class="rank-value">'+esc(fmt(x.value))+'</span></div>').join("");$("ranking").setAttribute("aria-label","Ranking provincial, "+unitLabel(indicator))}

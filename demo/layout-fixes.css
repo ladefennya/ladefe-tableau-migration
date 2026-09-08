@@ -31,12 +31,15 @@
 }
 .legend-title{
   align-self:center;
+  flex-basis:100%;
   font-weight:700;
+  text-align:center;
 }
 .legend-bin{
   display:grid;
   gap:3px;
   justify-items:center;
+  min-width:56px;
 }
 .legend .legend-bin i{
   display:block;
