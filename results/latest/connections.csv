@@ -1,0 +1,21 @@
+﻿workbook,requested_view,twb_file,datasource,attr_class,attr_cleaning,attr_compat,attr_dataRefreshTime,attr_interpretationMode,attr_validate,attr_workgroup-auth-mode,attr_directory,attr_tablename,attr_access_mode,attr_authentication,attr_author-locale,attr_dbname,attr_default-settings,attr_schema,attr_sslmode,attr_update-time,attr_updated-database
+1_1Aspectosdemogrficos_Informacincensal,DHBEvolucinTemporal,1.1 Aspectos demogr├íficos_Informaci├│n censal.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+1_1Aspectosdemogrficos_Informacincensal,DHBEvolucinTemporal,1.1 Aspectos demogr├íficos_Informaci├│n censal.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+1_1Aspectosdemogrficos_Informacincensal,DHBEvolucinTemporal,1.1 Aspectos demogr├íficos_Informaci├│n censal.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+1_1Aspectosdemogrficos_Informacincensal,DHBEvolucinTemporal,1.1 Aspectos demogr├íficos_Informaci├│n censal.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,yes,Extract,,05/06/2026 04:39:40 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+2_1aTasasdepobreza,DHBEvolucinTemporal,2.1a Tasas de pobreza.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+2_1aTasasdepobreza,DHBEvolucinTemporal,2.1a Tasas de pobreza.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+2_1aTasasdepobreza,DHBEvolucinTemporal,2.1a Tasas de pobreza.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+2_1aTasasdepobreza,DHBEvolucinTemporal,2.1a Tasas de pobreza.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,yes,Extract,,05/06/2026 07:34:21 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+3_3dMatrculaECNivelSecundario,DHBEvolucinTemporal,3.3d Matr├¡cula EC Nivel secundario.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+3_3dMatrculaECNivelSecundario,DHBEvolucinTemporal,3.3d Matr├¡cula EC Nivel secundario.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+3_3dMatrculaECNivelSecundario,DHBEvolucinTemporal,3.3d Matr├¡cula EC Nivel secundario.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+3_3dMatrculaECNivelSecundario,DHBEvolucinTemporal,3.3d Matr├¡cula EC Nivel secundario.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,yes,Extract,,06/12/2026 02:32:49 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+4_2aNatalidad,DHBEvolucinTemporal,4.2a Natalidad.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+4_2aNatalidad,DHBEvolucinTemporal,4.2a Natalidad.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+4_2aNatalidad,DHBEvolucinTemporal,4.2a Natalidad.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+4_2aNatalidad,DHBEvolucinTemporal,4.2a Natalidad.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,yes,Extract,,05/13/2026 11:36:42 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+5_4aJusticiajuvenilAdolescentesyjvenes,DHBEvolucinTemporal,5.4a Justicia juvenil Adolescentes y j├│venes.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+5_4aJusticiajuvenilAdolescentesyjvenes,DHBEvolucinTemporal,5.4a Justicia juvenil Adolescentes y j├│venes.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+5_4aJusticiajuvenilAdolescentesyjvenes,DHBEvolucinTemporal,5.4a Justicia juvenil Adolescentes y j├│venes.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+5_4aJusticiajuvenilAdolescentesyjvenes,DHBEvolucinTemporal,5.4a Justicia juvenil Adolescentes y j├│venes.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,yes,Extract,,05/14/2026 05:45:23 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper

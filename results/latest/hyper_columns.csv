@@ -1,0 +1,366 @@
+﻿workbook,hyper_file,schema,table,ordinal,column,sql_type,nullability
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",1,"""TEMA_ID""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",2,"""TEMA_NOMBRE""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",3,"""TABLERO_ID""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",4,"""SECCION_ID""",BIG_INT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",5,"""SECCION_NOMBRE""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",6,"""GRUPO_INDICADOR_ID""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",7,"""INDICADOR_ID""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",8,"""TIPO_DE_DATO""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",9,"""ID_DATO_SM""",BIG_INT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",10,"""DATO_DE_SISTEMA""",BIG_INT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",11,"""ANIO""",BIG_INT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12,"""MES""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",13,"""UNIDAD_GEOGRAFICA_CODIGO""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",14,"""UNIDAD_GEOGRAFICA_NOMBRE""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",15,"""SUB_UNIDAD_GEOGRAFICA""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",16,"""APERTURA_DESCRIPCION""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",17,"""APERTURA_NIVEL_1""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",18,"""MODALIDAD_APERTURA_NIVEL_1""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",19,"""APERTURA_NIVEL_2""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",20,"""MODALIDAD_APERTURA_NIVEL_2""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",21,"""VALOR""",DOUBLE,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",22,"""VALOR_AUXILIAR""",DOUBLE,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",1,"""GRUPO_INDICADOR_ID""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",2,"""GRUPO_INDICADOR_CODIGO""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",3,"""GRUPO_INDICADOR_NOMBRE""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",4,"""GRUPO_INDICADOR_ORDEN""",BIG_INT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",5,"""GRUPO_INDICADOR_FUENTES""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",6,"""GRUPO_INDICADOR_DEFINICION""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",7,"""GRUPO_INDICADOR_DESC_METODOLOGICA""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",1,"""TABLERO_ID""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,"""TABLERO_NOMBRE""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",3,"""TABLERO_DESCRIPCION""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",4,"""TABLERO_DERECHOS_ASOCIADOS""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",5,"""TABLERO_FECHA_ULT_CARGA_DATOS""",TIMESTAMP,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",6,"""TABLERO_CONFIGURACION_ID""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",7,"""TABLERO_DE_SISTEMA""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",1,"""gid""",BIG_INT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",2,"""entidad""",BIG_INT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",3,"""objeto""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",4,"""fna""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",5,"""gna""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",6,"""nam""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",7,"""in1""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",8,"""fdc""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",9,"""sag""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",10,"""Geometry""",TABLEAU.TABGEOGRAPHY,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",1,"""TEMA_ID""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,"""TEMA_NOMBRE""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",3,"""TEMA_DESCRIPCION""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",4,"""TEMA_DE_SISTEMA""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,"""CONFIGURACION_ID""",BIG_INT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",2,"""CONFIGURACION_URL_SM""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",3,"""CONFIG_URL_ADMIN_SM""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",4,"""CONFIGURACION_URL_DEFENSORIA""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",5,"""CONFIGURACION_DESCRIPCION""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",6,"""CONFIGURACION_URL_FICHA_INDICADOR""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",7,"""CONFIGURACION_URL_FICHA_TABLERO""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",8,"""CONFIGURACION_URL_DOC_TECNICO_TABLERO""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",9,"""CONFIGURACION_URL_REPORTE_TABLERO""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",10,"""CONFIGURACION_EMAIL_CONTACTO""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",11,"""CONFIGURACION_URL_DOC_METODOLOGICO""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",12,"""CONFIGURACION_URL_INSTRUCTIVO_NAV""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",1,"""INDICADOR_ID""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",2,"""INDICADOR_CODIGO""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",3,"""INDICADOR_NOMBRE""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",4,"""INDICADOR_ORDEN""",BIG_INT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",5,"""INDICADOR_UNIDAD_MEDIDA_NOMBRE""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",6,"""INDICADOR_UNIDAD_MEDIDA_CODIGO""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",7,"""INDICADOR_UNIDAD_MEDIDA_DESCRIPCION""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",8,"""INDICADOR_FORMULA""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",9,"""INDICADOR_DEFINICION""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",10,"""INDICADOR_DESC_METODOLOGICA""",TEXT,Nullability.NULLABLE
+1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",11,"""INDICADOR_DE_SISTEMA""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",1,"""TEMA_ID""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",2,"""TEMA_NOMBRE""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",3,"""TABLERO_ID""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",4,"""SECCION_ID""",BIG_INT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",5,"""SECCION_NOMBRE""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",6,"""GRUPO_INDICADOR_ID""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",7,"""INDICADOR_ID""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",8,"""TIPO_DE_DATO""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",9,"""ID_DATO_SM""",BIG_INT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",10,"""DATO_DE_SISTEMA""",BIG_INT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",11,"""ANIO""",BIG_INT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12,"""MES""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",13,"""UNIDAD_GEOGRAFICA_CODIGO""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",14,"""UNIDAD_GEOGRAFICA_NOMBRE""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",15,"""SUB_UNIDAD_GEOGRAFICA""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",16,"""APERTURA_DESCRIPCION""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",17,"""APERTURA_NIVEL_1""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",18,"""MODALIDAD_APERTURA_NIVEL_1""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",19,"""APERTURA_NIVEL_2""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",20,"""MODALIDAD_APERTURA_NIVEL_2""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",21,"""VALOR""",DOUBLE,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",22,"""VALOR_AUXILIAR""",DOUBLE,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",1,"""GRUPO_INDICADOR_ID""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",2,"""GRUPO_INDICADOR_CODIGO""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",3,"""GRUPO_INDICADOR_NOMBRE""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",4,"""GRUPO_INDICADOR_ORDEN""",BIG_INT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",5,"""GRUPO_INDICADOR_FUENTES""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",6,"""GRUPO_INDICADOR_DEFINICION""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",7,"""GRUPO_INDICADOR_DESC_METODOLOGICA""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",1,"""TABLERO_ID""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,"""TABLERO_NOMBRE""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",3,"""TABLERO_DESCRIPCION""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",4,"""TABLERO_DERECHOS_ASOCIADOS""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",5,"""TABLERO_FECHA_ULT_CARGA_DATOS""",TIMESTAMP,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",6,"""TABLERO_CONFIGURACION_ID""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",7,"""TABLERO_DE_SISTEMA""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",1,"""gid""",BIG_INT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",2,"""entidad""",BIG_INT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",3,"""objeto""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",4,"""fna""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",5,"""gna""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",6,"""nam""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",7,"""in1""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",8,"""fdc""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",9,"""sag""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",10,"""Geometry""",TABLEAU.TABGEOGRAPHY,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",1,"""TEMA_ID""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,"""TEMA_NOMBRE""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",3,"""TEMA_DESCRIPCION""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",4,"""TEMA_DE_SISTEMA""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,"""CONFIGURACION_ID""",BIG_INT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",2,"""CONFIGURACION_URL_SM""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",3,"""CONFIG_URL_ADMIN_SM""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",4,"""CONFIGURACION_URL_DEFENSORIA""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",5,"""CONFIGURACION_DESCRIPCION""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",6,"""CONFIGURACION_URL_FICHA_INDICADOR""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",7,"""CONFIGURACION_URL_FICHA_TABLERO""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",8,"""CONFIGURACION_URL_DOC_TECNICO_TABLERO""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",9,"""CONFIGURACION_URL_REPORTE_TABLERO""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",10,"""CONFIGURACION_EMAIL_CONTACTO""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",11,"""CONFIGURACION_URL_DOC_METODOLOGICO""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",12,"""CONFIGURACION_URL_INSTRUCTIVO_NAV""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",1,"""INDICADOR_ID""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",2,"""INDICADOR_CODIGO""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",3,"""INDICADOR_NOMBRE""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",4,"""INDICADOR_ORDEN""",BIG_INT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",5,"""INDICADOR_UNIDAD_MEDIDA_NOMBRE""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",6,"""INDICADOR_UNIDAD_MEDIDA_CODIGO""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",7,"""INDICADOR_UNIDAD_MEDIDA_DESCRIPCION""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",8,"""INDICADOR_FORMULA""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",9,"""INDICADOR_DEFINICION""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",10,"""INDICADOR_DESC_METODOLOGICA""",TEXT,Nullability.NULLABLE
+2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",11,"""INDICADOR_DE_SISTEMA""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",1,"""TEMA_ID""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",2,"""TEMA_NOMBRE""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",3,"""TABLERO_ID""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",4,"""SECCION_ID""",BIG_INT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",5,"""SECCION_NOMBRE""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",6,"""GRUPO_INDICADOR_ID""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",7,"""INDICADOR_ID""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",8,"""TIPO_DE_DATO""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",9,"""ID_DATO_SM""",BIG_INT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",10,"""DATO_DE_SISTEMA""",BIG_INT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",11,"""ANIO""",BIG_INT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12,"""MES""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",13,"""UNIDAD_GEOGRAFICA_CODIGO""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",14,"""UNIDAD_GEOGRAFICA_NOMBRE""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",15,"""SUB_UNIDAD_GEOGRAFICA""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",16,"""APERTURA_DESCRIPCION""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",17,"""APERTURA_NIVEL_1""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",18,"""MODALIDAD_APERTURA_NIVEL_1""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",19,"""APERTURA_NIVEL_2""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",20,"""MODALIDAD_APERTURA_NIVEL_2""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",21,"""VALOR""",DOUBLE,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",22,"""VALOR_AUXILIAR""",DOUBLE,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",1,"""GRUPO_INDICADOR_ID""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",2,"""GRUPO_INDICADOR_CODIGO""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",3,"""GRUPO_INDICADOR_NOMBRE""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",4,"""GRUPO_INDICADOR_ORDEN""",BIG_INT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",5,"""GRUPO_INDICADOR_FUENTES""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",6,"""GRUPO_INDICADOR_DEFINICION""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",7,"""GRUPO_INDICADOR_DESC_METODOLOGICA""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",1,"""TABLERO_ID""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,"""TABLERO_NOMBRE""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",3,"""TABLERO_DESCRIPCION""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",4,"""TABLERO_DERECHOS_ASOCIADOS""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",5,"""TABLERO_FECHA_ULT_CARGA_DATOS""",TIMESTAMP,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",6,"""TABLERO_CONFIGURACION_ID""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",7,"""TABLERO_DE_SISTEMA""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",1,"""gid""",BIG_INT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",2,"""entidad""",BIG_INT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",3,"""objeto""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",4,"""fna""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",5,"""gna""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",6,"""nam""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",7,"""in1""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",8,"""fdc""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",9,"""sag""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",10,"""Geometry""",TABLEAU.TABGEOGRAPHY,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",1,"""TEMA_ID""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,"""TEMA_NOMBRE""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",3,"""TEMA_DESCRIPCION""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",4,"""TEMA_DE_SISTEMA""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,"""CONFIGURACION_ID""",BIG_INT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",2,"""CONFIGURACION_URL_SM""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",3,"""CONFIG_URL_ADMIN_SM""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",4,"""CONFIGURACION_URL_DEFENSORIA""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",5,"""CONFIGURACION_DESCRIPCION""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",6,"""CONFIGURACION_URL_FICHA_INDICADOR""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",7,"""CONFIGURACION_URL_FICHA_TABLERO""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",8,"""CONFIGURACION_URL_DOC_TECNICO_TABLERO""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",9,"""CONFIGURACION_URL_REPORTE_TABLERO""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",10,"""CONFIGURACION_EMAIL_CONTACTO""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",11,"""CONFIGURACION_URL_DOC_METODOLOGICO""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",12,"""CONFIGURACION_URL_INSTRUCTIVO_NAV""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",1,"""INDICADOR_ID""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",2,"""INDICADOR_CODIGO""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",3,"""INDICADOR_NOMBRE""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",4,"""INDICADOR_ORDEN""",BIG_INT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",5,"""INDICADOR_UNIDAD_MEDIDA_NOMBRE""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",6,"""INDICADOR_UNIDAD_MEDIDA_CODIGO""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",7,"""INDICADOR_UNIDAD_MEDIDA_DESCRIPCION""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",8,"""INDICADOR_FORMULA""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",9,"""INDICADOR_DEFINICION""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",10,"""INDICADOR_DESC_METODOLOGICA""",TEXT,Nullability.NULLABLE
+3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",11,"""INDICADOR_DE_SISTEMA""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",1,"""TEMA_ID""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",2,"""TEMA_NOMBRE""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",3,"""TABLERO_ID""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",4,"""SECCION_ID""",BIG_INT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",5,"""SECCION_NOMBRE""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",6,"""GRUPO_INDICADOR_ID""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",7,"""INDICADOR_ID""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",8,"""TIPO_DE_DATO""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",9,"""ID_DATO_SM""",BIG_INT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",10,"""DATO_DE_SISTEMA""",BIG_INT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",11,"""ANIO""",BIG_INT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12,"""MES""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",13,"""UNIDAD_GEOGRAFICA_CODIGO""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",14,"""UNIDAD_GEOGRAFICA_NOMBRE""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",15,"""SUB_UNIDAD_GEOGRAFICA""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",16,"""APERTURA_DESCRIPCION""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",17,"""APERTURA_NIVEL_1""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",18,"""MODALIDAD_APERTURA_NIVEL_1""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",19,"""APERTURA_NIVEL_2""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",20,"""MODALIDAD_APERTURA_NIVEL_2""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",21,"""VALOR""",DOUBLE,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",22,"""VALOR_AUXILIAR""",DOUBLE,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",1,"""GRUPO_INDICADOR_ID""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",2,"""GRUPO_INDICADOR_CODIGO""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",3,"""GRUPO_INDICADOR_NOMBRE""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",4,"""GRUPO_INDICADOR_ORDEN""",BIG_INT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",5,"""GRUPO_INDICADOR_FUENTES""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",6,"""GRUPO_INDICADOR_DEFINICION""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",7,"""GRUPO_INDICADOR_DESC_METODOLOGICA""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",1,"""TABLERO_ID""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,"""TABLERO_NOMBRE""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",3,"""TABLERO_DESCRIPCION""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",4,"""TABLERO_DERECHOS_ASOCIADOS""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",5,"""TABLERO_FECHA_ULT_CARGA_DATOS""",TIMESTAMP,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",6,"""TABLERO_CONFIGURACION_ID""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",7,"""TABLERO_DE_SISTEMA""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",1,"""gid""",BIG_INT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",2,"""entidad""",BIG_INT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",3,"""objeto""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",4,"""fna""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",5,"""gna""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",6,"""nam""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",7,"""in1""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",8,"""fdc""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",9,"""sag""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",10,"""Geometry""",TABLEAU.TABGEOGRAPHY,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",1,"""TEMA_ID""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,"""TEMA_NOMBRE""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",3,"""TEMA_DESCRIPCION""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",4,"""TEMA_DE_SISTEMA""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,"""CONFIGURACION_ID""",BIG_INT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",2,"""CONFIGURACION_URL_SM""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",3,"""CONFIG_URL_ADMIN_SM""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",4,"""CONFIGURACION_URL_DEFENSORIA""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",5,"""CONFIGURACION_DESCRIPCION""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",6,"""CONFIGURACION_URL_FICHA_INDICADOR""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",7,"""CONFIGURACION_URL_FICHA_TABLERO""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",8,"""CONFIGURACION_URL_DOC_TECNICO_TABLERO""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",9,"""CONFIGURACION_URL_REPORTE_TABLERO""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",10,"""CONFIGURACION_EMAIL_CONTACTO""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",11,"""CONFIGURACION_URL_DOC_METODOLOGICO""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",12,"""CONFIGURACION_URL_INSTRUCTIVO_NAV""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",1,"""INDICADOR_ID""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",2,"""INDICADOR_CODIGO""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",3,"""INDICADOR_NOMBRE""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",4,"""INDICADOR_ORDEN""",BIG_INT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",5,"""INDICADOR_UNIDAD_MEDIDA_NOMBRE""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",6,"""INDICADOR_UNIDAD_MEDIDA_CODIGO""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",7,"""INDICADOR_UNIDAD_MEDIDA_DESCRIPCION""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",8,"""INDICADOR_FORMULA""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",9,"""INDICADOR_DEFINICION""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",10,"""INDICADOR_DESC_METODOLOGICA""",TEXT,Nullability.NULLABLE
+4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",11,"""INDICADOR_DE_SISTEMA""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",1,"""TEMA_ID""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",2,"""TEMA_NOMBRE""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",3,"""TABLERO_ID""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",4,"""SECCION_ID""",BIG_INT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",5,"""SECCION_NOMBRE""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",6,"""GRUPO_INDICADOR_ID""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",7,"""INDICADOR_ID""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",8,"""TIPO_DE_DATO""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",9,"""ID_DATO_SM""",BIG_INT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",10,"""DATO_DE_SISTEMA""",BIG_INT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",11,"""ANIO""",BIG_INT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12,"""MES""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",13,"""UNIDAD_GEOGRAFICA_CODIGO""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",14,"""UNIDAD_GEOGRAFICA_NOMBRE""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",15,"""SUB_UNIDAD_GEOGRAFICA""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",16,"""APERTURA_DESCRIPCION""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",17,"""APERTURA_NIVEL_1""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",18,"""MODALIDAD_APERTURA_NIVEL_1""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",19,"""APERTURA_NIVEL_2""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",20,"""MODALIDAD_APERTURA_NIVEL_2""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",21,"""VALOR""",DOUBLE,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",22,"""VALOR_AUXILIAR""",DOUBLE,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",1,"""GRUPO_INDICADOR_ID""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",2,"""GRUPO_INDICADOR_CODIGO""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",3,"""GRUPO_INDICADOR_NOMBRE""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",4,"""GRUPO_INDICADOR_ORDEN""",BIG_INT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",5,"""GRUPO_INDICADOR_FUENTES""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",6,"""GRUPO_INDICADOR_DEFINICION""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",7,"""GRUPO_INDICADOR_DESC_METODOLOGICA""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",1,"""TABLERO_ID""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,"""TABLERO_NOMBRE""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",3,"""TABLERO_DESCRIPCION""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",4,"""TABLERO_DERECHOS_ASOCIADOS""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",5,"""TABLERO_FECHA_ULT_CARGA_DATOS""",TIMESTAMP,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",6,"""TABLERO_CONFIGURACION_ID""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",7,"""TABLERO_DE_SISTEMA""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",1,"""gid""",BIG_INT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",2,"""entidad""",BIG_INT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",3,"""objeto""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",4,"""fna""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",5,"""gna""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",6,"""nam""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",7,"""in1""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",8,"""fdc""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",9,"""sag""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",10,"""Geometry""",TABLEAU.TABGEOGRAPHY,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",1,"""TEMA_ID""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,"""TEMA_NOMBRE""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",3,"""TEMA_DESCRIPCION""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",4,"""TEMA_DE_SISTEMA""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,"""CONFIGURACION_ID""",BIG_INT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",2,"""CONFIGURACION_URL_SM""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",3,"""CONFIG_URL_ADMIN_SM""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",4,"""CONFIGURACION_URL_DEFENSORIA""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",5,"""CONFIGURACION_DESCRIPCION""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",6,"""CONFIGURACION_URL_FICHA_INDICADOR""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",7,"""CONFIGURACION_URL_FICHA_TABLERO""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",8,"""CONFIGURACION_URL_DOC_TECNICO_TABLERO""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",9,"""CONFIGURACION_URL_REPORTE_TABLERO""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",10,"""CONFIGURACION_EMAIL_CONTACTO""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",11,"""CONFIGURACION_URL_DOC_METODOLOGICO""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",12,"""CONFIGURACION_URL_INSTRUCTIVO_NAV""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",1,"""INDICADOR_ID""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",2,"""INDICADOR_CODIGO""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",3,"""INDICADOR_NOMBRE""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",4,"""INDICADOR_ORDEN""",BIG_INT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",5,"""INDICADOR_UNIDAD_MEDIDA_NOMBRE""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",6,"""INDICADOR_UNIDAD_MEDIDA_CODIGO""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",7,"""INDICADOR_UNIDAD_MEDIDA_DESCRIPCION""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",8,"""INDICADOR_FORMULA""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",9,"""INDICADOR_DEFINICION""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",10,"""INDICADOR_DESC_METODOLOGICA""",TEXT,Nullability.NULLABLE
+5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",11,"""INDICADOR_DE_SISTEMA""",TEXT,Nullability.NULLABLE
