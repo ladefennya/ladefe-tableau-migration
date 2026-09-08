@@ -1,4 +1,4 @@
-const state={catalog:[],data:null,selected:[],geo:null,request:0,bound:false};
+const state={catalog:[],data:null,relations:{dashboards:{}},selected:[],geo:null,request:0,bound:false};
 const $=id=>document.getElementById(id);
 const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const fmt=v=>Number.isFinite(Number(v))?new Intl.NumberFormat("es-AR",{maximumFractionDigits:2}).format(Number(v)):"—";
@@ -29,8 +29,16 @@ function fillBoards(topic,selected){
   fill($("board"),values); if(values.some(x=>x.value===selected))$("board").value=selected;
 }
 function currentIndicator(){return state.data?.indicators.find(x=>String(x.id)===$("indicator").value)||null}
+function indicatorById(id){return state.data?.indicators.find(x=>String(x.id)===String(id))||null}
 function base(){const id=$("indicator").value;return state.data?.rows.filter(r=>String(r.indicatorId)===id)||[]}
 function ownView(type){return base().filter(r=>r.type===type)}
+function viewSpec(type){
+  const selected=currentIndicator(),own=ownView(type);if(own.length)return{rows:own,indicator:selected,related:false};
+  const relation=(state.relations.dashboards?.[$("board").value]||[]).find(item=>item.members.map(String).includes(String(selected?.id))),field=type==="MAPA"?"mapIndicatorId":"seriesIndicatorId",target=relation?.[field],indicator=indicatorById(target);
+  if(!indicator||indicator.unitCode!==selected?.unitCode)return{rows:[],indicator:selected,related:false};
+  const rows=state.data.rows.filter(row=>String(row.indicatorId)===String(target)&&row.type===type);
+  return{rows,indicator,related:Boolean(rows.length),relation};
+}
 function rawValue(row){return SEM.rawValue(row)}
 function rowValue(row,indicator=currentIndicator()){return SEM.displayValue(row,indicator)}
 function unitLabel(indicator=currentIndicator()){return indicator?.unitDescription||indicator?.unit||"Valor"}
@@ -56,6 +64,7 @@ function ownTypes(id){return [...new Set(state.data.rows.filter(r=>String(r.indi
 async function bootstrap(){
   bind();const response=await fetch("catalog.json");if(!response.ok)throw new Error("HTTP "+response.status);
   state.catalog=(await response.json()).dashboards;
+  try{const relations=await fetch("view-relations.json?v=20260908-4");if(relations.ok)state.relations=await relations.json()}catch(_error){state.relations={dashboards:{}}}
   const params=new URLSearchParams(location.search),requested=params.get("tablero"),item=state.catalog.find(x=>x.slug===requested)||state.catalog[0];
   fillTopics(item.topic);fillBoards(item.topic,item.slug);await loadBoard(item.slug,true);
 }
@@ -100,10 +109,11 @@ function render(){
   $("valueHeading").textContent="Valor ("+unitLabel(indicator)+")";
   const latestRows=rows.filter(r=>String(r.year)===latest),national=latestRows.filter(r=>/total|argentina|nacional|país/i.test((r.geoName||"")+" "+[r.opening,r.mode1,r.mode2].filter(Boolean).join(" ")));
   if(national.length===1){$("national").textContent=fmt(rowValue(national[0],indicator));$("nationalNote").textContent=unitLabel(indicator)+" · "+latest}else{$("national").textContent="—";$("nationalNote").textContent=national.length>1?"Seleccioná una apertura para obtener un valor único":"Sin agregado nacional"}
-  const mapRows=ownView("MAPA"),seriesRows=ownView("SERIE_TEMPORAL");$("chartPanel").hidden=!seriesRows.length;$("territoryPanel").hidden=!mapRows.length;$("capabilityMessage").hidden=Boolean(seriesRows.length||mapRows.length);
+  const map=viewSpec("MAPA"),series=viewSpec("SERIE_TEMPORAL"),mapRows=map.rows,seriesRows=series.rows;$("chartPanel").hidden=!seriesRows.length;$("territoryPanel").hidden=!mapRows.length;$("capabilityMessage").hidden=Boolean(seriesRows.length||mapRows.length);
+  const related=[series.related?"evolución: "+series.indicator.name:null,map.related?"territorio: "+map.indicator.name:null].filter(Boolean);$("relationNotice").hidden=!related.length;$("relationNotice").textContent=related.length?"Relación curada provisionalmente para este piloto (validación temática pendiente) — "+related.join(" · "):"";
   const visualGrid=$("chartPanel").parentElement;visualGrid.classList.toggle("single",Boolean(seriesRows.length)!==Boolean(mapRows.length));visualGrid.classList.toggle("empty",!seriesRows.length&&!mapRows.length);
   $("territories").textContent=mapRows.length?unique(mapRows.filter(r=>String(r.year)===($("year").value||String(Math.max(...unique(mapRows,"year").map(Number))))),"geoName").length:"—";
-  if(seriesRows.length)drawLine(seriesRows,indicator);if(mapRows.length)drawMap(mapRows,indicator);drawTable(rows,indicator);syncUrl();
+  if(seriesRows.length)drawLine(seriesRows,series.indicator);if(mapRows.length)drawMap(mapRows,map.indicator);drawTable(rows,indicator);syncUrl();
   $("message").textContent="Indicador actualizado: "+rows.length+" registros, "+unitLabel(indicator);
 }
 
@@ -125,11 +135,11 @@ function featureName(feature){const p=feature.properties||{};return p.nam||p.nom
 function rings(geometry){if(!geometry)return[];if(geometry.type==="Polygon")return geometry.coordinates;if(geometry.type==="MultiPolygon")return geometry.coordinates.flat();return[]}
 async function ensureGeo(){if(state.geo)return state.geo;const response=await fetch("provincias.geojson");if(!response.ok)throw new Error("No se pudo cargar la geometría");return state.geo=await response.json()}
 async function drawMap(source,indicator){
-  const svg=$("mapChart"),indicatorId=String(indicator.id);svg.innerHTML='<text x="210" y="235" text-anchor="middle" class="tick">Cargando mapa…</text>';
+  const svg=$("mapChart"),selectionId=String(currentIndicator()?.id);svg.innerHTML='<text x="210" y="235" text-anchor="middle" class="tick">Cargando mapa…</text>';
   const years=unique(source,"year").map(Number).filter(Number.isFinite),requested=Number($("year").value),year=years.includes(requested)?requested:Math.max(...years),rows=source.filter(r=>Number(r.year)===year),byGeo=new Map(),ambiguous=[];
   rows.forEach(r=>{const key=provinceKey(r.geoName);if(key){if(!byGeo.has(key))byGeo.set(key,[]);byGeo.get(key).push(r)}});const values=new Map();byGeo.forEach((items,key)=>{if(items.length===1)values.set(key,rowValue(items[0],indicator));else ambiguous.push(key)});
   $("rankingYear").textContent="Año "+year+" · "+unitLabel(indicator)+(ambiguous.length?" · "+ambiguous.length+" territorios ambiguos omitidos":"");drawRanking(values,indicator);
-  const geo=await ensureGeo();if(String(currentIndicator()?.id)!==indicatorId)return;paintMap(values,svg,geo,indicator);
+  const geo=await ensureGeo();if(String(currentIndicator()?.id)!==selectionId)return;paintMap(values,svg,geo,indicator);
 }
 function paintMap(values,svg,geo,indicator){
   svg.innerHTML="";const nums=[...values.values()].filter(Number.isFinite),lo=Math.min(...nums),hi=Math.max(...nums);$("mapMin").textContent=nums.length?fmt(lo):"Menor";$("mapMax").textContent=nums.length?fmt(hi):"Mayor";

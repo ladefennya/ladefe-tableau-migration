@@ -90,6 +90,9 @@ def main() -> int:
     app = (args.demo / "app.js").read_text(encoding="utf-8")
     assert "function companion" not in app, "Heuristic companion views must not return"
     assert "/a.length" not in app and "/items.length" not in app, "Implicit arithmetic means must not return"
+    assert "currentIndicator()?.id)!==indicatorId" not in app, "Related maps must not be discarded after geometry loads"
+    assert (args.demo / "view-relations.json").is_file(), "Missing explicit curated view relations"
+    assert "view-relations.json" in app, "Demo must load explicit curated view relations"
     print(f"Validated {len(dashboards)} dashboards, {total_rows:,} rows, {derived_rows:,} derived display values and a {geo_path.stat().st_size:,}-byte map")
     return 0
 

@@ -43,13 +43,14 @@ El script redacta atributos que parezcan credenciales (`password`, `token`, `sec
 
 ## Contrato semántico del demo
 
-- Cada mapa y serie utiliza exclusivamente el indicador seleccionado; no se infieren indicadores “compañeros” en el navegador.
+- Cada mapa y serie utiliza el indicador seleccionado o una relación explícita, versionada y curada en `demo/view-relations.json`; nunca se infieren indicadores “compañeros” en el navegador.
 - Porcentajes y tasas con denominador se calculan como ratio de sumas y conservan numerador y valor auxiliar.
 - No se admiten promedios implícitos entre territorios, aperturas o modalidades.
-- Los módulos temporal y territorial sólo aparecen cuando existe una vista propia.
+- Los módulos temporal y territorial sólo aparecen cuando existe una vista propia o una relación curada de igual unidad; el demo identifica cuándo la visualización corresponde a un indicador relacionado.
 - `scripts/validate_demo.py` bloquea la publicación si falla la cobertura, la integridad referencial, el cálculo testigo de AUH o el presupuesto cartográfico.
 - `scripts/audit_demo_semantics.py` publica un diagnóstico reproducible de modos de cálculo, metadatos y claves dimensionales.
 - `scripts/build_view_mapping_review.py` genera una cola de asociaciones candidatas para revisión humana; nunca las aplica automáticamente.
+- `tests/view_relations.test.js` verifica que las relaciones curadas apunten a indicadores existentes, unidades compatibles y vistas del tipo correcto. Las tres asociaciones actuales son provisionales y se limitan a los pilotos de demografía censal y vivienda.
 
 El siguiente gate del proyecto es validar una muestra arquetípica contra Tableau y con responsables temáticos antes de escalar la certificación a los 71 tableros.
 

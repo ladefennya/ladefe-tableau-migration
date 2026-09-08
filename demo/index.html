@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>LADEFE · Sistema de Monitoreo</title>
   <meta name="description" content="Demo técnico de migración del Sistema de Monitoreo de LADEFE.">
-  <link rel="stylesheet" href="styles.css?v=20260908-3">
-  <link rel="stylesheet" href="layout-fixes.css?v=20260908-3">
+  <link rel="stylesheet" href="styles.css?v=20260908-4">
+  <link rel="stylesheet" href="layout-fixes.css?v=20260908-4">
 </head>
 <body>
   <a class="skip-link" href="#content">Saltar al contenido</a>
@@ -27,8 +27,10 @@
       <label>Vista de datos<select id="type"></select></label>
       <label>Año<select id="year"></select></label>
       <button id="reset" type="button">Restablecer</button>
-      <p class="filter-note">Cada visualización utiliza exclusivamente el indicador seleccionado. Si no existe una vista temporal o territorial propia, ese módulo no se muestra.</p>
+      <p class="filter-note">Cada visualización identifica el indicador que utiliza. Las vistas relacionadas sólo aparecen cuando existe una relación curada para el piloto.</p>
     </section>
+
+    <p id="relationNotice" class="relation-notice" role="note" hidden></p>
 
     <div id="message" class="message" role="status" aria-live="polite">Preparando visualizaciones…</div>
 
@@ -58,7 +60,7 @@
           <div id="ranking" class="ranking" aria-label="Ranking provincial"></div>
         </article>
 
-        <p id="capabilityMessage" class="message panel" hidden>Este indicador no tiene una serie temporal ni una vista territorial propia. Consultá sus datos y aperturas en la tabla.</p>
+        <p id="capabilityMessage" class="message panel" hidden>Este indicador no tiene una serie temporal ni una vista territorial propia o relacionada que haya sido curada. Consultá sus datos y aperturas en la tabla.</p>
       </div>
 
       <article class="panel table-panel">
@@ -68,7 +70,7 @@
     </section>
   </main>
   <footer>Demo técnico en validación · Migración de 71 tableros LADEFE</footer>
-  <script src="semantics.js?v=20260908-3" defer></script>
-  <script src="app.js?v=20260908-3" defer></script>
+  <script src="semantics.js?v=20260908-4" defer></script>
+  <script src="app.js?v=20260908-4" defer></script>
 </body>
 </html>

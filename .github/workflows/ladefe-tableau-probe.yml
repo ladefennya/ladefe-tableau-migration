@@ -28,6 +28,7 @@ jobs:
           python -m py_compile scripts/*.py
           node tests/semantics.test.js
           node tests/pilot_values.test.js
+          node tests/view_relations.test.js
           node --check demo/app.js
           node --check demo/semantics.js
 

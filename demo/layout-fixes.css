@@ -2,3 +2,11 @@
 .grid.empty>#capabilityMessage{
   grid-column:1/-1;
 }
+.relation-notice{
+  margin:12px 0 0;
+  padding:10px 13px;
+  border-left:4px solid var(--cyan);
+  background:#e8f7f5;
+  color:var(--ink);
+  font-size:13px;
+}

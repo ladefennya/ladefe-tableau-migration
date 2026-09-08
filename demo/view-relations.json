@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "status": "pilot-provisional",
+  "dashboards": {
+    "1-1aspectosdemogrficos-informacincensal": [
+      {
+        "id": "participacion-nnya-poblacion",
+        "members": ["488", "489", "490", "501", "504"],
+        "seriesIndicatorId": "489",
+        "mapIndicatorId": "504",
+        "rationale": "Participación de las NNyA en la población: comparación, evolución y distribución territorial."
+      },
+      {
+        "id": "residencia-rural",
+        "members": ["512", "513", "516", "519"],
+        "seriesIndicatorId": "519",
+        "mapIndicatorId": "516",
+        "rationale": "Residencia rural de NNyA y población: composición, evolución y distribución territorial."
+      }
+    ],
+    "2-5aviviviendacfchabitacionales": [
+      {
+        "id": "hacinamiento",
+        "members": ["813", "814", "815"],
+        "seriesIndicatorId": "815",
+        "mapIndicatorId": "814",
+        "rationale": "Situación de hacinamiento de NNyA: distribución, evolución intercensal y comparación provincial."
+      }
+    ]
+  }
+}

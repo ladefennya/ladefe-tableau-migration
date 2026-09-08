@@ -17,9 +17,15 @@ La cobertura técnica de 71/71 workbooks no equivale a fidelidad estadística. E
 2. Fórmula documentada y clasificada como valor directo, índice o ratio con factor.
 3. Conteos de filas, períodos, aperturas y jurisdicciones reconciliados.
 4. Ningún promedio o asociación entre indicadores implícito.
-5. Mapa, ranking, KPI, serie, tabla y CSV usan el mismo valor visible.
+5. Mapa, ranking, KPI, serie, tabla y CSV identifican el indicador y la unidad que utilizan; cualquier asociación entre indicadores es explícita y auditable.
 6. Comparación automática de valores testigo y revisión humana del responsable temático.
 7. Captura de referencia y resultado de aceptación versionados con el commit y run de extracción.
+
+## Relaciones de vistas provisionales
+
+`demo/view-relations.json` contiene únicamente tres asociaciones de alta confianza: participación de NNyA en la población, residencia rural y hacinamiento. Cada asociación enlaza indicadores de la misma unidad con una serie temporal y un mapa de 24 jurisdicciones. Son relaciones técnicas provisionales: permiten evaluar el comportamiento integral del demo, pero requieren validación temática antes de considerarse equivalentes a la navegación editorial de Tableau.
+
+Los demás candidatos permanecen fuera del demo cuando difieren en unidad, población de referencia o definición, o cuando existe más de una asociación plausible.
 
 ## Decisión de escalamiento
 
