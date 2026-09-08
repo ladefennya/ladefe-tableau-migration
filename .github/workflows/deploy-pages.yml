@@ -21,8 +21,24 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  quality:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Validate semantic contract
+        run: |
+          node tests/semantics.test.js
+          node tests/pilot_values.test.js
+          node --check demo/app.js
+          node --check demo/semantics.js
+          python scripts/validate_demo.py
+
   deploy:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    needs: quality
     runs-on: ubuntu-latest
     environment:
       name: github-pages
