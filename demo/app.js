@@ -14,7 +14,7 @@ const TOPICS={
   adolescencia:"Adolescencia",
   "grupos-prioritarios":"Grupos prioritarios"
 };
-const FACTORS={PORCENTAJE:100,TASA_X_CIEN:100,TASA_X_MIL:1000,RAZON_X_DIEZMIL:10000,TASA_X_CIENMIL:100000,TASA_X_MILLON:1000000};
+const SEM=window.LadefeSemantics;
 
 function fill(select,values,all=false){
   select.innerHTML=(all?'<option value="">Todas</option>':"")+values.map(v=>'<option value="'+esc(v.value??v)+'">'+esc(v.label??v)+'</option>').join("");
@@ -31,13 +31,8 @@ function fillBoards(topic,selected){
 function currentIndicator(){return state.data?.indicators.find(x=>String(x.id)===$("indicator").value)||null}
 function base(){const id=$("indicator").value;return state.data?.rows.filter(r=>String(r.indicatorId)===id)||[]}
 function ownView(type){return base().filter(r=>r.type===type)}
-function rawValue(row){return Number(row.rawValue??row.value)}
-function rowValue(row,indicator=currentIndicator()){
-  const raw=rawValue(row),aux=Number(row.aux),factor=FACTORS[indicator?.unitCode];
-  if(!Number.isFinite(raw))return null;
-  if(factor&&Number.isFinite(aux)&&aux!==0){const derived=raw/aux*factor;if(indicator?.unitCode!=="PORCENTAJE"||(derived>=0&&derived<=100))return derived}
-  return Number(row.value??raw);
-}
+function rawValue(row){return SEM.rawValue(row)}
+function rowValue(row,indicator=currentIndicator()){return SEM.displayValue(row,indicator)}
 function unitLabel(indicator=currentIndicator()){return indicator?.unitDescription||indicator?.unit||"Valor"}
 function cleanText(value){const text=String(value||"").trim();return !text||text==="."||text==="---"?"No informada":text}
 function periodLabel(row){return [row.year,row.month].filter(v=>v!==null&&v!=="").join(" ")}

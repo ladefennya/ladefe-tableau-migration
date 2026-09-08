@@ -5,6 +5,8 @@ from __future__ import annotations
 import argparse
 import json
 import math
+import re
+import unicodedata
 from pathlib import Path
 
 
@@ -26,12 +28,20 @@ def number(value):
         return None
 
 
+def is_direct_index(indicator):
+    metadata = " ".join(str(indicator.get(key) or "") for key in ("name", "definition", "formula"))
+    normalized = "".join(char for char in unicodedata.normalize("NFD", metadata.lower()) if unicodedata.category(char) != "Mn")
+    return bool(re.search(r"base\s*100|indice|variacion porcentual", normalized))
+
+
 def display_value(row, indicator):
     raw = number(row.get("rawValue", row.get("value")))
     auxiliary = number(row.get("aux"))
     factor = FACTORS.get(indicator.get("unitCode"))
     if raw is None:
         return None
+    if is_direct_index(indicator):
+        return number(row.get("value", raw))
     if factor and auxiliary not in (None, 0):
         derived = raw / auxiliary * factor
         if indicator.get("unitCode") != "PORCENTAJE" or 0 <= derived <= 100:

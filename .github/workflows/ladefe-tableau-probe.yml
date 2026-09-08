@@ -26,7 +26,9 @@ jobs:
       - name: Validate source
         run: |
           python -m py_compile scripts/*.py
+          node tests/semantics.test.js
           node --check demo/app.js
+          node --check demo/semantics.js
 
       - name: Download and inspect all Tableau workbooks
         run: |
@@ -56,7 +58,9 @@ jobs:
           python scripts/prepare_map.py /tmp/provincias.geojson demo/provincias.geojson
 
       - name: Validate demo semantic contract
-        run: python scripts/validate_demo.py
+        run: |
+          python scripts/audit_demo_semantics.py --out output/SEMANTIC_AUDIT.md
+          python scripts/validate_demo.py
 
       - name: Show summaries
         if: always()
@@ -72,7 +76,7 @@ jobs:
           rm -rf results/latest data/canonical
           mkdir -p results/latest data/canonical
           for file in \
-            SUMMARY.md SCALE_SUMMARY.md report.json \
+            SUMMARY.md SCALE_SUMMARY.md SEMANTIC_AUDIT.md report.json \
             workbooks.csv worksheets.csv dashboards.csv fields.csv filters.csv \
             parameters.csv connections.csv relations.csv actions.csv \
             hyper_tables.csv hyper_columns.csv hyper_files.csv \

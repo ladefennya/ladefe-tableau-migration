@@ -42,17 +42,26 @@ def slug(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
 
 
-def display_value(value: Any, auxiliary: Any, unit_code: Any) -> float | None:
+def is_direct_index(indicator: dict[str, Any]) -> bool:
+    metadata = " ".join(txt(indicator.get(key)) for key in ("INDICADOR_NOMBRE", "INDICADOR_DEFINICION", "INDICADOR_FORMULA"))
+    normalized = metadata.lower().replace("í", "i").replace("ó", "o")
+    return bool(re.search(r"base\s*100|indice|variacion porcentual", normalized))
+
+
+def display_value(value: Any, auxiliary: Any, indicator: dict[str, Any]) -> float | None:
     numerator = num(value)
     denominator = num(auxiliary)
-    factor = UNIT_FACTORS.get(txt(unit_code))
+    unit_code = txt(indicator.get("INDICADOR_UNIDAD_MEDIDA_CODIGO"))
+    factor = UNIT_FACTORS.get(unit_code)
     if numerator is None:
         return None
+    if is_direct_index(indicator):
+        return numerator
     if factor is not None and denominator not in (None, 0):
         derived = numerator / denominator * factor
         # Some base-100 series store the already-calculated index in VALOR and
         # the baseline count in VALOR_AUXILIAR. They are not proportions.
-        if txt(unit_code) == "PORCENTAJE" and not 0 <= derived <= 100:
+        if unit_code == "PORCENTAJE" and not 0 <= derived <= 100:
             return numerator
         return derived
     return numerator
@@ -161,7 +170,7 @@ def main() -> int:
                 "mode1": row.get("MODALIDAD_APERTURA_NIVEL_1"),
                 "level2": row.get("APERTURA_NIVEL_2"),
                 "mode2": row.get("MODALIDAD_APERTURA_NIVEL_2"),
-                "value": display_value(raw_value, auxiliary, indicator.get("INDICADOR_UNIDAD_MEDIDA_CODIGO")),
+                "value": display_value(raw_value, auxiliary, indicator),
                 "rawValue": raw_value, "aux": auxiliary,
             })
 
