@@ -1,4 +1,6 @@
-# LADEFE — Tableau migration probe
+# LADEFE — Migración de Tableau
+
+Prueba de factibilidad y demo técnico en validación. La cobertura 71/71 demuestra que la arquitectura común es viable; no implica todavía equivalencia estadística ni preparación para producción.
 
 Runner de ingeniería inversa para los tableros Tableau Public actualmente embebidos en el Sistema de Monitoreo de LADEFE.
 
@@ -38,6 +40,16 @@ Al finalizar, descargar el artifact `ladefe-tableau-probe`. El archivo principal
 - `hyper_samples/`: muestras limitadas para interpretar semántica y granularidad.
 
 El script redacta atributos que parezcan credenciales (`password`, `token`, `secret`, etc.).
+
+## Contrato semántico del demo
+
+- Cada mapa y serie utiliza exclusivamente el indicador seleccionado; no se infieren indicadores “compañeros” en el navegador.
+- Porcentajes y tasas con denominador se calculan como ratio de sumas y conservan numerador y valor auxiliar.
+- No se admiten promedios implícitos entre territorios, aperturas o modalidades.
+- Los módulos temporal y territorial sólo aparecen cuando existe una vista propia.
+- `scripts/validate_demo.py` bloquea la publicación si falla la cobertura, la integridad referencial, el cálculo testigo de AUH o el presupuesto cartográfico.
+
+El siguiente gate del proyecto es validar una muestra arquetípica contra Tableau y con responsables temáticos antes de escalar la certificación a los 71 tableros.
 
 ## Matriz previa de los cinco pilotos
 

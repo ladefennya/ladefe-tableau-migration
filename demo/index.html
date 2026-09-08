@@ -3,58 +3,70 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>LADEFE · Información censal</title>
-  <meta name="description" content="Piloto de reemplazo del tablero Tableau de información censal de LADEFE.">
-  <link rel="stylesheet" href="styles.css?v=20260908-2">
+  <title>LADEFE · Sistema de Monitoreo</title>
+  <meta name="description" content="Demo técnico de migración del Sistema de Monitoreo de LADEFE.">
+  <link rel="stylesheet" href="styles.css?v=20260908-3">
 </head>
 <body>
+  <a class="skip-link" href="#content">Saltar al contenido</a>
   <header class="topbar">
     <div class="brand"><span class="mark">L</span><div><strong>LADEFE</strong><small>Sistema de Monitoreo</small></div></div>
-    <span class="status"><i></i> Fuente migrada desde Tableau</span>
+    <span class="status"><i></i> Demo técnico en validación</span>
   </header>
-  <main>
+  <main id="content">
     <section class="intro">
-      <div><p class="eyebrow" id="theme">Sistema de monitoreo</p><h1 id="title">Información censal</h1><p id="description">Cargando datos del tablero…</p></div>
-      <div class="updated"><span>Última carga</span><strong id="updated">—</strong></div>
+      <div><p class="eyebrow" id="theme">Sistema de monitoreo</p><h1 id="title">Indicadores LADEFE</h1><p id="description">Cargando datos del tablero…</p></div>
+      <div class="updated"><span>Última actualización de la fuente</span><strong id="updated">—</strong></div>
     </section>
 
-    <section class="filters" aria-label="Filtros">
-      <label>Tablero y tema<select id="board"></select></label>
+    <section class="filters" aria-label="Explorar indicadores">
+      <label>Tema<select id="topic"></select></label>
+      <label>Tablero<select id="board"></select></label>
       <label>Indicador<select id="indicator"></select></label>
-      <label>Vista del detalle<select id="type"></select></label>
-      <label>Año del detalle<select id="year"></select></label>
+      <label>Vista de datos<select id="type"></select></label>
+      <label>Año<select id="year"></select></label>
       <button id="reset" type="button">Restablecer</button>
-      <p class="filter-note">El gráfico y el mapa buscan automáticamente las vistas temporal y territorial asociadas al indicador. Los filtros de vista y año controlan los indicadores resumen y la tabla.</p>
+      <p class="filter-note">Cada visualización utiliza exclusivamente el indicador seleccionado. Si no existe una vista temporal o territorial propia, ese módulo no se muestra.</p>
     </section>
 
-    <div id="message" class="message" role="status">Preparando visualizaciones…</div>
+    <div id="message" class="message" role="status" aria-live="polite">Preparando visualizaciones…</div>
 
     <section id="dashboard" class="dashboard" hidden>
       <div class="kpis">
         <article><span>Valor nacional</span><strong id="national">—</strong><small id="nationalNote"></small></article>
-        <article><span>Territorios con datos</span><strong id="territories">—</strong><small>unidades geográficas</small></article>
-        <article><span>Serie disponible</span><strong id="range">—</strong><small id="records"></small></article>
+        <article><span>Territorios con datos</span><strong id="territories">—</strong><small>jurisdicciones en la vista territorial</small></article>
+        <article><span>Cobertura de los datos</span><strong id="range">—</strong><small id="records"></small></article>
       </div>
 
+      <article class="panel metadata" aria-labelledby="metadataTitle">
+        <header><div><p class="eyebrow">Ficha del indicador</p><h2 id="metadataTitle">Definición y fuente</h2></div><strong id="unit"></strong></header>
+        <div class="metadata-grid"><p><b>Definición</b><span id="definition">—</span></p><p><b>Metodología</b><span id="methodology">—</span></p><p><b>Fuente</b><span id="source">—</span></p></div>
+      </article>
+
       <div class="grid">
-        <article class="panel chart-panel">
+        <article id="chartPanel" class="panel chart-panel">
           <header><div><p class="eyebrow">Evolución</p><h2>Serie temporal</h2></div><span id="seriesLabel"></span></header>
           <svg id="lineChart" viewBox="0 0 760 330" role="img" aria-label="Evolución temporal del indicador"></svg>
+          <p id="chartNote" class="panel-note" hidden></p>
         </article>
 
-        <article class="panel ranking-panel">
-          <header><div><p class="eyebrow">Territorio</p><h2>Comparación</h2></div><span id="rankingYear"></span></header>
-          <svg id="mapChart" class="map" viewBox="0 0 420 470" role="img" aria-label="Mapa de provincias argentinas"></svg><div class="legend"><span>Menor</span><i></i><span>Mayor</span></div><div id="ranking" class="ranking"></div>
+        <article id="territoryPanel" class="panel ranking-panel">
+          <header><div><p class="eyebrow">Territorio</p><h2>Comparación provincial</h2></div><span id="rankingYear"></span></header>
+          <svg id="mapChart" class="map" viewBox="0 0 420 470" role="img" aria-label="Mapa de provincias argentinas"></svg>
+          <div class="legend"><span id="mapMin">Menor</span><i></i><span id="mapMax">Mayor</span></div>
+          <div id="ranking" class="ranking" aria-label="Ranking provincial"></div>
         </article>
+
+        <p id="capabilityMessage" class="message panel" hidden>Este indicador no tiene una serie temporal ni una vista territorial propia. Consultá sus datos y aperturas en la tabla.</p>
       </div>
 
       <article class="panel table-panel">
-        <header><div><p class="eyebrow">Detalle</p><h2>Datos visibles</h2></div><button id="download" type="button">Descargar CSV</button></header>
-        <div class="table-wrap"><table><thead><tr><th>Territorio</th><th>Año</th><th>Mes</th><th>Apertura</th><th class="num">Valor</th></tr></thead><tbody id="rows"></tbody></table></div>
+        <header><div><p class="eyebrow">Detalle</p><h2>Datos seleccionados</h2></div><button id="download" type="button">Descargar CSV</button></header>
+        <div class="table-wrap"><table><caption class="sr-only">Datos correspondientes al indicador y filtros seleccionados</caption><thead><tr><th scope="col">Territorio</th><th scope="col">Año</th><th scope="col">Período</th><th scope="col">Apertura</th><th id="valueHeading" scope="col" class="num">Valor</th></tr></thead><tbody id="rows"></tbody></table></div>
       </article>
     </section>
   </main>
-  <footer>Prototipo funcional · Migración de 71 tableros LADEFE</footer>
-  <script src="app.js?v=20260908-2" defer></script>
+  <footer>Demo técnico en validación · Migración de 71 tableros LADEFE</footer>
+  <script src="app.js?v=20260908-3" defer></script>
 </body>
 </html>

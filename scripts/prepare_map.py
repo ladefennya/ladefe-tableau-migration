@@ -16,24 +16,37 @@ def distance(point, start, end):
     return (x-(x1+t*(x2-x1)))**2 + (y-(y1+t*(y2-y1)))**2
 
 
-def simplify(points, tolerance=0.018):
-    if len(points) <= 4:
+def rdp(points, tolerance):
+    """Douglas-Peucker for an open line."""
+    if len(points) <= 2:
         return points
-    closed = points[0] == points[-1]
-    work = points[:-1] if closed else points
-    if len(work) <= 3:
-        return points
-    start, end = work[0], work[-1]
-    distances = [distance(point, start, end) for point in work[1:-1]]
+    start, end = points[0], points[-1]
+    distances = [distance(point, start, end) for point in points[1:-1]]
     maximum = max(distances, default=0)
-    if maximum > tolerance * tolerance:
-        index = distances.index(maximum) + 1
-        result = simplify(work[:index+1], tolerance)[:-1] + simplify(work[index:], tolerance)
-    else:
-        result = [start, end]
-    if closed:
+    if maximum <= tolerance * tolerance:
+        return [start, end]
+    index = distances.index(maximum) + 1
+    return rdp(points[:index + 1], tolerance)[:-1] + rdp(points[index:], tolerance)
+
+
+def simplify(points, tolerance=0.05):
+    """Simplify a closed ring without treating its adjacent endpoints as a baseline."""
+    if len(points) <= 8:
+        return points
+    work = points[:-1] if points[0] == points[-1] else points[:]
+    anchor = work[0]
+    split = max(
+        range(1, len(work)),
+        key=lambda index: (work[index][0] - anchor[0]) ** 2 + (work[index][1] - anchor[1]) ** 2,
+    )
+    first = rdp(work[:split + 1], tolerance)
+    second = rdp(work[split:] + [work[0]], tolerance)
+    result = first[:-1] + second
+    if result[0] != result[-1]:
         result.append(result[0])
-    return result if len(result) >= 4 else points
+    if len(result) < 4:
+        result = [work[0], work[len(work) // 3], work[(2 * len(work)) // 3], work[0]]
+    return result
 
 
 def in_argentina(ring):

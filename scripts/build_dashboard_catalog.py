@@ -11,6 +11,16 @@ from pathlib import Path
 from typing import Any
 
 
+UNIT_FACTORS = {
+    "PORCENTAJE": 100,
+    "TASA_X_CIEN": 100,
+    "TASA_X_MIL": 1_000,
+    "RAZON_X_DIEZMIL": 10_000,
+    "TASA_X_CIENMIL": 100_000,
+    "TASA_X_MILLON": 1_000_000,
+}
+
+
 def txt(value: Any) -> str:
     return "" if value is None else str(value)
 
@@ -30,6 +40,22 @@ def sort_id(value: str):
 
 def slug(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
+
+
+def display_value(value: Any, auxiliary: Any, unit_code: Any) -> float | None:
+    numerator = num(value)
+    denominator = num(auxiliary)
+    factor = UNIT_FACTORS.get(txt(unit_code))
+    if numerator is None:
+        return None
+    if factor is not None and denominator not in (None, 0):
+        derived = numerator / denominator * factor
+        # Some base-100 series store the already-calculated index in VALOR and
+        # the baseline count in VALOR_AUXILIAR. They are not proportions.
+        if txt(unit_code) == "PORCENTAJE" and not 0 <= derived <= 100:
+            return numerator
+        return derived
+    return numerator
 
 
 def main() -> int:
@@ -108,6 +134,7 @@ def main() -> int:
         rows = []
         used_indicators: set[str] = set()
         used_groups: set[str] = set()
+        views_by_indicator: dict[str, set[str]] = defaultdict(set)
         for row in by_dashboard[dashboard_id]:
             indicator_id = txt(row.get("INDICADOR_ID"))
             group_id = txt(row.get("GRUPO_INDICADOR_ID"))
@@ -117,8 +144,14 @@ def main() -> int:
             row_type = row.get("TIPO_DE_DATO")
             if row_type:
                 type_counts[txt(row_type)] += 1
+                views_by_indicator[indicator_id].add(txt(row_type))
+            indicator = indicator_map.get(indicator_id, {})
+            raw_value = num(row.get("VALOR"))
+            auxiliary = num(row.get("VALOR_AUXILIAR"))
             rows.append({
                 "indicatorId": indicator_id, "groupId": group_id, "type": row_type,
+                "sectionId": row.get("SECCION_ID"), "sectionName": row.get("SECCION_NOMBRE"),
+                "sourceDataId": row.get("ID_DATO_SM"), "systemData": row.get("DATO_DE_SISTEMA"),
                 "year": row.get("ANIO"), "month": row.get("MES"),
                 "geoCode": row.get("UNIDAD_GEOGRAFICA_CODIGO"),
                 "geoName": row.get("UNIDAD_GEOGRAFICA_NOMBRE"),
@@ -128,7 +161,8 @@ def main() -> int:
                 "mode1": row.get("MODALIDAD_APERTURA_NIVEL_1"),
                 "level2": row.get("APERTURA_NIVEL_2"),
                 "mode2": row.get("MODALIDAD_APERTURA_NIVEL_2"),
-                "value": num(row.get("VALOR")), "aux": row.get("VALOR_AUXILIAR"),
+                "value": display_value(raw_value, auxiliary, indicator.get("INDICADOR_UNIDAD_MEDIDA_CODIGO")),
+                "rawValue": raw_value, "aux": auxiliary,
             })
 
         payload_indicators = []
@@ -137,10 +171,14 @@ def main() -> int:
             payload_indicators.append({
                 "id": indicator_id, "code": row.get("INDICADOR_CODIGO"),
                 "name": row.get("INDICADOR_NOMBRE") or f"Indicador {indicator_id}",
+                "order": row.get("INDICADOR_ORDEN"),
                 "unit": row.get("INDICADOR_UNIDAD_MEDIDA_NOMBRE"),
                 "unitCode": row.get("INDICADOR_UNIDAD_MEDIDA_CODIGO"),
+                "unitDescription": row.get("INDICADOR_UNIDAD_MEDIDA_DESCRIPCION"),
+                "formula": row.get("INDICADOR_FORMULA"),
                 "definition": row.get("INDICADOR_DEFINICION"),
                 "methodology": row.get("INDICADOR_DESC_METODOLOGICA"),
+                "views": sorted(views_by_indicator[indicator_id]),
             })
         payload_groups = []
         for group_id in sorted(used_groups, key=sort_id):
@@ -148,7 +186,10 @@ def main() -> int:
             payload_groups.append({
                 "id": group_id, "code": row.get("GRUPO_INDICADOR_CODIGO"),
                 "name": row.get("GRUPO_INDICADOR_NOMBRE") or f"Grupo {group_id}",
+                "order": row.get("GRUPO_INDICADOR_ORDEN"),
                 "sources": row.get("GRUPO_INDICADOR_FUENTES"),
+                "definition": row.get("GRUPO_INDICADOR_DEFINICION"),
+                "methodology": row.get("GRUPO_INDICADOR_DESC_METODOLOGICA"),
             })
 
         family = families.get(workbook, "unknown")

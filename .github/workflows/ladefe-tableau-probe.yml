@@ -55,6 +55,9 @@ jobs:
             --output /tmp/provincias.geojson
           python scripts/prepare_map.py /tmp/provincias.geojson demo/provincias.geojson
 
+      - name: Validate demo semantic contract
+        run: python scripts/validate_demo.py
+
       - name: Show summaries
         if: always()
         run: |
@@ -115,4 +118,3 @@ jobs:
           name: ladefe-tableau-probe
           path: output/
           retention-days: 14
-
