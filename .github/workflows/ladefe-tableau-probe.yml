@@ -5,6 +5,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   probe:
@@ -39,8 +41,21 @@ jobs:
       - name: Build canonical backend and census demo
         run: python scripts/build_canonical.py --out output --demo-out demo/data.json
 
-      - name: Build cross-family pilots
-        run: python scripts/build_pilots.py --canonical output/canonical --demo demo
+      - name: Build complete dashboard catalog
+        run: python scripts/build_dashboard_catalog.py --canonical output/canonical --config config/all_workbooks.csv --families output/workbook_signatures.csv --demo demo
+
+      - name: Prepare official IGN province map
+        run: |
+          curl --fail --location --retry 3 --get \
+            'https://wms.ign.gob.ar/geoserver/ows' \
+            --data-urlencode 'service=WFS' \
+            --data-urlencode 'version=1.0.0' \
+            --data-urlencode 'request=GetFeature' \
+            --data-urlencode 'typeName=ign:provincia' \
+            --data-urlencode 'outputFormat=application/json' \
+            --data-urlencode 'srsName=EPSG:4326' \
+            --output /tmp/provincias.geojson
+          python scripts/prepare_map.py /tmp/provincias.geojson demo/provincias.geojson
 
       - name: Show summaries
         if: always()
@@ -48,7 +63,7 @@ jobs:
           cat output/SUMMARY.md || true
           cat output/SCALE_SUMMARY.md || true
           cat output/canonical/CANONICAL_SUMMARY.md || true
-          cat output/canonical/PILOT_SUMMARY.md || true
+          cat output/canonical/CATALOG_SUMMARY.md || true
 
       - name: Publish latest inventory, canonical data and demo dataset
         if: success()
@@ -67,12 +82,12 @@ jobs:
           done
 
           cp output/canonical/CANONICAL_SUMMARY.md results/latest/
-          cp output/canonical/PILOT_SUMMARY.md results/latest/
+          cp output/canonical/CATALOG_SUMMARY.md results/latest/
           cp output/canonical/canonical_stats.csv results/latest/
           cp output/canonical/schema.json results/latest/
           cp output/canonical/*.csv.gz data/canonical/
           cp output/canonical/CANONICAL_SUMMARY.md data/canonical/
-          cp output/canonical/PILOT_SUMMARY.md data/canonical/
+          cp output/canonical/CATALOG_SUMMARY.md data/canonical/
           cp output/canonical/canonical_stats.csv data/canonical/
           cp output/canonical/schema.json data/canonical/
 
@@ -95,6 +110,16 @@ jobs:
             git push
           fi
 
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Package navigable demo for GitHub Pages
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: demo
+
       - name: Upload full technical inventory
         if: always()
         uses: actions/upload-artifact@v4
@@ -102,3 +127,14 @@ jobs:
           name: ladefe-tableau-probe
           path: output/
           retention-days: 14
+
+  deploy:
+    needs: probe
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish navigable replacement demo
+        id: deployment
+        uses: actions/deploy-pages@v4
