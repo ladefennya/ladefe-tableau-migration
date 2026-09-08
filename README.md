@@ -49,6 +49,7 @@ El script redacta atributos que parezcan credenciales (`password`, `token`, `sec
 - Los módulos temporal y territorial sólo aparecen cuando existe una vista propia.
 - `scripts/validate_demo.py` bloquea la publicación si falla la cobertura, la integridad referencial, el cálculo testigo de AUH o el presupuesto cartográfico.
 - `scripts/audit_demo_semantics.py` publica un diagnóstico reproducible de modos de cálculo, metadatos y claves dimensionales.
+- `scripts/build_view_mapping_review.py` genera una cola de asociaciones candidatas para revisión humana; nunca las aplica automáticamente.
 
 El siguiente gate del proyecto es validar una muestra arquetípica contra Tableau y con responsables temáticos antes de escalar la certificación a los 71 tableros.
 

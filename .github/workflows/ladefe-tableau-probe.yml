@@ -60,6 +60,7 @@ jobs:
 
       - name: Validate demo semantic contract
         run: |
+          python scripts/build_view_mapping_review.py --out output/view_mapping_candidates.csv
           python scripts/audit_demo_semantics.py --out output/SEMANTIC_AUDIT.md
           python scripts/validate_demo.py
 
@@ -77,7 +78,7 @@ jobs:
           rm -rf results/latest data/canonical
           mkdir -p results/latest data/canonical
           for file in \
-            SUMMARY.md SCALE_SUMMARY.md SEMANTIC_AUDIT.md report.json \
+            SUMMARY.md SCALE_SUMMARY.md SEMANTIC_AUDIT.md report.json view_mapping_candidates.csv \
             workbooks.csv worksheets.csv dashboards.csv fields.csv filters.csv \
             parameters.csv connections.csv relations.csv actions.csv \
             hyper_tables.csv hyper_columns.csv hyper_files.csv \
