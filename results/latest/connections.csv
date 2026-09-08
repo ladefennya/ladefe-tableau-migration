@@ -3,19 +3,283 @@
 1_1Aspectosdemogrficos_Informacincensal,DHBEvolucinTemporal,1.1 Aspectos demogr├íficos_Informaci├│n censal.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
 1_1Aspectosdemogrficos_Informacincensal,DHBEvolucinTemporal,1.1 Aspectos demogr├íficos_Informaci├│n censal.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
 1_1Aspectosdemogrficos_Informacincensal,DHBEvolucinTemporal,1.1 Aspectos demogr├íficos_Informaci├│n censal.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,yes,Extract,,05/06/2026 04:39:40 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+1_2Aspectosdemogrficos_Censal,DHBEvolucinTemporal,1.2 Aspectos demogr├íficos_ Censal.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+1_2Aspectosdemogrficos_Censal,DHBEvolucinTemporal,1.2 Aspectos demogr├íficos_ Censal.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+1_2Aspectosdemogrficos_Censal,DHBEvolucinTemporal,1.2 Aspectos demogr├íficos_ Censal.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+1_2Aspectosdemogrficos_Censal,DHBEvolucinTemporal,1.2 Aspectos demogr├íficos_ Censal.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1mfpmiw0971k4v1f578x112hzadr.hyper,yes,Extract,,05/22/2026 03:51:54 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+2_1NBI,DHBEvolucinTemporal,2.1 NBI.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+2_1NBI,DHBEvolucinTemporal,2.1 NBI.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+2_1NBI,DHBEvolucinTemporal,2.1 NBI.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+2_1NBI,DHBEvolucinTemporal,2.1 NBI.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0ia2m3d0yvmif013hc7ug0w3xd9d.hyper,yes,Extract,,05/05/2026 12:03:59 AM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
 2_1aTasasdepobreza,DHBEvolucinTemporal,2.1a Tasas de pobreza.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
 2_1aTasasdepobreza,DHBEvolucinTemporal,2.1a Tasas de pobreza.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
 2_1aTasasdepobreza,DHBEvolucinTemporal,2.1a Tasas de pobreza.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
 2_1aTasasdepobreza,DHBEvolucinTemporal,2.1a Tasas de pobreza.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,yes,Extract,,05/06/2026 07:34:21 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+2_1bPobrezahogares,DHBEvolucinTemporal,2.1b Pobreza hogares.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+2_1bPobrezahogares,DHBEvolucinTemporal,2.1b Pobreza hogares.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+2_1bPobrezahogares,DHBEvolucinTemporal,2.1b Pobreza hogares.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+2_1bPobrezahogares,DHBEvolucinTemporal,2.1b Pobreza hogares.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1dy4a4h19iv2jn19yk0l20xjnxpd.hyper,yes,Extract,,05/07/2026 12:23:38 AM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+2_2aSeg_social_General,DHBEvolucinTemporal,2.2a Seg_social_General.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+2_2aSeg_social_General,DHBEvolucinTemporal,2.2a Seg_social_General.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+2_2aSeg_social_General,DHBEvolucinTemporal,2.2a Seg_social_General.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+2_2aSeg_social_General,DHBEvolucinTemporal,2.2a Seg_social_General.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_151qhwf01nh4q81dqlhar1noo09e.hyper,yes,Extract,,07/02/2026 06:41:27 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+2_2bAUH,DHBEvolucinTemporal,2.2b AUH.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+2_2bAUH,DHBEvolucinTemporal,2.2b AUH.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+2_2bAUH,DHBEvolucinTemporal,2.2b AUH.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+2_2bAUH,DHBEvolucinTemporal,2.2b AUH.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0qj2e7n099kugl1cs2nsa1n4wqxn.hyper,yes,Extract,,07/02/2026 03:16:07 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+2_2cAAFF,DHBEvolucinTemporal,2.2c AAFF.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+2_2cAAFF,DHBEvolucinTemporal,2.2c AAFF.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+2_2cAAFF,DHBEvolucinTemporal,2.2c AAFF.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+2_2cAAFF,DHBEvolucinTemporal,2.2c AAFF.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_176g64a0hycmbi1ej4ar90bnvu6u.hyper,yes,Extract,,07/03/2026 07:01:04 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+2_2dAsignacinembarazo,DHBEvolucinTemporal,2.2d Asignaci├│n embarazo.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+2_2dAsignacinembarazo,DHBEvolucinTemporal,2.2d Asignaci├│n embarazo.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+2_2dAsignacinembarazo,DHBEvolucinTemporal,2.2d Asignaci├│n embarazo.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+2_2dAsignacinembarazo,DHBEvolucinTemporal,2.2d Asignaci├│n embarazo.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1kyoswd1ypypf518dyjag1re9dx5.hyper,yes,Extract,,07/03/2026 07:24:34 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+2_2ePensinmadre7hijos,DHBEvolucinTemporal,2.2e Pensi├│n madre 7 hijos.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+2_2ePensinmadre7hijos,DHBEvolucinTemporal,2.2e Pensi├│n madre 7 hijos.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+2_2ePensinmadre7hijos,DHBEvolucinTemporal,2.2e Pensi├│n madre 7 hijos.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+2_2ePensinmadre7hijos,DHBEvolucinTemporal,2.2e Pensi├│n madre 7 hijos.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0nzx3zr1tmje581bvvzqx108ubr4.hyper,yes,Extract,,07/03/2026 07:38:10 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+2_3Seguridadalimentaria,DHBEvolucinTemporal,2.3 Seguridad alimentaria.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+2_3Seguridadalimentaria,DHBEvolucinTemporal,2.3 Seguridad alimentaria.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+2_3Seguridadalimentaria,DHBEvolucinTemporal,2.3 Seguridad alimentaria.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+2_3Seguridadalimentaria,DHBEvolucinTemporal,2.3 Seguridad alimentaria.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_11f6ecj1myhx3j1dk2bzb1clwfhk.hyper,yes,Extract,,06/11/2026 02:28:02 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+2_5aViviviendaCFCHabitacionales,DHBEvolucinTemporal,2.5a Vivivienda CF CHabitacionales.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+2_5aViviviendaCFCHabitacionales,DHBEvolucinTemporal,2.5a Vivivienda CF CHabitacionales.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+2_5aViviviendaCFCHabitacionales,DHBEvolucinTemporal,2.5a Vivivienda CF CHabitacionales.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+2_5aViviviendaCFCHabitacionales,DHBEvolucinTemporal,2.5a Vivivienda CF CHabitacionales.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0w0f4r209ugbla1eg5o1v19476kk.hyper,yes,Extract,,04/13/2026 07:38:56 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+2_5bViviviendaCFServicios,DHBEvolucinTemporal,2.5b Vivivienda CF Servicios.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+2_5bViviviendaCFServicios,DHBEvolucinTemporal,2.5b Vivivienda CF Servicios.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+2_5bViviviendaCFServicios,DHBEvolucinTemporal,2.5b Vivivienda CF Servicios.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+2_5bViviviendaCFServicios,DHBEvolucinTemporal,2.5b Vivivienda CF Servicios.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0aqz60a01na3y80ztov2a082fi3j.hyper,yes,Extract,,05/22/2026 03:55:33 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+2_5cViviviendaEPHChabitacionales,DHBEvolucinTemporal,2.5c Vivivienda EPH C habitacionales.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+2_5cViviviendaEPHChabitacionales,DHBEvolucinTemporal,2.5c Vivivienda EPH C habitacionales.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+2_5cViviviendaEPHChabitacionales,DHBEvolucinTemporal,2.5c Vivivienda EPH C habitacionales.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+2_5cViviviendaEPHChabitacionales,DHBEvolucinTemporal,2.5c Vivivienda EPH C habitacionales.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0brkmn31ry0qr71gtovli1f4zfvk.hyper,yes,Extract,,05/22/2026 03:59:15 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+2_5dViviviendaEPHServicios,DHBEvolucinTemporal,2.5d Vivivienda EPH Servicios.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+2_5dViviviendaEPHServicios,DHBEvolucinTemporal,2.5d Vivivienda EPH Servicios.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+2_5dViviviendaEPHServicios,DHBEvolucinTemporal,2.5d Vivivienda EPH Servicios.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+2_5dViviviendaEPHServicios,DHBEvolucinTemporal,2.5d Vivivienda EPH Servicios.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_10jxt5m06vw8m11ba209t002rren.hyper,yes,Extract,,05/22/2026 04:02:57 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+2_6aTrabajoadolescenteCenso,DHBEvolucinTemporal,2.6a Trabajo adolescente Censo.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+2_6aTrabajoadolescenteCenso,DHBEvolucinTemporal,2.6a Trabajo adolescente Censo.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+2_6aTrabajoadolescenteCenso,DHBEvolucinTemporal,2.6a Trabajo adolescente Censo.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+2_6aTrabajoadolescenteCenso,DHBEvolucinTemporal,2.6a Trabajo adolescente Censo.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1fef6uw15btmwq193wv2m0nlhep7.hyper,yes,Extract,,05/11/2026 08:02:20 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+2_6bTrabajoinfantilyadolescenteEANNA,DHBEvolucinTemporal,2.6bTrabajo infantil y adolescente EANNA.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+2_6bTrabajoinfantilyadolescenteEANNA,DHBEvolucinTemporal,2.6bTrabajo infantil y adolescente EANNA.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+2_6bTrabajoinfantilyadolescenteEANNA,DHBEvolucinTemporal,2.6bTrabajo infantil y adolescente EANNA.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+2_6bTrabajoinfantilyadolescenteEANNA,DHBEvolucinTemporal,2.6bTrabajo infantil y adolescente EANNA.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0bwf7z70nwu45e1g4aq0w1jsf206.hyper,yes,Extract,,05/07/2026 04:07:51 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+3_1aAsistenciaICensal,DHBEvolucinTemporal,3.1a Asistencia ICensal.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+3_1aAsistenciaICensal,DHBEvolucinTemporal,3.1a Asistencia ICensal.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+3_1aAsistenciaICensal,DHBEvolucinTemporal,3.1a Asistencia ICensal.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+3_1aAsistenciaICensal,DHBEvolucinTemporal,3.1a Asistencia ICensal.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0rz53621g3gz6g11lfh6o057i5jp.hyper,yes,Extract,,05/11/2026 08:09:34 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+3_1bAsistenciaEPH,DHBEvolucinTemporal,3.1b Asistencia EPH.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+3_1bAsistenciaEPH,DHBEvolucinTemporal,3.1b Asistencia EPH.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+3_1bAsistenciaEPH,DHBEvolucinTemporal,3.1b Asistencia EPH.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+3_1bAsistenciaEPH,DHBEvolucinTemporal,3.1b Asistencia EPH.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_07jfnls069t60916uak770c0l7ro.hyper,yes,Extract,,05/07/2026 09:04:29 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+3_2aEstablecimientosCaracteristicas,DHBEvolucinTemporal,3.2a Establecimientos Caracteristicas.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+3_2aEstablecimientosCaracteristicas,DHBEvolucinTemporal,3.2a Establecimientos Caracteristicas.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+3_2aEstablecimientosCaracteristicas,DHBEvolucinTemporal,3.2a Establecimientos Caracteristicas.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+3_2aEstablecimientosCaracteristicas,DHBEvolucinTemporal,3.2a Establecimientos Caracteristicas.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_18a43z81gojhoj1d5m1ik1mo14ct.hyper,yes,Extract,,06/17/2026 01:58:39 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+3_2bEstablecimientosOfertayciclosNI,DHBEvolucinTemporal,3.2b Establecimientos Oferta y ciclos NI.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+3_2bEstablecimientosOfertayciclosNI,DHBEvolucinTemporal,3.2b Establecimientos Oferta y ciclos NI.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+3_2bEstablecimientosOfertayciclosNI,DHBEvolucinTemporal,3.2b Establecimientos Oferta y ciclos NI.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+3_2bEstablecimientosOfertayciclosNI,DHBEvolucinTemporal,3.2b Establecimientos Oferta y ciclos NI.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0lykyeh1p96cpg10z5bng1m9dcgi.hyper,yes,Extract,,06/17/2026 02:02:47 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+3_2cEstablecimientoselectricidad,DHBEvolucinTemporal,3.2c Establecimientos electricidad.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+3_2cEstablecimientoselectricidad,DHBEvolucinTemporal,3.2c Establecimientos electricidad.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+3_2cEstablecimientoselectricidad,DHBEvolucinTemporal,3.2c Establecimientos electricidad.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+3_2cEstablecimientoselectricidad,DHBEvolucinTemporal,3.2c Establecimientos electricidad.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_18c05r00kxm2qa191dz6i1mqm5hb.hyper,yes,Extract,,06/12/2026 01:40:41 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+3_2dEstablecimientosAccesoainternet,DHBEvolucinTemporal,3.2d Establecimientos Acceso a internet.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+3_2dEstablecimientosAccesoainternet,DHBEvolucinTemporal,3.2d Establecimientos Acceso a internet.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+3_2dEstablecimientosAccesoainternet,DHBEvolucinTemporal,3.2d Establecimientos Acceso a internet.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+3_2dEstablecimientosAccesoainternet,DHBEvolucinTemporal,3.2d Establecimientos Acceso a internet.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_17lry8r1kpm08d15smqln1jf7jp1.hyper,yes,Extract,,06/12/2026 01:44:22 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+3_2eEstablecimientosEntregadealimentos,DHBEvolucinTemporal,3.2e Establecimientos Entrega de alimentos.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+3_2eEstablecimientosEntregadealimentos,DHBEvolucinTemporal,3.2e Establecimientos Entrega de alimentos.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+3_2eEstablecimientosEntregadealimentos,DHBEvolucinTemporal,3.2e Establecimientos Entrega de alimentos.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+3_2eEstablecimientosEntregadealimentos,DHBEvolucinTemporal,3.2e Establecimientos Entrega de alimentos.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1a9as9x1c1b52112yhf3g0vaj9mc.hyper,yes,Extract,,05/07/2026 07:54:06 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+3_2eEstablecimientosLaboratorioinformtica,DHBEvolucinTemporal,3.2e Establecimientos Laboratorio inform├ítica.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+3_2eEstablecimientosLaboratorioinformtica,DHBEvolucinTemporal,3.2e Establecimientos Laboratorio inform├ítica.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+3_2eEstablecimientosLaboratorioinformtica,DHBEvolucinTemporal,3.2e Establecimientos Laboratorio inform├ítica.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+3_2eEstablecimientosLaboratorioinformtica,DHBEvolucinTemporal,3.2e Establecimientos Laboratorio inform├ítica.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0xnjuz10dxlcsx1h0anyc18tdc2p.hyper,yes,Extract,,06/17/2026 02:27:23 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+3_3aMatrculaECCaractersticas,DHBEvolucinTemporal,3.3a Matr├¡cula EC Caracter├¡sticas.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+3_3aMatrculaECCaractersticas,DHBEvolucinTemporal,3.3a Matr├¡cula EC Caracter├¡sticas.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+3_3aMatrculaECCaractersticas,DHBEvolucinTemporal,3.3a Matr├¡cula EC Caracter├¡sticas.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+3_3aMatrculaECCaractersticas,DHBEvolucinTemporal,3.3a Matr├¡cula EC Caracter├¡sticas.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1divrly0w4pp7s1837e0p0va9rx2.hyper,yes,Extract,,06/17/2026 02:53:45 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+3_3bMatrculaECNivelInicial,DHBEvolucinTemporal,3.3b Matr├¡cula EC Nivel inicial.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+3_3bMatrculaECNivelInicial,DHBEvolucinTemporal,3.3b Matr├¡cula EC Nivel inicial.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+3_3bMatrculaECNivelInicial,DHBEvolucinTemporal,3.3b Matr├¡cula EC Nivel inicial.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+3_3bMatrculaECNivelInicial,DHBEvolucinTemporal,3.3b Matr├¡cula EC Nivel inicial.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0kbnr3j1yzg30h10srgh61ud4oum.hyper,yes,Extract,,06/17/2026 02:58:10 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+3_3cMatrculaECNivelPrimario,DHBEvolucinTemporal,3.3c Matr├¡cula EC Nivel primario.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+3_3cMatrculaECNivelPrimario,DHBEvolucinTemporal,3.3c Matr├¡cula EC Nivel primario.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+3_3cMatrculaECNivelPrimario,DHBEvolucinTemporal,3.3c Matr├¡cula EC Nivel primario.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+3_3cMatrculaECNivelPrimario,DHBEvolucinTemporal,3.3c Matr├¡cula EC Nivel primario.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0n973og0xezmgf0ztk8o41rwowhz.hyper,yes,Extract,,06/17/2026 03:05:05 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
 3_3dMatrculaECNivelSecundario,DHBEvolucinTemporal,3.3d Matr├¡cula EC Nivel secundario.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
 3_3dMatrculaECNivelSecundario,DHBEvolucinTemporal,3.3d Matr├¡cula EC Nivel secundario.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
 3_3dMatrculaECNivelSecundario,DHBEvolucinTemporal,3.3d Matr├¡cula EC Nivel secundario.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
 3_3dMatrculaECNivelSecundario,DHBEvolucinTemporal,3.3d Matr├¡cula EC Nivel secundario.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,yes,Extract,,06/12/2026 02:32:49 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+3_3eMatrculaIETasadeescolarizacin,DHBEvolucinTemporal,3.3e Matr├¡cula IE Tasa de escolarizaci├│n.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+3_3eMatrculaIETasadeescolarizacin,DHBEvolucinTemporal,3.3e Matr├¡cula IE Tasa de escolarizaci├│n.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+3_3eMatrculaIETasadeescolarizacin,DHBEvolucinTemporal,3.3e Matr├¡cula IE Tasa de escolarizaci├│n.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+3_3eMatrculaIETasadeescolarizacin,DHBEvolucinTemporal,3.3e Matr├¡cula IE Tasa de escolarizaci├│n.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0xo1r1n1xbjxb5132urfh10u2dps.hyper,yes,Extract,,06/12/2026 02:52:34 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+3_3fMatrculaIEPromocinyabandono,DHBEvolucinTemporal,3.3f Matr├¡cula IE Promoci├│n y abandono.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+3_3fMatrculaIEPromocinyabandono,DHBEvolucinTemporal,3.3f Matr├¡cula IE Promoci├│n y abandono.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+3_3fMatrculaIEPromocinyabandono,DHBEvolucinTemporal,3.3f Matr├¡cula IE Promoci├│n y abandono.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+3_3fMatrculaIEPromocinyabandono,DHBEvolucinTemporal,3.3f Matr├¡cula IE Promoci├│n y abandono.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_17ayoi50j5jn8s1f5snwn0yc8typ.hyper,yes,Extract,,06/17/2026 03:09:59 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+3_3gMatrculaIERepitenciaysobreedad,DHBEvolucinTemporal,3.3g Matr├¡cula IE Repitencia y sobreedad.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+3_3gMatrculaIERepitenciaysobreedad,DHBEvolucinTemporal,3.3g Matr├¡cula IE Repitencia y sobreedad.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+3_3gMatrculaIERepitenciaysobreedad,DHBEvolucinTemporal,3.3g Matr├¡cula IE Repitencia y sobreedad.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+3_3gMatrculaIERepitenciaysobreedad,DHBEvolucinTemporal,3.3g Matr├¡cula IE Repitencia y sobreedad.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1jl8ecq1jfdgp714wk1sy13b7xyb.hyper,yes,Extract,,06/17/2026 03:19:07 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+3_3hMatrculaIETasadeegreso,DHBEvolucinTemporal,3.3h Matr├¡cula IE Tasa de egreso.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+3_3hMatrculaIETasadeegreso,DHBEvolucinTemporal,3.3h Matr├¡cula IE Tasa de egreso.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+3_3hMatrculaIETasadeegreso,DHBEvolucinTemporal,3.3h Matr├¡cula IE Tasa de egreso.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+3_3hMatrculaIETasadeegreso,DHBEvolucinTemporal,3.3h Matr├¡cula IE Tasa de egreso.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_11m9iym1miksx617qjtzt0zvr2gb.hyper,yes,Extract,,05/12/2026 06:25:51 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+3_4aEducacinespecialEstablecimientos,DHBEvolucinTemporal,3.4a Educaci├│n especial Establecimientos.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+3_4aEducacinespecialEstablecimientos,DHBEvolucinTemporal,3.4a Educaci├│n especial Establecimientos.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+3_4aEducacinespecialEstablecimientos,DHBEvolucinTemporal,3.4a Educaci├│n especial Establecimientos.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+3_4aEducacinespecialEstablecimientos,DHBEvolucinTemporal,3.4a Educaci├│n especial Establecimientos.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0bqfjxi0er1u8w19of2uj0bqg9wv.hyper,yes,Extract,,06/18/2026 08:48:38 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+3_4bEducacinespecialMatrcula,DHBEvolucinTemporal,3.4b Educaci├│n especial Matr├¡cula.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+3_4bEducacinespecialMatrcula,DHBEvolucinTemporal,3.4b Educaci├│n especial Matr├¡cula.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+3_4bEducacinespecialMatrcula,DHBEvolucinTemporal,3.4b Educaci├│n especial Matr├¡cula.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+3_4bEducacinespecialMatrcula,DHBEvolucinTemporal,3.4b Educaci├│n especial Matr├¡cula.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1a2b3sz0du9wzi1dwa6mw0e5tj9c.hyper,yes,Extract,,07/16/2026 03:37:58 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+3_5aTICsICensal,DHBEvolucinTemporal,3.5a TICs I Censal.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+3_5aTICsICensal,DHBEvolucinTemporal,3.5a TICs I Censal.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+3_5aTICsICensal,DHBEvolucinTemporal,3.5a TICs I Censal.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+3_5aTICsICensal,DHBEvolucinTemporal,3.5a TICs I Censal.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1l910ki1t9e01711lbjgq00fesh6.hyper,yes,Extract,,05/12/2026 10:00:46 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+3_5bTICsIEPH,DHBEvolucinTemporal,3.5b TICs I EPH.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+3_5bTICsIEPH,DHBEvolucinTemporal,3.5b TICs I EPH.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+3_5bTICsIEPH,DHBEvolucinTemporal,3.5b TICs I EPH.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+3_5bTICsIEPH,DHBEvolucinTemporal,3.5b TICs I EPH.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_051kf7n1dj1ca819gal620svz6ka.hyper,yes,Extract,,05/12/2026 10:10:52 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+4_1Coberturadesalud,DHBEvolucinTemporal,4.1 Cobertura de salud.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+4_1Coberturadesalud,DHBEvolucinTemporal,4.1 Cobertura de salud.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+4_1Coberturadesalud,DHBEvolucinTemporal,4.1 Cobertura de salud.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+4_1Coberturadesalud,DHBEvolucinTemporal,4.1 Cobertura de salud.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1mzq7ax09dzm641alyymc0m5ieox.hyper,yes,Extract,,05/13/2026 01:41:03 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
 4_2aNatalidad,DHBEvolucinTemporal,4.2a Natalidad.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
 4_2aNatalidad,DHBEvolucinTemporal,4.2a Natalidad.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
 4_2aNatalidad,DHBEvolucinTemporal,4.2a Natalidad.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
 4_2aNatalidad,DHBEvolucinTemporal,4.2a Natalidad.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,yes,Extract,,05/13/2026 11:36:42 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+4_2bNatalidadNacidosvivos,DHBEvolucinTemporal,4.2b Natalidad Nacidos vivos.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+4_2bNatalidadNacidosvivos,DHBEvolucinTemporal,4.2b Natalidad Nacidos vivos.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+4_2bNatalidadNacidosvivos,DHBEvolucinTemporal,4.2b Natalidad Nacidos vivos.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+4_2bNatalidadNacidosvivos,DHBEvolucinTemporal,4.2b Natalidad Nacidos vivos.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_18rmg451625t1u10apxy81w284cx.hyper,yes,Extract,,05/13/2026 01:57:28 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+4_2cNatalidadMadreyparto,DHBEvolucinTemporal,4.2c Natalidad Madre y parto.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+4_2cNatalidadMadreyparto,DHBEvolucinTemporal,4.2c Natalidad Madre y parto.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+4_2cNatalidadMadreyparto,DHBEvolucinTemporal,4.2c Natalidad Madre y parto.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+4_2cNatalidadMadreyparto,DHBEvolucinTemporal,4.2c Natalidad Madre y parto.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1epi7h10m2jlqv1caaz8z03of196.hyper,yes,Extract,,05/13/2026 02:10:19 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+4_2dNatalidadLactancia,DHBEvolucinTemporal,4.2d Natalidad Lactancia.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+4_2dNatalidadLactancia,DHBEvolucinTemporal,4.2d Natalidad Lactancia.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+4_2dNatalidadLactancia,DHBEvolucinTemporal,4.2d Natalidad Lactancia.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+4_2dNatalidadLactancia,DHBEvolucinTemporal,4.2d Natalidad Lactancia.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1db9mxu1ah2zt211j9fti0nf3hgu.hyper,yes,Extract,,05/13/2026 02:16:52 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+4_3aMortalidadinfantilTasas,DHBEvolucinTemporal,4.3a Mortalidad infantil Tasas.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+4_3aMortalidadinfantilTasas,DHBEvolucinTemporal,4.3a Mortalidad infantil Tasas.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+4_3aMortalidadinfantilTasas,DHBEvolucinTemporal,4.3a Mortalidad infantil Tasas.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+4_3aMortalidadinfantilTasas,DHBEvolucinTemporal,4.3a Mortalidad infantil Tasas.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1n53z7i13voyr815chu3a1podgt1.hyper,yes,Extract,,05/13/2026 02:22:58 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+4_3bMortalidadinfantilCaractersticas,DHBEvolucinTemporal,4.3b Mortalidad infantil Caracter├¡sticas.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+4_3bMortalidadinfantilCaractersticas,DHBEvolucinTemporal,4.3b Mortalidad infantil Caracter├¡sticas.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+4_3bMortalidadinfantilCaractersticas,DHBEvolucinTemporal,4.3b Mortalidad infantil Caracter├¡sticas.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+4_3bMortalidadinfantilCaractersticas,DHBEvolucinTemporal,4.3b Mortalidad infantil Caracter├¡sticas.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1etjlpd1jd5gr415ge4jf1us7hjj.hyper,yes,Extract,,05/13/2026 02:42:05 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+4_3cMortalidadMaterna,DHBEvolucinTemporal,4.3c Mortalidad Materna.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+4_3cMortalidadMaterna,DHBEvolucinTemporal,4.3c Mortalidad Materna.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+4_3cMortalidadMaterna,DHBEvolucinTemporal,4.3c Mortalidad Materna.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+4_3cMortalidadMaterna,DHBEvolucinTemporal,4.3c Mortalidad Materna.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1p2onqp1rgyx820zwp6dg1jlbatd.hyper,yes,Extract,,05/13/2026 11:33:30 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+4_4aMortalidadNNyATasa,DHBEvolucinTemporal,4.4a Mortalidad NNyA Tasa.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+4_4aMortalidadNNyATasa,DHBEvolucinTemporal,4.4a Mortalidad NNyA Tasa.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+4_4aMortalidadNNyATasa,DHBEvolucinTemporal,4.4a Mortalidad NNyA Tasa.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+4_4aMortalidadNNyATasa,DHBEvolucinTemporal,4.4a Mortalidad NNyA Tasa.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0bg03gp1x55jia16e8bzf15ulk2f.hyper,yes,Extract,,05/13/2026 02:54:58 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+4_4bMortalidadNNyACausas,DHBEvolucinTemporal,4.4b Mortalidad NNyA Causas.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+4_4bMortalidadNNyACausas,DHBEvolucinTemporal,4.4b Mortalidad NNyA Causas.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+4_4bMortalidadNNyACausas,DHBEvolucinTemporal,4.4b Mortalidad NNyA Causas.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+4_4bMortalidadNNyACausas,DHBEvolucinTemporal,4.4b Mortalidad NNyA Causas.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_14y4x8t0ywn17713z5enu0ml5ys7.hyper,yes,Extract,,08/19/2026 07:51:21 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+4_6Nutricin,DHBEvolucinTemporal,4.6 Nutrici├│n.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+4_6Nutricin,DHBEvolucinTemporal,4.6 Nutrici├│n.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+4_6Nutricin,DHBEvolucinTemporal,4.6 Nutrici├│n.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+4_6Nutricin,DHBEvolucinTemporal,4.6 Nutrici├│n.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0lchugh1lrksvi1dlfo1f09wsh01.hyper,yes,Extract,,05/14/2026 03:44:30 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+5_1aNNyAconmedidasdeproteccion_NNyA,DHBEvolucinTemporal,5.1a NNyA con medidas de proteccion. NNyA.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+5_1aNNyAconmedidasdeproteccion_NNyA,DHBEvolucinTemporal,5.1a NNyA con medidas de proteccion. NNyA.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+5_1aNNyAconmedidasdeproteccion_NNyA,DHBEvolucinTemporal,5.1a NNyA con medidas de proteccion. NNyA.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+5_1aNNyAconmedidasdeproteccion_NNyA,DHBEvolucinTemporal,5.1a NNyA con medidas de proteccion. NNyA.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0nv5s2a1blth4e108y1un1pu0iyk.hyper,yes,Extract,,05/14/2026 04:05:59 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+5_1bNNyAconmedidasdeproteccion_Dispositivos,DHBEvolucinTemporal,5.1b NNyA con medidas de proteccion. Dispositivos.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+5_1bNNyAconmedidasdeproteccion_Dispositivos,DHBEvolucinTemporal,5.1b NNyA con medidas de proteccion. Dispositivos.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+5_1bNNyAconmedidasdeproteccion_Dispositivos,DHBEvolucinTemporal,5.1b NNyA con medidas de proteccion. Dispositivos.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+5_1bNNyAconmedidasdeproteccion_Dispositivos,DHBEvolucinTemporal,5.1b NNyA con medidas de proteccion. Dispositivos.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1qmsq460uf2bpn1ae4jhq1f90ptf.hyper,yes,Extract,,05/14/2026 04:12:45 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+5_2PAE,DHBEvolucinTemporal,5.2 PAE.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+5_2PAE,DHBEvolucinTemporal,5.2 PAE.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+5_2PAE,DHBEvolucinTemporal,5.2 PAE.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+5_2PAE,DHBEvolucinTemporal,5.2 PAE.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0netciv0dvydao1e17dpk1xobiq3.hyper,yes,Extract,,05/14/2026 04:18:37 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+5_3Lnea102,DHBEvolucinTemporal,5.3 L├¡nea 102.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+5_3Lnea102,DHBEvolucinTemporal,5.3 L├¡nea 102.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+5_3Lnea102,DHBEvolucinTemporal,5.3 L├¡nea 102.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+5_3Lnea102,DHBEvolucinTemporal,5.3 L├¡nea 102.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_15uo6oe0ijrsn919i9ywh1glzmws.hyper,yes,Extract,,05/14/2026 05:25:54 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
 5_4aJusticiajuvenilAdolescentesyjvenes,DHBEvolucinTemporal,5.4a Justicia juvenil Adolescentes y j├│venes.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
 5_4aJusticiajuvenilAdolescentesyjvenes,DHBEvolucinTemporal,5.4a Justicia juvenil Adolescentes y j├│venes.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
 5_4aJusticiajuvenilAdolescentesyjvenes,DHBEvolucinTemporal,5.4a Justicia juvenil Adolescentes y j├│venes.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
 5_4aJusticiajuvenilAdolescentesyjvenes,DHBEvolucinTemporal,5.4a Justicia juvenil Adolescentes y j├│venes.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,yes,Extract,,05/14/2026 05:45:23 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+5_4bJusticiajuvenilDispositivospenales,DHBEvolucinTemporal,5.4b Justicia juvenil Dispositivos penales.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+5_4bJusticiajuvenilDispositivospenales,DHBEvolucinTemporal,5.4b Justicia juvenil Dispositivos penales.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+5_4bJusticiajuvenilDispositivospenales,DHBEvolucinTemporal,5.4b Justicia juvenil Dispositivos penales.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+5_4bJusticiajuvenilDispositivospenales,DHBEvolucinTemporal,5.4b Justicia juvenil Dispositivos penales.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1u0e6xh0kq1lpl1bqh5h31ipl9gs.hyper,yes,Extract,,05/14/2026 05:51:06 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+6_1Inversinpblicapresupuestonacional,DHBEvolucinTemporal,6.1 Inversi├│n p├║blica presupuesto nacional.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+6_1Inversinpblicapresupuestonacional,DHBEvolucinTemporal,6.1 Inversi├│n p├║blica presupuesto nacional.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+6_1Inversinpblicapresupuestonacional,DHBEvolucinTemporal,6.1 Inversi├│n p├║blica presupuesto nacional.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+6_1Inversinpblicapresupuestonacional,DHBEvolucinTemporal,6.1 Inversi├│n p├║blica presupuesto nacional.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1ja7k5w036khtg1f4we3y0nuu4tq.hyper,yes,Extract,,07/29/2026 01:29:16 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+6_2aInversinpblicanacionalyprovincialNNyA,DHBEvolucinTemporal,6.2a Inversi├│n p├║blica  nacional y provincial NNyA.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+6_2aInversinpblicanacionalyprovincialNNyA,DHBEvolucinTemporal,6.2a Inversi├│n p├║blica  nacional y provincial NNyA.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+6_2aInversinpblicanacionalyprovincialNNyA,DHBEvolucinTemporal,6.2a Inversi├│n p├║blica  nacional y provincial NNyA.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+6_2aInversinpblicanacionalyprovincialNNyA,DHBEvolucinTemporal,6.2a Inversi├│n p├║blica  nacional y provincial NNyA.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1r0tlni1jea5ft1c0abu00mlp01x.hyper,yes,Extract,,05/22/2026 10:13:23 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+6_2bInversinpblicanacionalyprovincialPrimerainfancia,DHBEvolucinTemporal,6.2b Inversi├│n p├║blica  nacional y provincial Primera infancia.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+6_2bInversinpblicanacionalyprovincialPrimerainfancia,DHBEvolucinTemporal,6.2b Inversi├│n p├║blica  nacional y provincial Primera infancia.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+6_2bInversinpblicanacionalyprovincialPrimerainfancia,DHBEvolucinTemporal,6.2b Inversi├│n p├║blica  nacional y provincial Primera infancia.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+6_2bInversinpblicanacionalyprovincialPrimerainfancia,DHBEvolucinTemporal,6.2b Inversi├│n p├║blica  nacional y provincial Primera infancia.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0g2j24k10ai5xm16fj50l1973lvz.hyper,yes,Extract,,05/14/2026 06:17:00 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+7_1SaludsexualyreproductivaFecundidadadolescente,DHBEvolucinTemporal,7.1 Salud sexual y reproductiva Fecundidad adolescente.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+7_1SaludsexualyreproductivaFecundidadadolescente,DHBEvolucinTemporal,7.1 Salud sexual y reproductiva Fecundidad adolescente.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+7_1SaludsexualyreproductivaFecundidadadolescente,DHBEvolucinTemporal,7.1 Salud sexual y reproductiva Fecundidad adolescente.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+7_1SaludsexualyreproductivaFecundidadadolescente,DHBEvolucinTemporal,7.1 Salud sexual y reproductiva Fecundidad adolescente.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0zg2vcu0j4lw6w14nlu0n03yt4w5.hyper,yes,Extract,,05/14/2026 06:55:35 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+7_3aMortalidadadolescenteTasas,DHBEvolucinTemporal,7.3a Mortalidad adolescente Tasas.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+7_3aMortalidadadolescenteTasas,DHBEvolucinTemporal,7.3a Mortalidad adolescente Tasas.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+7_3aMortalidadadolescenteTasas,DHBEvolucinTemporal,7.3a Mortalidad adolescente Tasas.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+7_3aMortalidadadolescenteTasas,DHBEvolucinTemporal,7.3a Mortalidad adolescente Tasas.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_06nvx4m0r61oga15vivo31lojp87.hyper,yes,Extract,,08/19/2026 07:55:33 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+7_3bMortalidadadolescenteCausas,DHBEvolucinTemporal,7.3b Mortalidad adolescente Causas.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+7_3bMortalidadadolescenteCausas,DHBEvolucinTemporal,7.3b Mortalidad adolescente Causas.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+7_3bMortalidadadolescenteCausas,DHBEvolucinTemporal,7.3b Mortalidad adolescente Causas.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+7_3bMortalidadadolescenteCausas,DHBEvolucinTemporal,7.3b Mortalidad adolescente Causas.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1ynonkg1la4x5q18jaxod1vdygd1.hyper,yes,Extract,,08/19/2026 08:00:59 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+7_3cMortalidadadolescenteCausasexternas,DHBEvolucinTemporal,7.3c Mortalidad adolescente Causas externas.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+7_3cMortalidadadolescenteCausasexternas,DHBEvolucinTemporal,7.3c Mortalidad adolescente Causas externas.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+7_3cMortalidadadolescenteCausasexternas,DHBEvolucinTemporal,7.3c Mortalidad adolescente Causas externas.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+7_3cMortalidadadolescenteCausasexternas,DHBEvolucinTemporal,7.3c Mortalidad adolescente Causas externas.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0it4zev1q4xsj90zj5g92172dt9q.hyper,yes,Extract,,08/19/2026 08:03:29 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+7_3dMortalidadadolescenteAccidentes,DHBEvolucinTemporal,7.3d Mortalidad adolescente Accidentes.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+7_3dMortalidadadolescenteAccidentes,DHBEvolucinTemporal,7.3d Mortalidad adolescente Accidentes.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+7_3dMortalidadadolescenteAccidentes,DHBEvolucinTemporal,7.3d Mortalidad adolescente Accidentes.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+7_3dMortalidadadolescenteAccidentes,DHBEvolucinTemporal,7.3d Mortalidad adolescente Accidentes.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_06smyuv0jc98vq1et8lj305r3wxu.hyper,yes,Extract,,08/19/2026 08:07:00 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+7_3eMortalidadadolescenteSuicidios,DHBEvolucinTemporal,7.3e Mortalidad adolescente Suicidios.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+7_3eMortalidadadolescenteSuicidios,DHBEvolucinTemporal,7.3e Mortalidad adolescente Suicidios.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+7_3eMortalidadadolescenteSuicidios,DHBEvolucinTemporal,7.3e Mortalidad adolescente Suicidios.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+7_3eMortalidadadolescenteSuicidios,DHBEvolucinTemporal,7.3e Mortalidad adolescente Suicidios.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0mxwsy107wm06h12ztq581swkhrq.hyper,yes,Extract,,08/19/2026 08:09:15 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+7_4Becasprogresar,DHBEvolucinTemporal,7.4 Becas progresar.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+7_4Becasprogresar,DHBEvolucinTemporal,7.4 Becas progresar.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+7_4Becasprogresar,DHBEvolucinTemporal,7.4 Becas progresar.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+7_4Becasprogresar,DHBEvolucinTemporal,7.4 Becas progresar.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1ahj9680ll99hw18f52dq0226l59.hyper,yes,Extract,,05/14/2026 07:35:48 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+8_1aNNyAdiscapacidadCUD_SS,DHBEvolucinTemporal,8.1a NNyA discapacidad CUD_SS.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+8_1aNNyAdiscapacidadCUD_SS,DHBEvolucinTemporal,8.1a NNyA discapacidad CUD_SS.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+8_1aNNyAdiscapacidadCUD_SS,DHBEvolucinTemporal,8.1a NNyA discapacidad CUD_SS.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+8_1aNNyAdiscapacidadCUD_SS,DHBEvolucinTemporal,8.1a NNyA discapacidad CUD_SS.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1wtq3ur1h9kn73117jbth1pdaiuj.hyper,yes,Extract,,06/23/2026 06:57:38 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+8_1bNNyAdiscapacidadCaracteristicasCUD,DHBEvolucinTemporal,8.1b NNyA discapacidad Caracteristicas CUD.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+8_1bNNyAdiscapacidadCaracteristicasCUD,DHBEvolucinTemporal,8.1b NNyA discapacidad Caracteristicas CUD.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+8_1bNNyAdiscapacidadCaracteristicasCUD,DHBEvolucinTemporal,8.1b NNyA discapacidad Caracteristicas CUD.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+8_1bNNyAdiscapacidadCaracteristicasCUD,DHBEvolucinTemporal,8.1b NNyA discapacidad Caracteristicas CUD.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_1gul0ud0sottr415k19n90zqgttf.hyper,yes,Extract,,05/14/2026 07:52:08 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+8_1cNNyAdiscapacidadCaracteristicasurbanos,DHBEvolucinTemporal,8.1c NNyA discapacidad Caracteristicas urbanos.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+8_1cNNyAdiscapacidadCaracteristicasurbanos,DHBEvolucinTemporal,8.1c NNyA discapacidad Caracteristicas urbanos.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+8_1cNNyAdiscapacidadCaracteristicasurbanos,DHBEvolucinTemporal,8.1c NNyA discapacidad Caracteristicas urbanos.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/USER/Documents/Documents/provincia,,,,,,,,,,
+8_1cNNyAdiscapacidadCaracteristicasurbanos,DHBEvolucinTemporal,8.1c NNyA discapacidad Caracteristicas urbanos.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_09vjj6r1cg7owe1gqt2cz0c08nst.hyper,yes,Extract,,05/14/2026 07:58:53 PM,C:/Users/USER/AppData/Local/Temp/TableauTemp/965428367/Data/Extracts/federated_0qiz8oi1sb3cd813zi06q0.hyper
+8_2NNyAindgenas,DHBEvolucinTemporal,8.2 NNyA ind├¡genas.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+8_2NNyAindgenas,DHBEvolucinTemporal,8.2 NNyA ind├¡genas.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+8_2NNyAindgenas,DHBEvolucinTemporal,8.2 NNyA ind├¡genas.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+8_2NNyAindgenas,DHBEvolucinTemporal,8.2 NNyA ind├¡genas.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0r111yo0dhk1mw1271hzb0a4ja4c.hyper,yes,Extract,,07/02/2026 08:11:52 PM,C:/Users/Paola/AppData/Local/Temp/TableauTemp/3129830141/SistemadeMonitoreoPrueba2.twb archivos/federated.hyper
+8_3aNNyAmigrantes_Losmigrantesenloscensosnacionales,DHBEvolucinTemporal,8.3a NNyA migrantes. Los migrantes en los censos nacionales.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+8_3aNNyAmigrantes_Losmigrantesenloscensosnacionales,DHBEvolucinTemporal,8.3a NNyA migrantes. Los migrantes en los censos nacionales.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+8_3aNNyAmigrantes_Losmigrantesenloscensosnacionales,DHBEvolucinTemporal,8.3a NNyA migrantes. Los migrantes en los censos nacionales.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+8_3aNNyAmigrantes_Losmigrantesenloscensosnacionales,DHBEvolucinTemporal,8.3a NNyA migrantes. Los migrantes en los censos nacionales.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0t5lmcr0gr1g3a14dnr7a0zutyiq.hyper,yes,Extract,,08/19/2026 07:33:33 PM,C:/Users/Paola/AppData/Local/Temp/TableauTemp/3129830141/SistemadeMonitoreoPrueba2.twb archivos/federated.hyper
+8_3bNNyAmigrantes_Losmigrantesenlasreasurbanas,DHBEvolucinTemporal,8.3b NNyA migrantes. Los migrantes en las ├íreas urbanas.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+8_3bNNyAmigrantes_Losmigrantesenlasreasurbanas,DHBEvolucinTemporal,8.3b NNyA migrantes. Los migrantes en las ├íreas urbanas.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+8_3bNNyAmigrantes_Losmigrantesenlasreasurbanas,DHBEvolucinTemporal,8.3b NNyA migrantes. Los migrantes en las ├íreas urbanas.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+8_3bNNyAmigrantes_Losmigrantesenlasreasurbanas,DHBEvolucinTemporal,8.3b NNyA migrantes. Los migrantes en las ├íreas urbanas.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_00jpj5j1t405n0158ouxf0aj2799.hyper,yes,Extract,,08/19/2026 07:38:46 PM,C:/Users/Paola/AppData/Local/Temp/TableauTemp/3129830141/SistemadeMonitoreoPrueba2.twb archivos/federated.hyper
+8_3cNNyAmigrantes_Losmigrantesenlosregistrosadministrativos,DHBEvolucinTemporal,8.3c NNyA migrantes. Los migrantes en los registros administrativos.twb,DATOS_ADMIN_SM,federated,,,,,,,,,,,,,,,,,
+8_3cNNyAmigrantes_Losmigrantesenlosregistrosadministrativos,DHBEvolucinTemporal,8.3c NNyA migrantes. Los migrantes en los registros administrativos.twb,DATOS_ADMIN_SM,excel-direct,no,no,,0,no,as-is,,,,,,,,,,,
+8_3cNNyAmigrantes_Losmigrantesenlosregistrosadministrativos,DHBEvolucinTemporal,8.3c NNyA migrantes. Los migrantes en los registros administrativos.twb,DATOS_ADMIN_SM,ogrdirect,,,,,,as-is,C:/Users/Paola/Documents/Paola/provincia,,,,,,,,,,
+8_3cNNyAmigrantes_Losmigrantesenlosregistrosadministrativos,DHBEvolucinTemporal,8.3c NNyA migrantes. Los migrantes en los registros administrativos.twb,DATOS_ADMIN_SM,hyper,,,,,,,,,readonly,auth-none,es_ES,Data/TableauTemp/TEMP_0qrlz2f14dahxl16uef4m0zximou.hyper,yes,Extract,,08/19/2026 07:42:24 PM,C:/Users/Paola/AppData/Local/Temp/TableauTemp/3129830141/SistemadeMonitoreoPrueba2.twb archivos/federated.hyper

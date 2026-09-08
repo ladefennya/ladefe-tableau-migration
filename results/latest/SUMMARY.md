@@ -1,15 +1,15 @@
 # LADEFE — Tableau probe
 
-- Workbooks requested: **5**
-- Successfully downloaded/parsed: **5**
+- Workbooks requested: **71**
+- Successfully downloaded/parsed: **71**
 - Failed: **0**
-- Worksheets found: **295**
-- Dashboards found: **20**
-- Fields found: **1460**
-- Calculated fields found: **410**
-- Filters found: **1235**
-- Parameters found: **105**
-- Hyper tables found: **35**
+- Worksheets found: **4189**
+- Dashboards found: **288**
+- Fields found: **20732**
+- Calculated fields found: **5822**
+- Filters found: **17537**
+- Parameters found: **1491**
+- Hyper tables found: **497**
 
 ## Parameters
 

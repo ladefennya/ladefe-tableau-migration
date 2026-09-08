@@ -6,6 +6,20 @@
 1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
 1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
 1_1Aspectosdemogrficos_Informacincensal,TEMP_0d5gcf21rwyv0k10mry1c19gnq6n.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",660,11
+1_2Aspectosdemogrficos_Censal,TEMP_1mfpmiw0971k4v1f578x112hzadr.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12648,22
+1_2Aspectosdemogrficos_Censal,TEMP_1mfpmiw0971k4v1f578x112hzadr.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",135,7
+1_2Aspectosdemogrficos_Censal,TEMP_1mfpmiw0971k4v1f578x112hzadr.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+1_2Aspectosdemogrficos_Censal,TEMP_1mfpmiw0971k4v1f578x112hzadr.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+1_2Aspectosdemogrficos_Censal,TEMP_1mfpmiw0971k4v1f578x112hzadr.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+1_2Aspectosdemogrficos_Censal,TEMP_1mfpmiw0971k4v1f578x112hzadr.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+1_2Aspectosdemogrficos_Censal,TEMP_1mfpmiw0971k4v1f578x112hzadr.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",690,11
+2_1NBI,TEMP_0ia2m3d0yvmif013hc7ug0w3xd9d.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12137,22
+2_1NBI,TEMP_0ia2m3d0yvmif013hc7ug0w3xd9d.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+2_1NBI,TEMP_0ia2m3d0yvmif013hc7ug0w3xd9d.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+2_1NBI,TEMP_0ia2m3d0yvmif013hc7ug0w3xd9d.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+2_1NBI,TEMP_0ia2m3d0yvmif013hc7ug0w3xd9d.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+2_1NBI,TEMP_0ia2m3d0yvmif013hc7ug0w3xd9d.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+2_1NBI,TEMP_0ia2m3d0yvmif013hc7ug0w3xd9d.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",660,11
 2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12132,22
 2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
 2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
@@ -13,6 +27,174 @@
 2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
 2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
 2_1aTasasdepobreza,TEMP_1xuwiiq07v62jh1750px20z4hhyi.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",660,11
+2_1bPobrezahogares,TEMP_1dy4a4h19iv2jn19yk0l20xjnxpd.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12132,22
+2_1bPobrezahogares,TEMP_1dy4a4h19iv2jn19yk0l20xjnxpd.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+2_1bPobrezahogares,TEMP_1dy4a4h19iv2jn19yk0l20xjnxpd.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+2_1bPobrezahogares,TEMP_1dy4a4h19iv2jn19yk0l20xjnxpd.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+2_1bPobrezahogares,TEMP_1dy4a4h19iv2jn19yk0l20xjnxpd.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+2_1bPobrezahogares,TEMP_1dy4a4h19iv2jn19yk0l20xjnxpd.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+2_1bPobrezahogares,TEMP_1dy4a4h19iv2jn19yk0l20xjnxpd.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",660,11
+2_2aSeg_social_General,TEMP_151qhwf01nh4q81dqlhar1noo09e.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",13042,22
+2_2aSeg_social_General,TEMP_151qhwf01nh4q81dqlhar1noo09e.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",136,7
+2_2aSeg_social_General,TEMP_151qhwf01nh4q81dqlhar1noo09e.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+2_2aSeg_social_General,TEMP_151qhwf01nh4q81dqlhar1noo09e.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+2_2aSeg_social_General,TEMP_151qhwf01nh4q81dqlhar1noo09e.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+2_2aSeg_social_General,TEMP_151qhwf01nh4q81dqlhar1noo09e.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+2_2aSeg_social_General,TEMP_151qhwf01nh4q81dqlhar1noo09e.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",708,11
+2_2bAUH,TEMP_0qj2e7n099kugl1cs2nsa1n4wqxn.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",13042,22
+2_2bAUH,TEMP_0qj2e7n099kugl1cs2nsa1n4wqxn.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",136,7
+2_2bAUH,TEMP_0qj2e7n099kugl1cs2nsa1n4wqxn.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+2_2bAUH,TEMP_0qj2e7n099kugl1cs2nsa1n4wqxn.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+2_2bAUH,TEMP_0qj2e7n099kugl1cs2nsa1n4wqxn.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+2_2bAUH,TEMP_0qj2e7n099kugl1cs2nsa1n4wqxn.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+2_2bAUH,TEMP_0qj2e7n099kugl1cs2nsa1n4wqxn.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",708,11
+2_2cAAFF,TEMP_176g64a0hycmbi1ej4ar90bnvu6u.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",13042,22
+2_2cAAFF,TEMP_176g64a0hycmbi1ej4ar90bnvu6u.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",136,7
+2_2cAAFF,TEMP_176g64a0hycmbi1ej4ar90bnvu6u.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+2_2cAAFF,TEMP_176g64a0hycmbi1ej4ar90bnvu6u.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+2_2cAAFF,TEMP_176g64a0hycmbi1ej4ar90bnvu6u.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+2_2cAAFF,TEMP_176g64a0hycmbi1ej4ar90bnvu6u.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+2_2cAAFF,TEMP_176g64a0hycmbi1ej4ar90bnvu6u.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",708,11
+2_2dAsignacinembarazo,TEMP_1kyoswd1ypypf518dyjag1re9dx5.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",13042,22
+2_2dAsignacinembarazo,TEMP_1kyoswd1ypypf518dyjag1re9dx5.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",136,7
+2_2dAsignacinembarazo,TEMP_1kyoswd1ypypf518dyjag1re9dx5.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+2_2dAsignacinembarazo,TEMP_1kyoswd1ypypf518dyjag1re9dx5.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+2_2dAsignacinembarazo,TEMP_1kyoswd1ypypf518dyjag1re9dx5.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+2_2dAsignacinembarazo,TEMP_1kyoswd1ypypf518dyjag1re9dx5.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+2_2dAsignacinembarazo,TEMP_1kyoswd1ypypf518dyjag1re9dx5.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",708,11
+2_2ePensinmadre7hijos,TEMP_0nzx3zr1tmje581bvvzqx108ubr4.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",13042,22
+2_2ePensinmadre7hijos,TEMP_0nzx3zr1tmje581bvvzqx108ubr4.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",136,7
+2_2ePensinmadre7hijos,TEMP_0nzx3zr1tmje581bvvzqx108ubr4.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+2_2ePensinmadre7hijos,TEMP_0nzx3zr1tmje581bvvzqx108ubr4.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+2_2ePensinmadre7hijos,TEMP_0nzx3zr1tmje581bvvzqx108ubr4.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+2_2ePensinmadre7hijos,TEMP_0nzx3zr1tmje581bvvzqx108ubr4.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+2_2ePensinmadre7hijos,TEMP_0nzx3zr1tmje581bvvzqx108ubr4.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",708,11
+2_3Seguridadalimentaria,TEMP_11f6ecj1myhx3j1dk2bzb1clwfhk.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12987,22
+2_3Seguridadalimentaria,TEMP_11f6ecj1myhx3j1dk2bzb1clwfhk.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",135,7
+2_3Seguridadalimentaria,TEMP_11f6ecj1myhx3j1dk2bzb1clwfhk.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+2_3Seguridadalimentaria,TEMP_11f6ecj1myhx3j1dk2bzb1clwfhk.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+2_3Seguridadalimentaria,TEMP_11f6ecj1myhx3j1dk2bzb1clwfhk.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+2_3Seguridadalimentaria,TEMP_11f6ecj1myhx3j1dk2bzb1clwfhk.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+2_3Seguridadalimentaria,TEMP_11f6ecj1myhx3j1dk2bzb1clwfhk.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",695,11
+2_5aViviviendaCFCHabitacionales,TEMP_0w0f4r209ugbla1eg5o1v19476kk.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12162,22
+2_5aViviviendaCFCHabitacionales,TEMP_0w0f4r209ugbla1eg5o1v19476kk.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+2_5aViviviendaCFCHabitacionales,TEMP_0w0f4r209ugbla1eg5o1v19476kk.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+2_5aViviviendaCFCHabitacionales,TEMP_0w0f4r209ugbla1eg5o1v19476kk.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+2_5aViviviendaCFCHabitacionales,TEMP_0w0f4r209ugbla1eg5o1v19476kk.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+2_5aViviviendaCFCHabitacionales,TEMP_0w0f4r209ugbla1eg5o1v19476kk.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+2_5aViviviendaCFCHabitacionales,TEMP_0w0f4r209ugbla1eg5o1v19476kk.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",665,11
+2_5bViviviendaCFServicios,TEMP_0aqz60a01na3y80ztov2a082fi3j.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12648,22
+2_5bViviviendaCFServicios,TEMP_0aqz60a01na3y80ztov2a082fi3j.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",135,7
+2_5bViviviendaCFServicios,TEMP_0aqz60a01na3y80ztov2a082fi3j.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+2_5bViviviendaCFServicios,TEMP_0aqz60a01na3y80ztov2a082fi3j.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+2_5bViviviendaCFServicios,TEMP_0aqz60a01na3y80ztov2a082fi3j.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+2_5bViviviendaCFServicios,TEMP_0aqz60a01na3y80ztov2a082fi3j.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+2_5bViviviendaCFServicios,TEMP_0aqz60a01na3y80ztov2a082fi3j.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",690,11
+2_5cViviviendaEPHChabitacionales,TEMP_0brkmn31ry0qr71gtovli1f4zfvk.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12648,22
+2_5cViviviendaEPHChabitacionales,TEMP_0brkmn31ry0qr71gtovli1f4zfvk.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",135,7
+2_5cViviviendaEPHChabitacionales,TEMP_0brkmn31ry0qr71gtovli1f4zfvk.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+2_5cViviviendaEPHChabitacionales,TEMP_0brkmn31ry0qr71gtovli1f4zfvk.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+2_5cViviviendaEPHChabitacionales,TEMP_0brkmn31ry0qr71gtovli1f4zfvk.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+2_5cViviviendaEPHChabitacionales,TEMP_0brkmn31ry0qr71gtovli1f4zfvk.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+2_5cViviviendaEPHChabitacionales,TEMP_0brkmn31ry0qr71gtovli1f4zfvk.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",690,11
+2_5dViviviendaEPHServicios,TEMP_10jxt5m06vw8m11ba209t002rren.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12648,22
+2_5dViviviendaEPHServicios,TEMP_10jxt5m06vw8m11ba209t002rren.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",135,7
+2_5dViviviendaEPHServicios,TEMP_10jxt5m06vw8m11ba209t002rren.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+2_5dViviviendaEPHServicios,TEMP_10jxt5m06vw8m11ba209t002rren.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+2_5dViviviendaEPHServicios,TEMP_10jxt5m06vw8m11ba209t002rren.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+2_5dViviviendaEPHServicios,TEMP_10jxt5m06vw8m11ba209t002rren.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+2_5dViviviendaEPHServicios,TEMP_10jxt5m06vw8m11ba209t002rren.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",690,11
+2_6aTrabajoadolescenteCenso,TEMP_1fef6uw15btmwq193wv2m0nlhep7.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12169,22
+2_6aTrabajoadolescenteCenso,TEMP_1fef6uw15btmwq193wv2m0nlhep7.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+2_6aTrabajoadolescenteCenso,TEMP_1fef6uw15btmwq193wv2m0nlhep7.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+2_6aTrabajoadolescenteCenso,TEMP_1fef6uw15btmwq193wv2m0nlhep7.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+2_6aTrabajoadolescenteCenso,TEMP_1fef6uw15btmwq193wv2m0nlhep7.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+2_6aTrabajoadolescenteCenso,TEMP_1fef6uw15btmwq193wv2m0nlhep7.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+2_6aTrabajoadolescenteCenso,TEMP_1fef6uw15btmwq193wv2m0nlhep7.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",660,11
+2_6bTrabajoinfantilyadolescenteEANNA,TEMP_0bwf7z70nwu45e1g4aq0w1jsf206.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12156,22
+2_6bTrabajoinfantilyadolescenteEANNA,TEMP_0bwf7z70nwu45e1g4aq0w1jsf206.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+2_6bTrabajoinfantilyadolescenteEANNA,TEMP_0bwf7z70nwu45e1g4aq0w1jsf206.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+2_6bTrabajoinfantilyadolescenteEANNA,TEMP_0bwf7z70nwu45e1g4aq0w1jsf206.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+2_6bTrabajoinfantilyadolescenteEANNA,TEMP_0bwf7z70nwu45e1g4aq0w1jsf206.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+2_6bTrabajoinfantilyadolescenteEANNA,TEMP_0bwf7z70nwu45e1g4aq0w1jsf206.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+2_6bTrabajoinfantilyadolescenteEANNA,TEMP_0bwf7z70nwu45e1g4aq0w1jsf206.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",660,11
+3_1aAsistenciaICensal,TEMP_0rz53621g3gz6g11lfh6o057i5jp.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12169,22
+3_1aAsistenciaICensal,TEMP_0rz53621g3gz6g11lfh6o057i5jp.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+3_1aAsistenciaICensal,TEMP_0rz53621g3gz6g11lfh6o057i5jp.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+3_1aAsistenciaICensal,TEMP_0rz53621g3gz6g11lfh6o057i5jp.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+3_1aAsistenciaICensal,TEMP_0rz53621g3gz6g11lfh6o057i5jp.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+3_1aAsistenciaICensal,TEMP_0rz53621g3gz6g11lfh6o057i5jp.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+3_1aAsistenciaICensal,TEMP_0rz53621g3gz6g11lfh6o057i5jp.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",660,11
+3_1bAsistenciaEPH,TEMP_07jfnls069t60916uak770c0l7ro.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12156,22
+3_1bAsistenciaEPH,TEMP_07jfnls069t60916uak770c0l7ro.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+3_1bAsistenciaEPH,TEMP_07jfnls069t60916uak770c0l7ro.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+3_1bAsistenciaEPH,TEMP_07jfnls069t60916uak770c0l7ro.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+3_1bAsistenciaEPH,TEMP_07jfnls069t60916uak770c0l7ro.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+3_1bAsistenciaEPH,TEMP_07jfnls069t60916uak770c0l7ro.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+3_1bAsistenciaEPH,TEMP_07jfnls069t60916uak770c0l7ro.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",660,11
+3_2aEstablecimientosCaracteristicas,TEMP_18a43z81gojhoj1d5m1ik1mo14ct.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12835,22
+3_2aEstablecimientosCaracteristicas,TEMP_18a43z81gojhoj1d5m1ik1mo14ct.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",135,7
+3_2aEstablecimientosCaracteristicas,TEMP_18a43z81gojhoj1d5m1ik1mo14ct.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+3_2aEstablecimientosCaracteristicas,TEMP_18a43z81gojhoj1d5m1ik1mo14ct.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+3_2aEstablecimientosCaracteristicas,TEMP_18a43z81gojhoj1d5m1ik1mo14ct.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+3_2aEstablecimientosCaracteristicas,TEMP_18a43z81gojhoj1d5m1ik1mo14ct.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+3_2aEstablecimientosCaracteristicas,TEMP_18a43z81gojhoj1d5m1ik1mo14ct.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",698,11
+3_2bEstablecimientosOfertayciclosNI,TEMP_0lykyeh1p96cpg10z5bng1m9dcgi.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12835,22
+3_2bEstablecimientosOfertayciclosNI,TEMP_0lykyeh1p96cpg10z5bng1m9dcgi.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",135,7
+3_2bEstablecimientosOfertayciclosNI,TEMP_0lykyeh1p96cpg10z5bng1m9dcgi.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+3_2bEstablecimientosOfertayciclosNI,TEMP_0lykyeh1p96cpg10z5bng1m9dcgi.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+3_2bEstablecimientosOfertayciclosNI,TEMP_0lykyeh1p96cpg10z5bng1m9dcgi.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+3_2bEstablecimientosOfertayciclosNI,TEMP_0lykyeh1p96cpg10z5bng1m9dcgi.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+3_2bEstablecimientosOfertayciclosNI,TEMP_0lykyeh1p96cpg10z5bng1m9dcgi.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",698,11
+3_2cEstablecimientoselectricidad,TEMP_18c05r00kxm2qa191dz6i1mqm5hb.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12462,22
+3_2cEstablecimientoselectricidad,TEMP_18c05r00kxm2qa191dz6i1mqm5hb.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",131,7
+3_2cEstablecimientoselectricidad,TEMP_18c05r00kxm2qa191dz6i1mqm5hb.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+3_2cEstablecimientoselectricidad,TEMP_18c05r00kxm2qa191dz6i1mqm5hb.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+3_2cEstablecimientoselectricidad,TEMP_18c05r00kxm2qa191dz6i1mqm5hb.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+3_2cEstablecimientoselectricidad,TEMP_18c05r00kxm2qa191dz6i1mqm5hb.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+3_2cEstablecimientoselectricidad,TEMP_18c05r00kxm2qa191dz6i1mqm5hb.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",674,11
+3_2dEstablecimientosAccesoainternet,TEMP_17lry8r1kpm08d15smqln1jf7jp1.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12462,22
+3_2dEstablecimientosAccesoainternet,TEMP_17lry8r1kpm08d15smqln1jf7jp1.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",131,7
+3_2dEstablecimientosAccesoainternet,TEMP_17lry8r1kpm08d15smqln1jf7jp1.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+3_2dEstablecimientosAccesoainternet,TEMP_17lry8r1kpm08d15smqln1jf7jp1.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+3_2dEstablecimientosAccesoainternet,TEMP_17lry8r1kpm08d15smqln1jf7jp1.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+3_2dEstablecimientosAccesoainternet,TEMP_17lry8r1kpm08d15smqln1jf7jp1.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+3_2dEstablecimientosAccesoainternet,TEMP_17lry8r1kpm08d15smqln1jf7jp1.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",674,11
+3_2eEstablecimientosEntregadealimentos,TEMP_1a9as9x1c1b52112yhf3g0vaj9mc.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12156,22
+3_2eEstablecimientosEntregadealimentos,TEMP_1a9as9x1c1b52112yhf3g0vaj9mc.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+3_2eEstablecimientosEntregadealimentos,TEMP_1a9as9x1c1b52112yhf3g0vaj9mc.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+3_2eEstablecimientosEntregadealimentos,TEMP_1a9as9x1c1b52112yhf3g0vaj9mc.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+3_2eEstablecimientosEntregadealimentos,TEMP_1a9as9x1c1b52112yhf3g0vaj9mc.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+3_2eEstablecimientosEntregadealimentos,TEMP_1a9as9x1c1b52112yhf3g0vaj9mc.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+3_2eEstablecimientosEntregadealimentos,TEMP_1a9as9x1c1b52112yhf3g0vaj9mc.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",660,11
+3_2eEstablecimientosLaboratorioinformtica,TEMP_0xnjuz10dxlcsx1h0anyc18tdc2p.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12835,22
+3_2eEstablecimientosLaboratorioinformtica,TEMP_0xnjuz10dxlcsx1h0anyc18tdc2p.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",135,7
+3_2eEstablecimientosLaboratorioinformtica,TEMP_0xnjuz10dxlcsx1h0anyc18tdc2p.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+3_2eEstablecimientosLaboratorioinformtica,TEMP_0xnjuz10dxlcsx1h0anyc18tdc2p.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+3_2eEstablecimientosLaboratorioinformtica,TEMP_0xnjuz10dxlcsx1h0anyc18tdc2p.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+3_2eEstablecimientosLaboratorioinformtica,TEMP_0xnjuz10dxlcsx1h0anyc18tdc2p.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+3_2eEstablecimientosLaboratorioinformtica,TEMP_0xnjuz10dxlcsx1h0anyc18tdc2p.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",698,11
+3_3aMatrculaECCaractersticas,TEMP_1divrly0w4pp7s1837e0p0va9rx2.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12835,22
+3_3aMatrculaECCaractersticas,TEMP_1divrly0w4pp7s1837e0p0va9rx2.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",135,7
+3_3aMatrculaECCaractersticas,TEMP_1divrly0w4pp7s1837e0p0va9rx2.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+3_3aMatrculaECCaractersticas,TEMP_1divrly0w4pp7s1837e0p0va9rx2.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+3_3aMatrculaECCaractersticas,TEMP_1divrly0w4pp7s1837e0p0va9rx2.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+3_3aMatrculaECCaractersticas,TEMP_1divrly0w4pp7s1837e0p0va9rx2.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+3_3aMatrculaECCaractersticas,TEMP_1divrly0w4pp7s1837e0p0va9rx2.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",698,11
+3_3bMatrculaECNivelInicial,TEMP_0kbnr3j1yzg30h10srgh61ud4oum.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12835,22
+3_3bMatrculaECNivelInicial,TEMP_0kbnr3j1yzg30h10srgh61ud4oum.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",135,7
+3_3bMatrculaECNivelInicial,TEMP_0kbnr3j1yzg30h10srgh61ud4oum.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+3_3bMatrculaECNivelInicial,TEMP_0kbnr3j1yzg30h10srgh61ud4oum.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+3_3bMatrculaECNivelInicial,TEMP_0kbnr3j1yzg30h10srgh61ud4oum.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+3_3bMatrculaECNivelInicial,TEMP_0kbnr3j1yzg30h10srgh61ud4oum.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+3_3bMatrculaECNivelInicial,TEMP_0kbnr3j1yzg30h10srgh61ud4oum.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",698,11
+3_3cMatrculaECNivelPrimario,TEMP_0n973og0xezmgf0ztk8o41rwowhz.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12835,22
+3_3cMatrculaECNivelPrimario,TEMP_0n973og0xezmgf0ztk8o41rwowhz.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",135,7
+3_3cMatrculaECNivelPrimario,TEMP_0n973og0xezmgf0ztk8o41rwowhz.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+3_3cMatrculaECNivelPrimario,TEMP_0n973og0xezmgf0ztk8o41rwowhz.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+3_3cMatrculaECNivelPrimario,TEMP_0n973og0xezmgf0ztk8o41rwowhz.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+3_3cMatrculaECNivelPrimario,TEMP_0n973og0xezmgf0ztk8o41rwowhz.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+3_3cMatrculaECNivelPrimario,TEMP_0n973og0xezmgf0ztk8o41rwowhz.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",698,11
 3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12462,22
 3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",131,7
 3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
@@ -20,6 +202,69 @@
 3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
 3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
 3_3dMatrculaECNivelSecundario,TEMP_1rgxjg80ap8moy19ao7fo0chwt5t.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",674,11
+3_3eMatrculaIETasadeescolarizacin,TEMP_0xo1r1n1xbjxb5132urfh10u2dps.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12462,22
+3_3eMatrculaIETasadeescolarizacin,TEMP_0xo1r1n1xbjxb5132urfh10u2dps.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",131,7
+3_3eMatrculaIETasadeescolarizacin,TEMP_0xo1r1n1xbjxb5132urfh10u2dps.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+3_3eMatrculaIETasadeescolarizacin,TEMP_0xo1r1n1xbjxb5132urfh10u2dps.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+3_3eMatrculaIETasadeescolarizacin,TEMP_0xo1r1n1xbjxb5132urfh10u2dps.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+3_3eMatrculaIETasadeescolarizacin,TEMP_0xo1r1n1xbjxb5132urfh10u2dps.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+3_3eMatrculaIETasadeescolarizacin,TEMP_0xo1r1n1xbjxb5132urfh10u2dps.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",674,11
+3_3fMatrculaIEPromocinyabandono,TEMP_17ayoi50j5jn8s1f5snwn0yc8typ.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12835,22
+3_3fMatrculaIEPromocinyabandono,TEMP_17ayoi50j5jn8s1f5snwn0yc8typ.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",135,7
+3_3fMatrculaIEPromocinyabandono,TEMP_17ayoi50j5jn8s1f5snwn0yc8typ.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+3_3fMatrculaIEPromocinyabandono,TEMP_17ayoi50j5jn8s1f5snwn0yc8typ.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+3_3fMatrculaIEPromocinyabandono,TEMP_17ayoi50j5jn8s1f5snwn0yc8typ.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+3_3fMatrculaIEPromocinyabandono,TEMP_17ayoi50j5jn8s1f5snwn0yc8typ.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+3_3fMatrculaIEPromocinyabandono,TEMP_17ayoi50j5jn8s1f5snwn0yc8typ.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",698,11
+3_3gMatrculaIERepitenciaysobreedad,TEMP_1jl8ecq1jfdgp714wk1sy13b7xyb.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12835,22
+3_3gMatrculaIERepitenciaysobreedad,TEMP_1jl8ecq1jfdgp714wk1sy13b7xyb.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",135,7
+3_3gMatrculaIERepitenciaysobreedad,TEMP_1jl8ecq1jfdgp714wk1sy13b7xyb.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+3_3gMatrculaIERepitenciaysobreedad,TEMP_1jl8ecq1jfdgp714wk1sy13b7xyb.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+3_3gMatrculaIERepitenciaysobreedad,TEMP_1jl8ecq1jfdgp714wk1sy13b7xyb.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+3_3gMatrculaIERepitenciaysobreedad,TEMP_1jl8ecq1jfdgp714wk1sy13b7xyb.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+3_3gMatrculaIERepitenciaysobreedad,TEMP_1jl8ecq1jfdgp714wk1sy13b7xyb.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",698,11
+3_3hMatrculaIETasadeegreso,TEMP_11m9iym1miksx617qjtzt0zvr2gb.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12224,22
+3_3hMatrculaIETasadeegreso,TEMP_11m9iym1miksx617qjtzt0zvr2gb.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+3_3hMatrculaIETasadeegreso,TEMP_11m9iym1miksx617qjtzt0zvr2gb.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+3_3hMatrculaIETasadeegreso,TEMP_11m9iym1miksx617qjtzt0zvr2gb.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+3_3hMatrculaIETasadeegreso,TEMP_11m9iym1miksx617qjtzt0zvr2gb.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+3_3hMatrculaIETasadeegreso,TEMP_11m9iym1miksx617qjtzt0zvr2gb.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+3_3hMatrculaIETasadeegreso,TEMP_11m9iym1miksx617qjtzt0zvr2gb.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",665,11
+3_4aEducacinespecialEstablecimientos,TEMP_0bqfjxi0er1u8w19of2uj0bqg9wv.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12985,22
+3_4aEducacinespecialEstablecimientos,TEMP_0bqfjxi0er1u8w19of2uj0bqg9wv.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",136,7
+3_4aEducacinespecialEstablecimientos,TEMP_0bqfjxi0er1u8w19of2uj0bqg9wv.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+3_4aEducacinespecialEstablecimientos,TEMP_0bqfjxi0er1u8w19of2uj0bqg9wv.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+3_4aEducacinespecialEstablecimientos,TEMP_0bqfjxi0er1u8w19of2uj0bqg9wv.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+3_4aEducacinespecialEstablecimientos,TEMP_0bqfjxi0er1u8w19of2uj0bqg9wv.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+3_4aEducacinespecialEstablecimientos,TEMP_0bqfjxi0er1u8w19of2uj0bqg9wv.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",707,11
+3_4bEducacinespecialMatrcula,TEMP_1a2b3sz0du9wzi1dwa6mw0e5tj9c.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",13042,22
+3_4bEducacinespecialMatrcula,TEMP_1a2b3sz0du9wzi1dwa6mw0e5tj9c.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",136,7
+3_4bEducacinespecialMatrcula,TEMP_1a2b3sz0du9wzi1dwa6mw0e5tj9c.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+3_4bEducacinespecialMatrcula,TEMP_1a2b3sz0du9wzi1dwa6mw0e5tj9c.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+3_4bEducacinespecialMatrcula,TEMP_1a2b3sz0du9wzi1dwa6mw0e5tj9c.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+3_4bEducacinespecialMatrcula,TEMP_1a2b3sz0du9wzi1dwa6mw0e5tj9c.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+3_4bEducacinespecialMatrcula,TEMP_1a2b3sz0du9wzi1dwa6mw0e5tj9c.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",708,11
+3_5aTICsICensal,TEMP_1l910ki1t9e01711lbjgq00fesh6.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12224,22
+3_5aTICsICensal,TEMP_1l910ki1t9e01711lbjgq00fesh6.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+3_5aTICsICensal,TEMP_1l910ki1t9e01711lbjgq00fesh6.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+3_5aTICsICensal,TEMP_1l910ki1t9e01711lbjgq00fesh6.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+3_5aTICsICensal,TEMP_1l910ki1t9e01711lbjgq00fesh6.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+3_5aTICsICensal,TEMP_1l910ki1t9e01711lbjgq00fesh6.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+3_5aTICsICensal,TEMP_1l910ki1t9e01711lbjgq00fesh6.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",665,11
+3_5bTICsIEPH,TEMP_051kf7n1dj1ca819gal620svz6ka.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12224,22
+3_5bTICsIEPH,TEMP_051kf7n1dj1ca819gal620svz6ka.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+3_5bTICsIEPH,TEMP_051kf7n1dj1ca819gal620svz6ka.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+3_5bTICsIEPH,TEMP_051kf7n1dj1ca819gal620svz6ka.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+3_5bTICsIEPH,TEMP_051kf7n1dj1ca819gal620svz6ka.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+3_5bTICsIEPH,TEMP_051kf7n1dj1ca819gal620svz6ka.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+3_5bTICsIEPH,TEMP_051kf7n1dj1ca819gal620svz6ka.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",665,11
+4_1Coberturadesalud,TEMP_1mzq7ax09dzm641alyymc0m5ieox.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12224,22
+4_1Coberturadesalud,TEMP_1mzq7ax09dzm641alyymc0m5ieox.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+4_1Coberturadesalud,TEMP_1mzq7ax09dzm641alyymc0m5ieox.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+4_1Coberturadesalud,TEMP_1mzq7ax09dzm641alyymc0m5ieox.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+4_1Coberturadesalud,TEMP_1mzq7ax09dzm641alyymc0m5ieox.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+4_1Coberturadesalud,TEMP_1mzq7ax09dzm641alyymc0m5ieox.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+4_1Coberturadesalud,TEMP_1mzq7ax09dzm641alyymc0m5ieox.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",665,11
 4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12225,22
 4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
 4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
@@ -27,6 +272,97 @@
 4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
 4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
 4_2aNatalidad,TEMP_1gcpvfs1qfjvex15fjb3912ibjie.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",666,11
+4_2bNatalidadNacidosvivos,TEMP_18rmg451625t1u10apxy81w284cx.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12224,22
+4_2bNatalidadNacidosvivos,TEMP_18rmg451625t1u10apxy81w284cx.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+4_2bNatalidadNacidosvivos,TEMP_18rmg451625t1u10apxy81w284cx.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+4_2bNatalidadNacidosvivos,TEMP_18rmg451625t1u10apxy81w284cx.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+4_2bNatalidadNacidosvivos,TEMP_18rmg451625t1u10apxy81w284cx.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+4_2bNatalidadNacidosvivos,TEMP_18rmg451625t1u10apxy81w284cx.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+4_2bNatalidadNacidosvivos,TEMP_18rmg451625t1u10apxy81w284cx.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",665,11
+4_2cNatalidadMadreyparto,TEMP_1epi7h10m2jlqv1caaz8z03of196.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12224,22
+4_2cNatalidadMadreyparto,TEMP_1epi7h10m2jlqv1caaz8z03of196.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+4_2cNatalidadMadreyparto,TEMP_1epi7h10m2jlqv1caaz8z03of196.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+4_2cNatalidadMadreyparto,TEMP_1epi7h10m2jlqv1caaz8z03of196.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+4_2cNatalidadMadreyparto,TEMP_1epi7h10m2jlqv1caaz8z03of196.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+4_2cNatalidadMadreyparto,TEMP_1epi7h10m2jlqv1caaz8z03of196.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+4_2cNatalidadMadreyparto,TEMP_1epi7h10m2jlqv1caaz8z03of196.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",665,11
+4_2dNatalidadLactancia,TEMP_1db9mxu1ah2zt211j9fti0nf3hgu.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12224,22
+4_2dNatalidadLactancia,TEMP_1db9mxu1ah2zt211j9fti0nf3hgu.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+4_2dNatalidadLactancia,TEMP_1db9mxu1ah2zt211j9fti0nf3hgu.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+4_2dNatalidadLactancia,TEMP_1db9mxu1ah2zt211j9fti0nf3hgu.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+4_2dNatalidadLactancia,TEMP_1db9mxu1ah2zt211j9fti0nf3hgu.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+4_2dNatalidadLactancia,TEMP_1db9mxu1ah2zt211j9fti0nf3hgu.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+4_2dNatalidadLactancia,TEMP_1db9mxu1ah2zt211j9fti0nf3hgu.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",665,11
+4_3aMortalidadinfantilTasas,TEMP_1n53z7i13voyr815chu3a1podgt1.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12224,22
+4_3aMortalidadinfantilTasas,TEMP_1n53z7i13voyr815chu3a1podgt1.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+4_3aMortalidadinfantilTasas,TEMP_1n53z7i13voyr815chu3a1podgt1.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+4_3aMortalidadinfantilTasas,TEMP_1n53z7i13voyr815chu3a1podgt1.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+4_3aMortalidadinfantilTasas,TEMP_1n53z7i13voyr815chu3a1podgt1.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+4_3aMortalidadinfantilTasas,TEMP_1n53z7i13voyr815chu3a1podgt1.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+4_3aMortalidadinfantilTasas,TEMP_1n53z7i13voyr815chu3a1podgt1.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",665,11
+4_3bMortalidadinfantilCaractersticas,TEMP_1etjlpd1jd5gr415ge4jf1us7hjj.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12224,22
+4_3bMortalidadinfantilCaractersticas,TEMP_1etjlpd1jd5gr415ge4jf1us7hjj.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+4_3bMortalidadinfantilCaractersticas,TEMP_1etjlpd1jd5gr415ge4jf1us7hjj.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+4_3bMortalidadinfantilCaractersticas,TEMP_1etjlpd1jd5gr415ge4jf1us7hjj.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+4_3bMortalidadinfantilCaractersticas,TEMP_1etjlpd1jd5gr415ge4jf1us7hjj.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+4_3bMortalidadinfantilCaractersticas,TEMP_1etjlpd1jd5gr415ge4jf1us7hjj.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+4_3bMortalidadinfantilCaractersticas,TEMP_1etjlpd1jd5gr415ge4jf1us7hjj.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",665,11
+4_3cMortalidadMaterna,TEMP_1p2onqp1rgyx820zwp6dg1jlbatd.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12225,22
+4_3cMortalidadMaterna,TEMP_1p2onqp1rgyx820zwp6dg1jlbatd.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+4_3cMortalidadMaterna,TEMP_1p2onqp1rgyx820zwp6dg1jlbatd.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+4_3cMortalidadMaterna,TEMP_1p2onqp1rgyx820zwp6dg1jlbatd.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+4_3cMortalidadMaterna,TEMP_1p2onqp1rgyx820zwp6dg1jlbatd.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+4_3cMortalidadMaterna,TEMP_1p2onqp1rgyx820zwp6dg1jlbatd.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+4_3cMortalidadMaterna,TEMP_1p2onqp1rgyx820zwp6dg1jlbatd.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",666,11
+4_4aMortalidadNNyATasa,TEMP_0bg03gp1x55jia16e8bzf15ulk2f.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12224,22
+4_4aMortalidadNNyATasa,TEMP_0bg03gp1x55jia16e8bzf15ulk2f.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+4_4aMortalidadNNyATasa,TEMP_0bg03gp1x55jia16e8bzf15ulk2f.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+4_4aMortalidadNNyATasa,TEMP_0bg03gp1x55jia16e8bzf15ulk2f.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+4_4aMortalidadNNyATasa,TEMP_0bg03gp1x55jia16e8bzf15ulk2f.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+4_4aMortalidadNNyATasa,TEMP_0bg03gp1x55jia16e8bzf15ulk2f.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+4_4aMortalidadNNyATasa,TEMP_0bg03gp1x55jia16e8bzf15ulk2f.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",665,11
+4_4bMortalidadNNyACausas,TEMP_14y4x8t0ywn17713z5enu0ml5ys7.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",14045,22
+4_4bMortalidadNNyACausas,TEMP_14y4x8t0ywn17713z5enu0ml5ys7.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",147,7
+4_4bMortalidadNNyACausas,TEMP_14y4x8t0ywn17713z5enu0ml5ys7.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+4_4bMortalidadNNyACausas,TEMP_14y4x8t0ywn17713z5enu0ml5ys7.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+4_4bMortalidadNNyACausas,TEMP_14y4x8t0ywn17713z5enu0ml5ys7.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+4_4bMortalidadNNyACausas,TEMP_14y4x8t0ywn17713z5enu0ml5ys7.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+4_4bMortalidadNNyACausas,TEMP_14y4x8t0ywn17713z5enu0ml5ys7.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",763,11
+4_6Nutricin,TEMP_0lchugh1lrksvi1dlfo1f09wsh01.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12485,22
+4_6Nutricin,TEMP_0lchugh1lrksvi1dlfo1f09wsh01.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",131,7
+4_6Nutricin,TEMP_0lchugh1lrksvi1dlfo1f09wsh01.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+4_6Nutricin,TEMP_0lchugh1lrksvi1dlfo1f09wsh01.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+4_6Nutricin,TEMP_0lchugh1lrksvi1dlfo1f09wsh01.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+4_6Nutricin,TEMP_0lchugh1lrksvi1dlfo1f09wsh01.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+4_6Nutricin,TEMP_0lchugh1lrksvi1dlfo1f09wsh01.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",674,11
+5_1aNNyAconmedidasdeproteccion_NNyA,TEMP_0nv5s2a1blth4e108y1un1pu0iyk.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12225,22
+5_1aNNyAconmedidasdeproteccion_NNyA,TEMP_0nv5s2a1blth4e108y1un1pu0iyk.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+5_1aNNyAconmedidasdeproteccion_NNyA,TEMP_0nv5s2a1blth4e108y1un1pu0iyk.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+5_1aNNyAconmedidasdeproteccion_NNyA,TEMP_0nv5s2a1blth4e108y1un1pu0iyk.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+5_1aNNyAconmedidasdeproteccion_NNyA,TEMP_0nv5s2a1blth4e108y1un1pu0iyk.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+5_1aNNyAconmedidasdeproteccion_NNyA,TEMP_0nv5s2a1blth4e108y1un1pu0iyk.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+5_1aNNyAconmedidasdeproteccion_NNyA,TEMP_0nv5s2a1blth4e108y1un1pu0iyk.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",666,11
+5_1bNNyAconmedidasdeproteccion_Dispositivos,TEMP_1qmsq460uf2bpn1ae4jhq1f90ptf.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12225,22
+5_1bNNyAconmedidasdeproteccion_Dispositivos,TEMP_1qmsq460uf2bpn1ae4jhq1f90ptf.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+5_1bNNyAconmedidasdeproteccion_Dispositivos,TEMP_1qmsq460uf2bpn1ae4jhq1f90ptf.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+5_1bNNyAconmedidasdeproteccion_Dispositivos,TEMP_1qmsq460uf2bpn1ae4jhq1f90ptf.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+5_1bNNyAconmedidasdeproteccion_Dispositivos,TEMP_1qmsq460uf2bpn1ae4jhq1f90ptf.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+5_1bNNyAconmedidasdeproteccion_Dispositivos,TEMP_1qmsq460uf2bpn1ae4jhq1f90ptf.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+5_1bNNyAconmedidasdeproteccion_Dispositivos,TEMP_1qmsq460uf2bpn1ae4jhq1f90ptf.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",666,11
+5_2PAE,TEMP_0netciv0dvydao1e17dpk1xobiq3.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12225,22
+5_2PAE,TEMP_0netciv0dvydao1e17dpk1xobiq3.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+5_2PAE,TEMP_0netciv0dvydao1e17dpk1xobiq3.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+5_2PAE,TEMP_0netciv0dvydao1e17dpk1xobiq3.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+5_2PAE,TEMP_0netciv0dvydao1e17dpk1xobiq3.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+5_2PAE,TEMP_0netciv0dvydao1e17dpk1xobiq3.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+5_2PAE,TEMP_0netciv0dvydao1e17dpk1xobiq3.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",666,11
+5_3Lnea102,TEMP_15uo6oe0ijrsn919i9ywh1glzmws.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12225,22
+5_3Lnea102,TEMP_15uo6oe0ijrsn919i9ywh1glzmws.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+5_3Lnea102,TEMP_15uo6oe0ijrsn919i9ywh1glzmws.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+5_3Lnea102,TEMP_15uo6oe0ijrsn919i9ywh1glzmws.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+5_3Lnea102,TEMP_15uo6oe0ijrsn919i9ywh1glzmws.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+5_3Lnea102,TEMP_15uo6oe0ijrsn919i9ywh1glzmws.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+5_3Lnea102,TEMP_15uo6oe0ijrsn919i9ywh1glzmws.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",666,11
 5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12225,22
 5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
 5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
@@ -34,3 +370,129 @@
 5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
 5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
 5_4aJusticiajuvenilAdolescentesyjvenes,TEMP_07n13f406mc3af1fwuefx1o4vfzs.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",666,11
+5_4bJusticiajuvenilDispositivospenales,TEMP_1u0e6xh0kq1lpl1bqh5h31ipl9gs.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12225,22
+5_4bJusticiajuvenilDispositivospenales,TEMP_1u0e6xh0kq1lpl1bqh5h31ipl9gs.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+5_4bJusticiajuvenilDispositivospenales,TEMP_1u0e6xh0kq1lpl1bqh5h31ipl9gs.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+5_4bJusticiajuvenilDispositivospenales,TEMP_1u0e6xh0kq1lpl1bqh5h31ipl9gs.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+5_4bJusticiajuvenilDispositivospenales,TEMP_1u0e6xh0kq1lpl1bqh5h31ipl9gs.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+5_4bJusticiajuvenilDispositivospenales,TEMP_1u0e6xh0kq1lpl1bqh5h31ipl9gs.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+5_4bJusticiajuvenilDispositivospenales,TEMP_1u0e6xh0kq1lpl1bqh5h31ipl9gs.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",666,11
+6_1Inversinpblicapresupuestonacional,TEMP_1ja7k5w036khtg1f4we3y0nuu4tq.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",13110,22
+6_1Inversinpblicapresupuestonacional,TEMP_1ja7k5w036khtg1f4we3y0nuu4tq.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",135,7
+6_1Inversinpblicapresupuestonacional,TEMP_1ja7k5w036khtg1f4we3y0nuu4tq.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+6_1Inversinpblicapresupuestonacional,TEMP_1ja7k5w036khtg1f4we3y0nuu4tq.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+6_1Inversinpblicapresupuestonacional,TEMP_1ja7k5w036khtg1f4we3y0nuu4tq.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+6_1Inversinpblicapresupuestonacional,TEMP_1ja7k5w036khtg1f4we3y0nuu4tq.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+6_1Inversinpblicapresupuestonacional,TEMP_1ja7k5w036khtg1f4we3y0nuu4tq.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",711,11
+6_2aInversinpblicanacionalyprovincialNNyA,TEMP_1r0tlni1jea5ft1c0abu00mlp01x.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12225,22
+6_2aInversinpblicanacionalyprovincialNNyA,TEMP_1r0tlni1jea5ft1c0abu00mlp01x.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+6_2aInversinpblicanacionalyprovincialNNyA,TEMP_1r0tlni1jea5ft1c0abu00mlp01x.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+6_2aInversinpblicanacionalyprovincialNNyA,TEMP_1r0tlni1jea5ft1c0abu00mlp01x.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+6_2aInversinpblicanacionalyprovincialNNyA,TEMP_1r0tlni1jea5ft1c0abu00mlp01x.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+6_2aInversinpblicanacionalyprovincialNNyA,TEMP_1r0tlni1jea5ft1c0abu00mlp01x.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+6_2aInversinpblicanacionalyprovincialNNyA,TEMP_1r0tlni1jea5ft1c0abu00mlp01x.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",666,11
+6_2bInversinpblicanacionalyprovincialPrimerainfancia,TEMP_0g2j24k10ai5xm16fj50l1973lvz.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12225,22
+6_2bInversinpblicanacionalyprovincialPrimerainfancia,TEMP_0g2j24k10ai5xm16fj50l1973lvz.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",130,7
+6_2bInversinpblicanacionalyprovincialPrimerainfancia,TEMP_0g2j24k10ai5xm16fj50l1973lvz.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+6_2bInversinpblicanacionalyprovincialPrimerainfancia,TEMP_0g2j24k10ai5xm16fj50l1973lvz.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+6_2bInversinpblicanacionalyprovincialPrimerainfancia,TEMP_0g2j24k10ai5xm16fj50l1973lvz.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+6_2bInversinpblicanacionalyprovincialPrimerainfancia,TEMP_0g2j24k10ai5xm16fj50l1973lvz.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+6_2bInversinpblicanacionalyprovincialPrimerainfancia,TEMP_0g2j24k10ai5xm16fj50l1973lvz.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",666,11
+7_1SaludsexualyreproductivaFecundidadadolescente,TEMP_0zg2vcu0j4lw6w14nlu0n03yt4w5.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12485,22
+7_1SaludsexualyreproductivaFecundidadadolescente,TEMP_0zg2vcu0j4lw6w14nlu0n03yt4w5.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",131,7
+7_1SaludsexualyreproductivaFecundidadadolescente,TEMP_0zg2vcu0j4lw6w14nlu0n03yt4w5.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+7_1SaludsexualyreproductivaFecundidadadolescente,TEMP_0zg2vcu0j4lw6w14nlu0n03yt4w5.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+7_1SaludsexualyreproductivaFecundidadadolescente,TEMP_0zg2vcu0j4lw6w14nlu0n03yt4w5.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+7_1SaludsexualyreproductivaFecundidadadolescente,TEMP_0zg2vcu0j4lw6w14nlu0n03yt4w5.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+7_1SaludsexualyreproductivaFecundidadadolescente,TEMP_0zg2vcu0j4lw6w14nlu0n03yt4w5.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",674,11
+7_3aMortalidadadolescenteTasas,TEMP_06nvx4m0r61oga15vivo31lojp87.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",14045,22
+7_3aMortalidadadolescenteTasas,TEMP_06nvx4m0r61oga15vivo31lojp87.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",147,7
+7_3aMortalidadadolescenteTasas,TEMP_06nvx4m0r61oga15vivo31lojp87.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+7_3aMortalidadadolescenteTasas,TEMP_06nvx4m0r61oga15vivo31lojp87.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+7_3aMortalidadadolescenteTasas,TEMP_06nvx4m0r61oga15vivo31lojp87.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+7_3aMortalidadadolescenteTasas,TEMP_06nvx4m0r61oga15vivo31lojp87.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+7_3aMortalidadadolescenteTasas,TEMP_06nvx4m0r61oga15vivo31lojp87.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",763,11
+7_3bMortalidadadolescenteCausas,TEMP_1ynonkg1la4x5q18jaxod1vdygd1.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",14045,22
+7_3bMortalidadadolescenteCausas,TEMP_1ynonkg1la4x5q18jaxod1vdygd1.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",147,7
+7_3bMortalidadadolescenteCausas,TEMP_1ynonkg1la4x5q18jaxod1vdygd1.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+7_3bMortalidadadolescenteCausas,TEMP_1ynonkg1la4x5q18jaxod1vdygd1.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+7_3bMortalidadadolescenteCausas,TEMP_1ynonkg1la4x5q18jaxod1vdygd1.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+7_3bMortalidadadolescenteCausas,TEMP_1ynonkg1la4x5q18jaxod1vdygd1.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+7_3bMortalidadadolescenteCausas,TEMP_1ynonkg1la4x5q18jaxod1vdygd1.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",763,11
+7_3cMortalidadadolescenteCausasexternas,TEMP_0it4zev1q4xsj90zj5g92172dt9q.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",14045,22
+7_3cMortalidadadolescenteCausasexternas,TEMP_0it4zev1q4xsj90zj5g92172dt9q.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",147,7
+7_3cMortalidadadolescenteCausasexternas,TEMP_0it4zev1q4xsj90zj5g92172dt9q.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+7_3cMortalidadadolescenteCausasexternas,TEMP_0it4zev1q4xsj90zj5g92172dt9q.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+7_3cMortalidadadolescenteCausasexternas,TEMP_0it4zev1q4xsj90zj5g92172dt9q.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+7_3cMortalidadadolescenteCausasexternas,TEMP_0it4zev1q4xsj90zj5g92172dt9q.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+7_3cMortalidadadolescenteCausasexternas,TEMP_0it4zev1q4xsj90zj5g92172dt9q.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",763,11
+7_3dMortalidadadolescenteAccidentes,TEMP_06smyuv0jc98vq1et8lj305r3wxu.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",14045,22
+7_3dMortalidadadolescenteAccidentes,TEMP_06smyuv0jc98vq1et8lj305r3wxu.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",147,7
+7_3dMortalidadadolescenteAccidentes,TEMP_06smyuv0jc98vq1et8lj305r3wxu.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+7_3dMortalidadadolescenteAccidentes,TEMP_06smyuv0jc98vq1et8lj305r3wxu.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+7_3dMortalidadadolescenteAccidentes,TEMP_06smyuv0jc98vq1et8lj305r3wxu.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+7_3dMortalidadadolescenteAccidentes,TEMP_06smyuv0jc98vq1et8lj305r3wxu.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+7_3dMortalidadadolescenteAccidentes,TEMP_06smyuv0jc98vq1et8lj305r3wxu.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",763,11
+7_3eMortalidadadolescenteSuicidios,TEMP_0mxwsy107wm06h12ztq581swkhrq.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",14045,22
+7_3eMortalidadadolescenteSuicidios,TEMP_0mxwsy107wm06h12ztq581swkhrq.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",147,7
+7_3eMortalidadadolescenteSuicidios,TEMP_0mxwsy107wm06h12ztq581swkhrq.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+7_3eMortalidadadolescenteSuicidios,TEMP_0mxwsy107wm06h12ztq581swkhrq.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+7_3eMortalidadadolescenteSuicidios,TEMP_0mxwsy107wm06h12ztq581swkhrq.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+7_3eMortalidadadolescenteSuicidios,TEMP_0mxwsy107wm06h12ztq581swkhrq.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+7_3eMortalidadadolescenteSuicidios,TEMP_0mxwsy107wm06h12ztq581swkhrq.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",763,11
+7_4Becasprogresar,TEMP_1ahj9680ll99hw18f52dq0226l59.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12485,22
+7_4Becasprogresar,TEMP_1ahj9680ll99hw18f52dq0226l59.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",131,7
+7_4Becasprogresar,TEMP_1ahj9680ll99hw18f52dq0226l59.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+7_4Becasprogresar,TEMP_1ahj9680ll99hw18f52dq0226l59.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+7_4Becasprogresar,TEMP_1ahj9680ll99hw18f52dq0226l59.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+7_4Becasprogresar,TEMP_1ahj9680ll99hw18f52dq0226l59.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+7_4Becasprogresar,TEMP_1ahj9680ll99hw18f52dq0226l59.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",674,11
+8_1aNNyAdiscapacidadCUD_SS,TEMP_1wtq3ur1h9kn73117jbth1pdaiuj.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12989,22
+8_1aNNyAdiscapacidadCUD_SS,TEMP_1wtq3ur1h9kn73117jbth1pdaiuj.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",136,7
+8_1aNNyAdiscapacidadCUD_SS,TEMP_1wtq3ur1h9kn73117jbth1pdaiuj.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",1,7
+8_1aNNyAdiscapacidadCUD_SS,TEMP_1wtq3ur1h9kn73117jbth1pdaiuj.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+8_1aNNyAdiscapacidadCUD_SS,TEMP_1wtq3ur1h9kn73117jbth1pdaiuj.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+8_1aNNyAdiscapacidadCUD_SS,TEMP_1wtq3ur1h9kn73117jbth1pdaiuj.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+8_1aNNyAdiscapacidadCUD_SS,TEMP_1wtq3ur1h9kn73117jbth1pdaiuj.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",707,11
+8_1bNNyAdiscapacidadCaracteristicasCUD,TEMP_1gul0ud0sottr415k19n90zqgttf.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12485,22
+8_1bNNyAdiscapacidadCaracteristicasCUD,TEMP_1gul0ud0sottr415k19n90zqgttf.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",131,7
+8_1bNNyAdiscapacidadCaracteristicasCUD,TEMP_1gul0ud0sottr415k19n90zqgttf.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+8_1bNNyAdiscapacidadCaracteristicasCUD,TEMP_1gul0ud0sottr415k19n90zqgttf.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+8_1bNNyAdiscapacidadCaracteristicasCUD,TEMP_1gul0ud0sottr415k19n90zqgttf.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+8_1bNNyAdiscapacidadCaracteristicasCUD,TEMP_1gul0ud0sottr415k19n90zqgttf.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+8_1bNNyAdiscapacidadCaracteristicasCUD,TEMP_1gul0ud0sottr415k19n90zqgttf.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",674,11
+8_1cNNyAdiscapacidadCaracteristicasurbanos,TEMP_09vjj6r1cg7owe1gqt2cz0c08nst.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12485,22
+8_1cNNyAdiscapacidadCaracteristicasurbanos,TEMP_09vjj6r1cg7owe1gqt2cz0c08nst.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",131,7
+8_1cNNyAdiscapacidadCaracteristicasurbanos,TEMP_09vjj6r1cg7owe1gqt2cz0c08nst.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+8_1cNNyAdiscapacidadCaracteristicasurbanos,TEMP_09vjj6r1cg7owe1gqt2cz0c08nst.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+8_1cNNyAdiscapacidadCaracteristicasurbanos,TEMP_09vjj6r1cg7owe1gqt2cz0c08nst.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+8_1cNNyAdiscapacidadCaracteristicasurbanos,TEMP_09vjj6r1cg7owe1gqt2cz0c08nst.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+8_1cNNyAdiscapacidadCaracteristicasurbanos,TEMP_09vjj6r1cg7owe1gqt2cz0c08nst.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",674,11
+8_2NNyAindgenas,TEMP_0r111yo0dhk1mw1271hzb0a4ja4c.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",12729,22
+8_2NNyAindgenas,TEMP_0r111yo0dhk1mw1271hzb0a4ja4c.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",135,7
+8_2NNyAindgenas,TEMP_0r111yo0dhk1mw1271hzb0a4ja4c.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+8_2NNyAindgenas,TEMP_0r111yo0dhk1mw1271hzb0a4ja4c.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+8_2NNyAindgenas,TEMP_0r111yo0dhk1mw1271hzb0a4ja4c.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+8_2NNyAindgenas,TEMP_0r111yo0dhk1mw1271hzb0a4ja4c.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+8_2NNyAindgenas,TEMP_0r111yo0dhk1mw1271hzb0a4ja4c.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",696,11
+8_3aNNyAmigrantes_Losmigrantesenloscensosnacionales,TEMP_0t5lmcr0gr1g3a14dnr7a0zutyiq.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",14045,22
+8_3aNNyAmigrantes_Losmigrantesenloscensosnacionales,TEMP_0t5lmcr0gr1g3a14dnr7a0zutyiq.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",147,7
+8_3aNNyAmigrantes_Losmigrantesenloscensosnacionales,TEMP_0t5lmcr0gr1g3a14dnr7a0zutyiq.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+8_3aNNyAmigrantes_Losmigrantesenloscensosnacionales,TEMP_0t5lmcr0gr1g3a14dnr7a0zutyiq.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+8_3aNNyAmigrantes_Losmigrantesenloscensosnacionales,TEMP_0t5lmcr0gr1g3a14dnr7a0zutyiq.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+8_3aNNyAmigrantes_Losmigrantesenloscensosnacionales,TEMP_0t5lmcr0gr1g3a14dnr7a0zutyiq.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+8_3aNNyAmigrantes_Losmigrantesenloscensosnacionales,TEMP_0t5lmcr0gr1g3a14dnr7a0zutyiq.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",763,11
+8_3bNNyAmigrantes_Losmigrantesenlasreasurbanas,TEMP_00jpj5j1t405n0158ouxf0aj2799.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",14045,22
+8_3bNNyAmigrantes_Losmigrantesenlasreasurbanas,TEMP_00jpj5j1t405n0158ouxf0aj2799.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",147,7
+8_3bNNyAmigrantes_Losmigrantesenlasreasurbanas,TEMP_00jpj5j1t405n0158ouxf0aj2799.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+8_3bNNyAmigrantes_Losmigrantesenlasreasurbanas,TEMP_00jpj5j1t405n0158ouxf0aj2799.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+8_3bNNyAmigrantes_Losmigrantesenlasreasurbanas,TEMP_00jpj5j1t405n0158ouxf0aj2799.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+8_3bNNyAmigrantes_Losmigrantesenlasreasurbanas,TEMP_00jpj5j1t405n0158ouxf0aj2799.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+8_3bNNyAmigrantes_Losmigrantesenlasreasurbanas,TEMP_00jpj5j1t405n0158ouxf0aj2799.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",763,11
+8_3cNNyAmigrantes_Losmigrantesenlosregistrosadministrativos,TEMP_0qrlz2f14dahxl16uef4m0zximou.hyper,"""Extract""","""Extract"".""Datos_E76A2789C0C0403C8522440D998704F2""",14045,22
+8_3cNNyAmigrantes_Losmigrantesenlosregistrosadministrativos,TEMP_0qrlz2f14dahxl16uef4m0zximou.hyper,"""Extract""","""Extract"".""Grupos Indicadores_80F403D81C66448DB95D3484EA9601FB""",147,7
+8_3cNNyAmigrantes_Losmigrantesenlosregistrosadministrativos,TEMP_0qrlz2f14dahxl16uef4m0zximou.hyper,"""Extract""","""Extract"".""Tableros_4B7E936B713A46E09A688BE3B557C7FB""",2,7
+8_3cNNyAmigrantes_Losmigrantesenlosregistrosadministrativos,TEMP_0qrlz2f14dahxl16uef4m0zximou.hyper,"""Extract""","""Extract"".""provincia.shp_62D62B83F60E430CB2E4544483D1F16A""",24,10
+8_3cNNyAmigrantes_Losmigrantesenlosregistrosadministrativos,TEMP_0qrlz2f14dahxl16uef4m0zximou.hyper,"""Extract""","""Extract"".""Temas_1EB48C7DA90F40468E6E2140C9DFBF4E""",2,4
+8_3cNNyAmigrantes_Losmigrantesenlosregistrosadministrativos,TEMP_0qrlz2f14dahxl16uef4m0zximou.hyper,"""Extract""","""Extract"".""Configuracion_70F75B593A84437096A6459916C3B121""",1,12
+8_3cNNyAmigrantes_Losmigrantesenlosregistrosadministrativos,TEMP_0qrlz2f14dahxl16uef4m0zximou.hyper,"""Extract""","""Extract"".""Indicadores_F269C9F3A1A74D299CBC3D2526527AB4""",763,11

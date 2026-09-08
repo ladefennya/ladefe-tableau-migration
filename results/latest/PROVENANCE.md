@@ -1,6 +1,6 @@
 # Provenance
 
-- Workflow run: 34180503202
-- Source commit: 708ad083a18e6c2b2e81a5a42551f4416cef9422
-- Generated at (UTC): 2026-09-08T02:34:29Z
+- Workflow run: 34181187163
+- Source commit: 63ab90c2c7433c39f35a136783caa1b8d20e793e
+- Generated at (UTC): 2026-09-08T02:48:33Z
 - Full raw package: GitHub Actions artifact `ladefe-tableau-probe`
