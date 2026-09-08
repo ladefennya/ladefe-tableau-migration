@@ -23,21 +23,35 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Download and inspect Tableau workbooks
+      - name: Download and inspect all Tableau workbooks
         run: |
           rm -rf output
           python scripts/tableau_probe.py --config config/all_workbooks.csv --out output --sample-rows 25
 
-      - name: Show summary
+      - name: Analyze structural families and duplication
+        run: python scripts/analyze_inventory.py --out output
+
+      - name: Show summaries
         if: always()
-        run: cat output/SUMMARY.md || true
+        run: |
+          cat output/SUMMARY.md || true
+          cat output/SCALE_SUMMARY.md || true
 
       - name: Publish latest technical inventory in repository
         if: success()
         run: |
           rm -rf results/latest
           mkdir -p results/latest
-          cp             output/SUMMARY.md             output/report.json             output/workbooks.csv             output/worksheets.csv             output/dashboards.csv             output/fields.csv             output/filters.csv             output/parameters.csv             output/connections.csv             output/relations.csv             output/actions.csv             output/hyper_tables.csv             output/hyper_columns.csv             results/latest/
+          for file in \
+            SUMMARY.md SCALE_SUMMARY.md report.json \
+            workbooks.csv worksheets.csv dashboards.csv fields.csv filters.csv \
+            parameters.csv connections.csv relations.csv actions.csv \
+            hyper_tables.csv hyper_columns.csv hyper_files.csv \
+            workbook_signatures.csv families.csv \
+            duplicate_extracts.csv duplicate_samples.csv
+          do
+            cp "output/$file" results/latest/
+          done
 
           {
             echo "# Provenance"
