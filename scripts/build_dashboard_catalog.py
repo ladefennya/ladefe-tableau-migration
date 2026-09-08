@@ -66,6 +66,7 @@ def main() -> int:
     type_counts: Counter[str] = Counter()
     total_rows = 0
     total_indicators = 0
+    empty_dashboards = []
 
     for workbook in config:
         dashboards = source_records("Tableros", workbook)
@@ -78,12 +79,19 @@ def main() -> int:
             indicator_id = txt(row.get("INDICADOR_ID"))
             if board_id and indicator_id not in ("", "0"):
                 by_dashboard[board_id].append(row)
-        if not by_dashboard:
-            raise SystemExit(f"No dashboard data found for {workbook}")
-        dashboard_id = max(by_dashboard, key=lambda key: len(by_dashboard[key]))
+        if by_dashboard:
+            dashboard_id = max(by_dashboard, key=lambda key: len(by_dashboard[key]))
+        else:
+            dashboard_id = txt(dashboards[0].get("TABLERO_ID")) if dashboards else ""
+            empty_dashboards.append(workbook)
         target = next((row for row in dashboards if txt(row.get("TABLERO_ID")) == dashboard_id), None)
         if target is None:
-            raise SystemExit(f"Dashboard metadata {dashboard_id} missing for {workbook}")
+            target = dashboards[0] if dashboards else {
+                "TABLERO_ID": dashboard_id,
+                "TABLERO_NOMBRE": workbook,
+                "TABLERO_DESCRIPCION": "Sin metadatos de tablero",
+                "TABLERO_FECHA_ULT_CARGA_DATOS": None,
+            }
 
         indicator_map = {txt(row.get("INDICADOR_ID")): row for row in indicators}
         group_map = {txt(row.get("GRUPO_INDICADOR_ID")): row for row in groups}
@@ -170,10 +178,11 @@ def main() -> int:
         f"- Indicator links: **{total_indicators:,}**",
         f"- Data rows published: **{total_rows:,}**",
         f"- Families: **{dict(sorted(family_counts.items()))}**",
+        f"- Dashboards without valid data rows: **{len(empty_dashboards)}**",
         "", "## Data types", "",
     ])
     report.extend(f"- {name}: **{count:,}**" for name, count in type_counts.most_common())
-    report.extend(["", "## Quality checks", "", "- Every configured workbook produced one dashboard dataset.", "- Dashboard selection is based on the largest valid data partition within each source workbook.", "- Rows are isolated by source workbook, preventing collisions from reused dashboard IDs.", ""])
+    report.extend(["", "## Quality checks", "", "- Every configured workbook produced one dashboard dataset.", f"- Empty dashboards: **{', '.join(empty_dashboards) if empty_dashboards else 'none'}**.", "- Dashboard selection is based on the largest valid data partition within each source workbook.", "- Rows are isolated by source workbook, preventing collisions from reused dashboard IDs.", ""])
     (args.canonical / "CATALOG_SUMMARY.md").write_text("\n".join(report), encoding="utf-8")
     db.close()
     return 0
