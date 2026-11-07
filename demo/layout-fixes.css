@@ -11,11 +11,16 @@
   font-size:13px;
 }
 .map{
-  height:300px;
+  height:340px;
 }
+/* Borde gris: con el blanco, las provincias de la clase más clara (amarillo) y las Islas Malvinas
+   se perdían contra el fondo. */
 .province{
-  stroke:#fff;
-  stroke-width:1.15;
+  stroke:#6f8796;
+  stroke-width:.8;
+}
+.map-label{
+  font-size:10px;
 }
 .province:hover,.province:focus{
   opacity:.78;

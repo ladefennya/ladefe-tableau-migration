@@ -155,7 +155,7 @@ function drawLine(rows,indicator){
   const step=Math.max(1,Math.ceil(categories.length/7));categories.forEach((c,i)=>{if(i%step===0||i===categories.length-1)svg.insertAdjacentHTML("beforeend",'<text class="tick" x="'+sx(i)+'" y="'+(H-16)+'" text-anchor="middle">'+esc(c.label)+'</text>')});
 }
 
-async function ensureGeo(){if(state.geo)return state.geo;const response=await fetch("provincias.geojson");if(!response.ok)throw new Error("No se pudo cargar la geometría");return state.geo=await response.json()}
+async function ensureGeo(){if(state.geo)return state.geo;const response=await fetch("provincias.geojson");if(!response.ok)throw new Error("No se pudo cargar la geometría");const geo=await response.json();try{const inset=await fetch("antartida.geojson");if(inset.ok)state.inset=await inset.json()}catch(error){state.inset=null}return state.geo=geo}
 async function drawMap(source,indicator){
   const svg=$("mapChart"),selectionId=String(currentIndicator()?.id);svg.innerHTML='<text x="210" y="235" text-anchor="middle" class="tick">Cargando mapa…</text>';
   const years=unique(source,"year").map(Number).filter(Number.isFinite),requested=Number($("year").value),year=years.includes(requested)?requested:Math.max(...years),rows=source.filter(r=>Number(r.year)===year),byGeo=new Map(),ambiguous=[];
@@ -166,9 +166,17 @@ async function drawMap(source,indicator){
 function drawLegend(scale,hasMissing){
   $("mapLegend").innerHTML='<span class="legend-title">Intervalos</span>'+scale.ranges.map(range=>'<span class="legend-bin"><i style="background:'+range.color+'"></i><small>'+esc(fmt(range.from))+"–"+esc(fmt(range.to))+"</small></span>").join("")+(hasMissing?'<span class="legend-bin"><i style="background:'+MAP.MISSING+'"></i><small>Sin dato</small></span>':"");
 }
+function paintInset(values,svg,indicator,scale){
+  const inset=state.inset,feature=inset&&inset.features&&inset.features[0];if(!feature)return;
+  const box={x:432,y:240,w:122,h:222},project=MAP.insetProjector(inset,box),value=values.get(MAP.provinceKey(MAP.featureName(feature))),pole=project([-49.5,-90]),line=(a,b)=>{const p=project(a),q=project(b);return"M"+p[0].toFixed(1)+","+p[1].toFixed(1)+"L"+q[0].toFixed(1)+","+q[1].toFixed(1)};
+  const label="Antártida Argentina e Islas del Atlántico Sur (Tierra del Fuego): "+(Number.isFinite(value)?fmt(value)+" "+unitLabel(indicator):"sin dato");
+  svg.insertAdjacentHTML("beforeend",'<g class="map-inset"><rect x="'+box.x+'" y="'+box.y+'" width="'+box.w+'" height="'+box.h+'" rx="6" fill="#f7fafb" stroke="#c9d6dd"/><text class="tick" x="'+(box.x+8)+'" y="'+(box.y+15)+'" font-weight="700">Antártida Argentina</text><path d="'+line([-74,-60],[-74,-90])+line([-25,-60],[-25,-90])+'" stroke="#8aa1ae" stroke-width="0.8" stroke-dasharray="3 3" fill="none"/><path tabindex="0" role="img" aria-label="'+esc(label)+'" class="province" d="'+MAP.insetPath(feature,project)+'" fill="'+scale.color(value)+'"><title>'+esc(label)+'</title></path><text class="tick" x="'+pole[0].toFixed(0)+'" y="'+(pole[1]+11).toFixed(0)+'" text-anchor="middle" font-size="9">Polo Sur</text></g>');
+}
 function paintMap(values,svg,geo,indicator,scale,project){
   svg.innerHTML="";
   for(const feature of geo.features||[]){const name=MAP.featureName(feature),value=values.get(MAP.provinceKey(name)),d=MAP.pathForFeature(feature,project);if(d){const label=name+": "+(Number.isFinite(value)?fmt(value)+" "+unitLabel(indicator):"sin dato");svg.insertAdjacentHTML("beforeend",'<path tabindex="0" role="img" aria-label="'+esc(label)+'" class="province" d="'+d+'" fill="'+scale.color(value)+'"><title>'+esc(label)+'</title></path>')}}
+  const malvinas=project([-59.3,-52.55]);svg.insertAdjacentHTML("beforeend",'<text class="tick map-label" x="'+malvinas[0].toFixed(0)+'" y="'+(malvinas[1]+13).toFixed(0)+'" text-anchor="middle">Islas Malvinas</text>');
+  paintInset(values,svg,indicator,scale);
 }
 function drawRanking(values,indicator,labels,scale){const rows=[...values].filter(([,value])=>Number.isFinite(value)).map(([key,value])=>({name:labels.get(key)||key,value})).sort((a,b)=>b.value-a.value),max=Math.max(...rows.map(x=>Math.abs(x.value)),1);$("ranking").innerHTML=rows.map(x=>'<div class="rank"><span class="rank-name" title="'+esc(x.name)+'">'+esc(x.name)+'</span><span class="bar"><i style="width:'+Math.max(2,Math.abs(x.value)/max*100)+'%;background:'+scale.color(x.value)+'"></i></span><span class="rank-value">'+esc(fmt(x.value))+'</span></div>').join("");$("ranking").setAttribute("aria-label","Ranking provincial, "+unitLabel(indicator))}
 function drawTable(rows,indicator){$("rows").innerHTML=rows.slice(0,250).map(r=>'<tr><td>'+esc(r.geoName||"—")+'</td><td>'+esc(r.year||"—")+'</td><td>'+esc(r.month||"—")+'</td><td>'+esc([r.opening,r.mode1,r.mode2].filter(Boolean).join(" · ")||"—")+'</td><td class="num">'+esc(fmt(rowValue(r,indicator)))+'</td></tr>').join("")}

@@ -34,5 +34,16 @@
     const index=value=>!Number.isFinite(Number(value))?-1:span===0?Math.floor(colors.length/2):Math.min(colors.length-1,Math.floor((Number(value)-lo)/span*colors.length));
     return{lo,hi,colors,missing:MISSING,color:value=>{const i=index(value);return i<0?MISSING:colors[i]},ranges:colors.map((color,i)=>({color,from:span===0?lo:lo+span*i/colors.length,to:span===0?hi:lo+span*(i+1)/colors.length}))};
   }
-  return{PALETTE,MISSING,allowed,norm,provinceKey,featureName,rings,territoryLabel,rawAlbers,projector,pathForFeature,discreteScale};
+  // Recuadro bicontinental (Ley 26.651): proyección azimutal equidistante polar centrada en el meridiano
+  // medio del sector antártico argentino (25° a 74° O), con el Polo Sur abajo, ajustada a una caja.
+  function insetProjector(inset,box,lon0=-49.5,padding=8,header=22){
+    const polar=point=>{const r=90+point[1],t=radians(point[0]-lon0);return[r*Math.sin(t),-r*Math.cos(t)]};
+    const raw=[[-74,-53],[-25,-53],[-74,-90]].map(polar);
+    for(const feature of inset.features||[])for(const ring of rings(feature.geometry))for(const point of ring)raw.push(polar(point));
+    const xs=raw.map(p=>p[0]),ys=raw.map(p=>p[1]),minX=Math.min(...xs),maxX=Math.max(...xs),minY=Math.min(...ys),maxY=Math.max(...ys);
+    const scale=Math.min((box.w-padding*2)/(maxX-minX),(box.h-padding*2-header)/(maxY-minY)),offsetX=box.x+(box.w-(maxX-minX)*scale)/2,offsetY=box.y+header+padding;
+    return point=>{const p=polar(point);return[offsetX+(p[0]-minX)*scale,offsetY+(p[1]-minY)*scale]};
+  }
+  function insetPath(feature,project){let d="";for(const ring of rings(feature.geometry)){if(ring.length>2)d+=ring.map((p,index)=>{const q=project(p);return(index?"L":"M")+q[0].toFixed(1)+","+q[1].toFixed(1)}).join("")+"Z"}return d}
+  return{PALETTE,MISSING,allowed,norm,provinceKey,featureName,rings,territoryLabel,rawAlbers,projector,pathForFeature,discreteScale,insetProjector,insetPath};
 });
