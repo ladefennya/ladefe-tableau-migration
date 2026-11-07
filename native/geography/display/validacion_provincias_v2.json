@@ -232,6 +232,18 @@
       "vertices": 593
     }
   ],
+  "inset": {
+    "file": "antartida_recuadro.geojson",
+    "sha256": "d0d5ebce40d390363c3a65e1f5d6ece5f8a3ae67629dc6b3504a08898b8aaeb6",
+    "bytes": 31077,
+    "valid": true,
+    "parts_km2_epsg6933": {
+      "Península Antártica": 99316.6,
+      "Islas Orcadas del Sur": 387.1,
+      "Islas Georgias del Sur": 3510.6,
+      "Islas Sandwich del Sur": 149.7
+    }
+  },
   "failures": [],
   "status": "pass",
   "limitations": [

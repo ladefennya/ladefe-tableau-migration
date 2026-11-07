@@ -5,9 +5,10 @@
     "candidate": "dba8a16b1df42d4534c0b42ddc3d5cef7107e2027449a94c759e1ba4107adf72",
     "reconciliation": "c92704a9bcfb612efeb9f3973444719b6e54d1eac7b5972420c9819a4c352670",
     "geometry": "e65d82c0c92c6ebdb4e2e9c60531cabeb3697c1ebc29d48dc8947321c8a6b173",
-    "geometry_validation": "9881f1c3fe4e147b2ad6461ca1b35094ff91f6aacd02336e6d41489ebe38c86e"
+    "geometry_validation": "03fdb8e6273ed9018f9c2786e9270dca7c83af2fab79255e6e46222714273c6f",
+    "inset": "d0d5ebce40d390363c3a65e1f5d6ece5f8a3ae67629dc6b3504a08898b8aaeb6"
   },
-  "output_sha256": "ffb15ee4f5fc4224679939460d84f755fd5c004b3cfbc54dcec09aa86a8fc397",
+  "output_sha256": "a31c3ea50e9004d0599323eaf3f16c964991930fd9352929bd12708104ba1eb3",
   "observations": 4927,
   "status_counts": {
     "blocked_temporal_label_conflict": 15,

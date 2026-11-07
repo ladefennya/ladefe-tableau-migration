@@ -58,6 +58,7 @@ def main() -> None:
     parser.add_argument("--reconciliation", type=Path, required=True, help="reconciliation.json del adaptador")
     parser.add_argument("--geometry", type=Path, required=True, help="provincias_v2.geojson validado")
     parser.add_argument("--geometry-validation", type=Path, required=True)
+    parser.add_argument("--inset", type=Path, required=True, help="antartida_recuadro_v1.geojson (mapa bicontinental)")
     parser.add_argument("--out", type=Path, required=True)
     args = parser.parse_args()
 
@@ -70,6 +71,10 @@ def main() -> None:
         raise SystemExit("La geometría no pasó la validación: el piloto no se prepara con un mapa defectuoso.")
     if geo_validation.get("display_sha256") != sha256(args.geometry):
         raise SystemExit("La validación no corresponde a este archivo de geometría.")
+    inset_validation = geo_validation.get("inset") or {}
+    if inset_validation.get("sha256") != sha256(args.inset):
+        raise SystemExit("El recuadro antártico no corresponde a la validación: el mapa bicontinental no se prepara.")
+    inset = json.loads(args.inset.read_text(encoding="utf-8"))
 
     # Un mismo valor de la fuente puede aparecer en más de una vista de Tableau (p. ej. el total
     # nacional 2024-2025 está en la serie D.5 y en el gráfico por grado D.1). La verificación es por
@@ -148,12 +153,14 @@ def main() -> None:
         "rowFields": ["level", "grade", "structure", "geo", "period", "value", "officialDisplay", "tableauChecks[indicator, status, tableauValue, tableauLabel]"],
         "observations": observations,
         "geometry": geometry,
+        "inset": inset,
         "geometryCheck": {
             "sha256": geo_validation["display_sha256"],
             "invalid": geo_validation["invalid_features"],
             "overlaps": len(geo_validation["overlaps_over_0_01_km2"]),
             "maxAreaDriftPct": geo_validation["max_abs_area_drift_pct"],
             "malvinasKm2": geo_validation["malvinas_km2_epsg6933"],
+            "insetParts": inset_validation["parts_km2_epsg6933"],
         },
         "summary": {
             "observations": len(observations),
@@ -173,6 +180,7 @@ def main() -> None:
             "reconciliation": sha256(args.reconciliation),
             "geometry": sha256(args.geometry),
             "geometry_validation": sha256(args.geometry_validation),
+            "inset": sha256(args.inset),
         },
         "output_sha256": sha256(args.out),
         "observations": len(observations),

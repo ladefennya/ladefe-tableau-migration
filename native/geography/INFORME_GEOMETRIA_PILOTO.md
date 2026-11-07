@@ -25,6 +25,6 @@ Detalle completo: `display/validacion_provincias_demo_actual.json` y `display/va
 ## Límites
 
 - Las áreas se calculan en EPSG:6933 con fines de diagnóstico; no son superficies oficiales.
-- El marco no incluye el sector antártico ni las islas Georgias y Sandwich del Sur. Para un mapa oficial bicontinental hace falta un recuadro adicional; queda como decisión de La Defe.
+- El sector antártico argentino y las islas Georgias, Sandwich y Orcadas del Sur van en un recuadro aparte (`display/antartida_recuadro_v1.geojson`, 31 KB), en proyección polar, para cumplir con el mapa bicontinental (Ley 26.651). El validador exige que estén las cuatro partes.
 - No reemplaza la validación cartográfica oficial ni la revisión visual de un responsable.
 - La descarga IGN original (111 MB) no se versiona en Git: está en la entrega `LADEFE_refinamiento_ronda2_evidencias_2026-11-06` del PR #3.

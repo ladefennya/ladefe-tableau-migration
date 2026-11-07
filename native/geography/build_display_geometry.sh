@@ -42,6 +42,14 @@ $MAPSHAPER -i "$SRC" snap -clip bbox="$FRAME" -clean -filter-fields in1,nam,fna 
 $MAPSHAPER -i "$SRC" snap -clip bbox="$FRAME" -simplify "$SIMPLIFY" weighted keep-shapes -clean \
   -filter-fields in1,nam,fna -o "$OUT/provincias.geojson" precision=0.001
 
+# Recuadro bicontinental (Ley 26.651): sector antártico argentino e islas del Atlántico Sur que quedan
+# fuera del marco continental (Georgias, Sandwich y Orcadas del Sur). Las Malvinas ya están en el mapa
+# principal. Resolución baja: se dibuja en un recuadro chico.
+$MAPSHAPER -i "$SRC" -filter 'in1=="94"' -clip bbox=-74.5,-90,-20,-53 -erase bbox="$FRAME" \
+  -filter-islands min-area=20km2 -simplify 0.06% weighted keep-shapes -clean \
+  -filter-fields in1,nam,fna -o "$OUT/antartida_recuadro.geojson" precision=0.01
+
 python "$(dirname "$0")/validate_display_geometry.py" \
+  --inset "$OUT/antartida_recuadro.geojson" \
   --display "$OUT/provincias.geojson" --reference "$OUT/referencia_recortada.geojson" \
   --out "$OUT/validacion_geometria.json"

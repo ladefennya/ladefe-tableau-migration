@@ -53,6 +53,22 @@ class PayloadTests(unittest.TestCase):
         self.assertGreater(g["malvinasKm2"], 10_000)
 
 
+class BicontinentalTests(unittest.TestCase):
+    def test_recuadro_antartico_presente_y_validado(self):
+        inset = PAYLOAD["inset"]["features"]
+        self.assertEqual(len(inset), 1)
+        self.assertEqual(inset[0]["properties"]["in1"], "94")
+        parts = PAYLOAD["geometryCheck"]["insetParts"]
+        for name in ("Península Antártica", "Islas Orcadas del Sur", "Islas Georgias del Sur", "Islas Sandwich del Sur"):
+            self.assertGreater(parts[name], 0, name)
+
+    def test_plantilla_dibuja_recuadro_y_malvinas(self):
+        html = (HERE / "pilot_template.html").read_text(encoding="utf-8")
+        self.assertIn("insetSVG(", html)
+        self.assertIn("Islas Malvinas", html)
+        self.assertIn("Antártida Argentina", html)
+
+
 class RoundingTests(unittest.TestCase):
     def test_half_up_decimal(self):
         self.assertEqual(round1(8.0471945354), 8.0)  # el caso del doble redondeo: el valor exacto da 8,0

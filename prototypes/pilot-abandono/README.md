@@ -39,7 +39,7 @@ La sección de promoción efectiva (C.1 a C.5) queda para la próxima iteración
 1. Rótulo del ciclo en D.1/D.3: confirmar que corresponde a 2024-2025 (como dice la planilla) y no a 2023/2024.
 2. Tratamiento de los abandonos negativos en la presentación pública.
 3. Si se amplía el alcance respecto de Tableau (13 ciclos por provincia, grados por provincia) o se mantiene el recorte original.
-4. Mapa bicontinental: esta vista muestra el continente y las Malvinas; el sector antártico no se representa. Definir si se agrega un recuadro.
+4. Mapa bicontinental: incluido por defecto (continente, Malvinas y recuadro con el sector antártico e islas del Atlántico Sur). Confirmar que el formato del recuadro es el adecuado.
 
 ## Reconstruir
 
@@ -49,6 +49,7 @@ python prototypes/pilot-abandono/prepare_pilot.py \
   --reconciliation /ruta/educacion/reconciliation.json \
   --geometry native/geography/display/provincias_v2.geojson \
   --geometry-validation native/geography/display/validacion_provincias_v2.json \
+  --inset native/geography/display/antartida_recuadro_v1.geojson \
   --out prototypes/pilot-abandono/pilot_data.json
 
 python prototypes/pilot-abandono/build_pilot.py \

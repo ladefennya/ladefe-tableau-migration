@@ -74,11 +74,50 @@ def load(path: Path):
     return out
 
 
+INSET_PARTS = {
+    # Superficie mínima (km² en EPSG:6933) que debe conservar cada parte del recuadro.
+    "Península Antártica": ((-70, -70, -55, -63), 50_000),
+    "Islas Orcadas del Sur": ((-47, -61.2, -44, -60.3), 200),
+    "Islas Georgias del Sur": ((-38.5, -55, -35.5, -53.9), 2_500),
+    "Islas Sandwich del Sur": ((-28, -59.6, -26, -56.2), 100),
+}
+INSET_MAX_BYTES = 60_000
+
+
+def check_inset(path: Path) -> dict:
+    data = json.loads(path.read_text(encoding="utf-8"))
+    failures = []
+    features = data.get("features", [])
+    if len(features) != 1 or str(features[0]["properties"].get("in1")) != "94":
+        failures.append("El recuadro debe tener un único elemento: Tierra del Fuego, Antártida e Islas del Atlántico Sur (in1 94)")
+        return {"failures": failures}
+    geom = shape(features[0]["geometry"])
+    if not geom.is_valid:
+        failures.append(f"Recuadro inválido ({explain_validity(geom)})")
+    lon_min, lat_min, lon_max, lat_max = geom.bounds
+    if lon_min < -74.01 or lon_max > -24.99 or lat_max > -53:
+        failures.append(f"El recuadro excede el sector antártico argentino y las islas del Atlántico Sur: {geom.bounds}")
+    parts = {}
+    for name, (bbox, min_km2) in INSET_PARTS.items():
+        km2 = transform(TO_EQUAL_AREA, shapely.make_valid(geom).intersection(box(*bbox))).area / 1e6
+        parts[name] = round(km2, 1)
+        if km2 < min_km2:
+            failures.append(f"Recuadro: falta o está incompleta la parte {name} ({km2:.0f} km²)")
+    size = path.stat().st_size
+    if size > INSET_MAX_BYTES:
+        failures.append(f"Recuadro de {size:,} bytes > {INSET_MAX_BYTES:,}")
+    return {
+        "file": path.name, "sha256": hashlib.sha256(path.read_bytes()).hexdigest(), "bytes": size,
+        "valid": geom.is_valid, "parts_km2_epsg6933": parts, "failures": failures,
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--display", type=Path, required=True)
     parser.add_argument("--reference", type=Path, required=True)
     parser.add_argument("--out", type=Path, required=True)
+    parser.add_argument("--inset", type=Path, help="Recuadro bicontinental (sector antártico e islas del Atlántico Sur)")
     args = parser.parse_args()
 
     display, reference = load(args.display), load(args.reference)
@@ -131,6 +170,11 @@ def main() -> int:
     if malvinas_km2 < 10_000:  # superficie aproximada ~12.000 km²
         failures.append(f"Islas Malvinas ausentes o incompletas en Tierra del Fuego ({malvinas_km2:.0f} km²)")
 
+    inset_check = None
+    if args.inset:
+        inset_check = check_inset(args.inset)
+        failures.extend(inset_check.pop("failures"))
+
     size = args.display.stat().st_size
     if size > MAX_BYTES:
         failures.append(f"Archivo de {size:,} bytes > {MAX_BYTES:,}")
@@ -152,6 +196,7 @@ def main() -> int:
         "max_abs_area_drift_pct": max(abs(f["area_drift_pct"]) for f in features),
         "malvinas_km2_epsg6933": round(malvinas_km2, 1),
         "features": features,
+        "inset": inset_check,
         "failures": failures,
         "status": "pass" if not failures else "fail",
         "limitations": [
