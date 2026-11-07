@@ -1,0 +1,242 @@
+{
+  "display": "provincias.geojson",
+  "display_sha256": "e65d82c0c92c6ebdb4e2e9c60531cabeb3697c1ebc29d48dc8947321c8a6b173",
+  "reference_sha256": "d1f148261a4140366b576759e470adae41e9c2ffda6fcac4deef9f60daca27b8",
+  "bytes": 117767,
+  "criteria": {
+    "max_overlap_km2_per_pair": 1.0,
+    "max_area_drift_pct": 3.0,
+    "max_area_drift_pct_caba": 6.0,
+    "max_bytes": 250000,
+    "malvinas_min_km2": 10000
+  },
+  "invalid_features": 0,
+  "overlaps_over_0_01_km2": [],
+  "max_abs_area_drift_pct": 1.159,
+  "malvinas_km2_epsg6933": 11815.7,
+  "features": [
+    {
+      "in1": "02",
+      "name": "Ciudad Autónoma de Buenos Aires",
+      "valid": true,
+      "area_km2_epsg6933": 208.0,
+      "reference_area_km2_epsg6933": 205.6,
+      "area_drift_pct": 1.159,
+      "vertices": 12
+    },
+    {
+      "in1": "06",
+      "name": "Buenos Aires",
+      "valid": true,
+      "area_km2_epsg6933": 305870.5,
+      "reference_area_km2_epsg6933": 306063.2,
+      "area_drift_pct": -0.063,
+      "vertices": 354
+    },
+    {
+      "in1": "10",
+      "name": "Catamarca",
+      "valid": true,
+      "area_km2_epsg6933": 101498.2,
+      "reference_area_km2_epsg6933": 101489.2,
+      "area_drift_pct": 0.009,
+      "vertices": 264
+    },
+    {
+      "in1": "14",
+      "name": "Córdoba",
+      "valid": true,
+      "area_km2_epsg6933": 164664.4,
+      "reference_area_km2_epsg6933": 164670.4,
+      "area_drift_pct": -0.004,
+      "vertices": 134
+    },
+    {
+      "in1": "18",
+      "name": "Corrientes",
+      "valid": true,
+      "area_km2_epsg6933": 89062.5,
+      "reference_area_km2_epsg6933": 89125.5,
+      "area_drift_pct": -0.071,
+      "vertices": 377
+    },
+    {
+      "in1": "22",
+      "name": "Chaco",
+      "valid": true,
+      "area_km2_epsg6933": 99794.5,
+      "reference_area_km2_epsg6933": 99774.8,
+      "area_drift_pct": 0.02,
+      "vertices": 185
+    },
+    {
+      "in1": "26",
+      "name": "Chubut",
+      "valid": true,
+      "area_km2_epsg6933": 224280.4,
+      "reference_area_km2_epsg6933": 224316.8,
+      "area_drift_pct": -0.016,
+      "vertices": 374
+    },
+    {
+      "in1": "30",
+      "name": "Entre Ríos",
+      "valid": true,
+      "area_km2_epsg6933": 78397.9,
+      "reference_area_km2_epsg6933": 78393.5,
+      "area_drift_pct": 0.006,
+      "vertices": 314
+    },
+    {
+      "in1": "34",
+      "name": "Formosa",
+      "valid": true,
+      "area_km2_epsg6933": 75473.5,
+      "reference_area_km2_epsg6933": 75478.2,
+      "area_drift_pct": -0.006,
+      "vertices": 316
+    },
+    {
+      "in1": "38",
+      "name": "Jujuy",
+      "valid": true,
+      "area_km2_epsg6933": 53248.8,
+      "reference_area_km2_epsg6933": 53240.5,
+      "area_drift_pct": 0.015,
+      "vertices": 201
+    },
+    {
+      "in1": "42",
+      "name": "La Pampa",
+      "valid": true,
+      "area_km2_epsg6933": 143221.2,
+      "reference_area_km2_epsg6933": 143211.0,
+      "area_drift_pct": 0.007,
+      "vertices": 142
+    },
+    {
+      "in1": "46",
+      "name": "La Rioja",
+      "valid": true,
+      "area_km2_epsg6933": 91419.5,
+      "reference_area_km2_epsg6933": 91414.4,
+      "area_drift_pct": 0.006,
+      "vertices": 193
+    },
+    {
+      "in1": "50",
+      "name": "Mendoza",
+      "valid": true,
+      "area_km2_epsg6933": 149074.2,
+      "reference_area_km2_epsg6933": 149088.9,
+      "area_drift_pct": -0.01,
+      "vertices": 333
+    },
+    {
+      "in1": "54",
+      "name": "Misiones",
+      "valid": true,
+      "area_km2_epsg6933": 29942.7,
+      "reference_area_km2_epsg6933": 29909.9,
+      "area_drift_pct": 0.11,
+      "vertices": 233
+    },
+    {
+      "in1": "58",
+      "name": "Neuquén",
+      "valid": true,
+      "area_km2_epsg6933": 94312.6,
+      "reference_area_km2_epsg6933": 94367.3,
+      "area_drift_pct": -0.058,
+      "vertices": 338
+    },
+    {
+      "in1": "62",
+      "name": "Río Negro",
+      "valid": true,
+      "area_km2_epsg6933": 202281.9,
+      "reference_area_km2_epsg6933": 202227.3,
+      "area_drift_pct": 0.027,
+      "vertices": 330
+    },
+    {
+      "in1": "66",
+      "name": "Salta",
+      "valid": true,
+      "area_km2_epsg6933": 155361.0,
+      "reference_area_km2_epsg6933": 155368.7,
+      "area_drift_pct": -0.005,
+      "vertices": 377
+    },
+    {
+      "in1": "70",
+      "name": "San Juan",
+      "valid": true,
+      "area_km2_epsg6933": 88341.8,
+      "reference_area_km2_epsg6933": 88371.2,
+      "area_drift_pct": -0.033,
+      "vertices": 299
+    },
+    {
+      "in1": "74",
+      "name": "San Luis",
+      "valid": true,
+      "area_km2_epsg6933": 75555.4,
+      "reference_area_km2_epsg6933": 75563.7,
+      "area_drift_pct": -0.011,
+      "vertices": 169
+    },
+    {
+      "in1": "78",
+      "name": "Santa Cruz",
+      "valid": true,
+      "area_km2_epsg6933": 244526.6,
+      "reference_area_km2_epsg6933": 244462.6,
+      "area_drift_pct": 0.026,
+      "vertices": 431
+    },
+    {
+      "in1": "82",
+      "name": "Santa Fe",
+      "valid": true,
+      "area_km2_epsg6933": 133299.4,
+      "reference_area_km2_epsg6933": 133292.3,
+      "area_drift_pct": 0.005,
+      "vertices": 207
+    },
+    {
+      "in1": "86",
+      "name": "Santiago del Estero",
+      "valid": true,
+      "area_km2_epsg6933": 137000.9,
+      "reference_area_km2_epsg6933": 136990.2,
+      "area_drift_pct": 0.008,
+      "vertices": 130
+    },
+    {
+      "in1": "90",
+      "name": "Tucumán",
+      "valid": true,
+      "area_km2_epsg6933": 22587.9,
+      "reference_area_km2_epsg6933": 22598.5,
+      "area_drift_pct": -0.047,
+      "vertices": 123
+    },
+    {
+      "in1": "94",
+      "name": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "valid": true,
+      "area_km2_epsg6933": 32480.6,
+      "reference_area_km2_epsg6933": 32820.4,
+      "area_drift_pct": -1.035,
+      "vertices": 593
+    }
+  ],
+  "failures": [],
+  "status": "pass",
+  "limitations": [
+    "Áreas en EPSG:6933 con fines diagnósticos; no son superficies oficiales.",
+    "La referencia es la descarga IGN recortada al marco continental + Malvinas; no incluye el sector antártico ni Georgias/Sandwich del Sur.",
+    "No reemplaza la revisión visual ni la validación cartográfica oficial."
+  ]
+}

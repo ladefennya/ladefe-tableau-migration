@@ -1,0 +1,17 @@
+{
+  "status": "prepared_candidate_not_approved",
+  "network_requests_required": false,
+  "inputs_sha256": {
+    "candidate": "dba8a16b1df42d4534c0b42ddc3d5cef7107e2027449a94c759e1ba4107adf72",
+    "reconciliation": "c92704a9bcfb612efeb9f3973444719b6e54d1eac7b5972420c9819a4c352670",
+    "geometry": "e65d82c0c92c6ebdb4e2e9c60531cabeb3697c1ebc29d48dc8947321c8a6b173",
+    "geometry_validation": "9881f1c3fe4e147b2ad6461ca1b35094ff91f6aacd02336e6d41489ebe38c86e"
+  },
+  "output_sha256": "ffb15ee4f5fc4224679939460d84f755fd5c004b3cfbc54dcec09aa86a8fc397",
+  "observations": 4927,
+  "status_counts": {
+    "blocked_temporal_label_conflict": 15,
+    "matched_at_one_decimal": 69,
+    "compatible_with_double_rounding": 1
+  }
+}

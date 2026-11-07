@@ -1,0 +1,11 @@
+{
+  "entrypoint": "index.html",
+  "external_dependencies": [],
+  "network_requests_required": false,
+  "html_sha256": "0623e29926b8937b4e6e1cf3a2b4482a304399a026920ee6d3639d78060e2fea",
+  "inputs_sha256": {
+    "payload": "ffb15ee4f5fc4224679939460d84f755fd5c004b3cfbc54dcec09aa86a8fc397",
+    "template": "d3d1494ba8916791652a0ee989e8c97f8d0b44da1bd69943050abd2d0f2d5936"
+  },
+  "approval_status": "pilot_candidate_not_approved"
+}
