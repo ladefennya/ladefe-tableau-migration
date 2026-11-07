@@ -1,0 +1,17 @@
+﻿workbook,tema,denominador_o_universo,actualizacion,limites_y_estado
+4_2aNatalidad,Nacimientos y natalidad,Nacidos vivos; población total compatible,Anual,Total nacional 2024 contrastado; tasas requieren población y serie 1998 para índice
+4_2bNatalidadNacidosvivos,Peso y gestación,Nacidos vivos de peso/gestación conocidos según medida,Anual,48 componentes contrastados; aprobación de ficha denominador pendiente
+4_2cNatalidadMadreyparto,Madres y parto,Nacidos vivos elegibles para cada variable,Anual,Grupos de edad materna no separan siempre cortes exactos; parto/gestación/conocidos
+4_3aMortalidadinfantilTasas,Infantil/neonatal/postneonatal,Nacidos vivos del año y residencia,Anual,72 componentes provinciales 2024 contrastados; no repartir edad infantil NS
+4_3bMortalidadinfantilCaractersticas,Causas y edad infantil,Defunciones infantiles según causa o grupo,Anual,"Código causa3 caracteres; respetar subconjunto y edades, clasificaciones versionadas"
+4_3cMortalidadMaterna,Mortalidad materna anual y trianual,Nacidos vivos anual/trienio; causas maternas según definición,Anual/trienio,No sumar M y T automáticamente; 2022–24 no comparable con único año2024
+4_4aMortalidadNNyATasa,Mortalidad1–19,Población edad/sexo/jurisdicción,Anual,No confundir1–19 con0–17; denominador no incluido en CSV
+4_4bMortalidadNNyACausas,Causas1–19,Defunciones1–19 o población según indicador,Anual,"Grupos1año,2,3,4,5–9,10–14,15–19 disponibles; clasificación CIE aprobada"
+7_1SaludsexualyreproductivaFecundidadadolescente,Fecundidad y maternidad adolescente,Población femenina grupos compatibles o nacidos vivos según medida,Anual,Menor15 no se asume10–14; cambio de proyecciones altera tasas
+7_3aMortalidadadolescenteTasas,Mortalidad10–19,Población10–14/15–19 por sexo y provincia,Anual,No derivar15–17 de15–19; población y factor10000 explícitos
+7_3bMortalidadadolescenteCausas,Causas adolescentes,Defunciones adolescentes o población según medida,Anual,No mezclar proporción de causas con tasa específica
+7_3cMortalidadadolescenteCausasexternas,Causas externas adolescentes,Defunciones externas o población compatible,Anual,Versionar agrupación CIE10; códigos3 caracteres limitan algunas subcausas
+7_3dMortalidadadolescenteAccidentes,Accidentes adolescentes,Defunciones accidentales o población compatible,Anual,Accidente vs intención no determinada; ninguna reasignación automática
+7_3eMortalidadadolescenteSuicidios,Suicidios adolescentes,Población edad/sexo para tasas; defunciones para proporciones,Anual,X60–X84 no sustituye automáticamente toda ficha de suicidio/secuela; estabilidad eventos raros
+4_2dNatalidadLactancia,Lactancia ENNyS2,Población de encuesta por módulo y ponderador,Nueva edición de encuesta,No actualizar anualmente por simple metadato ni provincializar fuera del diseño
+4_6Nutricin,Nutrición ENNyS2,Población encuestada por edad/dominio y ponderador,Nueva edición de encuesta,"Medidas antropométricas, puntos de corte y dominios; encuesta no equivale a registro anual"

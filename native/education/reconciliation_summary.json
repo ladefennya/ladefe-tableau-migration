@@ -1,0 +1,12 @@
+{
+  "reference_rows": 85,
+  "matches_at_one_decimal": 84,
+  "label_conflicts": 15,
+  "status_counts": {
+    "different_value": 1,
+    "blocked_temporal_label_conflict": 15,
+    "matched_at_one_decimal": 69
+  },
+  "source_sha256": "18911b578fd943d3fa45fd37b5bd23d40f05543e2a0f4db325e239458c044204",
+  "release_status": "candidate_not_approved"
+}

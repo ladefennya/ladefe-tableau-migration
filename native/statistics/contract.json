@@ -1,0 +1,90 @@
+{
+  "version": "0.1.0-proposed",
+  "status": "requires_thematic_approval",
+  "raw_data_mutation": false,
+  "publication_gate": {
+    "require": [
+      "technical_validation",
+      "explicit_population_and_grain",
+      "reference_period_resolution",
+      "view_calculation_approval",
+      "source_equivalence",
+      "tableau_rendered_equivalence",
+      "thematic_approval"
+    ],
+    "never_infer": [
+      "companion_indicator",
+      "future_year_is_forecast",
+      "missing_geography_is_zero",
+      "percentage_code_implies_share"
+    ]
+  },
+  "temporal_rules": [
+    {
+      "workbook": "4_1Coberturadesalud",
+      "indicator_id": "789",
+      "view": "APERTURA",
+      "raw_year_role": "unresolved_source_attribute",
+      "reference_period_candidate": "MODALIDAD_APERTURA_NIVEL_2 when APERTURA_NIVEL_2 == Año Censal",
+      "state": "proposal_not_approved",
+      "block": [
+        "temporal_axis",
+        "statistical_period_filter"
+      ],
+      "preserve": [
+        "source_json",
+        "raw_year",
+        "raw_value"
+      ]
+    },
+    {
+      "workbook": "3_2eEstablecimientosEntregadealimentos",
+      "indicator_id": "465",
+      "view": "APERTURA",
+      "reference_period_candidate": null,
+      "state": "requires_primary_table_and_cutoff_confirmation",
+      "block": [
+        "temporal_axis",
+        "statistical_period_filter"
+      ],
+      "preserve": [
+        "source_json",
+        "raw_year",
+        "raw_value"
+      ]
+    }
+  ],
+  "aggregation_rules": {
+    "direct_value": {
+      "require": "one semantically unique observation per rendered mark; otherwise explicit approved rule"
+    },
+    "ratio_of_sums": {
+      "require": [
+        "eligible_denominator",
+        "compatible_universe",
+        "additive_disjoint_numerators",
+        "additive_or_deduplicated_denominators",
+        "nonzero_denominator"
+      ]
+    },
+    "tableau_AVG": {
+      "policy": "reproduce validated level of detail only; no implicit population aggregation"
+    },
+    "rounding": {
+      "share_partition_one_decimal_max_error_pp": "0.05 * category_count",
+      "apply_only_when": "exhaustive mutually exclusive categories, same universe and rounding precision"
+    }
+  },
+  "survey_rules": [
+    "EPH and EPHU are not interchangeable",
+    "domain must support geography and age",
+    "estimate precision not inferred from magnitude",
+    "no significance claim from difference alone"
+  ],
+  "denominator_rules": [
+    "measure-specific eligibility",
+    "unknown handling explicit",
+    "preserve total, eligible and unknown counts when available",
+    "parser defects investigated before source defects"
+  ]
+}

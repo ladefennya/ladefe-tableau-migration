@@ -1,0 +1,9 @@
+{
+  "url": "https://www.indec.gob.ar/ftp/cuadros/menusuperior/eahu/EPH_Tot_Urbano_3T_2025.zip",
+  "sha256": "0f8dd5c85d66f219ee20c92751795f654d6d213c478197dc982bfdb9563b7dbe",
+  "bytes": 4920375,
+  "files": [
+    "hogares_tot.urb_3T_2025.txt",
+    "personas_tot.urb_3T_2025.txt"
+  ]
+}

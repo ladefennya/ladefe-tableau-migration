@@ -30,8 +30,12 @@
   }
   function pathForFeature(feature,project){let d="";for(const ring of rings(feature.geometry)){const points=ring.filter(allowed).map(project);if(points.length>2)d+=points.map((p,index)=>(index?"L":"M")+p[0].toFixed(1)+","+p[1].toFixed(1)).join("")+"Z"}return d}
   function discreteScale(values,colors=PALETTE){
-    const nums=values.map(Number).filter(Number.isFinite),lo=Math.min(...nums),hi=Math.max(...nums),span=hi-lo;
-    const index=value=>!Number.isFinite(Number(value))?-1:span===0?Math.floor(colors.length/2):Math.min(colors.length-1,Math.floor((Number(value)-lo)/span*colors.length));
+    // Missing is a state, not the numeric zero. Preserve genuine zero and negatives.
+    const numeric=value=>value===null||value===undefined||typeof value==="boolean"||(typeof value==="string"&&!value.trim())?null:Number.isFinite(Number(value))?Number(value):null;
+    const nums=values.map(numeric).filter(value=>value!==null);
+    if(!nums.length)return{lo:null,hi:null,colors,missing:MISSING,color:()=>MISSING,ranges:[]};
+    const lo=Math.min(...nums),hi=Math.max(...nums),span=hi-lo;
+    const index=value=>{const n=numeric(value);return n===null?-1:span===0?Math.floor(colors.length/2):Math.max(0,Math.min(colors.length-1,Math.floor((n-lo)/span*colors.length)))};
     return{lo,hi,colors,missing:MISSING,color:value=>{const i=index(value);return i<0?MISSING:colors[i]},ranges:colors.map((color,i)=>({color,from:span===0?lo:lo+span*i/colors.length,to:span===0?hi:lo+span*(i+1)/colors.length}))};
   }
   return{PALETTE,MISSING,allowed,norm,provinceKey,featureName,rings,territoryLabel,rawAlbers,projector,pathForFeature,discreteScale};

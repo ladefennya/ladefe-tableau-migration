@@ -1,0 +1,22 @@
+{
+  "year": 2024,
+  "birth_source_rows": 21966,
+  "death_source_rows": 54251,
+  "births_all_codes": 413135,
+  "deaths_all_codes": 376405,
+  "infant_deaths_all_codes": 3513,
+  "province_codes": 26,
+  "map_provinces": 24,
+  "nonmap_codes": [
+    "98",
+    "99"
+  ],
+  "comparison_cases": 121,
+  "exact_component_matches": 121,
+  "differences": 0,
+  "status": "candidate_not_published",
+  "sha256": {
+    "births": "ac0ac5ff8794f73c57a02b494b97401431ce901d4f5f0a5df877f372da9d85d2",
+    "deaths": "9b31baa9fb577f7c95fd5b159695a1b970fa2a2b1811f5cd5015cd03370bae5a"
+  }
+}
