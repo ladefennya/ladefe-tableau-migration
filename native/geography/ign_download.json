@@ -1,0 +1,7 @@
+{
+  "url": "https://wms.ign.gob.ar/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=ign%3Aprovincia&outputFormat=application%2Fjson&srsName=EPSG%3A4326",
+  "http": 200,
+  "bytes": 111718447,
+  "sha256": "9afccbbc3862d7943d9f6d83ace934f16f716eb78fb3abe1a0ad058da3c0dccc",
+  "features": 24
+}

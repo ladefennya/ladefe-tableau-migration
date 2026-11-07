@@ -1,0 +1,17 @@
+{
+  "raw_json_bytes": 26612649,
+  "gzip_bytes": 7277963,
+  "json_sha256": "9f464aa1e10d47388f1fdebc42b64eec15d6411dee60b770038f96dffb65c6e3",
+  "original_sha256": "9afccbbc3862d7943d9f6d83ace934f16f716eb78fb3abe1a0ad058da3c0dccc",
+  "feature_count": 24,
+  "all_valid_geos": true,
+  "frame": [
+    -74.5,
+    -56,
+    -52.5,
+    -20
+  ],
+  "simplification": null,
+  "changes": "intersection with explicitly existing display frame; source codes retained; no boundary repair",
+  "status": "reference_for_validation; no UI performance or visual approval; not a web release"
+}

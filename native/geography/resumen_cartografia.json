@@ -1,0 +1,377 @@
+{
+  "boards": 71,
+  "indicator_links": 764,
+  "map_boards": 51,
+  "latent_only_boards": 0,
+  "map_indicator_links": 171,
+  "latent_only_indicator_links": 8,
+  "map_rows": 4065,
+  "map_slices": 171,
+  "complete_slices": 154,
+  "incomplete_slices": 17,
+  "nonmap_candidate_rows": 184,
+  "geo_feature_count": 24,
+  "geo_numeric_checks": [
+    {
+      "name": "Ciudad Autónoma de Buenos Aires",
+      "candidate_code": "02",
+      "rings": 1,
+      "points": 5,
+      "bbox": [
+        -58.53151211,
+        -34.70541232,
+        -58.3351458,
+        -34.52776288
+      ],
+      "unclosed_rings": 0,
+      "rings_under_4_points": 0,
+      "nonfinite_coordinates": 0
+    },
+    {
+      "name": "San Luis",
+      "candidate_code": "74",
+      "rings": 1,
+      "points": 26,
+      "bbox": [
+        -67.38197033,
+        -36.00059326,
+        -64.90946221,
+        -31.85605263
+      ],
+      "unclosed_rings": 0,
+      "rings_under_4_points": 0,
+      "nonfinite_coordinates": 0
+    },
+    {
+      "name": "Santa Fe",
+      "candidate_code": "82",
+      "rings": 1,
+      "points": 39,
+      "bbox": [
+        -62.88390871,
+        -34.38654977,
+        -58.88400467,
+        -27.99800094
+      ],
+      "unclosed_rings": 0,
+      "rings_under_4_points": 0,
+      "nonfinite_coordinates": 0
+    },
+    {
+      "name": "Tucumán",
+      "candidate_code": "90",
+      "rings": 1,
+      "points": 29,
+      "bbox": [
+        -66.17693244,
+        -28.01412272,
+        -64.49752311,
+        -26.05943769
+      ],
+      "unclosed_rings": 0,
+      "rings_under_4_points": 0,
+      "nonfinite_coordinates": 0
+    },
+    {
+      "name": "Jujuy",
+      "candidate_code": "38",
+      "rings": 1,
+      "points": 40,
+      "bbox": [
+        -67.21304744,
+        -24.61335717,
+        -64.15705693,
+        -21.78835416
+      ],
+      "unclosed_rings": 0,
+      "rings_under_4_points": 0,
+      "nonfinite_coordinates": 0
+    },
+    {
+      "name": "Santiago del Estero",
+      "candidate_code": "86",
+      "rings": 1,
+      "points": 37,
+      "bbox": [
+        -65.18832537,
+        -30.48043252,
+        -61.71181555,
+        -25.65194996
+      ],
+      "unclosed_rings": 0,
+      "rings_under_4_points": 0,
+      "nonfinite_coordinates": 0
+    },
+    {
+      "name": "Córdoba",
+      "candidate_code": "14",
+      "rings": 1,
+      "points": 38,
+      "bbox": [
+        -65.77145966,
+        -35.01533023,
+        -61.78766839,
+        -29.49867371
+      ],
+      "unclosed_rings": 0,
+      "rings_under_4_points": 0,
+      "nonfinite_coordinates": 0
+    },
+    {
+      "name": "La Pampa",
+      "candidate_code": "42",
+      "rings": 1,
+      "points": 23,
+      "bbox": [
+        -68.2964103,
+        -39.3284916,
+        -63.38326942,
+        -35.01092791
+      ],
+      "unclosed_rings": 0,
+      "rings_under_4_points": 0,
+      "nonfinite_coordinates": 0
+    },
+    {
+      "name": "Chaco",
+      "candidate_code": "22",
+      "rings": 1,
+      "points": 29,
+      "bbox": [
+        -63.42241184,
+        -28.05665346,
+        -58.38151982,
+        -24.12318409
+      ],
+      "unclosed_rings": 0,
+      "rings_under_4_points": 0,
+      "nonfinite_coordinates": 0
+    },
+    {
+      "name": "Formosa",
+      "candidate_code": "34",
+      "rings": 1,
+      "points": 38,
+      "bbox": [
+        -62.34215689,
+        -26.86967387,
+        -57.56060157,
+        -22.48665959
+      ],
+      "unclosed_rings": 0,
+      "rings_under_4_points": 0,
+      "nonfinite_coordinates": 0
+    },
+    {
+      "name": "Chubut",
+      "candidate_code": "26",
+      "rings": 67,
+      "points": 348,
+      "bbox": [
+        -72.17870399,
+        -45.99991231,
+        -63.58280266,
+        -41.99998806
+      ],
+      "unclosed_rings": 0,
+      "rings_under_4_points": 0,
+      "nonfinite_coordinates": 0
+    },
+    {
+      "name": "Río Negro",
+      "candidate_code": "62",
+      "rings": 4,
+      "points": 71,
+      "bbox": [
+        -71.91295075,
+        -42.00000005,
+        -62.78966657,
+        -37.58521798
+      ],
+      "unclosed_rings": 0,
+      "rings_under_4_points": 0,
+      "nonfinite_coordinates": 0
+    },
+    {
+      "name": "Misiones",
+      "candidate_code": "54",
+      "rings": 3,
+      "points": 55,
+      "bbox": [
+        -56.05864362,
+        -28.16422277,
+        -53.64154864,
+        -25.49431474
+      ],
+      "unclosed_rings": 0,
+      "rings_under_4_points": 0,
+      "nonfinite_coordinates": 0
+    },
+    {
+      "name": "Salta",
+      "candidate_code": "66",
+      "rings": 1,
+      "points": 68,
+      "bbox": [
+        -68.56875543,
+        -26.41679934,
+        -62.34234111,
+        -21.99937691
+      ],
+      "unclosed_rings": 0,
+      "rings_under_4_points": 0,
+      "nonfinite_coordinates": 0
+    },
+    {
+      "name": "Buenos Aires",
+      "candidate_code": "06",
+      "rings": 95,
+      "points": 433,
+      "bbox": [
+        -63.38508318,
+        -41.02416378,
+        -56.66609763,
+        -33.27285358
+      ],
+      "unclosed_rings": 0,
+      "rings_under_4_points": 0,
+      "nonfinite_coordinates": 0
+    },
+    {
+      "name": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "candidate_code": "94",
+      "rings": 668,
+      "points": 2895,
+      "bbox": [
+        -68.609416,
+        -55.063507,
+        -57.687687,
+        -50.996952
+      ],
+      "unclosed_rings": 0,
+      "rings_under_4_points": 0,
+      "nonfinite_coordinates": 0
+    },
+    {
+      "name": "Entre Ríos",
+      "candidate_code": "30",
+      "rings": 7,
+      "points": 68,
+      "bbox": [
+        -60.77618408,
+        -34.03839716,
+        -57.79739717,
+        -30.15901768
+      ],
+      "unclosed_rings": 0,
+      "rings_under_4_points": 0,
+      "nonfinite_coordinates": 0
+    },
+    {
+      "name": "Corrientes",
+      "candidate_code": "18",
+      "rings": 70,
+      "points": 328,
+      "bbox": [
+        -59.71201325,
+        -30.73020248,
+        -55.62023667,
+        -27.25489993
+      ],
+      "unclosed_rings": 0,
+      "rings_under_4_points": 0,
+      "nonfinite_coordinates": 0
+    },
+    {
+      "name": "Mendoza",
+      "candidate_code": "50",
+      "rings": 1,
+      "points": 61,
+      "bbox": [
+        -70.58331441,
+        -37.57525056,
+        -66.47811404,
+        -32.00290724
+      ],
+      "unclosed_rings": 0,
+      "rings_under_4_points": 0,
+      "nonfinite_coordinates": 0
+    },
+    {
+      "name": "San Juan",
+      "candidate_code": "70",
+      "rings": 1,
+      "points": 60,
+      "bbox": [
+        -70.56738439,
+        -32.62243439,
+        -66.6617883,
+        -28.41160569
+      ],
+      "unclosed_rings": 0,
+      "rings_under_4_points": 0,
+      "nonfinite_coordinates": 0
+    },
+    {
+      "name": "Neuquén",
+      "candidate_code": "58",
+      "rings": 1,
+      "points": 71,
+      "bbox": [
+        -71.96525987,
+        -41.05597585,
+        -67.99808848,
+        -36.13804804
+      ],
+      "unclosed_rings": 0,
+      "rings_under_4_points": 0,
+      "nonfinite_coordinates": 0
+    },
+    {
+      "name": "La Rioja",
+      "candidate_code": "46",
+      "rings": 1,
+      "points": 42,
+      "bbox": [
+        -69.63497276,
+        -31.99839765,
+        -65.42298522,
+        -27.70711534
+      ],
+      "unclosed_rings": 0,
+      "rings_under_4_points": 0,
+      "nonfinite_coordinates": 0
+    },
+    {
+      "name": "Catamarca",
+      "candidate_code": "10",
+      "rings": 1,
+      "points": 68,
+      "bbox": [
+        -69.09526471,
+        -30.11960248,
+        -64.78120306,
+        -25.16832845
+      ],
+      "unclosed_rings": 0,
+      "rings_under_4_points": 0,
+      "nonfinite_coordinates": 0
+    },
+    {
+      "name": "Santa Cruz",
+      "candidate_code": "78",
+      "rings": 37,
+      "points": 252,
+      "bbox": [
+        -73.56658935,
+        -52.39768966,
+        -65.7141037,
+        -45.99987169
+      ],
+      "unclosed_rings": 0,
+      "rings_under_4_points": 0,
+      "nonfinite_coordinates": 0
+    }
+  ],
+  "rules": "No certification of topology, area accuracy, visual appearance or conceptual comparability."
+}

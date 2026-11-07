@@ -1,0 +1,3541 @@
+{
+  "catalog": {
+    "education": {
+      "title": "Abandono escolar primario",
+      "question": "¿Cómo varía entre provincias?",
+      "theme": "Educación y cuidado",
+      "snapshot": "2026-11-06",
+      "release": "18911b578fd943d3fa45fd37b5bd23d40f05543e2a0f4db325e239458c044204",
+      "periods": [
+        "2024-2025",
+        "2023-2024",
+        "2022-2023",
+        "2021-2022",
+        "2020-2021",
+        "2019-2020",
+        "2018-2019",
+        "2017-2018",
+        "2016-2017",
+        "2015-2016",
+        "2014-2015",
+        "2013-2014",
+        "2012-2013"
+      ],
+      "domain": "province",
+      "geos": [
+        "02",
+        "06",
+        "10",
+        "14",
+        "18",
+        "22",
+        "26",
+        "30",
+        "34",
+        "38",
+        "42",
+        "46",
+        "50",
+        "54",
+        "58",
+        "62",
+        "66",
+        "70",
+        "74",
+        "78",
+        "82",
+        "86",
+        "90",
+        "94"
+      ],
+      "universes": [
+        "primary_total"
+      ],
+      "universeLabel": "Educación común · nivel primario · total provincial",
+      "periodLabel": "Ciclo lectivo del cuadro",
+      "unit": "%",
+      "measure": "rate",
+      "source": "Secretaría de Educación · tasa de abandono interanual",
+      "sourceURL": "https://www.argentina.gob.ar/sites/default/files/2018/04/tasa_de_abandono_interanual.zip",
+      "sourceDetail": "Planilla oficial 2025–2012, división político-territorial. El año se expresa como ciclo, no como año aislado de carga.",
+      "status": "Candidato técnico · aprobación temática pendiente",
+      "note": "Las tasas negativas se conservan: el modelo de flujo puede producirlas por movimientos o reincorporaciones de estudiantes. No se recortan a cero.",
+      "blocking": "La fuente oficial tiene períodos explícitos. Persisten conflictos de etiquetas con la copia histórica de Tableau; esta vista no aprueba su sustitución automática.",
+      "rows": [
+        {
+          "geo": "06",
+          "name": "Buenos Aires",
+          "period": "2024-2025",
+          "universe": "primary_total",
+          "value": 0.5603183869658186,
+          "cellStatus": "observed",
+          "sourceRow": 13,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "10",
+          "name": "Catamarca",
+          "period": "2024-2025",
+          "universe": "primary_total",
+          "value": 0.9080132764343294,
+          "cellStatus": "observed",
+          "sourceRow": 16,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "22",
+          "name": "Chaco",
+          "period": "2024-2025",
+          "universe": "primary_total",
+          "value": 1.1798130130106386,
+          "cellStatus": "observed",
+          "sourceRow": 17,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "26",
+          "name": "Chubut",
+          "period": "2024-2025",
+          "universe": "primary_total",
+          "value": 0.50994917736239,
+          "cellStatus": "observed",
+          "sourceRow": 18,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "02",
+          "name": "Ciudad de Buenos Aires",
+          "period": "2024-2025",
+          "universe": "primary_total",
+          "value": 0.5414333175130516,
+          "cellStatus": "observed",
+          "sourceRow": 19,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "14",
+          "name": "Cordoba",
+          "period": "2024-2025",
+          "universe": "primary_total",
+          "value": 0.14160270327253305,
+          "cellStatus": "observed",
+          "sourceRow": 20,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "18",
+          "name": "Corrientes",
+          "period": "2024-2025",
+          "universe": "primary_total",
+          "value": 1.348582999153681,
+          "cellStatus": "observed",
+          "sourceRow": 21,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "30",
+          "name": "Entre Rios",
+          "period": "2024-2025",
+          "universe": "primary_total",
+          "value": 0.8974166147411262,
+          "cellStatus": "observed",
+          "sourceRow": 22,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "34",
+          "name": "Formosa",
+          "period": "2024-2025",
+          "universe": "primary_total",
+          "value": 0.04440115729468885,
+          "cellStatus": "observed",
+          "sourceRow": 23,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "38",
+          "name": "Jujuy",
+          "period": "2024-2025",
+          "universe": "primary_total",
+          "value": -0.05007455544921166,
+          "cellStatus": "observed",
+          "sourceRow": 24,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "42",
+          "name": "La Pampa",
+          "period": "2024-2025",
+          "universe": "primary_total",
+          "value": -0.12991329043173538,
+          "cellStatus": "observed",
+          "sourceRow": 25,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "46",
+          "name": "La Rioja",
+          "period": "2024-2025",
+          "universe": "primary_total",
+          "value": 0.5794572342662747,
+          "cellStatus": "observed",
+          "sourceRow": 26,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "50",
+          "name": "Mendoza",
+          "period": "2024-2025",
+          "universe": "primary_total",
+          "value": 0.4285689372536752,
+          "cellStatus": "observed",
+          "sourceRow": 27,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "54",
+          "name": "Misiones",
+          "period": "2024-2025",
+          "universe": "primary_total",
+          "value": 2.0003673372371944,
+          "cellStatus": "observed",
+          "sourceRow": 28,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "58",
+          "name": "Neuquén",
+          "period": "2024-2025",
+          "universe": "primary_total",
+          "value": -0.2763459851734313,
+          "cellStatus": "observed",
+          "sourceRow": 29,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "62",
+          "name": "Rio Negro",
+          "period": "2024-2025",
+          "universe": "primary_total",
+          "value": 0.04401309107324644,
+          "cellStatus": "observed",
+          "sourceRow": 30,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "66",
+          "name": "Salta",
+          "period": "2024-2025",
+          "universe": "primary_total",
+          "value": 0.4729153395165111,
+          "cellStatus": "observed",
+          "sourceRow": 31,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "70",
+          "name": "San Juan",
+          "period": "2024-2025",
+          "universe": "primary_total",
+          "value": 1.2624832989877577,
+          "cellStatus": "observed",
+          "sourceRow": 32,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "74",
+          "name": "San Luis",
+          "period": "2024-2025",
+          "universe": "primary_total",
+          "value": 0.8926764098619495,
+          "cellStatus": "observed",
+          "sourceRow": 33,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "78",
+          "name": "Santa Cruz",
+          "period": "2024-2025",
+          "universe": "primary_total",
+          "value": 1.0423516231947572,
+          "cellStatus": "observed",
+          "sourceRow": 34,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "82",
+          "name": "Santa Fe",
+          "period": "2024-2025",
+          "universe": "primary_total",
+          "value": 0.502340866707528,
+          "cellStatus": "observed",
+          "sourceRow": 35,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "86",
+          "name": "Santiago Del Estero",
+          "period": "2024-2025",
+          "universe": "primary_total",
+          "value": 0.9251951240901497,
+          "cellStatus": "observed",
+          "sourceRow": 36,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "94",
+          "name": "Tierra Del Fuego",
+          "period": "2024-2025",
+          "universe": "primary_total",
+          "value": 0.36088474970897105,
+          "cellStatus": "observed",
+          "sourceRow": 37,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "90",
+          "name": "Tucumán",
+          "period": "2024-2025",
+          "universe": "primary_total",
+          "value": 0.48692133985697283,
+          "cellStatus": "observed",
+          "sourceRow": 38,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "06",
+          "name": "Buenos Aires",
+          "period": "2023-2024",
+          "universe": "primary_total",
+          "value": 0.40568504225620794,
+          "cellStatus": "observed",
+          "sourceRow": 13,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "10",
+          "name": "Catamarca",
+          "period": "2023-2024",
+          "universe": "primary_total",
+          "value": -0.13486655309482964,
+          "cellStatus": "observed",
+          "sourceRow": 16,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "22",
+          "name": "Chaco",
+          "period": "2023-2024",
+          "universe": "primary_total",
+          "value": 1.312585132290411,
+          "cellStatus": "observed",
+          "sourceRow": 17,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "26",
+          "name": "Chubut",
+          "period": "2023-2024",
+          "universe": "primary_total",
+          "value": 0.16671437953623053,
+          "cellStatus": "observed",
+          "sourceRow": 18,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "02",
+          "name": "Ciudad de Buenos Aires",
+          "period": "2023-2024",
+          "universe": "primary_total",
+          "value": 0.784440461850341,
+          "cellStatus": "observed",
+          "sourceRow": 19,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "14",
+          "name": "Cordoba",
+          "period": "2023-2024",
+          "universe": "primary_total",
+          "value": 0.008465966813421821,
+          "cellStatus": "observed",
+          "sourceRow": 20,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "18",
+          "name": "Corrientes",
+          "period": "2023-2024",
+          "universe": "primary_total",
+          "value": 1.5397107967144539,
+          "cellStatus": "observed",
+          "sourceRow": 21,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "30",
+          "name": "Entre Rios",
+          "period": "2023-2024",
+          "universe": "primary_total",
+          "value": 1.0933444600816111,
+          "cellStatus": "observed",
+          "sourceRow": 22,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "34",
+          "name": "Formosa",
+          "period": "2023-2024",
+          "universe": "primary_total",
+          "value": 0.3701767523348035,
+          "cellStatus": "observed",
+          "sourceRow": 23,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "38",
+          "name": "Jujuy",
+          "period": "2023-2024",
+          "universe": "primary_total",
+          "value": -0.06730717038483924,
+          "cellStatus": "observed",
+          "sourceRow": 24,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "42",
+          "name": "La Pampa",
+          "period": "2023-2024",
+          "universe": "primary_total",
+          "value": 0.13085501858735427,
+          "cellStatus": "observed",
+          "sourceRow": 25,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "46",
+          "name": "La Rioja",
+          "period": "2023-2024",
+          "universe": "primary_total",
+          "value": 0.5729212397927796,
+          "cellStatus": "observed",
+          "sourceRow": 26,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "50",
+          "name": "Mendoza",
+          "period": "2023-2024",
+          "universe": "primary_total",
+          "value": 0.6704039514950546,
+          "cellStatus": "observed",
+          "sourceRow": 27,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "54",
+          "name": "Misiones",
+          "period": "2023-2024",
+          "universe": "primary_total",
+          "value": 1.300255350064643,
+          "cellStatus": "observed",
+          "sourceRow": 28,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "58",
+          "name": "Neuquén",
+          "period": "2023-2024",
+          "universe": "primary_total",
+          "value": -0.6130304614361122,
+          "cellStatus": "observed",
+          "sourceRow": 29,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "62",
+          "name": "Rio Negro",
+          "period": "2023-2024",
+          "universe": "primary_total",
+          "value": 0.13132853279317086,
+          "cellStatus": "observed",
+          "sourceRow": 30,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "66",
+          "name": "Salta",
+          "period": "2023-2024",
+          "universe": "primary_total",
+          "value": 0.3847337642351534,
+          "cellStatus": "observed",
+          "sourceRow": 31,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "70",
+          "name": "San Juan",
+          "period": "2023-2024",
+          "universe": "primary_total",
+          "value": 1.1506171187744618,
+          "cellStatus": "observed",
+          "sourceRow": 32,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "74",
+          "name": "San Luis",
+          "period": "2023-2024",
+          "universe": "primary_total",
+          "value": 0.5421126565498664,
+          "cellStatus": "observed",
+          "sourceRow": 33,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "78",
+          "name": "Santa Cruz",
+          "period": "2023-2024",
+          "universe": "primary_total",
+          "value": 0.8614756627192192,
+          "cellStatus": "observed",
+          "sourceRow": 34,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "82",
+          "name": "Santa Fe",
+          "period": "2023-2024",
+          "universe": "primary_total",
+          "value": 0.3566407542176697,
+          "cellStatus": "observed",
+          "sourceRow": 35,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "86",
+          "name": "Santiago Del Estero",
+          "period": "2023-2024",
+          "universe": "primary_total",
+          "value": 0.9010372741099593,
+          "cellStatus": "observed",
+          "sourceRow": 36,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "94",
+          "name": "Tierra Del Fuego",
+          "period": "2023-2024",
+          "universe": "primary_total",
+          "value": 1.098025829208623,
+          "cellStatus": "observed",
+          "sourceRow": 37,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "90",
+          "name": "Tucumán",
+          "period": "2023-2024",
+          "universe": "primary_total",
+          "value": 0.3393054967490523,
+          "cellStatus": "observed",
+          "sourceRow": 38,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "06",
+          "name": "Buenos Aires",
+          "period": "2022-2023",
+          "universe": "primary_total",
+          "value": 0.16181424205648876,
+          "cellStatus": "observed",
+          "sourceRow": 14,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "10",
+          "name": "Catamarca",
+          "period": "2022-2023",
+          "universe": "primary_total",
+          "value": 0.5161895823556977,
+          "cellStatus": "observed",
+          "sourceRow": 17,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "22",
+          "name": "Chaco",
+          "period": "2022-2023",
+          "universe": "primary_total",
+          "value": 1.1612319053610598,
+          "cellStatus": "observed",
+          "sourceRow": 18,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "26",
+          "name": "Chubut",
+          "period": "2022-2023",
+          "universe": "primary_total",
+          "value": -0.21912714354487206,
+          "cellStatus": "observed",
+          "sourceRow": 19,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "02",
+          "name": "Ciudad de Buenos Aires",
+          "period": "2022-2023",
+          "universe": "primary_total",
+          "value": 0.4724483113481124,
+          "cellStatus": "observed",
+          "sourceRow": 20,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "14",
+          "name": "Cordoba",
+          "period": "2022-2023",
+          "universe": "primary_total",
+          "value": 0.029684892070213298,
+          "cellStatus": "observed",
+          "sourceRow": 21,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "18",
+          "name": "Corrientes",
+          "period": "2022-2023",
+          "universe": "primary_total",
+          "value": 1.246754443915255,
+          "cellStatus": "observed",
+          "sourceRow": 22,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "30",
+          "name": "Entre Rios",
+          "period": "2022-2023",
+          "universe": "primary_total",
+          "value": 0.6366207859845061,
+          "cellStatus": "observed",
+          "sourceRow": 23,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "34",
+          "name": "Formosa",
+          "period": "2022-2023",
+          "universe": "primary_total",
+          "value": 0.38939185336614623,
+          "cellStatus": "observed",
+          "sourceRow": 24,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "38",
+          "name": "Jujuy",
+          "period": "2022-2023",
+          "universe": "primary_total",
+          "value": 0.33428793476062335,
+          "cellStatus": "observed",
+          "sourceRow": 25,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "42",
+          "name": "La Pampa",
+          "period": "2022-2023",
+          "universe": "primary_total",
+          "value": -0.10284135985661469,
+          "cellStatus": "observed",
+          "sourceRow": 26,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "46",
+          "name": "La Rioja",
+          "period": "2022-2023",
+          "universe": "primary_total",
+          "value": -0.34328195036623244,
+          "cellStatus": "observed",
+          "sourceRow": 27,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "50",
+          "name": "Mendoza",
+          "period": "2022-2023",
+          "universe": "primary_total",
+          "value": 0.5071023865875264,
+          "cellStatus": "observed",
+          "sourceRow": 28,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "54",
+          "name": "Misiones",
+          "period": "2022-2023",
+          "universe": "primary_total",
+          "value": 1.1677732759169315,
+          "cellStatus": "observed",
+          "sourceRow": 29,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "58",
+          "name": "Neuquén",
+          "period": "2022-2023",
+          "universe": "primary_total",
+          "value": -0.35968263297092007,
+          "cellStatus": "observed",
+          "sourceRow": 30,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "62",
+          "name": "Rio Negro",
+          "period": "2022-2023",
+          "universe": "primary_total",
+          "value": 0.06646873753711252,
+          "cellStatus": "observed",
+          "sourceRow": 31,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "66",
+          "name": "Salta",
+          "period": "2022-2023",
+          "universe": "primary_total",
+          "value": 0.9514030050923024,
+          "cellStatus": "observed",
+          "sourceRow": 32,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "70",
+          "name": "San Juan",
+          "period": "2022-2023",
+          "universe": "primary_total",
+          "value": 1.0529452667130208,
+          "cellStatus": "observed",
+          "sourceRow": 33,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "74",
+          "name": "San Luis",
+          "period": "2022-2023",
+          "universe": "primary_total",
+          "value": 0.5852372924054743,
+          "cellStatus": "observed",
+          "sourceRow": 34,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "78",
+          "name": "Santa Cruz",
+          "period": "2022-2023",
+          "universe": "primary_total",
+          "value": 0.04001506449486823,
+          "cellStatus": "observed",
+          "sourceRow": 35,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "82",
+          "name": "Santa Fe",
+          "period": "2022-2023",
+          "universe": "primary_total",
+          "value": 0.36618614935033933,
+          "cellStatus": "observed",
+          "sourceRow": 36,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "86",
+          "name": "Santiago Del Estero",
+          "period": "2022-2023",
+          "universe": "primary_total",
+          "value": 0.6628902873715155,
+          "cellStatus": "observed",
+          "sourceRow": 37,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "94",
+          "name": "Tierra Del Fuego",
+          "period": "2022-2023",
+          "universe": "primary_total",
+          "value": -0.6008239871824161,
+          "cellStatus": "observed",
+          "sourceRow": 38,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "90",
+          "name": "Tucumán",
+          "period": "2022-2023",
+          "universe": "primary_total",
+          "value": 0.18733329906504564,
+          "cellStatus": "observed",
+          "sourceRow": 39,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "06",
+          "name": "Buenos Aires",
+          "period": "2021-2022",
+          "universe": "primary_total",
+          "value": 0.19202334022982814,
+          "cellStatus": "observed",
+          "sourceRow": 14,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "10",
+          "name": "Catamarca",
+          "period": "2021-2022",
+          "universe": "primary_total",
+          "value": 0.21962103689166046,
+          "cellStatus": "observed",
+          "sourceRow": 17,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "22",
+          "name": "Chaco",
+          "period": "2021-2022",
+          "universe": "primary_total",
+          "value": 1.248776576300369,
+          "cellStatus": "observed",
+          "sourceRow": 18,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "26",
+          "name": "Chubut",
+          "period": "2021-2022",
+          "universe": "primary_total",
+          "value": 0.5146386093321089,
+          "cellStatus": "observed",
+          "sourceRow": 19,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "02",
+          "name": "Ciudad de Buenos Aires",
+          "period": "2021-2022",
+          "universe": "primary_total",
+          "value": 0.9089591851880614,
+          "cellStatus": "observed",
+          "sourceRow": 20,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "14",
+          "name": "Cordoba",
+          "period": "2021-2022",
+          "universe": "primary_total",
+          "value": 0.095112814365929,
+          "cellStatus": "observed",
+          "sourceRow": 21,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "18",
+          "name": "Corrientes",
+          "period": "2021-2022",
+          "universe": "primary_total",
+          "value": 1.0231225700838875,
+          "cellStatus": "observed",
+          "sourceRow": 22,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "30",
+          "name": "Entre Rios",
+          "period": "2021-2022",
+          "universe": "primary_total",
+          "value": 0.23544129429458227,
+          "cellStatus": "observed",
+          "sourceRow": 23,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "34",
+          "name": "Formosa",
+          "period": "2021-2022",
+          "universe": "primary_total",
+          "value": 0.9408973014734316,
+          "cellStatus": "observed",
+          "sourceRow": 24,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "38",
+          "name": "Jujuy",
+          "period": "2021-2022",
+          "universe": "primary_total",
+          "value": -0.40164887432617674,
+          "cellStatus": "observed",
+          "sourceRow": 25,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "42",
+          "name": "La Pampa",
+          "period": "2021-2022",
+          "universe": "primary_total",
+          "value": 0.09044493070750906,
+          "cellStatus": "observed",
+          "sourceRow": 26,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "46",
+          "name": "La Rioja",
+          "period": "2021-2022",
+          "universe": "primary_total",
+          "value": 0.4358802839695315,
+          "cellStatus": "observed",
+          "sourceRow": 27,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "50",
+          "name": "Mendoza",
+          "period": "2021-2022",
+          "universe": "primary_total",
+          "value": 0.7072349126011837,
+          "cellStatus": "observed",
+          "sourceRow": 28,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "54",
+          "name": "Misiones",
+          "period": "2021-2022",
+          "universe": "primary_total",
+          "value": 0.8277060337797932,
+          "cellStatus": "observed",
+          "sourceRow": 29,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "58",
+          "name": "Neuquén",
+          "period": "2021-2022",
+          "universe": "primary_total",
+          "value": 0.2609110922157627,
+          "cellStatus": "observed",
+          "sourceRow": 30,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "62",
+          "name": "Rio Negro",
+          "period": "2021-2022",
+          "universe": "primary_total",
+          "value": 0.015550026657193516,
+          "cellStatus": "observed",
+          "sourceRow": 31,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "66",
+          "name": "Salta",
+          "period": "2021-2022",
+          "universe": "primary_total",
+          "value": 1.0039032006245105,
+          "cellStatus": "observed",
+          "sourceRow": 32,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "70",
+          "name": "San Juan",
+          "period": "2021-2022",
+          "universe": "primary_total",
+          "value": 0.5659690427069393,
+          "cellStatus": "observed",
+          "sourceRow": 33,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "74",
+          "name": "San Luis",
+          "period": "2021-2022",
+          "universe": "primary_total",
+          "value": -0.259795242860442,
+          "cellStatus": "observed",
+          "sourceRow": 34,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "78",
+          "name": "Santa Cruz",
+          "period": "2021-2022",
+          "universe": "primary_total",
+          "value": 0.2995833918457175,
+          "cellStatus": "observed",
+          "sourceRow": 35,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "82",
+          "name": "Santa Fe",
+          "period": "2021-2022",
+          "universe": "primary_total",
+          "value": 0.491536926968725,
+          "cellStatus": "observed",
+          "sourceRow": 36,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "86",
+          "name": "Santiago Del Estero",
+          "period": "2021-2022",
+          "universe": "primary_total",
+          "value": 1.2554328364496898,
+          "cellStatus": "observed",
+          "sourceRow": 37,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "94",
+          "name": "Tierra Del Fuego",
+          "period": "2021-2022",
+          "universe": "primary_total",
+          "value": 0.468635311388401,
+          "cellStatus": "observed",
+          "sourceRow": 38,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "90",
+          "name": "Tucumán",
+          "period": "2021-2022",
+          "universe": "primary_total",
+          "value": -0.2563180398805791,
+          "cellStatus": "observed",
+          "sourceRow": 39,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "06",
+          "name": "Buenos Aires",
+          "period": "2020-2021",
+          "universe": "primary_total",
+          "value": 0.35198355325435515,
+          "cellStatus": "observed",
+          "sourceRow": 14,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "10",
+          "name": "Catamarca",
+          "period": "2020-2021",
+          "universe": "primary_total",
+          "value": -0.31386430678466737,
+          "cellStatus": "observed",
+          "sourceRow": 17,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "22",
+          "name": "Chaco",
+          "period": "2020-2021",
+          "universe": "primary_total",
+          "value": 0.45015610251941246,
+          "cellStatus": "observed",
+          "sourceRow": 18,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "26",
+          "name": "Chubut",
+          "period": "2020-2021",
+          "universe": "primary_total",
+          "value": 0.348856076586086,
+          "cellStatus": "observed",
+          "sourceRow": 19,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "02",
+          "name": "Ciudad de Buenos Aires",
+          "period": "2020-2021",
+          "universe": "primary_total",
+          "value": 1.7855279723441413,
+          "cellStatus": "observed",
+          "sourceRow": 20,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "14",
+          "name": "Cordoba",
+          "period": "2020-2021",
+          "universe": "primary_total",
+          "value": -0.2407451369203154,
+          "cellStatus": "observed",
+          "sourceRow": 21,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "18",
+          "name": "Corrientes",
+          "period": "2020-2021",
+          "universe": "primary_total",
+          "value": 0.4282753154910699,
+          "cellStatus": "observed",
+          "sourceRow": 22,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "30",
+          "name": "Entre Rios",
+          "period": "2020-2021",
+          "universe": "primary_total",
+          "value": 0.33938980836546273,
+          "cellStatus": "observed",
+          "sourceRow": 23,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "34",
+          "name": "Formosa",
+          "period": "2020-2021",
+          "universe": "primary_total",
+          "value": 0.6800088456435214,
+          "cellStatus": "observed",
+          "sourceRow": 24,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "38",
+          "name": "Jujuy",
+          "period": "2020-2021",
+          "universe": "primary_total",
+          "value": -0.006406218302559663,
+          "cellStatus": "observed",
+          "sourceRow": 25,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "42",
+          "name": "La Pampa",
+          "period": "2020-2021",
+          "universe": "primary_total",
+          "value": -0.500102962374612,
+          "cellStatus": "observed",
+          "sourceRow": 26,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "46",
+          "name": "La Rioja",
+          "period": "2020-2021",
+          "universe": "primary_total",
+          "value": 0.18188904768090897,
+          "cellStatus": "observed",
+          "sourceRow": 27,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "50",
+          "name": "Mendoza",
+          "period": "2020-2021",
+          "universe": "primary_total",
+          "value": -0.036498054144445326,
+          "cellStatus": "observed",
+          "sourceRow": 28,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "54",
+          "name": "Misiones",
+          "period": "2020-2021",
+          "universe": "primary_total",
+          "value": 1.0325276037003945,
+          "cellStatus": "observed",
+          "sourceRow": 29,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "58",
+          "name": "Neuquén",
+          "period": "2020-2021",
+          "universe": "primary_total",
+          "value": -1.160724860831444,
+          "cellStatus": "observed",
+          "sourceRow": 30,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "62",
+          "name": "Rio Negro",
+          "period": "2020-2021",
+          "universe": "primary_total",
+          "value": -0.2568695710954112,
+          "cellStatus": "observed",
+          "sourceRow": 31,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "66",
+          "name": "Salta",
+          "period": "2020-2021",
+          "universe": "primary_total",
+          "value": 0.9565377435385012,
+          "cellStatus": "observed",
+          "sourceRow": 32,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "70",
+          "name": "San Juan",
+          "period": "2020-2021",
+          "universe": "primary_total",
+          "value": 0.7935803236475814,
+          "cellStatus": "observed",
+          "sourceRow": 33,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "74",
+          "name": "San Luis",
+          "period": "2020-2021",
+          "universe": "primary_total",
+          "value": -0.009514747859184602,
+          "cellStatus": "observed",
+          "sourceRow": 34,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "78",
+          "name": "Santa Cruz",
+          "period": "2020-2021",
+          "universe": "primary_total",
+          "value": -0.05154759952201582,
+          "cellStatus": "observed",
+          "sourceRow": 35,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "82",
+          "name": "Santa Fe",
+          "period": "2020-2021",
+          "universe": "primary_total",
+          "value": -0.17138632201295978,
+          "cellStatus": "observed",
+          "sourceRow": 36,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "86",
+          "name": "Santiago Del Estero",
+          "period": "2020-2021",
+          "universe": "primary_total",
+          "value": 1.2127564006587788,
+          "cellStatus": "observed",
+          "sourceRow": 37,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "94",
+          "name": "Tierra Del Fuego",
+          "period": "2020-2021",
+          "universe": "primary_total",
+          "value": 0.1585593748230402,
+          "cellStatus": "observed",
+          "sourceRow": 38,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "90",
+          "name": "Tucumán",
+          "period": "2020-2021",
+          "universe": "primary_total",
+          "value": -0.8733471496540968,
+          "cellStatus": "observed",
+          "sourceRow": 39,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "06",
+          "name": "Buenos Aires",
+          "period": "2019-2020",
+          "universe": "primary_total",
+          "value": 0.31112624605288275,
+          "cellStatus": "observed",
+          "sourceRow": 14,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "10",
+          "name": "Catamarca",
+          "period": "2019-2020",
+          "universe": "primary_total",
+          "value": 0.17295376992474853,
+          "cellStatus": "observed",
+          "sourceRow": 17,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "22",
+          "name": "Chaco",
+          "period": "2019-2020",
+          "universe": "primary_total",
+          "value": 1.7987777068320687,
+          "cellStatus": "observed",
+          "sourceRow": 18,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "26",
+          "name": "Chubut",
+          "period": "2019-2020",
+          "universe": "primary_total",
+          "value": 0.21888579025877175,
+          "cellStatus": "observed",
+          "sourceRow": 19,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "02",
+          "name": "Ciudad de Buenos Aires",
+          "period": "2019-2020",
+          "universe": "primary_total",
+          "value": 0.17930211709055555,
+          "cellStatus": "observed",
+          "sourceRow": 20,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "14",
+          "name": "Cordoba",
+          "period": "2019-2020",
+          "universe": "primary_total",
+          "value": 0.12519526828954575,
+          "cellStatus": "observed",
+          "sourceRow": 21,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "18",
+          "name": "Corrientes",
+          "period": "2019-2020",
+          "universe": "primary_total",
+          "value": 1.8726762619465784,
+          "cellStatus": "observed",
+          "sourceRow": 22,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "30",
+          "name": "Entre Rios",
+          "period": "2019-2020",
+          "universe": "primary_total",
+          "value": 0.8145738822790873,
+          "cellStatus": "observed",
+          "sourceRow": 23,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "34",
+          "name": "Formosa",
+          "period": "2019-2020",
+          "universe": "primary_total",
+          "value": 1.1914634820589387,
+          "cellStatus": "observed",
+          "sourceRow": 24,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "38",
+          "name": "Jujuy",
+          "period": "2019-2020",
+          "universe": "primary_total",
+          "value": -0.06893580353295536,
+          "cellStatus": "observed",
+          "sourceRow": 25,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "42",
+          "name": "La Pampa",
+          "period": "2019-2020",
+          "universe": "primary_total",
+          "value": -0.04143482893335093,
+          "cellStatus": "observed",
+          "sourceRow": 26,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "46",
+          "name": "La Rioja",
+          "period": "2019-2020",
+          "universe": "primary_total",
+          "value": 0.7596952610510996,
+          "cellStatus": "observed",
+          "sourceRow": 27,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "50",
+          "name": "Mendoza",
+          "period": "2019-2020",
+          "universe": "primary_total",
+          "value": 0.29059799753120386,
+          "cellStatus": "observed",
+          "sourceRow": 28,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "54",
+          "name": "Misiones",
+          "period": "2019-2020",
+          "universe": "primary_total",
+          "value": 1.3985631948427883,
+          "cellStatus": "observed",
+          "sourceRow": 29,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "58",
+          "name": "Neuquén",
+          "period": "2019-2020",
+          "universe": "primary_total",
+          "value": -0.0643615689920316,
+          "cellStatus": "observed",
+          "sourceRow": 30,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "62",
+          "name": "Rio Negro",
+          "period": "2019-2020",
+          "universe": "primary_total",
+          "value": -0.16908874874325286,
+          "cellStatus": "observed",
+          "sourceRow": 31,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "66",
+          "name": "Salta",
+          "period": "2019-2020",
+          "universe": "primary_total",
+          "value": 0.09007801399425652,
+          "cellStatus": "observed",
+          "sourceRow": 32,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "70",
+          "name": "San Juan",
+          "period": "2019-2020",
+          "universe": "primary_total",
+          "value": 0.6914578702203871,
+          "cellStatus": "observed",
+          "sourceRow": 33,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "74",
+          "name": "San Luis",
+          "period": "2019-2020",
+          "universe": "primary_total",
+          "value": 1.7640819516552217,
+          "cellStatus": "observed",
+          "sourceRow": 34,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "78",
+          "name": "Santa Cruz",
+          "period": "2019-2020",
+          "universe": "primary_total",
+          "value": 0.4516310197968809,
+          "cellStatus": "observed",
+          "sourceRow": 35,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "82",
+          "name": "Santa Fe",
+          "period": "2019-2020",
+          "universe": "primary_total",
+          "value": 0.5568424686594964,
+          "cellStatus": "observed",
+          "sourceRow": 36,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "86",
+          "name": "Santiago Del Estero",
+          "period": "2019-2020",
+          "universe": "primary_total",
+          "value": 1.2842027419079542,
+          "cellStatus": "observed",
+          "sourceRow": 37,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "94",
+          "name": "Tierra Del Fuego",
+          "period": "2019-2020",
+          "universe": "primary_total",
+          "value": -0.2333124679906733,
+          "cellStatus": "observed",
+          "sourceRow": 38,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "90",
+          "name": "Tucumán",
+          "period": "2019-2020",
+          "universe": "primary_total",
+          "value": 1.469801623293569,
+          "cellStatus": "observed",
+          "sourceRow": 39,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "06",
+          "name": "Buenos Aires",
+          "period": "2018-2019",
+          "universe": "primary_total",
+          "value": 0.29753202702000436,
+          "cellStatus": "observed",
+          "sourceRow": 14,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "10",
+          "name": "Catamarca",
+          "period": "2018-2019",
+          "universe": "primary_total",
+          "value": 0.5579122095167892,
+          "cellStatus": "observed",
+          "sourceRow": 17,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "22",
+          "name": "Chaco",
+          "period": "2018-2019",
+          "universe": "primary_total",
+          "value": 1.674289892026132,
+          "cellStatus": "observed",
+          "sourceRow": 18,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "26",
+          "name": "Chubut",
+          "period": "2018-2019",
+          "universe": "primary_total",
+          "value": 0.18412305285797692,
+          "cellStatus": "observed",
+          "sourceRow": 19,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "02",
+          "name": "Ciudad de Buenos Aires",
+          "period": "2018-2019",
+          "universe": "primary_total",
+          "value": 0.253316492089966,
+          "cellStatus": "observed",
+          "sourceRow": 20,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "14",
+          "name": "Cordoba",
+          "period": "2018-2019",
+          "universe": "primary_total",
+          "value": -0.1806260955548622,
+          "cellStatus": "observed",
+          "sourceRow": 21,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "18",
+          "name": "Corrientes",
+          "period": "2018-2019",
+          "universe": "primary_total",
+          "value": 1.8926235055267355,
+          "cellStatus": "observed",
+          "sourceRow": 22,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "30",
+          "name": "Entre Rios",
+          "period": "2018-2019",
+          "universe": "primary_total",
+          "value": 0.9814090229543808,
+          "cellStatus": "observed",
+          "sourceRow": 23,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "34",
+          "name": "Formosa",
+          "period": "2018-2019",
+          "universe": "primary_total",
+          "value": 2.21163428852271,
+          "cellStatus": "observed",
+          "sourceRow": 24,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "38",
+          "name": "Jujuy",
+          "period": "2018-2019",
+          "universe": "primary_total",
+          "value": 0.0257723655810016,
+          "cellStatus": "observed",
+          "sourceRow": 25,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "42",
+          "name": "La Pampa",
+          "period": "2018-2019",
+          "universe": "primary_total",
+          "value": -0.34473535617700235,
+          "cellStatus": "observed",
+          "sourceRow": 26,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "46",
+          "name": "La Rioja",
+          "period": "2018-2019",
+          "universe": "primary_total",
+          "value": 0.5107710719781153,
+          "cellStatus": "observed",
+          "sourceRow": 27,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "50",
+          "name": "Mendoza",
+          "period": "2018-2019",
+          "universe": "primary_total",
+          "value": 0.37206308336015814,
+          "cellStatus": "observed",
+          "sourceRow": 28,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "54",
+          "name": "Misiones",
+          "period": "2018-2019",
+          "universe": "primary_total",
+          "value": 1.1166936612346916,
+          "cellStatus": "observed",
+          "sourceRow": 29,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "58",
+          "name": "Neuquén",
+          "period": "2018-2019",
+          "universe": "primary_total",
+          "value": -0.4924269787377572,
+          "cellStatus": "observed",
+          "sourceRow": 30,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "62",
+          "name": "Rio Negro",
+          "period": "2018-2019",
+          "universe": "primary_total",
+          "value": 0.10088503691475692,
+          "cellStatus": "observed",
+          "sourceRow": 31,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "66",
+          "name": "Salta",
+          "period": "2018-2019",
+          "universe": "primary_total",
+          "value": 0.8435578704325177,
+          "cellStatus": "observed",
+          "sourceRow": 32,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "70",
+          "name": "San Juan",
+          "period": "2018-2019",
+          "universe": "primary_total",
+          "value": 1.4103902449858983,
+          "cellStatus": "observed",
+          "sourceRow": 33,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "74",
+          "name": "San Luis",
+          "period": "2018-2019",
+          "universe": "primary_total",
+          "value": -0.6161005118659788,
+          "cellStatus": "observed",
+          "sourceRow": 34,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "78",
+          "name": "Santa Cruz",
+          "period": "2018-2019",
+          "universe": "primary_total",
+          "value": 0.23841245354463192,
+          "cellStatus": "observed",
+          "sourceRow": 35,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "82",
+          "name": "Santa Fe",
+          "period": "2018-2019",
+          "universe": "primary_total",
+          "value": 0.4674023288023126,
+          "cellStatus": "observed",
+          "sourceRow": 36,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "86",
+          "name": "Santiago Del Estero",
+          "period": "2018-2019",
+          "universe": "primary_total",
+          "value": 1.5033528771547866,
+          "cellStatus": "observed",
+          "sourceRow": 37,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "94",
+          "name": "Tierra Del Fuego",
+          "period": "2018-2019",
+          "universe": "primary_total",
+          "value": 0.42066966062190714,
+          "cellStatus": "observed",
+          "sourceRow": 38,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "90",
+          "name": "Tucumán",
+          "period": "2018-2019",
+          "universe": "primary_total",
+          "value": 0.3061200599363163,
+          "cellStatus": "observed",
+          "sourceRow": 39,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "06",
+          "name": "Buenos Aires",
+          "period": "2017-2018",
+          "universe": "primary_total",
+          "value": 0.25510233749801836,
+          "cellStatus": "observed",
+          "sourceRow": 14,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "10",
+          "name": "Catamarca",
+          "period": "2017-2018",
+          "universe": "primary_total",
+          "value": -0.07325504200718669,
+          "cellStatus": "observed",
+          "sourceRow": 17,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "22",
+          "name": "Chaco",
+          "period": "2017-2018",
+          "universe": "primary_total",
+          "value": 2.1386831251156426,
+          "cellStatus": "observed",
+          "sourceRow": 18,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "26",
+          "name": "Chubut",
+          "period": "2017-2018",
+          "universe": "primary_total",
+          "value": 0.14503145064041334,
+          "cellStatus": "observed",
+          "sourceRow": 19,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "02",
+          "name": "Ciudad de Buenos Aires",
+          "period": "2017-2018",
+          "universe": "primary_total",
+          "value": 0.0034951469884114683,
+          "cellStatus": "observed",
+          "sourceRow": 20,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "14",
+          "name": "Cordoba",
+          "period": "2017-2018",
+          "universe": "primary_total",
+          "value": -0.0255143525242304,
+          "cellStatus": "observed",
+          "sourceRow": 21,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "18",
+          "name": "Corrientes",
+          "period": "2017-2018",
+          "universe": "primary_total",
+          "value": 1.9818976279650524,
+          "cellStatus": "observed",
+          "sourceRow": 22,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "30",
+          "name": "Entre Rios",
+          "period": "2017-2018",
+          "universe": "primary_total",
+          "value": 0.9763269267826189,
+          "cellStatus": "observed",
+          "sourceRow": 23,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "34",
+          "name": "Formosa",
+          "period": "2017-2018",
+          "universe": "primary_total",
+          "value": 1.1374600801793928,
+          "cellStatus": "observed",
+          "sourceRow": 24,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "38",
+          "name": "Jujuy",
+          "period": "2017-2018",
+          "universe": "primary_total",
+          "value": -0.3302842803984918,
+          "cellStatus": "observed",
+          "sourceRow": 25,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "42",
+          "name": "La Pampa",
+          "period": "2017-2018",
+          "universe": "primary_total",
+          "value": -0.2039489240955339,
+          "cellStatus": "observed",
+          "sourceRow": 26,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "46",
+          "name": "La Rioja",
+          "period": "2017-2018",
+          "universe": "primary_total",
+          "value": 0.3637055676555767,
+          "cellStatus": "observed",
+          "sourceRow": 27,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "50",
+          "name": "Mendoza",
+          "period": "2017-2018",
+          "universe": "primary_total",
+          "value": 0.1932003838074774,
+          "cellStatus": "observed",
+          "sourceRow": 28,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "54",
+          "name": "Misiones",
+          "period": "2017-2018",
+          "universe": "primary_total",
+          "value": 1.4138853058897043,
+          "cellStatus": "observed",
+          "sourceRow": 29,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "58",
+          "name": "Neuquén",
+          "period": "2017-2018",
+          "universe": "primary_total",
+          "value": -0.012150373016446725,
+          "cellStatus": "observed",
+          "sourceRow": 30,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "62",
+          "name": "Rio Negro",
+          "period": "2017-2018",
+          "universe": "primary_total",
+          "value": -0.4224732626510521,
+          "cellStatus": "observed",
+          "sourceRow": 31,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "66",
+          "name": "Salta",
+          "period": "2017-2018",
+          "universe": "primary_total",
+          "value": 0.47209676637938314,
+          "cellStatus": "observed",
+          "sourceRow": 32,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "70",
+          "name": "San Juan",
+          "period": "2017-2018",
+          "universe": "primary_total",
+          "value": 0.9682708499512502,
+          "cellStatus": "observed",
+          "sourceRow": 33,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "74",
+          "name": "San Luis",
+          "period": "2017-2018",
+          "universe": "primary_total",
+          "value": 2.201754864025289,
+          "cellStatus": "observed",
+          "sourceRow": 34,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "78",
+          "name": "Santa Cruz",
+          "period": "2017-2018",
+          "universe": "primary_total",
+          "value": 5.006257822277846,
+          "cellStatus": "observed",
+          "sourceRow": 35,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "82",
+          "name": "Santa Fe",
+          "period": "2017-2018",
+          "universe": "primary_total",
+          "value": 0.5959050357278768,
+          "cellStatus": "observed",
+          "sourceRow": 36,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "86",
+          "name": "Santiago Del Estero",
+          "period": "2017-2018",
+          "universe": "primary_total",
+          "value": 1.1114661628020048,
+          "cellStatus": "observed",
+          "sourceRow": 37,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "94",
+          "name": "Tierra Del Fuego",
+          "period": "2017-2018",
+          "universe": "primary_total",
+          "value": -0.11929784695789736,
+          "cellStatus": "observed",
+          "sourceRow": 38,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "90",
+          "name": "Tucumán",
+          "period": "2017-2018",
+          "universe": "primary_total",
+          "value": 0.3460085650337612,
+          "cellStatus": "observed",
+          "sourceRow": 39,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "06",
+          "name": "Buenos Aires",
+          "period": "2016-2017",
+          "universe": "primary_total",
+          "value": 0.25972279866952963,
+          "cellStatus": "observed",
+          "sourceRow": 14,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "10",
+          "name": "Catamarca",
+          "period": "2016-2017",
+          "universe": "primary_total",
+          "value": 0.6528095745404272,
+          "cellStatus": "observed",
+          "sourceRow": 17,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "22",
+          "name": "Chaco",
+          "period": "2016-2017",
+          "universe": "primary_total",
+          "value": 2.0427452416677503,
+          "cellStatus": "observed",
+          "sourceRow": 18,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "26",
+          "name": "Chubut",
+          "period": "2016-2017",
+          "universe": "primary_total",
+          "value": -0.2812546258984492,
+          "cellStatus": "observed",
+          "sourceRow": 19,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "02",
+          "name": "Ciudad de Buenos Aires",
+          "period": "2016-2017",
+          "universe": "primary_total",
+          "value": 0.4261772532279182,
+          "cellStatus": "observed",
+          "sourceRow": 20,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "14",
+          "name": "Cordoba",
+          "period": "2016-2017",
+          "universe": "primary_total",
+          "value": 0.3099459130420137,
+          "cellStatus": "observed",
+          "sourceRow": 21,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "18",
+          "name": "Corrientes",
+          "period": "2016-2017",
+          "universe": "primary_total",
+          "value": 1.945054057823155,
+          "cellStatus": "observed",
+          "sourceRow": 22,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "30",
+          "name": "Entre Rios",
+          "period": "2016-2017",
+          "universe": "primary_total",
+          "value": 0.7965010845215641,
+          "cellStatus": "observed",
+          "sourceRow": 23,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "34",
+          "name": "Formosa",
+          "period": "2016-2017",
+          "universe": "primary_total",
+          "value": 2.983913502109704,
+          "cellStatus": "observed",
+          "sourceRow": 24,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "38",
+          "name": "Jujuy",
+          "period": "2016-2017",
+          "universe": "primary_total",
+          "value": -0.30149346943609867,
+          "cellStatus": "observed",
+          "sourceRow": 25,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "42",
+          "name": "La Pampa",
+          "period": "2016-2017",
+          "universe": "primary_total",
+          "value": 0.07932543996239327,
+          "cellStatus": "observed",
+          "sourceRow": 26,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "46",
+          "name": "La Rioja",
+          "period": "2016-2017",
+          "universe": "primary_total",
+          "value": 0.7563377330819216,
+          "cellStatus": "observed",
+          "sourceRow": 27,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "50",
+          "name": "Mendoza",
+          "period": "2016-2017",
+          "universe": "primary_total",
+          "value": 0.4186694929789323,
+          "cellStatus": "observed",
+          "sourceRow": 28,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "54",
+          "name": "Misiones",
+          "period": "2016-2017",
+          "universe": "primary_total",
+          "value": 2.0777024226043412,
+          "cellStatus": "observed",
+          "sourceRow": 29,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "58",
+          "name": "Neuquén",
+          "period": "2016-2017",
+          "universe": "primary_total",
+          "value": 0.047059989101901234,
+          "cellStatus": "observed",
+          "sourceRow": 30,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "62",
+          "name": "Rio Negro",
+          "period": "2016-2017",
+          "universe": "primary_total",
+          "value": -0.06777205220784643,
+          "cellStatus": "observed",
+          "sourceRow": 31,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "66",
+          "name": "Salta",
+          "period": "2016-2017",
+          "universe": "primary_total",
+          "value": 0.949421715863974,
+          "cellStatus": "observed",
+          "sourceRow": 32,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "70",
+          "name": "San Juan",
+          "period": "2016-2017",
+          "universe": "primary_total",
+          "value": 1.2457942075517447,
+          "cellStatus": "observed",
+          "sourceRow": 33,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "74",
+          "name": "San Luis",
+          "period": "2016-2017",
+          "universe": "primary_total",
+          "value": -0.3352724768480728,
+          "cellStatus": "observed",
+          "sourceRow": 34,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "78",
+          "name": "Santa Cruz",
+          "period": "2016-2017",
+          "universe": "primary_total",
+          "value": -0.11315545296127771,
+          "cellStatus": "observed",
+          "sourceRow": 35,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "82",
+          "name": "Santa Fe",
+          "period": "2016-2017",
+          "universe": "primary_total",
+          "value": 0.7507258508182446,
+          "cellStatus": "observed",
+          "sourceRow": 36,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "86",
+          "name": "Santiago Del Estero",
+          "period": "2016-2017",
+          "universe": "primary_total",
+          "value": 1.7711583664380202,
+          "cellStatus": "observed",
+          "sourceRow": 37,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "94",
+          "name": "Tierra Del Fuego",
+          "period": "2016-2017",
+          "universe": "primary_total",
+          "value": 0.838208820882095,
+          "cellStatus": "observed",
+          "sourceRow": 38,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "90",
+          "name": "Tucumán",
+          "period": "2016-2017",
+          "universe": "primary_total",
+          "value": 0.46874816666079355,
+          "cellStatus": "observed",
+          "sourceRow": 39,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "06",
+          "name": "Buenos Aires",
+          "period": "2015-2016",
+          "universe": "primary_total",
+          "value": 0.31179274952531655,
+          "cellStatus": "observed",
+          "sourceRow": 14,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "10",
+          "name": "Catamarca",
+          "period": "2015-2016",
+          "universe": "primary_total",
+          "value": 2.416300230745779,
+          "cellStatus": "observed",
+          "sourceRow": 17,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "22",
+          "name": "Chaco",
+          "period": "2015-2016",
+          "universe": "primary_total",
+          "value": 1.7916066366129066,
+          "cellStatus": "observed",
+          "sourceRow": 18,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "26",
+          "name": "Chubut",
+          "period": "2015-2016",
+          "universe": "primary_total",
+          "value": -0.06322584938937847,
+          "cellStatus": "observed",
+          "sourceRow": 19,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "02",
+          "name": "Ciudad de Buenos Aires",
+          "period": "2015-2016",
+          "universe": "primary_total",
+          "value": 0.49912802934631695,
+          "cellStatus": "observed",
+          "sourceRow": 20,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "14",
+          "name": "Cordoba",
+          "period": "2015-2016",
+          "universe": "primary_total",
+          "value": 0.2108629223874019,
+          "cellStatus": "observed",
+          "sourceRow": 21,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "18",
+          "name": "Corrientes",
+          "period": "2015-2016",
+          "universe": "primary_total",
+          "value": 1.9309867082305008,
+          "cellStatus": "observed",
+          "sourceRow": 22,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "30",
+          "name": "Entre Rios",
+          "period": "2015-2016",
+          "universe": "primary_total",
+          "value": 0.7389871941667714,
+          "cellStatus": "observed",
+          "sourceRow": 23,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "34",
+          "name": "Formosa",
+          "period": "2015-2016",
+          "universe": "primary_total",
+          "value": 1.4980983691097682,
+          "cellStatus": "observed",
+          "sourceRow": 24,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "38",
+          "name": "Jujuy",
+          "period": "2015-2016",
+          "universe": "primary_total",
+          "value": 0.4476160970867568,
+          "cellStatus": "observed",
+          "sourceRow": 25,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "42",
+          "name": "La Pampa",
+          "period": "2015-2016",
+          "universe": "primary_total",
+          "value": -0.1436655232063736,
+          "cellStatus": "observed",
+          "sourceRow": 26,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "46",
+          "name": "La Rioja",
+          "period": "2015-2016",
+          "universe": "primary_total",
+          "value": 0.3297728922534455,
+          "cellStatus": "observed",
+          "sourceRow": 27,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "50",
+          "name": "Mendoza",
+          "period": "2015-2016",
+          "universe": "primary_total",
+          "value": 0.7413013957837116,
+          "cellStatus": "observed",
+          "sourceRow": 28,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "54",
+          "name": "Misiones",
+          "period": "2015-2016",
+          "universe": "primary_total",
+          "value": 1.893144239298723,
+          "cellStatus": "observed",
+          "sourceRow": 29,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "58",
+          "name": "Neuquén",
+          "period": "2015-2016",
+          "universe": "primary_total",
+          "value": 0.12013455069677104,
+          "cellStatus": "observed",
+          "sourceRow": 30,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "62",
+          "name": "Rio Negro",
+          "period": "2015-2016",
+          "universe": "primary_total",
+          "value": -0.16544441185097702,
+          "cellStatus": "observed",
+          "sourceRow": 31,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "66",
+          "name": "Salta",
+          "period": "2015-2016",
+          "universe": "primary_total",
+          "value": 0.9937754883022154,
+          "cellStatus": "observed",
+          "sourceRow": 32,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "70",
+          "name": "San Juan",
+          "period": "2015-2016",
+          "universe": "primary_total",
+          "value": 1.0684862380288975,
+          "cellStatus": "observed",
+          "sourceRow": 33,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "74",
+          "name": "San Luis",
+          "period": "2015-2016",
+          "universe": "primary_total",
+          "value": 1.1180101930945354,
+          "cellStatus": "observed",
+          "sourceRow": 34,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "78",
+          "name": "Santa Cruz",
+          "period": "2015-2016",
+          "universe": "primary_total",
+          "value": 0.5252820536244478,
+          "cellStatus": "observed",
+          "sourceRow": 35,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "82",
+          "name": "Santa Fe",
+          "period": "2015-2016",
+          "universe": "primary_total",
+          "value": 1.4401326769463267,
+          "cellStatus": "observed",
+          "sourceRow": 36,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "86",
+          "name": "Santiago Del Estero",
+          "period": "2015-2016",
+          "universe": "primary_total",
+          "value": 2.0226564674101155,
+          "cellStatus": "observed",
+          "sourceRow": 37,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "94",
+          "name": "Tierra Del Fuego",
+          "period": "2015-2016",
+          "universe": "primary_total",
+          "value": -0.4787961696306522,
+          "cellStatus": "observed",
+          "sourceRow": 38,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "90",
+          "name": "Tucumán",
+          "period": "2015-2016",
+          "universe": "primary_total",
+          "value": 0.5205730952021227,
+          "cellStatus": "observed",
+          "sourceRow": 39,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "06",
+          "name": "Buenos Aires",
+          "period": "2014-2015",
+          "universe": "primary_total",
+          "value": 0.5236774132958211,
+          "cellStatus": "observed",
+          "sourceRow": 13,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "10",
+          "name": "Catamarca",
+          "period": "2014-2015",
+          "universe": "primary_total",
+          "value": 0.4557458045830092,
+          "cellStatus": "observed",
+          "sourceRow": 16,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "22",
+          "name": "Chaco",
+          "period": "2014-2015",
+          "universe": "primary_total",
+          "value": 1.5021815083572045,
+          "cellStatus": "observed",
+          "sourceRow": 17,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "26",
+          "name": "Chubut",
+          "period": "2014-2015",
+          "universe": "primary_total",
+          "value": -0.48086657218059803,
+          "cellStatus": "observed",
+          "sourceRow": 18,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "02",
+          "name": "Ciudad de Buenos Aires",
+          "period": "2014-2015",
+          "universe": "primary_total",
+          "value": 0.4672314310254484,
+          "cellStatus": "observed",
+          "sourceRow": 19,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "14",
+          "name": "Cordoba",
+          "period": "2014-2015",
+          "universe": "primary_total",
+          "value": 0.8973753084986775,
+          "cellStatus": "observed",
+          "sourceRow": 20,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "18",
+          "name": "Corrientes",
+          "period": "2014-2015",
+          "universe": "primary_total",
+          "value": 2.0453932520475178,
+          "cellStatus": "observed",
+          "sourceRow": 21,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "30",
+          "name": "Entre Rios",
+          "period": "2014-2015",
+          "universe": "primary_total",
+          "value": 0.566112074983927,
+          "cellStatus": "observed",
+          "sourceRow": 22,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "34",
+          "name": "Formosa",
+          "period": "2014-2015",
+          "universe": "primary_total",
+          "value": 1.5120711562897071,
+          "cellStatus": "observed",
+          "sourceRow": 23,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "38",
+          "name": "Jujuy",
+          "period": "2014-2015",
+          "universe": "primary_total",
+          "value": 0.036145987263858786,
+          "cellStatus": "observed",
+          "sourceRow": 24,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "42",
+          "name": "La Pampa",
+          "period": "2014-2015",
+          "universe": "primary_total",
+          "value": -0.18585741251634125,
+          "cellStatus": "observed",
+          "sourceRow": 25,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "46",
+          "name": "La Rioja",
+          "period": "2014-2015",
+          "universe": "primary_total",
+          "value": 1.8777516125729568,
+          "cellStatus": "observed",
+          "sourceRow": 26,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "50",
+          "name": "Mendoza",
+          "period": "2014-2015",
+          "universe": "primary_total",
+          "value": 0.6513139432781974,
+          "cellStatus": "observed",
+          "sourceRow": 27,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "54",
+          "name": "Misiones",
+          "period": "2014-2015",
+          "universe": "primary_total",
+          "value": 1.8435560734564134,
+          "cellStatus": "observed",
+          "sourceRow": 28,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "58",
+          "name": "Neuquén",
+          "period": "2014-2015",
+          "universe": "primary_total",
+          "value": -0.5402954133195035,
+          "cellStatus": "observed",
+          "sourceRow": 29,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "62",
+          "name": "Rio Negro",
+          "period": "2014-2015",
+          "universe": "primary_total",
+          "value": -0.18240444360760844,
+          "cellStatus": "observed",
+          "sourceRow": 30,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "66",
+          "name": "Salta",
+          "period": "2014-2015",
+          "universe": "primary_total",
+          "value": 1.3979728336444062,
+          "cellStatus": "observed",
+          "sourceRow": 31,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "70",
+          "name": "San Juan",
+          "period": "2014-2015",
+          "universe": "primary_total",
+          "value": 1.2662259219398617,
+          "cellStatus": "observed",
+          "sourceRow": 32,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "74",
+          "name": "San Luis",
+          "period": "2014-2015",
+          "universe": "primary_total",
+          "value": 0.7808451710890738,
+          "cellStatus": "observed",
+          "sourceRow": 33,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "78",
+          "name": "Santa Cruz",
+          "period": "2014-2015",
+          "universe": "primary_total",
+          "value": -0.6525094719116884,
+          "cellStatus": "observed",
+          "sourceRow": 34,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "82",
+          "name": "Santa Fe",
+          "period": "2014-2015",
+          "universe": "primary_total",
+          "value": 1.319049797567636,
+          "cellStatus": "observed",
+          "sourceRow": 35,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "86",
+          "name": "Santiago Del Estero",
+          "period": "2014-2015",
+          "universe": "primary_total",
+          "value": 1.603056548873521,
+          "cellStatus": "observed",
+          "sourceRow": 36,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "94",
+          "name": "Tierra Del Fuego",
+          "period": "2014-2015",
+          "universe": "primary_total",
+          "value": -0.44570502431117376,
+          "cellStatus": "observed",
+          "sourceRow": 37,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "90",
+          "name": "Tucumán",
+          "period": "2014-2015",
+          "universe": "primary_total",
+          "value": 0.6673163170521812,
+          "cellStatus": "observed",
+          "sourceRow": 38,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "06",
+          "name": "Buenos Aires",
+          "period": "2013-2014",
+          "universe": "primary_total",
+          "value": 0.363957351588039,
+          "cellStatus": "observed",
+          "sourceRow": 13,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "10",
+          "name": "Catamarca",
+          "period": "2013-2014",
+          "universe": "primary_total",
+          "value": 0.7575914817659128,
+          "cellStatus": "observed",
+          "sourceRow": 16,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "22",
+          "name": "Chaco",
+          "period": "2013-2014",
+          "universe": "primary_total",
+          "value": 1.7969820133384218,
+          "cellStatus": "observed",
+          "sourceRow": 17,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "26",
+          "name": "Chubut",
+          "period": "2013-2014",
+          "universe": "primary_total",
+          "value": -0.17308671304937073,
+          "cellStatus": "observed",
+          "sourceRow": 18,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "02",
+          "name": "Ciudad de Buenos Aires",
+          "period": "2013-2014",
+          "universe": "primary_total",
+          "value": 0.5503820908094799,
+          "cellStatus": "observed",
+          "sourceRow": 19,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "14",
+          "name": "Cordoba",
+          "period": "2013-2014",
+          "universe": "primary_total",
+          "value": 0.5228155259364031,
+          "cellStatus": "observed",
+          "sourceRow": 20,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "18",
+          "name": "Corrientes",
+          "period": "2013-2014",
+          "universe": "primary_total",
+          "value": 3.8522582675441575,
+          "cellStatus": "observed",
+          "sourceRow": 21,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "30",
+          "name": "Entre Rios",
+          "period": "2013-2014",
+          "universe": "primary_total",
+          "value": 0.9193338909175046,
+          "cellStatus": "observed",
+          "sourceRow": 22,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "34",
+          "name": "Formosa",
+          "period": "2013-2014",
+          "universe": "primary_total",
+          "value": 1.0071060401341154,
+          "cellStatus": "observed",
+          "sourceRow": 23,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "38",
+          "name": "Jujuy",
+          "period": "2013-2014",
+          "universe": "primary_total",
+          "value": 0.3390290208841887,
+          "cellStatus": "observed",
+          "sourceRow": 24,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "42",
+          "name": "La Pampa",
+          "period": "2013-2014",
+          "universe": "primary_total",
+          "value": -0.03477152212338391,
+          "cellStatus": "observed",
+          "sourceRow": 25,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "46",
+          "name": "La Rioja",
+          "period": "2013-2014",
+          "universe": "primary_total",
+          "value": 2.3005364569729294,
+          "cellStatus": "observed",
+          "sourceRow": 26,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "50",
+          "name": "Mendoza",
+          "period": "2013-2014",
+          "universe": "primary_total",
+          "value": 0.910275451720786,
+          "cellStatus": "observed",
+          "sourceRow": 27,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "54",
+          "name": "Misiones",
+          "period": "2013-2014",
+          "universe": "primary_total",
+          "value": 2.3676564305851113,
+          "cellStatus": "observed",
+          "sourceRow": 28,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "58",
+          "name": "Neuquén",
+          "period": "2013-2014",
+          "universe": "primary_total",
+          "value": 0.5192936559842991,
+          "cellStatus": "observed",
+          "sourceRow": 29,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "62",
+          "name": "Rio Negro",
+          "period": "2013-2014",
+          "universe": "primary_total",
+          "value": -0.16548518848880045,
+          "cellStatus": "observed",
+          "sourceRow": 30,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "66",
+          "name": "Salta",
+          "period": "2013-2014",
+          "universe": "primary_total",
+          "value": 0.9953128014223189,
+          "cellStatus": "observed",
+          "sourceRow": 31,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "70",
+          "name": "San Juan",
+          "period": "2013-2014",
+          "universe": "primary_total",
+          "value": 1.6603872776658153,
+          "cellStatus": "observed",
+          "sourceRow": 32,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "74",
+          "name": "San Luis",
+          "period": "2013-2014",
+          "universe": "primary_total",
+          "value": 0.43883216908472056,
+          "cellStatus": "observed",
+          "sourceRow": 33,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "78",
+          "name": "Santa Cruz",
+          "period": "2013-2014",
+          "universe": "primary_total",
+          "value": 0.6288419416378201,
+          "cellStatus": "observed",
+          "sourceRow": 34,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "82",
+          "name": "Santa Fe",
+          "period": "2013-2014",
+          "universe": "primary_total",
+          "value": 1.1064087061668701,
+          "cellStatus": "observed",
+          "sourceRow": 35,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "86",
+          "name": "Santiago Del Estero",
+          "period": "2013-2014",
+          "universe": "primary_total",
+          "value": 1.644301138568153,
+          "cellStatus": "observed",
+          "sourceRow": 36,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "94",
+          "name": "Tierra Del Fuego",
+          "period": "2013-2014",
+          "universe": "primary_total",
+          "value": -0.6528643688977769,
+          "cellStatus": "observed",
+          "sourceRow": 37,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "90",
+          "name": "Tucumán",
+          "period": "2013-2014",
+          "universe": "primary_total",
+          "value": 0.7392364384983229,
+          "cellStatus": "observed",
+          "sourceRow": 38,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "06",
+          "name": "Buenos Aires",
+          "period": "2012-2013",
+          "universe": "primary_total",
+          "value": 0.3506934422766155,
+          "cellStatus": "observed",
+          "sourceRow": 13,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "10",
+          "name": "Catamarca",
+          "period": "2012-2013",
+          "universe": "primary_total",
+          "value": 1.1037970618929074,
+          "cellStatus": "observed",
+          "sourceRow": 16,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "22",
+          "name": "Chaco",
+          "period": "2012-2013",
+          "universe": "primary_total",
+          "value": 2.7495963695073544,
+          "cellStatus": "observed",
+          "sourceRow": 17,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "26",
+          "name": "Chubut",
+          "period": "2012-2013",
+          "universe": "primary_total",
+          "value": 0.08327243682340968,
+          "cellStatus": "observed",
+          "sourceRow": 18,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "02",
+          "name": "Ciudad de Buenos Aires",
+          "period": "2012-2013",
+          "universe": "primary_total",
+          "value": 0.31882465720963094,
+          "cellStatus": "observed",
+          "sourceRow": 19,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "14",
+          "name": "Cordoba",
+          "period": "2012-2013",
+          "universe": "primary_total",
+          "value": 0.47796449171318134,
+          "cellStatus": "observed",
+          "sourceRow": 20,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "18",
+          "name": "Corrientes",
+          "period": "2012-2013",
+          "universe": "primary_total",
+          "value": 2.5051059697994464,
+          "cellStatus": "observed",
+          "sourceRow": 21,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "30",
+          "name": "Entre Rios",
+          "period": "2012-2013",
+          "universe": "primary_total",
+          "value": 1.023738477114084,
+          "cellStatus": "observed",
+          "sourceRow": 22,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "34",
+          "name": "Formosa",
+          "period": "2012-2013",
+          "universe": "primary_total",
+          "value": 2.603541689393112,
+          "cellStatus": "observed",
+          "sourceRow": 23,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "38",
+          "name": "Jujuy",
+          "period": "2012-2013",
+          "universe": "primary_total",
+          "value": 0.22710607788822035,
+          "cellStatus": "observed",
+          "sourceRow": 24,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "42",
+          "name": "La Pampa",
+          "period": "2012-2013",
+          "universe": "primary_total",
+          "value": 0.11529371072808636,
+          "cellStatus": "observed",
+          "sourceRow": 25,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "46",
+          "name": "La Rioja",
+          "period": "2012-2013",
+          "universe": "primary_total",
+          "value": 1.0003993610223634,
+          "cellStatus": "observed",
+          "sourceRow": 26,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "50",
+          "name": "Mendoza",
+          "period": "2012-2013",
+          "universe": "primary_total",
+          "value": 1.5416776732280981,
+          "cellStatus": "observed",
+          "sourceRow": 27,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "54",
+          "name": "Misiones",
+          "period": "2012-2013",
+          "universe": "primary_total",
+          "value": 3.2626857332609474,
+          "cellStatus": "observed",
+          "sourceRow": 28,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "58",
+          "name": "Neuquén",
+          "period": "2012-2013",
+          "universe": "primary_total",
+          "value": -0.13713984308037208,
+          "cellStatus": "observed",
+          "sourceRow": 29,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "62",
+          "name": "Rio Negro",
+          "period": "2012-2013",
+          "universe": "primary_total",
+          "value": 0.2024408583492434,
+          "cellStatus": "observed",
+          "sourceRow": 30,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "66",
+          "name": "Salta",
+          "period": "2012-2013",
+          "universe": "primary_total",
+          "value": 1.8031002284540203,
+          "cellStatus": "observed",
+          "sourceRow": 31,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "70",
+          "name": "San Juan",
+          "period": "2012-2013",
+          "universe": "primary_total",
+          "value": 1.5915002424723346,
+          "cellStatus": "observed",
+          "sourceRow": 32,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "74",
+          "name": "San Luis",
+          "period": "2012-2013",
+          "universe": "primary_total",
+          "value": 3.378156205112229,
+          "cellStatus": "observed",
+          "sourceRow": 33,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "78",
+          "name": "Santa Cruz",
+          "period": "2012-2013",
+          "universe": "primary_total",
+          "value": 0.7768328027747433,
+          "cellStatus": "observed",
+          "sourceRow": 34,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "82",
+          "name": "Santa Fe",
+          "period": "2012-2013",
+          "universe": "primary_total",
+          "value": 1.2381120021536782,
+          "cellStatus": "observed",
+          "sourceRow": 35,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "86",
+          "name": "Santiago Del Estero",
+          "period": "2012-2013",
+          "universe": "primary_total",
+          "value": 3.476645435244156,
+          "cellStatus": "observed",
+          "sourceRow": 36,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "94",
+          "name": "Tierra Del Fuego",
+          "period": "2012-2013",
+          "universe": "primary_total",
+          "value": -1.492986575161035,
+          "cellStatus": "observed",
+          "sourceRow": 37,
+          "sourceColumn": 3
+        },
+        {
+          "geo": "90",
+          "name": "Tucumán",
+          "period": "2012-2013",
+          "universe": "primary_total",
+          "value": 0.5122448312316821,
+          "cellStatus": "observed",
+          "sourceRow": 38,
+          "sourceColumn": 3
+        }
+      ]
+    },
+    "health": {
+      "title": "Nacidos vivos por provincia",
+      "question": "¿Cuántos nacimientos se registraron?",
+      "theme": "Salud",
+      "snapshot": "2026-11-06",
+      "release": "ac0ac5ff8794f73c57a02b494b97401431ce901d4f5f0a5df877f372da9d85d2",
+      "periods": [
+        "2024"
+      ],
+      "domain": "province",
+      "geos": [
+        "02",
+        "06",
+        "10",
+        "14",
+        "18",
+        "22",
+        "26",
+        "30",
+        "34",
+        "38",
+        "42",
+        "46",
+        "50",
+        "54",
+        "58",
+        "62",
+        "66",
+        "70",
+        "74",
+        "78",
+        "82",
+        "86",
+        "90",
+        "94"
+      ],
+      "universes": [
+        "births_residence"
+      ],
+      "universeLabel": "Nacidos vivos registrados · provincia de residencia",
+      "periodLabel": "Año del cuadro",
+      "unit": "nacidos vivos",
+      "measure": "count",
+      "source": "DEIS · CSV de nacidos vivos 2024",
+      "sourceURL": "https://www.argentina.gob.ar/sites/default/files/2021/03/datos_sobre_nacidos_vivos_2024.csv",
+      "sourceDetail": "Datos agregados por provincia de residencia. Códigos98 y99 no se convierten en provincias; no se calcula aquí un total nacional a partir del mapa.",
+      "status": "Candidato técnico · aprobación temática pendiente",
+      "note": "Se muestran cantidades, no tasas de natalidad ni riesgo. Una provincia con más nacimientos no tiene por eso una mayor tasa.",
+      "blocking": "La conciliación del adaptador no equivale a aprobación institucional ni a validación de todas las vistas de salud.",
+      "rows": [
+        {
+          "geo": "02",
+          "name": "CABA",
+          "period": "2024",
+          "universe": "births_residence",
+          "value": 21454,
+          "cellStatus": "observed"
+        },
+        {
+          "geo": "06",
+          "name": "Buenos Aires",
+          "period": "2024",
+          "universe": "births_residence",
+          "value": 147081,
+          "cellStatus": "observed"
+        },
+        {
+          "geo": "10",
+          "name": "Catamarca",
+          "period": "2024",
+          "universe": "births_residence",
+          "value": 3866,
+          "cellStatus": "observed"
+        },
+        {
+          "geo": "14",
+          "name": "Cordoba",
+          "period": "2024",
+          "universe": "births_residence",
+          "value": 33873,
+          "cellStatus": "observed"
+        },
+        {
+          "geo": "18",
+          "name": "Corrientes",
+          "period": "2024",
+          "universe": "births_residence",
+          "value": 12538,
+          "cellStatus": "observed"
+        },
+        {
+          "geo": "22",
+          "name": "Chaco",
+          "period": "2024",
+          "universe": "births_residence",
+          "value": 14350,
+          "cellStatus": "observed"
+        },
+        {
+          "geo": "26",
+          "name": "Chubut",
+          "period": "2024",
+          "universe": "births_residence",
+          "value": 5054,
+          "cellStatus": "observed"
+        },
+        {
+          "geo": "30",
+          "name": "Entre Rios",
+          "period": "2024",
+          "universe": "births_residence",
+          "value": 12548,
+          "cellStatus": "observed"
+        },
+        {
+          "geo": "34",
+          "name": "Formosa",
+          "period": "2024",
+          "universe": "births_residence",
+          "value": 6711,
+          "cellStatus": "observed"
+        },
+        {
+          "geo": "38",
+          "name": "Jujuy",
+          "period": "2024",
+          "universe": "births_residence",
+          "value": 6352,
+          "cellStatus": "observed"
+        },
+        {
+          "geo": "42",
+          "name": "La Pampa",
+          "period": "2024",
+          "universe": "births_residence",
+          "value": 3039,
+          "cellStatus": "observed"
+        },
+        {
+          "geo": "46",
+          "name": "La Rioja",
+          "period": "2024",
+          "universe": "births_residence",
+          "value": 3503,
+          "cellStatus": "observed"
+        },
+        {
+          "geo": "50",
+          "name": "Mendoza",
+          "period": "2024",
+          "universe": "births_residence",
+          "value": 18505,
+          "cellStatus": "observed"
+        },
+        {
+          "geo": "54",
+          "name": "Misiones",
+          "period": "2024",
+          "universe": "births_residence",
+          "value": 16469,
+          "cellStatus": "observed"
+        },
+        {
+          "geo": "58",
+          "name": "Neuquen",
+          "period": "2024",
+          "universe": "births_residence",
+          "value": 6790,
+          "cellStatus": "observed"
+        },
+        {
+          "geo": "62",
+          "name": "Rio Negro",
+          "period": "2024",
+          "universe": "births_residence",
+          "value": 6721,
+          "cellStatus": "observed"
+        },
+        {
+          "geo": "66",
+          "name": "Salta",
+          "period": "2024",
+          "universe": "births_residence",
+          "value": 14410,
+          "cellStatus": "observed"
+        },
+        {
+          "geo": "70",
+          "name": "San Juan",
+          "period": "2024",
+          "universe": "births_residence",
+          "value": 8701,
+          "cellStatus": "observed"
+        },
+        {
+          "geo": "74",
+          "name": "San Luis",
+          "period": "2024",
+          "universe": "births_residence",
+          "value": 4410,
+          "cellStatus": "observed"
+        },
+        {
+          "geo": "78",
+          "name": "Santa Cruz",
+          "period": "2024",
+          "universe": "births_residence",
+          "value": 2696,
+          "cellStatus": "observed"
+        },
+        {
+          "geo": "82",
+          "name": "Santa Fe",
+          "period": "2024",
+          "universe": "births_residence",
+          "value": 33713,
+          "cellStatus": "observed"
+        },
+        {
+          "geo": "86",
+          "name": "Santiago Del Estero",
+          "period": "2024",
+          "universe": "births_residence",
+          "value": 11401,
+          "cellStatus": "observed"
+        },
+        {
+          "geo": "90",
+          "name": "Tucuman",
+          "period": "2024",
+          "universe": "births_residence",
+          "value": 16661,
+          "cellStatus": "observed"
+        },
+        {
+          "geo": "94",
+          "name": "Tierra del Fuego",
+          "period": "2024",
+          "universe": "births_residence",
+          "value": 1259,
+          "cellStatus": "observed"
+        }
+      ]
+    },
+    "migration": {
+      "title": "Lugar de nacimiento de la población urbana",
+      "question": "¿Cómo se compone la población?",
+      "theme": "Grupos prioritarios",
+      "snapshot": "2026-11-06",
+      "release": "EPHU-2025-T3-show_unknown-all-review",
+      "periods": [
+        "2025-T3"
+      ],
+      "domain": "national",
+      "geos": [
+        "00"
+      ],
+      "universes": [
+        "all"
+      ],
+      "universeLabel": "Población total urbana · todas las edades · EPH total urbano",
+      "periodLabel": "Período de encuesta",
+      "unit": "%",
+      "measure": "proportion",
+      "source": "INDEC · EPH total urbano 2025, tercer trimestre",
+      "sourceURL": "https://www.indec.gob.ar/Institucional/Indec/BasesDeDatos",
+      "sourceDetail": "Reprocesamiento candidato del adaptador social: ponderador y respuestas sin información conservados. No se sustituyó por EPH de31aglomerados.",
+      "status": "Bloqueado para sustitución · conciliación pendiente",
+      "note": "La copia de Tableau suma101% en tres categorías. Esta vista muestra el cálculo candidato incluyendo sin información; no reemplaza ni normaliza los valores de Tableau.",
+      "blocking": "Hay diferencias entre la fuente reprocesada y la copia de Tableau. Se requiere resolver universo, ponderación y edición antes de publicar una sustitución.",
+      "rows": [
+        {
+          "geo": "00",
+          "name": "En la provincia en la que vive",
+          "category": "same_province",
+          "period": "2025-T3",
+          "universe": "all",
+          "value": 86.44769398789082,
+          "numerator": 37464157,
+          "denominator": 43337370,
+          "cellStatus": "candidate_unapproved",
+          "tableau": 87.3
+        },
+        {
+          "geo": "00",
+          "name": "En otra provincia",
+          "category": "other_province",
+          "period": "2025-T3",
+          "universe": "all",
+          "value": 9.970925785298,
+          "numerator": 4321137,
+          "denominator": 43337370,
+          "cellStatus": "candidate_unapproved",
+          "tableau": 10.1
+        },
+        {
+          "geo": "00",
+          "name": "En otro país",
+          "category": "foreign_country",
+          "period": "2025-T3",
+          "universe": "all",
+          "value": 3.55526419808124,
+          "numerator": 1540758,
+          "denominator": 43337370,
+          "cellStatus": "candidate_unapproved",
+          "tableau": 3.6
+        },
+        {
+          "geo": "00",
+          "name": "Sin información de lugar de nacimiento",
+          "category": "unknown",
+          "period": "2025-T3",
+          "universe": "all",
+          "value": 0.02611602872993908,
+          "numerator": 11318,
+          "denominator": 43337370,
+          "cellStatus": "candidate_unapproved",
+          "tableau": null
+        }
+      ]
+    }
+  },
+  "names": {
+    "02": "CABA",
+    "06": "Buenos Aires",
+    "10": "Catamarca",
+    "14": "Cordoba",
+    "18": "Corrientes",
+    "22": "Chaco",
+    "26": "Chubut",
+    "30": "Entre Rios",
+    "34": "Formosa",
+    "38": "Jujuy",
+    "42": "La Pampa",
+    "46": "La Rioja",
+    "50": "Mendoza",
+    "54": "Misiones",
+    "58": "Neuquen",
+    "62": "Rio Negro",
+    "66": "Salta",
+    "70": "San Juan",
+    "74": "San Luis",
+    "78": "Santa Cruz",
+    "82": "Santa Fe",
+    "86": "Santiago Del Estero",
+    "90": "Tucuman",
+    "94": "Tierra del Fuego",
+    "00": "Total urbano nacional"
+  },
+  "mapGate": {
+    "status": "blocked_geometry_review",
+    "reason": "La revisión GIS detectó geometrías inválidas y superposiciones en el recurso simplificado. No se presenta un mapa como validado. La selección territorial sigue disponible mediante lista y barras.",
+    "candidate": true
+  }
+}

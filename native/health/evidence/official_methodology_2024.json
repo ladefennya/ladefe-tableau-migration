@@ -1,0 +1,56 @@
+{
+  "official_publication": {
+    "url": "https://www.argentina.gob.ar/sites/default/files/serie_5_nro_68_anuario_vitales_2024_v2.pdf",
+    "sha256": "1794f1d76591e3260874ffa52623c30f246f45828361d7a82fec2961bdd7a02a",
+    "bytes": 11867228,
+    "evidence": [
+      {
+        "pdf_page": 46,
+        "table": 6,
+        "fact": "Weight percentages explicitly use births with specified weight."
+      },
+      {
+        "pdf_page": 47,
+        "table": 7,
+        "fact": "Preterm counts and gestational unknown counts available; no explicit percentage denominator note found here."
+      },
+      {
+        "pdf_page": 48,
+        "table": 8,
+        "fact": "Weight by gestation cross-table reproduces counts."
+      },
+      {
+        "pdf_page": 29,
+        "fact": "Late maternal deaths are excluded from numerator of maternal mortality ratio."
+      },
+      {
+        "pdf_page": 30,
+        "fact": "Annual maternal mortality ratio per 10000 live births; infant/neonatal/postneonatal definitions."
+      },
+      {
+        "pdf_page": 61,
+        "table": 21,
+        "fact": "Footnote identifies one under-one death with unspecified precise age and sex."
+      },
+      {
+        "pdf_page": 12,
+        "fact": "Births registered encompass current and prior year occurrences registered in reference year; late death registrations excluded since2006."
+      }
+    ]
+  },
+  "dictionaries": [
+    {
+      "url": "https://www.argentina.gob.ar/sites/default/files/2021/03/descnac.xlsx",
+      "path": "/tmp/descnac.xlsx",
+      "bytes": 12660,
+      "sha256": "1cc6f1575f47f94b3a38fba8ce7ca1a834a88a0eb983f3081fadd3b75a108f7f"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/sites/default/files/2021/03/descdef1.xlsx",
+      "path": "/tmp/descdef1.xlsx",
+      "bytes": 84321,
+      "sha256": "da28ad26769043fb75300d1fe9fe5b5543f88f32f1b6b2977040863cc6894814"
+    }
+  ],
+  "domain_gap": "Both dictionaries omit observed SEXO=3 and state comma separator, whereas pinned2024 CSV usessemicolon; do not treat dictionary as complete without checking actual edition."
+}

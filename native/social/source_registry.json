@@ -1,0 +1,20 @@
+{
+  "2024": {
+    "source_url": "https://www.indec.gob.ar/ftp/cuadros/menusuperior/eahu/EPH_Tot_Urbano_3T_2024.zip",
+    "sha256": "f703ba4b4b64d730468548c6e19196dd33b110a697eac84060d4ca9f6a198147",
+    "bytes": 4585826,
+    "persons_member": "personas_tot.urb_3T_2024.txt",
+    "sample_rows": 75211,
+    "weighted_total": 42936914,
+    "columns_sha256": "4d972ad1f34e9d6eb011a8057636823c95e510245cec8000284a0b313036d941"
+  },
+  "2025": {
+    "source_url": "https://www.indec.gob.ar/ftp/cuadros/menusuperior/eahu/EPH_Tot_Urbano_3T_2025.zip",
+    "sha256": "0f8dd5c85d66f219ee20c92751795f654d6d213c478197dc982bfdb9563b7dbe",
+    "bytes": 4920375,
+    "persons_member": "personas_tot.urb_3T_2025.txt",
+    "sample_rows": 71322,
+    "weighted_total": 43337370,
+    "columns_sha256": "4d972ad1f34e9d6eb011a8057636823c95e510245cec8000284a0b313036d941"
+  }
+}

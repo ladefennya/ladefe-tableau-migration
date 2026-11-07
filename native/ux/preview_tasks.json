@@ -1,0 +1,19 @@
+{
+  "status": "tasks_for_supervised_review_not_user_testing",
+  "entrypoint": "index.html",
+  "network_dependencies": [],
+  "tasks": [
+    {"id":"default_24","action":"Abrir sin parámetros","expect":"Abandono primario2024–2025;24observacionesprovinciales;noConurbano/RestoBsAs;nationalKPI no inferido;estado candidato visible"},
+    {"id":"two_provinces","action":"TerritorioJujuy;compararLaPampa","expect":"Tabla y barras2valores;detalle ambas provincias y ciclo;mismafuente/universo;URLcontiene38y42"},
+    {"id":"independent_time","action":"ConJujuyseleccionado modificarventana2018–2019 a2022–2023","expect":"Ventana/tabla de seriecambia;cuadrosigueen2024–2025;ningúnpromedio nacional"},
+    {"id":"history","action":"Cambiarperíododelcuadro, territorio y luego Atrás/Adelante","expect":"Se restauracontexto completo yfilas;sin cambiarsource_release niuniverso"},
+    {"id":"invalid_default_deny","action":"Abrir?qv=99;abrirURLválidaconsnapshotalterado;agregarparámetroperiodduplicado","expect":"Estadoerrorvisible;appnodibuja datos;recuperaciónrequiereacciónexplícita"},
+    {"id":"national_domain","action":"Elegirmigraciones","expect":"Territorio00nacional;comparadordeshabilitado;4categoríasconunknown;diferenciaconTableauvisible;mensajesnopidenprovincia;publicaciónbloqueada"},
+    {"id":"health_count","action":"Elegirnacidosvivos;seleccionarBuenosAires","expect":"Cantidad147081en2024,notasa;unaobservación;sinventana de serie;98/99no convertidosenprovincias"},
+    {"id":"map_gate","action":"Revisarcasoprovincialynacional","expect":"Nohaymapafalso;bloqueoprovincialporGIS;nacionalexplicafaltadedominio;listasybarrasoperan"},
+    {"id":"download","action":"Descargarconsulta de2provincias","expect":"JSONtieneexactamente2observaciones,consulta completa,fuente,unidad,release,snapshot ypublication_allowed=false"},
+    {"id":"keyboard","action":"Recorrersolo teclado;activarbarra;usarselectores;saltoalcontenido","expect":"Focovisible;operacionesprincipales accesibles;selecciónsinclick;erroresconacción de recuperación"},
+    {"id":"narrow_layout","action":"Revisar390pxyzoom;tabla encontenedor","expect":"Controlesycontexto visibles;sin scrollhorizontalglobal;tabla puededesplazar dentrodecontenedor"}
+  ],
+  "not_covered": ["reader_screen_conformance", "testing_with_people", "validated_map_selection", "all_71_dashboards", "institutional_approval"]
+}

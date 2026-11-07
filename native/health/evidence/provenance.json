@@ -1,0 +1,8 @@
+{
+  "schema_version": "deis-vitales-2024/2.0.0",
+  "adapter_sha256": "a6fcaef15104d2a7deafc3db14cd78cdc81cc23ec92372a196005854b6886123",
+  "release_contract_sha256": "40252a6ee65d12ae29441db36299707e4a1d043ae9fb7341c1c34c56c1c26105",
+  "reference_db_sha256": "a0979670b6d08e223dc0efe2577760fe948d8c96dc10eafb752ccb3613b645b3",
+  "reference_year": 2024,
+  "publication_status": "candidate_not_published"
+}

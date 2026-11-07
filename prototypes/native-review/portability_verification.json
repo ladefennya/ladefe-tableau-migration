@@ -1,0 +1,11 @@
+{
+  "result": "PASS",
+  "frozen_payload_unchanged": true,
+  "payload_sha256": "10bee830ba10c83e2fcf3ada9b80970937b2780400edb360464542e20e92c2e3",
+  "html_sha256": "e2d30fa68a900a60b5a9648d298c7f40e41de1890ad1019073088e56a4449177",
+  "configurable_preparation_matches_frozen_bytes": true,
+  "absolute_workspace_paths_in_scripts": false,
+  "data_or_style_changed_in_portability_refinement": false,
+  "grammar_fix": "singular observation in caption and live region",
+  "browser_validation": "performed by parent; final HTML hash requires revalidation"
+}

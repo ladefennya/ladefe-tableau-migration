@@ -1,0 +1,14 @@
+const assert=require('node:assert/strict'),Q=require('./state_contract.js');
+const catalog={education:{snapshot:'s',release:'r',periods:['2024-2025','2023-2024'],domain:'province',geos:['02','06'],universes:['primary_total']},migration:{snapshot:'s',release:'m',periods:['2025-T3'],domain:'national',geos:['00'],universes:['all','children']}};
+const s=Q.defaults(catalog);assert.deepEqual(Q.read(Q.encode(s),catalog),s);
+assert.throws(()=>Q.read('?dataset=education',catalog),/Versión/);
+assert.throws(()=>Q.transition(s,{territory:'99'},catalog),/territorio/);
+assert.throws(()=>Q.transition(s,{snapshot:'other'},catalog),/No se sustituyó/);
+assert.throws(()=>Q.read(Q.encode(s)+'&period=2024-2025',catalog),/repetido/);
+assert.throws(()=>Q.transition(s,{series_from:'2024-2025',series_to:'2023-2024'},catalog),/Ventana/);
+assert.throws(()=>Q.transition(s,{compare:'06'},catalog),/requiere/);
+let t=Q.transition(s,{territory:'02',compare:'06'},catalog);assert.equal(t.period,s.period);assert.equal(t.release,s.release);
+assert.deepEqual(Q.selectedRows([{period:s.period,universe:s.universe,geo:'02'},{period:s.period,universe:s.universe,geo:'06'},{period:'2023-2024',universe:s.universe,geo:'02'}],t).map(r=>r.geo),['02','06']);
+const m=Q.transition(t,{dataset:'migration'},catalog);assert.equal(m.territory,'00');assert.equal(m.compare,'');assert.throws(()=>Q.transition(m,{territory:'06'},catalog),/territorio/);
+assert.throws(()=>Q.transition(m,{universe:'eph_31_agglomerations'},catalog),/Universo/);
+console.log('PASS: roundtrip, invalid/default-deny, version pinning, period windows, territory comparison, domain reset and no universe substitution');

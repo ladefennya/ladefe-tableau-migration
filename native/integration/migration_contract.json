@@ -1,0 +1,59 @@
+{
+  "version": "0.1.0-review",
+  "scope": "71 workbooks conocidos; certificación independiente por indicador y vista",
+  "status": "proposed_not_approved",
+  "source_policy": {
+    "preserve_raw_values": true,
+    "preserve_original_fields": true,
+    "require_source_workbook_namespace": true,
+    "source_snapshot_hash_required": true,
+    "source_revision_can_replace_history": false,
+    "automatic_imputation": false
+  },
+  "required_semantic_fields": ["indicator_id", "population_universe", "statistical_unit", "measure_kind", "reference_period", "geography_level", "calculation_rule", "source_release", "validation_state"],
+  "time_policy": {
+    "raw_year_is_reference_period_by_default": false,
+    "cycle_requires_start_and_end": true,
+    "period_conflict_action": "hold_candidate; preserve raw and compare original source",
+    "unknown_reference_period_action": "no time series, no automatic year filter"
+  },
+  "calculation_policy": {
+    "valid_measure_kinds": ["count", "amount", "proportion", "rate", "index", "published_estimate"],
+    "automatic_average": false,
+    "automatic_sum_between_periods": false,
+    "ratio_of_sums_requires_compatible_universe": true,
+    "zero_denominator_action": "missing_with_reason",
+    "missing_is_zero": false,
+    "percentage_clip_to_0_100": false,
+    "index_base_required": true,
+    "tableau_AVG_requires_explicit_dimensional_review": true
+  },
+  "geography_policy": {
+    "display_requires_supported_domain": true,
+    "national_only_records_are_mappable": false,
+    "province_to_point_geocoding": false,
+    "children_individual_locations": "excluded",
+    "missing_territory_action": "no_data; not zero",
+    "choropleth_default_measure": "comparable rates or proportions",
+    "counts_default": "ranking or proportional_symbols",
+    "cross_year_scale": "shared domain unless explicitly changed and labelled",
+    "map_alternative_required": "accessible table and ranking"
+  },
+  "workflow": ["acquired", "parsed", "mapped", "technically_validated", "statistically_reconciled", "thematically_approved", "publication_ready"],
+  "publication_gate": {
+    "requires_statistical_reconciliation": true,
+    "requires_thematic_approval": true,
+    "critical_unknown_period_blocks": true,
+    "blocks_silent_source_change": true,
+    "full_71_coverage_is_not_equivalence": true
+  },
+  "ui_policy": {
+    "proposed_entrypoints": ["theme", "question", "territory"],
+    "single_comparison_context": ["universe", "measure", "period", "geography", "source_release"],
+    "related_views_require_approved_mapping": true,
+    "show_source_period_unit_quality": true,
+    "map_is_optional": true,
+    "user_testing_state": "not_performed",
+    "visual_validation_before_publication": "sites-preview + integrated browser via cua_repl"
+  }
+}

@@ -1,0 +1,72 @@
+﻿workbook,name,indicators,map_indicators,latent_only_indicators,map_slices,complete_24_slices,incomplete_slices,max_province_codes,eligibility
+1_1Aspectosdemogrficos_Informacincensal,1.1. Aspectos demográficos. Información censal,21,6,0,6,6,0,24,mapa provincial existente
+1_2Aspectosdemogrficos_Censal,1.2. Aspectos demográficos. Información urbana (EPH),15,3,0,3,3,0,24,mapa provincial existente
+2_1NBI,2.1. Necesidades básicas insatisfechas (NBI),4,1,0,1,1,0,24,mapa provincial existente
+2_1aTasasdepobreza,2.1a. Pobreza monetaria. Tasa de pobreza e indigencia,11,1,0,1,1,0,24,mapa provincial existente
+2_1bPobrezahogares,2.1b. Pobreza monetaria. Pobreza según características de los hogares,10,0,0,0,0,0,0,sin mapa provincial justificable con datos actuales
+2_2aSeg_social_General,2.2a. Seguridad social. Cobertura general,6,0,0,0,0,0,0,sin mapa provincial justificable con datos actuales
+2_2bAUH,2.2b. Seguridad Social. Asignación universal por hijo (AUH),14,1,2,1,1,0,24,mapa provincial existente
+2_2cAAFF,2.2c. Seguridad social. Asignación familiar por hijo (AAFF),4,1,0,1,1,0,24,mapa provincial existente
+2_2dAsignacinembarazo,2.2d. Seguridad social.  Asignaciones para el embarazo,3,0,0,0,0,0,0,sin mapa provincial justificable con datos actuales
+2_2ePensinmadre7hijos,2.2e. Seguridad social. Pensión para madres de 7 hijos o más,1,0,0,0,0,0,0,sin mapa provincial justificable con datos actuales
+2_3Seguridadalimentaria,2.3. Seguridad alimentaria,12,2,0,2,2,0,24,mapa provincial existente
+2_5aViviviendaCFCHabitacionales,2.5a. Vivienda y hábitat. Información Censal. Condiciones habitacionales,12,5,0,5,5,0,24,mapa provincial existente
+2_5bViviviendaCFServicios,2.5b. Vivienda y hábitat. Información censal. Acceso a servicios,10,3,0,3,3,0,24,mapa provincial existente
+2_5cViviviendaEPHChabitacionales,2.5c. Vivienda y hábitat. Información urbana (EPH). Condiciones habitacionales,9,3,0,3,3,0,24,mapa provincial existente
+2_5dViviviendaEPHServicios,2.5d. Vivienda y hábitat. Información urbana (EPH). Acceso a Servicios,14,5,0,5,5,0,24,mapa provincial existente
+2_6aTrabajoadolescenteCenso,2.6a. Trabajo adolescente. Información censal,14,4,0,4,4,0,24,mapa provincial existente
+2_6bTrabajoinfantilyadolescenteEANNA,2.6b. Trabajo infantil y adolescente. Información de la EANNA,16,0,0,0,0,0,0,sin mapa provincial justificable con datos actuales
+3_1aAsistenciaICensal,3.1a. Asistencia a establecimientos educativos. Información censal,17,7,0,7,7,0,24,mapa provincial existente
+3_1bAsistenciaEPH,3.1b. Asistencia a establecimientos educativos. EPH,2,0,0,0,0,0,0,sin mapa provincial justificable con datos actuales
+3_2aEstablecimientosCaracteristicas,3.2a. Establecimientos educativos de la Educación común. Características generales por nivel,13,6,0,6,6,0,24,mapa provincial existente
+3_2bEstablecimientosOfertayciclosNI,3.2b. Establecimientos de la Educación común. Oferta y ciclos de nivel inicial,21,8,0,8,8,0,24,mapa provincial existente
+3_2cEstablecimientoselectricidad,3.2c. Establecimientos de la Educación común. Disponibilidad de electricidad,6,2,0,2,2,0,24,mapa provincial existente
+3_2dEstablecimientosAccesoainternet,3.2d. Establecimentos de la Educación común. Acceso a internet,16,4,0,4,4,0,24,mapa provincial existente
+3_2eEstablecimientosLaboratorioinformtica,3.2e. Establecimientos de la Educación común. Disponibilidad de laboratorio de informática,7,3,0,3,3,0,24,mapa provincial existente
+3_2eEstablecimientosEntregadealimentos,3.2f. Establecimientos de la Educación común. Servicios alimentarios gratuitos,16,5,0,5,5,0,24,mapa provincial existente
+3_3aMatrculaECCaractersticas,3.3a. Matrícula de la Educación común. Características generales,17,0,0,0,0,0,0,sin mapa provincial justificable con datos actuales
+3_3bMatrculaECNivelInicial,3.3b. Matrícula de la Educación Común. Nivel inicial,14,2,0,2,2,0,24,mapa provincial existente
+3_3cMatrculaECNivelPrimario,3.3c. Matrícula de la Educación común. Nivel primario,10,2,0,2,2,0,24,mapa provincial existente
+3_3dMatrculaECNivelSecundario,3.3d. Matrícula de la Educación común. Nivel secundario,6,0,0,0,0,0,0,sin mapa provincial justificable con datos actuales
+3_3eMatrculaIETasadeescolarizacin,3.3e. Matrícula de la Educación común. Indicadores educativos: Tasa de escolarización,10,6,0,6,6,0,24,mapa provincial existente
+3_3fMatrculaIEPromocinyabandono,3.3f. Matrícula de la Educación común. Indicadores educativos: Promoción efectiva y abandono escolar,10,4,0,4,4,0,24,mapa provincial existente
+3_3gMatrculaIERepitenciaysobreedad,3.3g. Matrícula de la Educación común. Indicadores educativos: Repitencia y sobreedad,16,4,0,4,4,0,24,mapa provincial existente
+3_3hMatrculaIETasadeegreso,3.3h. Matrícula de la Educación común. Indicadores educativos: Tasa de egreso,6,4,0,4,4,0,24,mapa provincial existente
+3_4aEducacinespecialEstablecimientos,3.4a. Educación especial. Características de los establecimientos,7,0,0,0,0,0,0,sin mapa provincial justificable con datos actuales
+3_4bEducacinespecialMatrcula,3.4b. Educación especial. Características de la matrícula,17,4,0,4,4,0,24,mapa provincial existente
+3_5aTICsICensal,3.5a. TICs. Acceso a TICs. Información censal,12,3,0,3,3,0,24,mapa provincial existente
+3_5bTICsIEPH,3.5b. TICs. Acceso y uso de TICs. EPH,21,0,0,0,0,0,0,sin mapa provincial justificable con datos actuales
+4_1Coberturadesalud,4.1. Cobertura de salud de NNyA,7,2,0,2,2,0,24,mapa provincial existente
+4_2aNatalidad,4.2a. Natalidad y salud en el primer año de vida. Natalidad,3,1,0,1,1,0,24,mapa provincial existente
+4_2bNatalidadNacidosvivos,4.2b. Natalidad y salud en el primer año: características de los nacidos vivos,5,2,0,2,2,0,24,mapa provincial existente
+4_2cNatalidadMadreyparto,4.2c. Natalidad y salud en el primer año. Características de la madre y del parto,8,4,0,4,4,0,24,mapa provincial existente
+4_2dNatalidadLactancia,4.2d. Natalidad y salud en el primer año. Lactancia materna,9,0,0,0,0,0,0,sin mapa provincial justificable con datos actuales
+4_3aMortalidadinfantilTasas,4.3a. Mortalidad infantil. Tasa de mortalidad infantil,5,3,0,3,3,0,24,mapa provincial existente
+4_3bMortalidadinfantilCaractersticas,4.3b. Mortalidad infantil. Características de la defunciones infantiles,12,4,0,4,4,0,24,mapa provincial existente
+4_3cMortalidadMaterna,4.3c. Mortalidad materna,6,1,0,1,1,0,24,mapa provincial existente
+4_4aMortalidadNNyATasa,4.4a. Mortalidad de NNyA. Tasa de mortalidad,9,4,0,4,4,0,24,mapa provincial existente
+4_4bMortalidadNNyACausas,4.4b. Mortalidad de NNyA. Principales causas de muerte,16,0,0,0,0,0,0,sin mapa provincial justificable con datos actuales
+4_6Nutricin,4.6. Nutrición,9,0,0,0,0,0,0,sin mapa provincial justificable con datos actuales
+5_1aNNyAconmedidasdeproteccion_NNyA,5.1a. NNyA y jóvenes con medidas de protección excepcional. NNyA y jóvenes en dispositivos de cuidado,31,8,1,8,1,7,24,mapa provincial existente
+5_1bNNyAconmedidasdeproteccion_Dispositivos,5.1b. NNyA y jóvenes con medidas de protección excepcionales. Dispositivos de cuidado,13,4,1,4,1,3,24,mapa provincial existente
+5_2PAE,5.2. Programa de acompañamiento en el egreso (PAE). Ley 27.364.,7,3,0,3,3,0,24,mapa provincial existente
+5_3Lnea102,5.3. Línea 102,11,3,2,3,0,3,22,mapa provincial existente
+5_4aJusticiajuvenilAdolescentesyjvenes,5.4a. Justicia juvenil. Adolescentes y jóvenes en dispositivos penales.,14,4,0,4,0,4,21,mapa provincial existente
+5_4bJusticiajuvenilDispositivospenales,5.4b. Justicia juvenil. Dispositivos penales para adolescentes y jóvenes,2,1,0,1,1,0,24,mapa provincial existente
+6_1Inversinpblicapresupuestonacional,6.1. Inversión pública en el presupuesto nacional.,7,0,0,0,0,0,0,sin mapa provincial justificable con datos actuales
+6_2aInversinpblicanacionalyprovincialNNyA,6.2a. Inversión pública consolidada nacional y provincial.  Dirigida a la niñez y la adolescencia,11,3,0,3,3,0,24,mapa provincial existente
+6_2bInversinpblicanacionalyprovincialPrimerainfancia,6.2b. Inversión pública consolidada nacional y provincial. Dirigida a la primera infancia,11,3,0,3,3,0,24,mapa provincial existente
+7_1SaludsexualyreproductivaFecundidadadolescente,7.1 Salud sexual y reproductiva: Fecundidad y embarazo adolescente,9,2,0,2,2,0,24,mapa provincial existente
+7_3aMortalidadadolescenteTasas,7.3a. Mortalidad adolescente. Tasa de mortalidad adolescente,4,2,0,2,2,0,24,mapa provincial existente
+7_3bMortalidadadolescenteCausas,7.3b. Mortalidad adolescente. Principales causas de muerte,6,0,0,0,0,0,0,sin mapa provincial justificable con datos actuales
+7_3cMortalidadadolescenteCausasexternas,"7.3c. Mortalidad adolescente. Causas ""externas"" en las defunciones adolescentes",6,0,0,0,0,0,0,sin mapa provincial justificable con datos actuales
+7_3dMortalidadadolescenteAccidentes,7.3d. Mortalidad adolescente. Causas externas: Accidentes,11,0,0,0,0,0,0,sin mapa provincial justificable con datos actuales
+7_3eMortalidadadolescenteSuicidios,7.3e. Mortalidad adolescentes. Causas externas: Suicidio,8,1,0,1,1,0,24,mapa provincial existente
+7_4Becasprogresar,7.4. Becas Progresar 16/17 años,8,1,0,1,1,0,24,mapa provincial existente
+8_1aNNyAdiscapacidadCUD_SS,8.1a NNyA con discapacidad. NNyA con CUD y acceso a la seguridad social,5,2,0,2,2,0,24,mapa provincial existente
+8_1bNNyAdiscapacidadCaracteristicasCUD,8.1b NNyA con discapacidad. Caracterización de los NNyA con CUD,7,0,0,0,0,0,0,sin mapa provincial justificable con datos actuales
+8_1cNNyAdiscapacidadCaracteristicasurbanos,8.1c NNyA con discapacidad. Caracterización de NNyA urbanos con discapacidad,15,0,0,0,0,0,0,sin mapa provincial justificable con datos actuales
+8_2NNyAindgenas,8.2. NNyA indígenas,23,1,2,1,1,0,24,mapa provincial existente
+8_3aNNyAmigrantes_Losmigrantesenloscensosnacionales,8.3a. NNyA migrantes. Los migrantes en los censos nacionales,19,7,0,7,7,0,24,mapa provincial existente
+8_3bNNyAmigrantes_Losmigrantesenlasreasurbanas,8.3b. NNyA migrantes. Los migrantes en las áreas urbanas,8,0,0,0,0,0,0,sin mapa provincial justificable con datos actuales
+8_3cNNyAmigrantes_Losmigrantesenlosregistrosadministrativos,8.3c. NNyA migrantes. Los migrantes en los registros administrativos,19,6,0,6,6,0,24,mapa provincial existente
