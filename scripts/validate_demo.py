@@ -9,6 +9,8 @@ import re
 import unicodedata
 from pathlib import Path
 
+from shapely.geometry import box, shape
+
 
 FACTORS = {
     "PORCENTAJE": 100,
@@ -18,6 +20,31 @@ FACTORS = {
     "TASA_X_CIENMIL": 100_000,
     "TASA_X_MILLON": 1_000_000,
 }
+
+
+def check_map_topology(geo):
+    """El mapa provincial debe ser válido, sin superposiciones entre provincias y con las Islas Malvinas.
+
+    La geometría es un archivo versionado y validado (native/geography/INFORME_GEOMETRIA_PILOTO.md);
+    este control impide que una versión con fronteras simplificadas por separado vuelva al demo.
+    """
+    shapes = {}
+    for feature in geo["features"]:
+        props = feature["properties"]
+        code = props.get("in1")
+        assert code and code not in shapes, f"Province map needs unique in1 codes: {props.get('nam')}"
+        geom = shape(feature["geometry"])
+        assert geom.is_valid, f"Invalid province geometry: {props.get('nam')}"
+        shapes[code] = geom
+    codes = sorted(shapes)
+    for i, a in enumerate(codes):
+        for b in codes[i + 1:]:
+            if shapes[a].intersects(shapes[b]):
+                # ~1e-4 grados² ≈ 1 km² en estas latitudes: tolera solo el redondeo de vértices.
+                overlap = shapes[a].intersection(shapes[b]).area
+                assert overlap < 1e-4, f"Provinces {a} and {b} overlap ({overlap:.5f} deg²)"
+    malvinas = shapes["94"].intersection(box(-61.6, -52.6, -57.5, -50.9)).area
+    assert malvinas > 1.0, "The province map must include the Islas Malvinas (Ley 26.651)"
 
 
 def number(value):
@@ -80,6 +107,7 @@ def main() -> int:
     geo = json.loads(geo_path.read_text(encoding="utf-8"))
     assert len(geo.get("features", [])) == 24, "Province map must contain 24 jurisdictions"
     assert geo_path.stat().st_size < 250_000, f"Province map too large: {geo_path.stat().st_size:,} bytes"
+    check_map_topology(geo)
 
     auh = json.loads((args.demo / "data/2-2bauh.json").read_text(encoding="utf-8"))
     indicators = {str(row["id"]): row for row in auh["indicators"]}
