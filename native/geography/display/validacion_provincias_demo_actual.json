@@ -1,0 +1,439 @@
+{
+  "display": "provincias.geojson",
+  "display_sha256": "3ad4209856ec265ffb100edd596a412ed461612f5b57c17935db7a9c1ce519e3",
+  "reference_sha256": "d1f148261a4140366b576759e470adae41e9c2ffda6fcac4deef9f60daca27b8",
+  "bytes": 137873,
+  "criteria": {
+    "max_overlap_km2_per_pair": 1.0,
+    "max_area_drift_pct": 3.0,
+    "max_area_drift_pct_caba": 6.0,
+    "max_bytes": 250000,
+    "malvinas_min_km2": 10000
+  },
+  "invalid_features": 8,
+  "overlaps_over_0_01_km2": [
+    {
+      "a": "Ciudad Autónoma de Buenos Aires",
+      "b": "Buenos Aires",
+      "km2": 3.561
+    },
+    {
+      "a": "Buenos Aires",
+      "b": "Córdoba",
+      "km2": 2.177
+    },
+    {
+      "a": "Buenos Aires",
+      "b": "Entre Ríos",
+      "km2": 162.252
+    },
+    {
+      "a": "Buenos Aires",
+      "b": "Santa Fe",
+      "km2": 25.307
+    },
+    {
+      "a": "Catamarca",
+      "b": "La Rioja",
+      "km2": 11.217
+    },
+    {
+      "a": "Catamarca",
+      "b": "Salta",
+      "km2": 23.751
+    },
+    {
+      "a": "Catamarca",
+      "b": "Santiago del Estero",
+      "km2": 81.677
+    },
+    {
+      "a": "Catamarca",
+      "b": "Tucumán",
+      "km2": 75.229
+    },
+    {
+      "a": "Córdoba",
+      "b": "San Luis",
+      "km2": 142.292
+    },
+    {
+      "a": "Córdoba",
+      "b": "Santiago del Estero",
+      "km2": 12.016
+    },
+    {
+      "a": "Corrientes",
+      "b": "Chaco",
+      "km2": 99.099
+    },
+    {
+      "a": "Corrientes",
+      "b": "Entre Ríos",
+      "km2": 9.058
+    },
+    {
+      "a": "Corrientes",
+      "b": "Misiones",
+      "km2": 40.548
+    },
+    {
+      "a": "Corrientes",
+      "b": "Santa Fe",
+      "km2": 105.519
+    },
+    {
+      "a": "Chaco",
+      "b": "Formosa",
+      "km2": 184.949
+    },
+    {
+      "a": "Chaco",
+      "b": "Santa Fe",
+      "km2": 13.753
+    },
+    {
+      "a": "Chaco",
+      "b": "Santiago del Estero",
+      "km2": 2.508
+    },
+    {
+      "a": "Chubut",
+      "b": "Río Negro",
+      "km2": 0.368
+    },
+    {
+      "a": "Entre Ríos",
+      "b": "Santa Fe",
+      "km2": 151.889
+    },
+    {
+      "a": "Jujuy",
+      "b": "Salta",
+      "km2": 136.372
+    },
+    {
+      "a": "La Pampa",
+      "b": "Mendoza",
+      "km2": 18.444
+    },
+    {
+      "a": "La Pampa",
+      "b": "San Luis",
+      "km2": 17.006
+    },
+    {
+      "a": "La Rioja",
+      "b": "San Juan",
+      "km2": 159.426
+    },
+    {
+      "a": "La Rioja",
+      "b": "San Luis",
+      "km2": 5.901
+    },
+    {
+      "a": "Mendoza",
+      "b": "Neuquén",
+      "km2": 70.86
+    },
+    {
+      "a": "Mendoza",
+      "b": "San Juan",
+      "km2": 82.413
+    },
+    {
+      "a": "Mendoza",
+      "b": "San Luis",
+      "km2": 70.002
+    },
+    {
+      "a": "Salta",
+      "b": "Santiago del Estero",
+      "km2": 137.23
+    },
+    {
+      "a": "Salta",
+      "b": "Tucumán",
+      "km2": 1.031
+    },
+    {
+      "a": "San Juan",
+      "b": "San Luis",
+      "km2": 4.784
+    },
+    {
+      "a": "Santiago del Estero",
+      "b": "Tucumán",
+      "km2": 13.793
+    }
+  ],
+  "max_abs_area_drift_pct": 13.529,
+  "malvinas_km2_epsg6933": 11133.9,
+  "features": [
+    {
+      "in1": "02",
+      "name": "Ciudad Autónoma de Buenos Aires",
+      "valid": true,
+      "area_km2_epsg6933": 177.8,
+      "reference_area_km2_epsg6933": 205.6,
+      "area_drift_pct": -13.529,
+      "vertices": 5
+    },
+    {
+      "in1": "06",
+      "name": "Buenos Aires",
+      "valid": false,
+      "area_km2_epsg6933": 305708.5,
+      "reference_area_km2_epsg6933": 306063.2,
+      "area_drift_pct": -0.116,
+      "vertices": 433
+    },
+    {
+      "in1": "10",
+      "name": "Catamarca",
+      "valid": true,
+      "area_km2_epsg6933": 101338.2,
+      "reference_area_km2_epsg6933": 101489.2,
+      "area_drift_pct": -0.149,
+      "vertices": 68
+    },
+    {
+      "in1": "14",
+      "name": "Córdoba",
+      "valid": true,
+      "area_km2_epsg6933": 165158.7,
+      "reference_area_km2_epsg6933": 164670.4,
+      "area_drift_pct": 0.297,
+      "vertices": 38
+    },
+    {
+      "in1": "18",
+      "name": "Corrientes",
+      "valid": false,
+      "area_km2_epsg6933": 88829.7,
+      "reference_area_km2_epsg6933": 89125.5,
+      "area_drift_pct": -0.332,
+      "vertices": 308
+    },
+    {
+      "in1": "22",
+      "name": "Chaco",
+      "valid": true,
+      "area_km2_epsg6933": 100000.3,
+      "reference_area_km2_epsg6933": 99774.8,
+      "area_drift_pct": 0.226,
+      "vertices": 29
+    },
+    {
+      "in1": "26",
+      "name": "Chubut",
+      "valid": false,
+      "area_km2_epsg6933": 225047.4,
+      "reference_area_km2_epsg6933": 224316.8,
+      "area_drift_pct": 0.326,
+      "vertices": 348
+    },
+    {
+      "in1": "30",
+      "name": "Entre Ríos",
+      "valid": false,
+      "area_km2_epsg6933": 78633.7,
+      "reference_area_km2_epsg6933": 78393.5,
+      "area_drift_pct": 0.306,
+      "vertices": 44
+    },
+    {
+      "in1": "34",
+      "name": "Formosa",
+      "valid": true,
+      "area_km2_epsg6933": 74782.1,
+      "reference_area_km2_epsg6933": 75478.2,
+      "area_drift_pct": -0.922,
+      "vertices": 38
+    },
+    {
+      "in1": "38",
+      "name": "Jujuy",
+      "valid": true,
+      "area_km2_epsg6933": 52966.2,
+      "reference_area_km2_epsg6933": 53240.5,
+      "area_drift_pct": -0.515,
+      "vertices": 40
+    },
+    {
+      "in1": "42",
+      "name": "La Pampa",
+      "valid": true,
+      "area_km2_epsg6933": 143427.1,
+      "reference_area_km2_epsg6933": 143211.0,
+      "area_drift_pct": 0.151,
+      "vertices": 23
+    },
+    {
+      "in1": "46",
+      "name": "La Rioja",
+      "valid": true,
+      "area_km2_epsg6933": 91269.5,
+      "reference_area_km2_epsg6933": 91414.4,
+      "area_drift_pct": -0.158,
+      "vertices": 42
+    },
+    {
+      "in1": "50",
+      "name": "Mendoza",
+      "valid": true,
+      "area_km2_epsg6933": 148306.8,
+      "reference_area_km2_epsg6933": 149088.9,
+      "area_drift_pct": -0.525,
+      "vertices": 61
+    },
+    {
+      "in1": "54",
+      "name": "Misiones",
+      "valid": false,
+      "area_km2_epsg6933": 29612.5,
+      "reference_area_km2_epsg6933": 29909.9,
+      "area_drift_pct": -0.994,
+      "vertices": 55
+    },
+    {
+      "in1": "58",
+      "name": "Neuquén",
+      "valid": true,
+      "area_km2_epsg6933": 94818.9,
+      "reference_area_km2_epsg6933": 94367.3,
+      "area_drift_pct": 0.479,
+      "vertices": 71
+    },
+    {
+      "in1": "62",
+      "name": "Río Negro",
+      "valid": false,
+      "area_km2_epsg6933": 202345.5,
+      "reference_area_km2_epsg6933": 202227.3,
+      "area_drift_pct": 0.058,
+      "vertices": 71
+    },
+    {
+      "in1": "66",
+      "name": "Salta",
+      "valid": true,
+      "area_km2_epsg6933": 154953.0,
+      "reference_area_km2_epsg6933": 155368.7,
+      "area_drift_pct": -0.268,
+      "vertices": 68
+    },
+    {
+      "in1": "70",
+      "name": "San Juan",
+      "valid": true,
+      "area_km2_epsg6933": 88301.6,
+      "reference_area_km2_epsg6933": 88371.2,
+      "area_drift_pct": -0.079,
+      "vertices": 60
+    },
+    {
+      "in1": "74",
+      "name": "San Luis",
+      "valid": true,
+      "area_km2_epsg6933": 75275.4,
+      "reference_area_km2_epsg6933": 75563.7,
+      "area_drift_pct": -0.382,
+      "vertices": 26
+    },
+    {
+      "in1": "78",
+      "name": "Santa Cruz",
+      "valid": false,
+      "area_km2_epsg6933": 244625.0,
+      "reference_area_km2_epsg6933": 244462.6,
+      "area_drift_pct": 0.066,
+      "vertices": 252
+    },
+    {
+      "in1": "82",
+      "name": "Santa Fe",
+      "valid": true,
+      "area_km2_epsg6933": 132938.0,
+      "reference_area_km2_epsg6933": 133292.3,
+      "area_drift_pct": -0.266,
+      "vertices": 39
+    },
+    {
+      "in1": "86",
+      "name": "Santiago del Estero",
+      "valid": true,
+      "area_km2_epsg6933": 137090.0,
+      "reference_area_km2_epsg6933": 136990.2,
+      "area_drift_pct": 0.073,
+      "vertices": 37
+    },
+    {
+      "in1": "90",
+      "name": "Tucumán",
+      "valid": true,
+      "area_km2_epsg6933": 22422.9,
+      "reference_area_km2_epsg6933": 22598.5,
+      "area_drift_pct": -0.777,
+      "vertices": 29
+    },
+    {
+      "in1": "94",
+      "name": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "valid": false,
+      "area_km2_epsg6933": 31731.9,
+      "reference_area_km2_epsg6933": 32820.4,
+      "area_drift_pct": -3.317,
+      "vertices": 2895
+    }
+  ],
+  "failures": [
+    "Ciudad Autónoma de Buenos Aires: desvío de superficie -13.53% > 6.0%",
+    "Buenos Aires: geometría inválida (Self-intersection[-61.8980087069512 -39.1322142180292])",
+    "Corrientes: geometría inválida (Self-intersection[-56.739227412318 -27.5597772178042])",
+    "Chubut: geometría inválida (Self-intersection[-65.8678296050418 -45.0338781402231])",
+    "Entre Ríos: geometría inválida (Self-intersection[-58.1263414631581 -33.0238179726707])",
+    "Misiones: geometría inválida (Nested shells[-56.00300055 -27.33708527])",
+    "Río Negro: geometría inválida (Self-intersection[-64.9061867655433 -40.7408634009385])",
+    "Santa Cruz: geometría inválida (Self-intersection[-67.7086211525496 -49.2705768701178])",
+    "Tierra del Fuego, Antártida e Islas del Atlántico Sur: geometría inválida (Self-intersection[-58.3066488785298 -51.421885435443])",
+    "Tierra del Fuego, Antártida e Islas del Atlántico Sur: desvío de superficie -3.32% > 3.0%",
+    "Solapamiento Ciudad Autónoma de Buenos Aires–Buenos Aires: 3.56 km²",
+    "Solapamiento Buenos Aires–Córdoba: 2.18 km²",
+    "Solapamiento Buenos Aires–Entre Ríos: 162.25 km²",
+    "Solapamiento Buenos Aires–Santa Fe: 25.31 km²",
+    "Solapamiento Catamarca–La Rioja: 11.22 km²",
+    "Solapamiento Catamarca–Salta: 23.75 km²",
+    "Solapamiento Catamarca–Santiago del Estero: 81.68 km²",
+    "Solapamiento Catamarca–Tucumán: 75.23 km²",
+    "Solapamiento Córdoba–San Luis: 142.29 km²",
+    "Solapamiento Córdoba–Santiago del Estero: 12.02 km²",
+    "Solapamiento Corrientes–Chaco: 99.10 km²",
+    "Solapamiento Corrientes–Entre Ríos: 9.06 km²",
+    "Solapamiento Corrientes–Misiones: 40.55 km²",
+    "Solapamiento Corrientes–Santa Fe: 105.52 km²",
+    "Solapamiento Chaco–Formosa: 184.95 km²",
+    "Solapamiento Chaco–Santa Fe: 13.75 km²",
+    "Solapamiento Chaco–Santiago del Estero: 2.51 km²",
+    "Solapamiento Entre Ríos–Santa Fe: 151.89 km²",
+    "Solapamiento Jujuy–Salta: 136.37 km²",
+    "Solapamiento La Pampa–Mendoza: 18.44 km²",
+    "Solapamiento La Pampa–San Luis: 17.01 km²",
+    "Solapamiento La Rioja–San Juan: 159.43 km²",
+    "Solapamiento La Rioja–San Luis: 5.90 km²",
+    "Solapamiento Mendoza–Neuquén: 70.86 km²",
+    "Solapamiento Mendoza–San Juan: 82.41 km²",
+    "Solapamiento Mendoza–San Luis: 70.00 km²",
+    "Solapamiento Salta–Santiago del Estero: 137.23 km²",
+    "Solapamiento Salta–Tucumán: 1.03 km²",
+    "Solapamiento San Juan–San Luis: 4.78 km²",
+    "Solapamiento Santiago del Estero–Tucumán: 13.79 km²"
+  ],
+  "status": "fail",
+  "limitations": [
+    "Áreas en EPSG:6933 con fines diagnósticos; no son superficies oficiales.",
+    "La referencia es la descarga IGN recortada al marco continental + Malvinas; no incluye el sector antártico ni Georgias/Sandwich del Sur.",
+    "No reemplaza la revisión visual ni la validación cartográfica oficial."
+  ]
+}

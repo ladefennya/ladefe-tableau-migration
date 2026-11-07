@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LADEFE · Piloto nativo · Abandono escolar interanual</title>
+<style>
+:root{--ink:#17303f;--muted:#536877;--line:#d9e3e8;--paper:#f4f7f8;--accent:#0b6e79;--warn-bg:#fff6e0;--warn:#7a4700;--neg:#c2571a;--miss:#e4e9ec;--focus:#b65a00}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--paper);color:var(--ink)}
+a{color:#00636e}
+.skip{position:absolute;left:8px;top:-60px;background:#fff;padding:8px 12px;z-index:9}.skip:focus{top:8px}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+header.top{background:#12303f;color:#fff;padding:14px max(20px,calc((100vw - 1200px)/2));display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.brand{font-weight:800;letter-spacing:.06em}.brand small{display:block;font-weight:400;letter-spacing:0;opacity:.85}
+.draft{border:1px solid #8fb3c0;border-radius:999px;padding:3px 12px;font-size:13px}
+main{max-width:1200px;margin:auto;padding:24px 20px 56px}
+.eyebrow{color:var(--accent);font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;margin:0}
+h1{font-size:clamp(26px,4vw,36px);line-height:1.15;margin:6px 0 8px}
+h2{font-size:20px;margin:0 0 6px}h3{font-size:16px;margin:0 0 6px}
+.lead{color:var(--muted);margin:0;max-width:820px}
+.panel{background:#fff;border:1px solid var(--line);border-radius:12px;padding:20px;margin-top:18px}
+.controls{display:grid;grid-template-columns:auto 1fr 1.4fr;gap:16px;align-items:end}
+.controls label,.fieldset-label{display:block;font-size:13px;font-weight:700;color:var(--muted)}
+select{display:block;width:100%;margin-top:6px;min-height:44px;font:inherit;padding:8px 10px;border:1px solid #afc3cc;border-radius:8px;background:#fff;color:var(--ink)}
+fieldset{border:0;margin:0;padding:0}
+.seg{display:inline-flex;margin-top:6px;border:1px solid #afc3cc;border-radius:8px;overflow:hidden}
+.seg input{position:absolute;opacity:0;pointer-events:none}
+.seg label{min-height:44px;display:flex;align-items:center;padding:8px 16px;cursor:pointer;font-size:15px;font-weight:600;color:var(--ink)}
+.seg input:checked+label{background:var(--accent);color:#fff}
+.seg input:focus-visible+label{outline:3px solid var(--focus);outline-offset:-3px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:18px}
+.kpi{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.kpi span{display:block;font-size:13px;color:var(--muted)}.kpi strong{display:block;font-size:26px;font-variant-numeric:tabular-nums;line-height:1.25}.kpi small{color:var(--muted);font-size:12px}
+.grid2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px;align-items:start}
+.mapwrap svg{width:100%;height:auto;max-height:640px;display:block}
+.province{stroke:#fff;stroke-width:.6;cursor:pointer}
+.province:hover{stroke:#12303f;stroke-width:1.2}
+.province.sel{stroke:#12303f;stroke-width:2.2}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--muted);margin-top:8px}
+.legend i{display:inline-block;width:14px;height:14px;border-radius:3px;vertical-align:-2px;margin-right:5px;border:1px solid rgba(0,0,0,.08)}
+.rank{display:grid;grid-template-columns:minmax(96px,150px) 1fr 52px;gap:10px;align-items:center;width:100%;min-height:30px;padding:3px 6px;border:0;border-radius:6px;background:transparent;font:inherit;text-align:left;cursor:pointer;color:var(--ink)}
+.rank:hover{background:#eef6f7}.rank.sel{background:#e2f0f2;font-weight:700}
+.rank .nm{font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rank .track{position:relative;height:12px;background:#f0f4f6;border-radius:3px}
+.rank .fill{position:absolute;top:0;height:100%;border-radius:3px}
+.rank .zero{position:absolute;top:-3px;width:1px;height:18px;background:#5d7380}
+.rank .v{font-size:13px;text-align:right;font-variant-numeric:tabular-nums}
+.note{font-size:13px;color:var(--muted);margin:10px 0 0}
+.alert{border-left:4px solid #b36b00;background:var(--warn-bg);padding:12px 14px;font-size:14px;margin-top:12px;border-radius:0 6px 6px 0}
+.alert b{color:var(--warn)}
+.ok{border-left-color:#2c7a4b;background:#eef8f1}
+svg text{font-family:inherit}
+.chart svg{width:100%;height:auto;display:block}
+.tick{font-size:11px;fill:#5d7380}
+.tablewrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+thead th{font-size:12px;text-transform:uppercase;letter-spacing:.03em;color:var(--muted)}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+tr.sel{background:#e2f0f2}
+tr.sub th{font-weight:400;padding-left:24px}
+tr.group td{background:#f5f8f9;font-size:12px;color:var(--muted);font-weight:700}
+.badge{display:inline-block;font-size:12px;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.b-ok{background:#e3f4e9;color:#1d5a35}.b-warn{background:#fff0d1;color:#7a4700}.b-src{background:#edf2f5;color:#4b5f6b}
+.row{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap}
+button.act{min-height:40px;font:inherit;font-size:14px;padding:6px 14px;border:1px solid #afc3cc;border-radius:8px;background:#fff;cursor:pointer;color:var(--ink)}
+button.act:hover{border-color:var(--accent);background:#eef8f7}
+dl.src{display:grid;grid-template-columns:max-content 1fr;gap:6px 14px;font-size:14px;margin:0}
+dl.src dt{font-weight:700}dl.src dd{margin:0;overflow-wrap:anywhere}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+footer{max-width:1200px;margin:auto;padding:0 20px 28px;font-size:13px;color:var(--muted)}
+@media (max-width:900px){.controls{grid-template-columns:1fr 1fr}.controls>fieldset{grid-column:1/-1}.grid2{grid-template-columns:1fr}.kpis{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){main{padding:16px 12px 40px}.panel{padding:14px}.controls{grid-template-columns:1fr}.kpi strong{font-size:22px}.rank{grid-template-columns:96px 1fr 46px;gap:6px}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="top">
+  <div class="brand">LADEFE<small>Sistema de Monitoreo · piloto de tablero nativo</small></div>
+  <span class="draft">Borrador para revisión · no publicado</span>
+</header>
+<main id="main">
+  <p class="eyebrow">Educación · Tablero 3.3f</p>
+  <h1>Abandono escolar interanual</h1>
+  <p class="lead">Porcentaje de estudiantes matriculados en un ciclo lectivo que no se matriculan al ciclo siguiente. Datos de la planilla oficial de la Secretaría de Educación, por jurisdicción, nivel y grado, ciclos 2012-2013 a 2024-2025.</p>
+
+  <section class="panel" aria-labelledby="ctlTitle">
+    <h2 id="ctlTitle" class="sr">Elegí qué ver</h2>
+    <div class="controls">
+      <fieldset>
+        <legend class="fieldset-label">Nivel</legend>
+        <div class="seg" id="levelSeg"></div>
+      </fieldset>
+      <label for="period">Ciclo lectivo<select id="period"></select></label>
+      <label for="geo">Jurisdicción destacada<select id="geo"></select></label>
+    </div>
+  </section>
+
+  <div class="kpis" aria-live="polite">
+    <div class="kpi"><span>Total país</span><strong id="kNat">–</strong><small id="kNatSub"></small></div>
+    <div class="kpi"><span id="kGeoLabel">Jurisdicción destacada</span><strong id="kGeo">–</strong><small id="kGeoSub"></small></div>
+    <div class="kpi"><span>Rango entre provincias</span><strong id="kRange">–</strong><small id="kRangeSub"></small></div>
+    <div class="kpi"><span>Verificación contra Tableau</span><strong id="kCheck">–</strong><small id="kCheckSub"></small></div>
+  </div>
+
+  <section class="panel" aria-labelledby="terrTitle">
+    <div class="row"><div><h2 id="terrTitle">Mapa y ranking provincial</h2><p class="note" id="terrSub" style="margin:0"></p></div></div>
+    <div class="grid2" style="margin-top:12px">
+      <div class="mapwrap">
+        <svg id="map" viewBox="0 0 620 640" role="group" aria-label="Mapa de provincias. Cada provincia es un botón."></svg>
+        <div class="legend" id="legend"></div>
+      </div>
+      <div>
+        <div id="ranking" role="group" aria-label="Ranking provincial"></div>
+        <p class="note" id="rankNote"></p>
+      </div>
+    </div>
+    <div class="alert" id="negNote" hidden></div>
+  </section>
+
+  <section class="panel" aria-labelledby="serTitle">
+    <h2 id="serTitle">Evolución 2012-2013 a 2024-2025</h2>
+    <p class="note" id="serSub" style="margin:0"></p>
+    <div class="chart" id="series"></div>
+    <p class="note">Tableau muestra esta serie (D.5) solo para el total país y desde 2014-2015. La línea punteada vertical marca el ciclo elegido arriba.</p>
+  </section>
+
+  <section class="panel" aria-labelledby="grdTitle">
+    <h2 id="grdTitle">Abandono por grado o año de estudio</h2>
+    <p class="note" id="grdSub" style="margin:0"></p>
+    <div class="chart" id="grades"></div>
+    <div class="alert" id="grdAlert" hidden></div>
+  </section>
+
+  <section class="panel" aria-labelledby="tblTitle">
+    <div class="row"><h2 id="tblTitle">Datos del cuadro</h2><button class="act" id="csv" type="button">Descargar CSV</button></div>
+    <p class="note" id="tblSub" style="margin:0 0 8px"></p>
+    <div class="tablewrap" id="table"></div>
+  </section>
+
+  <section class="panel" aria-labelledby="srcTitle">
+    <h2 id="srcTitle">Fuente, método y estado</h2>
+    <dl class="src" id="src"></dl>
+    <div class="alert" style="margin-top:14px"><b>Estado: candidato técnico, sin aprobación temática.</b> Los valores reproducen la planilla oficial y fueron contrastados con Tableau donde existe la contraparte. Antes de publicar, un responsable de educación de La Defe tiene que aprobar la definición, el rótulo de los ciclos y el tratamiento de los valores negativos.</div>
+  </section>
+</main>
+<footer>Piloto del motor nativo de tableros. Reemplaza la sección de abandono del tablero 3.3f; la sección de promoción efectiva queda para la próxima iteración. Mapa bicontinental: geometría del IGN simplificada con topología compartida; incluye las Islas Malvinas y el sector antártico argentino.</footer>
+<p class="sr" id="live" role="status" aria-live="polite"></p>
+<script>
+'use strict';
+const P = __DATA__;
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const NF1 = new Intl.NumberFormat('es-AR', {minimumFractionDigits: 1, maximumFractionDigits: 1});
+
+// ---------- Datos ----------
+// Fila: [nivel, grado, estructura, geo, ciclo, valor, valorVisibleOficial, comparaciones[[indicador, estado, valorTableau, rótulo]]]
+const ROWS = P.observations.map(r => ({level: r[0], grade: r[1], structure: r[2], geo: r[3], period: r[4], value: r[5], official: r[6], checks: r[7]}));
+const index = new Map();
+for (const r of ROWS) if (r.grade === 'total') index.set([r.level, r.geo, r.period].join('|'), r);
+
+// Redondeo HALF_UP a un decimal sobre la representación decimal más corta del número
+// (la misma que usa Python con Decimal(repr(valor)) en el adaptador), sin errores de coma flotante.
+function round1(v) {
+  if (!Number.isFinite(v)) return v;
+  const neg = v < 0;
+  let s = Math.abs(v).toString();
+  if (s.includes('e')) s = Math.abs(v).toFixed(20);
+  const [i, d = ''] = s.split('.'), dd = d + '00';
+  let tenths = Number(i) * 10 + Number(dd[0]);
+  if (Number(dd[1]) >= 5) tenths += 1;
+  const r = tenths / 10;
+  return neg && r !== 0 ? -r : r;
+}
+const fmt = v => (v === null || v === undefined || !Number.isFinite(v)) ? 'sin dato' : NF1.format(round1(v));
+function totalRow(level, geo, period) { return index.get([level, geo, period].join('|')); }
+const name = g => P.names[g] || g;
+const shortName = g => g === '94' ? 'Tierra del Fuego' : name(g);
+
+// ---------- Estado y URL ----------
+const state = {level: 'primary', period: P.defaultPeriod, geo: ''};
+(function readURL() {
+  const q = new URLSearchParams(location.search);
+  if (P.levels[q.get('nivel')]) state.level = q.get('nivel');
+  if (P.periods.includes(q.get('ciclo'))) state.period = q.get('ciclo');
+  if (P.provinces.includes(q.get('jurisdiccion'))) state.geo = q.get('jurisdiccion');
+})();
+function writeURL() {
+  const q = new URLSearchParams({nivel: state.level, ciclo: state.period});
+  if (state.geo) q.set('jurisdiccion', state.geo);
+  // Guardar la selección en la dirección permite compartir el enlace. Dentro de una vista previa aislada
+  // (about:srcdoc, iframes con sandbox) el navegador no lo permite: ahí se omite sin romper la página.
+  try {
+    if (location.protocol === 'about:') return;
+    history.replaceState(null, '', location.pathname + '?' + q);
+  } catch (error) { /* sin URL compartible en este contexto */ }
+}
+function set(patch) { Object.assign(state, patch); writeURL(); render(); }
+
+// ---------- Escala de color: dominio fijo por nivel para todos los ciclos ----------
+const BLUES = ['#e6f0f6', '#b7d3e6', '#7fb1d3', '#4a88bb', '#1f5c94'];
+function scaleFor(level) {
+  const sc = P.scale[level], cuts = sc.cuts, colors = BLUES.slice(BLUES.length - cuts.length - 1);
+  const bounds = [0, ...cuts, sc.max];
+  const breaks = colors.map((c, i) => ({color: c, from: bounds[i], to: bounds[i + 1], first: i === 0, last: i === colors.length - 1}));
+  return {
+    breaks, hasNeg: sc.negatives > 0,
+    color: v => {
+      if (v === null || v === undefined || !Number.isFinite(v)) return 'var(--miss)';
+      // La clase se asigna sobre el valor redondeado que se lee, así dos provincias con el mismo número tienen el mismo color.
+      const r = round1(v);
+      if (r < 0) return 'var(--neg)';
+      const k = cuts.findIndex(c => r < c);
+      return colors[k < 0 ? colors.length - 1 : k];
+    }
+  };
+}
+// Marcas de eje en pasos "redondos" (0,1 / 0,2 / 0,5 / 1 / 2 / 5...).
+function niceTicks(lo, hi, n = 5) {
+  const raw = (hi - lo) / n, mag = Math.pow(10, Math.floor(Math.log10(raw))), f = raw / mag;
+  const step = (f <= 1 ? 1 : f <= 2 ? 2 : f <= 5 ? 5 : 10) * mag, out = [];
+  // La última marca siempre queda en o por encima del máximo, para que ninguna barra se salga del eje.
+  for (let v = Math.floor(lo / step) * step; ; v += step) { out.push(Math.round(v / step) * step); if (v >= hi - step * 1e-9) break; }
+  return out;
+}
+
+// ---------- Proyección cónica equivalente de Albers (centrada en Argentina) ----------
+const rad = d => d * Math.PI / 180;
+function albers([lon, lat]) {
+  const l0 = rad(-65), p0 = rad(-40), p1 = rad(-20), p2 = rad(-50);
+  const n = (Math.sin(p1) + Math.sin(p2)) / 2, C = 1 + Math.sin(p1) * (2 * n - Math.sin(p1));
+  const r0 = Math.sqrt(C - 2 * n * Math.sin(p0)) / n, r = Math.sqrt(C - 2 * n * Math.sin(rad(lat))) / n, t = n * (rad(lon) - l0);
+  return [r * Math.sin(t), r * Math.cos(t) - r0];
+}
+const polys = g => g.type === 'Polygon' ? [g.coordinates] : g.coordinates;
+const MAP = (function buildMap() {
+  const W = 440, H = 640, pad = 12, pts = [];
+  for (const f of P.geometry.features) for (const poly of polys(f.geometry)) for (const ring of poly) for (const p of ring) pts.push(albers(p));
+  const xs = pts.map(p => p[0]), ys = pts.map(p => p[1]);
+  const minX = Math.min(...xs), maxX = Math.max(...xs), minY = Math.min(...ys), maxY = Math.max(...ys);
+  const k = Math.min((W - 2 * pad) / (maxX - minX), (H - 2 * pad) / (maxY - minY));
+  const ox = (W - (maxX - minX) * k) / 2, oy = (H - (maxY - minY) * k) / 2;
+  const proj = p => { const q = albers(p); return [ox + (q[0] - minX) * k, oy + (q[1] - minY) * k]; };
+  const paths = {};
+  for (const f of P.geometry.features) {
+    let d = '';
+    for (const poly of polys(f.geometry)) for (const ring of poly) d += ring.map((p, i) => { const q = proj(p); return (i ? 'L' : 'M') + q[0].toFixed(1) + ',' + q[1].toFixed(1); }).join('') + 'Z';
+    paths[f.properties.in1] = d;
+  }
+  return {paths, proj};
+})();
+
+// ---------- Recuadro bicontinental (Ley 26.651) ----------
+// Proyección azimutal equidistante polar, centrada en el meridiano medio del sector antártico argentino
+// (entre 25° y 74° O): el Polo Sur abajo y los meridianos límite como líneas punteadas, como en el mapa oficial del IGN.
+const INSET = (function buildInset() {
+  const box = {x: 448, y: 420, w: 166, h: 212}, lon0 = -49.5;
+  const polar = ([lon, lat]) => { const r = 90 + lat, t = rad(lon - lon0); return [r * Math.sin(t), -r * Math.cos(t)]; };
+  const pts = [[-74, -53], [-25, -53], [-74, -90]];
+  for (const poly of polys(P.inset.features[0].geometry)) for (const ring of poly) for (const p of ring) pts.push(p);
+  const xy = pts.map(polar), xs = xy.map(p => p[0]), ys = xy.map(p => p[1]), pad = 10;
+  const minX = Math.min(...xs), maxX = Math.max(...xs), minY = Math.min(...ys), maxY = Math.max(...ys);
+  const k = Math.min((box.w - 2 * pad) / (maxX - minX), (box.h - 2 * pad - 40) / (maxY - minY));
+  const ox = box.x + (box.w - (maxX - minX) * k) / 2, oy = box.y + 24 + pad;
+  const proj = p => { const q = polar(p); return [ox + (q[0] - minX) * k, oy + (q[1] - minY) * k]; };
+  let d = '';
+  for (const poly of polys(P.inset.features[0].geometry)) for (const ring of poly) d += ring.map((p, i) => { const q = proj(p); return (i ? 'L' : 'M') + q[0].toFixed(1) + ',' + q[1].toFixed(1); }).join('') + 'Z';
+  const line = (a, b) => { const p = proj(a), q = proj(b); return `M${p[0].toFixed(1)},${p[1].toFixed(1)}L${q[0].toFixed(1)},${q[1].toFixed(1)}`; };
+  const pole = proj([-49.5, -90]), geo = proj([-36.5, -54.3]), sand = proj([-26.8, -57.5]);
+  return {box, path: d, meridians: line([-74, -60], [-74, -90]) + line([-25, -60], [-25, -90]), pole, geo, sand};
+})();
+function insetSVG(fill, selected, label) {
+  const b = INSET.box;
+  return `<g class="inset" aria-label="Recuadro: Antártida Argentina e Islas del Atlántico Sur">` +
+    `<rect x="${b.x}" y="${b.y}" width="${b.w}" height="${b.h}" rx="6" fill="#f7fafb" stroke="#c9d6dd"/>` +
+    `<text x="${b.x + 8}" y="${b.y + 17}" class="tick" font-weight="700">Antártida Argentina</text>` +
+    `<path d="${INSET.meridians}" stroke="#8aa1ae" stroke-width="0.8" stroke-dasharray="3 3" fill="none"/>` +
+    `<path class="province${selected ? ' sel' : ''}" data-geo="94" d="${INSET.path}" fill="${fill}" tabindex="0" role="button" aria-pressed="${selected}" aria-label="${esc(label)}"><title>${esc(label)}</title></path>` +
+    `<text x="${(INSET.geo[0] - 6).toFixed(0)}" y="${(INSET.geo[1] + 3).toFixed(0)}" class="tick" text-anchor="end" font-size="9">Is. Georgias del Sur</text>` +
+    `<text x="${(INSET.sand[0] - 6).toFixed(0)}" y="${(INSET.sand[1] + 3).toFixed(0)}" class="tick" text-anchor="end" font-size="9">Is. Sandwich del Sur</text>` +
+    `<text x="${INSET.pole[0].toFixed(0)}" y="${(INSET.pole[1] + 12).toFixed(0)}" class="tick" text-anchor="middle" font-size="9">Polo Sur</text></g>`;
+}
+
+// ---------- Render ----------
+function render() {
+  const lvl = state.level, per = state.period, sc = scaleFor(lvl), lvlName = P.levels[lvl].toLowerCase();
+  // Controles
+  $('levelSeg').innerHTML = Object.entries(P.levels).map(([k, v]) => `<input type="radio" name="lvl" id="lvl-${k}" value="${k}" ${k === lvl ? 'checked' : ''}><label for="lvl-${k}">${esc(v)}</label>`).join('');
+  $('levelSeg').querySelectorAll('input').forEach(i => i.onchange = () => set({level: i.value}));
+  $('period').innerHTML = P.periods.slice().reverse().map(p => `<option value="${p}" ${p === per ? 'selected' : ''}>${p}</option>`).join('');
+  $('geo').innerHTML = `<option value="">Ninguna</option>` + P.provinces.slice().sort((a, b) => name(a).localeCompare(name(b), 'es')).map(g => `<option value="${g}" ${g === state.geo ? 'selected' : ''}>${esc(name(g))}</option>`).join('');
+
+  const prov = P.provinces.map(g => ({g, r: totalRow(lvl, g, per)})).filter(x => x.r);
+  const nat = totalRow(lvl, '00', per), sel = state.geo ? totalRow(lvl, state.geo, per) : null;
+
+  // KPIs
+  $('kNat').textContent = nat ? fmt(nat.value) + ' %' : 'sin dato';
+  $('kNatSub').textContent = `Nivel ${lvlName} · ${per}`;
+  $('kGeoLabel').textContent = state.geo ? shortName(state.geo) : 'Jurisdicción destacada';
+  $('kGeo').textContent = sel ? fmt(sel.value) + ' %' : '–';
+  $('kGeoSub').textContent = sel ? (sel.value - (nat?.value ?? 0) >= 0 ? '+' : '') + NF1.format(round1(sel.value) - round1(nat.value)) + ' p. p. vs. total país' : 'Elegí una en el mapa o la lista';
+  const vals = prov.map(x => x.r.value), mn = prov.reduce((a, b) => b.r.value < a.r.value ? b : a), mx = prov.reduce((a, b) => b.r.value > a.r.value ? b : a);
+  $('kRange').textContent = `${fmt(mn.r.value)} a ${fmt(mx.r.value)} %`;
+  $('kRangeSub').textContent = `${shortName(mn.g)} · ${shortName(mx.g)}`;
+  const checks = [];
+  for (const x of [...prov, ...(nat ? [{r: nat}] : [])]) for (const c of x.r.checks) checks.push(c);
+  const okN = checks.filter(c => P.statusKeys[c[1]] !== 'blocked_temporal_label_conflict').length;
+  $('kCheck').textContent = checks.length ? `${okN} de ${checks.length}` : 'sin contraparte';
+  $('kCheckSub').textContent = checks.length ? 'valores del cuadro coinciden con Tableau' : 'Tableau solo muestra el último ciclo por provincia';
+
+  // Mapa
+  $('terrSub').textContent = `Tasa de abandono interanual del nivel ${lvlName}, ciclo ${per}. Misma escala de colores para todos los ciclos, para poder compararlos.`;
+  const svg = $('map');
+  let html = '';
+  for (const g of P.provinces) {
+    const r = totalRow(lvl, g, per), v = r ? r.value : null;
+    const label = `${name(g)}: ${r ? fmt(v) + ' %' : 'sin dato'}`;
+    html += `<path class="province${g === state.geo ? ' sel' : ''}" data-geo="${g}" d="${MAP.paths[g]}" fill="${sc.color(v)}" tabindex="0" role="button" aria-pressed="${g === state.geo}" aria-label="${esc(label)}"><title>${esc(label)}</title></path>`;
+  }
+  // Rótulo de Malvinas (forman parte de Tierra del Fuego, Antártida e Islas del Atlántico Sur).
+  const [mx1, my1] = MAP.proj([-59.3, -52.55]);
+  html += `<text x="${mx1.toFixed(0)}" y="${(my1 + 14).toFixed(0)}" class="tick" text-anchor="middle">Islas Malvinas</text>`;
+  if (state.geo) { const node = html.match(new RegExp(`<path class="province sel"[^>]*>.*?</path>`)); if (node) html = html.replace(node[0], '') + node[0]; }
+  const tdf = totalRow(lvl, '94', per);
+  html += insetSVG(sc.color(tdf ? tdf.value : null), state.geo === '94', `${name('94')} (sector antártico e islas): ${tdf ? fmt(tdf.value) + ' %' : 'sin dato'}`);
+  svg.innerHTML = html;
+  svg.querySelectorAll('.province').forEach(p => {
+    const pick = () => set({geo: p.dataset.geo === state.geo ? '' : p.dataset.geo});
+    p.onclick = pick; p.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); pick(); } };
+  });
+  $('legend').innerHTML = (sc.hasNeg ? `<span><i style="background:var(--neg)"></i>Negativo</span>` : '') +
+    sc.breaks.map(b => `<span><i style="background:${b.color}"></i>${b.last ? 'desde ' + NF1.format(b.from) : b.first ? 'menos de ' + NF1.format(b.to) : NF1.format(b.from) + ' a menos de ' + NF1.format(b.to)} %</span>`).join('') +
+    `<span><i style="background:var(--miss)"></i>Sin dato</span>`;
+
+  // Ranking (mismos colores que el mapa; eje con cero visible)
+  const lo = Math.min(0, ...vals), hi = Math.max(...vals), span = hi - lo || 1, zero = (0 - lo) / span * 100;
+  $('ranking').innerHTML = prov.slice().sort((a, b) => b.r.value - a.r.value).map(({g, r}) => {
+    const left = (Math.min(r.value, 0) - lo) / span * 100, width = Math.abs(r.value) / span * 100;
+    return `<button type="button" class="rank${g === state.geo ? ' sel' : ''}" data-geo="${g}" aria-pressed="${g === state.geo}" aria-label="${esc(name(g) + ': ' + fmt(r.value) + ' %')}"><span class="nm">${esc(shortName(g))}</span><span class="track"><i class="zero" style="left:${zero}%"></i><i class="fill" style="left:${left}%;width:${Math.max(.8, width)}%;background:${sc.color(r.value)}"></i></span><span class="v">${fmt(r.value)}</span></button>`;
+  }).join('');
+  $('ranking').querySelectorAll('.rank').forEach(b => b.onclick = () => set({geo: b.dataset.geo === state.geo ? '' : b.dataset.geo}));
+  $('rankNote').textContent = 'Valores en porcentaje, redondeados a un decimal. Buenos Aires se muestra como provincia completa; Conurbano y Resto figuran por separado en la tabla.';
+  const negs = prov.filter(x => round1(x.r.value) < 0);
+  $('negNote').hidden = !negs.length;
+  $('negNote').innerHTML = negs.length ? `<b>${negs.length} ${negs.length === 1 ? 'provincia tiene' : 'provincias tienen'} abandono negativo en ${per}</b> (${negs.map(x => esc(shortName(x.g))).join(', ')}). No es un error: la fuente aclara que el modelo de flujo supone un sistema cerrado, y las reincorporaciones o pases entre jurisdicciones pueden dar valores negativos. Se muestran tal cual, sin recortar a cero.` : '';
+
+  drawSeries(lvl);
+  drawGrades(lvl, per);
+  drawTable(lvl, per, sc);
+  drawSources();
+  $('live').textContent = `Nivel ${lvlName}, ciclo ${per}${state.geo ? ', ' + name(state.geo) + ' destacada' : ''}.`;
+}
+
+function drawSeries(lvl) {
+  const W = 760, H = 280, m = {l: 44, r: 16, t: 26, b: 44}, per = P.periods;
+  const lines = [{g: '00', color: '#12303f', dash: '', label: 'Total país'}];
+  if (state.geo) lines.push({g: state.geo, color: '#0b8a96', dash: '', label: shortName(state.geo)});
+  const data = lines.map(l => ({...l, pts: per.map((p, i) => ({i, p, r: totalRow(lvl, l.g, p)})).filter(x => x.r)}));
+  const all = data.flatMap(d => d.pts.map(x => x.r.value));
+  const yt = niceTicks(Math.min(0, ...all), Math.max(...all)), lo = yt[0], hi = yt[yt.length - 1];
+  const sx = i => m.l + i * (W - m.l - m.r) / (per.length - 1), sy = v => m.t + (hi - v) / (hi - lo) * (H - m.t - m.b);
+  let s = '';
+  for (const v of yt) s += `<line x1="${m.l}" x2="${W - m.r}" y1="${sy(v)}" y2="${sy(v)}" stroke="#eef2f4"/><text class="tick" x="${m.l - 6}" y="${sy(v) + 4}" text-anchor="end">${NF1.format(v)}</text>`;
+  if (lo < 0) s += `<line x1="${m.l}" x2="${W - m.r}" y1="${sy(0)}" y2="${sy(0)}" stroke="#5d7380"/>`;
+  per.forEach((p, i) => { if (i % 2 === 0 || i === per.length - 1) s += `<text class="tick" x="${sx(i)}" y="${H - m.b + 18}" text-anchor="middle">${p.slice(2, 4)}-${p.slice(7)}</text>`; });
+  const ci = per.indexOf(state.period);
+  s += `<line x1="${sx(ci)}" x2="${sx(ci)}" y1="${m.t - 6}" y2="${H - m.b}" stroke="#b65a00" stroke-dasharray="4 4"/>`;
+  data.forEach((d, k) => {
+    s += `<path d="${d.pts.map((x, j) => (j ? 'L' : 'M') + sx(x.i) + ',' + sy(x.r.value)).join('')}" fill="none" stroke="${d.color}" stroke-width="2.5"/>`;
+    d.pts.forEach(x => s += `<circle cx="${sx(x.i)}" cy="${sy(x.r.value)}" r="${x.i === ci ? 5 : 3.2}" fill="${x.i === ci ? d.color : '#fff'}" stroke="${d.color}" stroke-width="2"><title>${esc(d.label + ' · ' + x.p + ': ' + fmt(x.r.value) + ' %')}</title></circle>`);
+    const last = d.pts[d.pts.length - 1]; s += `<text x="${m.l + 4 + k * 150}" y="14" font-size="13" fill="${d.color}" font-weight="700">— ${esc(d.label)}</text>`;
+  });
+  s += `<text class="tick" x="${m.l}" y="${H - 6}">Ciclo lectivo (inicio-fin)</text>`;
+  $('series').innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Evolución de la tasa de abandono interanual, nivel ${esc(P.levels[lvl].toLowerCase())}, ${esc(data.map(d => d.label).join(' y '))}">${s}</svg>`;
+  $('serSub').textContent = `Nivel ${P.levels[lvl].toLowerCase()}, en porcentaje. ${state.geo ? 'Total país comparado con ' + name(state.geo) + '.' : 'Elegí una jurisdicción para compararla con el total país.'}`;
+}
+
+function gradeRows(lvl, geo, per) {
+  // Grados acumulados 1 a 12. El 7.º puede pertenecer a primaria (estructura 7-5) o a secundaria (6-6):
+  // se usa la estructura que corresponde al nivel y nunca se mezclan.
+  // El nivel ya distingue a qué estructura pertenece cada 7.º grado.
+  const want = lvl === 'primary' ? ['1', '2', '3', '4', '5', '6', '7'] : ['7', '8', '9', '10', '11', '12'];
+  return want.map(gr => ROWS.find(r => r.level === lvl && r.grade === gr && r.geo === geo && r.period === per)).filter(Boolean);
+}
+function gradeLabel(lvl, gr) { return lvl === 'primary' ? `${gr}.º grado` : `${Number(gr) - 6}.º año*`; }
+
+function drawGrades(lvl, per) {
+  const geos = ['00', ...(state.geo ? [state.geo] : [])];
+  const sets = geos.map(g => ({g, rows: gradeRows(lvl, g, per)}));
+  const grades = [...new Set(sets.flatMap(s => s.rows.map(r => r.grade)))].sort((a, b) => a - b);
+  const W = 760, H = 270, m = {l: 44, r: 12, t: 26, b: 34}, all = sets.flatMap(s => s.rows.map(r => r.value));
+  const yt = niceTicks(Math.min(0, ...all), Math.max(...all) * 1.1), lo = yt[0], hi = yt[yt.length - 1];
+  const gw = (W - m.l - m.r) / grades.length, bw = Math.min(28, gw / (geos.length + 1));
+  const sy = v => m.t + (hi - v) / (hi - lo) * (H - m.t - m.b), colors = ['#12303f', '#0b8a96'];
+  let s = '';
+  for (const v of yt) s += `<line x1="${m.l}" x2="${W - m.r}" y1="${sy(v)}" y2="${sy(v)}" stroke="#eef2f4"/><text class="tick" x="${m.l - 6}" y="${sy(v) + 4}" text-anchor="end">${NF1.format(v)}</text>`;
+  s += `<line x1="${m.l}" x2="${W - m.r}" y1="${sy(0)}" y2="${sy(0)}" stroke="#5d7380"/>`;
+  grades.forEach((gr, i) => {
+    const cx = m.l + gw * i + gw / 2;
+    s += `<text class="tick" x="${cx}" y="${H - 8}" text-anchor="middle">${esc(gradeLabel(lvl, gr))}</text>`;
+    sets.forEach((set, k) => {
+      const r = set.rows.find(x => x.grade === gr); if (!r) return;
+      const x = cx - (geos.length * bw) / 2 + k * bw, y0 = sy(0), y1 = sy(r.value);
+      s += `<rect x="${x}" y="${Math.min(y0, y1)}" width="${bw - 3}" height="${Math.max(1, Math.abs(y1 - y0))}" fill="${round1(r.value) < 0 ? 'var(--neg)' : colors[k]}"><title>${esc(shortName(set.g) + ' · ' + gradeLabel(lvl, gr) + ': ' + fmt(r.value) + ' %')}</title></rect>`;
+      s += `<text x="${x + (bw - 3) / 2}" y="${round1(r.value) < 0 ? y1 + 12 : y1 - 4}" text-anchor="middle" font-size="10" fill="#33495a">${fmt(r.value)}</text>`;
+    });
+  });
+  sets.forEach((set, k) => s += `<text x="${m.l + 4 + k * 150}" y="14" font-size="13" fill="${colors[k]}" font-weight="700">■ ${esc(shortName(set.g))}</text>`);
+  $('grades').innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Abandono interanual por grado, nivel ${esc(P.levels[lvl].toLowerCase())}, ciclo ${esc(per)}">${s}</svg>`;
+  $('grdSub').textContent = `Nivel ${P.levels[lvl].toLowerCase()}, ciclo ${per}, en porcentaje.` + (lvl === 'secondary' ? ' *Año de estudio de la secundaria de 6 años; en las jurisdicciones con secundaria de 5 años el 1.º año corresponde al 8.º acumulado.' : '');
+  // Conflicto de rótulo con Tableau (D.1 / D.3)
+  const ind = lvl === 'primary' ? '380' : '382';
+  const blocked = sets[0].rows.flatMap(r => r.checks.filter(c => c[0] === ind && P.statusKeys[c[1]] === 'blocked_temporal_label_conflict').map(c => c[3]));
+  const al = $('grdAlert');
+  if (blocked.length) {
+    al.hidden = false; al.className = 'alert';
+    al.innerHTML = `<b>Pendiente de decisión de La Defe.</b> Tableau muestra estos ${blocked.length} valores nacionales con el rótulo «${esc(blocked[0].replace(/^.* - /, ''))}», pero en la planilla oficial corresponden al ciclo ${esc(per)}. Los valores del ciclo 2023-2024 son otros. Acá se muestran con el ciclo de la fuente; hay que confirmar el rótulo antes de publicar.`;
+  } else al.hidden = true;
+}
+
+function statusBadge(r, view) {
+  const c = r.checks.filter(x => view.includes(x[0]));
+  if (!c.length) return '<span class="badge b-src">Solo fuente oficial</span>';
+  return c.map(x => { const k = P.statusKeys[x[1]]; return `<span class="badge ${k === 'blocked_temporal_label_conflict' ? 'b-warn' : 'b-ok'}" title="Tableau: ${esc(NF1.format(x[2]))}">${esc(P.statusLabels[x[1]])}</span>`; }).join(' ');
+}
+
+function drawTable(lvl, per, sc) {
+  const view = lvl === 'primary' ? ['381', '384'] : ['383', '384'];
+  const rowsOut = [];
+  const line = (g, cls = '') => {
+    const r = totalRow(lvl, g, per); if (!r) return '';
+    const tab = r.checks.find(c => view.includes(c[0]));
+    rowsOut.push([name(g), per, P.levels[lvl], round1(r.value), r.official, tab ? tab[2] : '', tab ? P.statusLabels[tab[1]] : 'Solo fuente oficial']);
+    return `<tr class="${cls}${g === state.geo ? ' sel' : ''}"><th scope="row">${esc(name(g))}</th><td class="num">${fmt(r.value)}</td><td class="num">${esc(String(r.official).replace('.', ','))}</td><td class="num">${tab ? NF1.format(tab[2]) : '–'}</td><td>${statusBadge(r, view)}</td></tr>`;
+  };
+  let body = line('00');
+  body += P.provinces.slice().sort((a, b) => name(a).localeCompare(name(b), 'es')).map(g => line(g)).join('');
+  body += `<tr class="group"><td colspan="5">Subdivisiones de Buenos Aires (no se suman ni se mapean)</td></tr>` + line('06-CON', 'sub') + line('06-REST', 'sub');
+  $('table').innerHTML = `<table><caption class="sr">Tasa de abandono interanual, nivel ${esc(P.levels[lvl].toLowerCase())}, ciclo ${esc(per)}</caption><thead><tr><th scope="col">Jurisdicción</th><th scope="col" class="num">Tasa (%)</th><th scope="col" class="num">Planilla oficial</th><th scope="col" class="num">Tableau</th><th scope="col">Verificación</th></tr></thead><tbody>${body}</tbody></table>`;
+  $('tblSub').textContent = `Nivel ${P.levels[lvl].toLowerCase()}, ciclo ${per}. «Tasa» redondea a un decimal el valor exacto de la planilla; «Planilla oficial» es el valor visible en la celda (dos decimales). Tableau solo tiene contraparte provincial para 2024-2025.`;
+  $('csv').onclick = () => {
+    const head = ['jurisdiccion', 'ciclo', 'nivel', 'tasa_abandono_pct', 'valor_visible_planilla', 'valor_tableau', 'verificacion'];
+    const csv = [head, ...rowsOut].map(r => r.map(x => /[",\n]/.test(String(x)) ? '"' + String(x).replace(/"/g, '""') + '"' : x).join(',')).join('\n');
+    const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob(['﻿' + csv], {type: 'text/csv;charset=utf-8'}));
+    a.download = `abandono_${lvl}_${per}.csv`; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  };
+}
+
+function drawSources() {
+  const g = P.geometryCheck, s = P.summary;
+  $('src').innerHTML = [
+    ['Fuente', `<a href="${esc(P.source.landing)}" target="_blank" rel="noopener">${esc(P.source.name)}</a>`],
+    ['Edición', `Planilla descargada el ${esc(P.source.snapshot)} · SHA-256 <code>${esc(P.source.sha256.slice(0, 16))}…</code>`],
+    ['Período', 'Ciclo lectivo de inicio y fin (por ejemplo, 2024-2025 = matriculados en 2024 que no se matriculan en 2025). No es el año de carga.'],
+    ['Cálculo', 'Valor publicado por la fuente, sin recalcular. No se promedian ni suman jurisdicciones; el total país es el que publica la planilla.'],
+    ['Verificación', `${s.tableauComparisons} comparaciones contra la copia de Tableau: ${s.statusCounts.matched_at_one_decimal || 0} coinciden, ${s.statusCounts.compatible_with_double_rounding || 0} coincide con doble redondeo y ${s.statusCounts.blocked_temporal_label_conflict || 0} quedan bloqueadas por el rótulo de ciclo. Los ${s.observations - s.valuesWithTableauCounterpart} valores restantes no se muestran en Tableau.`],
+    ['Mapa', `Mapa bicontinental (Ley 26.651) con geometría del IGN simplificada con topología compartida: ${24 - g.invalid} de 24 provincias válidas, ${g.overlaps} superposiciones, desvío máximo de superficie ${NF1.format(g.maxAreaDriftPct)} %. Incluye las Islas Malvinas y, en recuadro, el sector antártico argentino y las islas Georgias, Sandwich y Orcadas del Sur, coloreados con el valor de Tierra del Fuego, Antártida e Islas del Atlántico Sur.`],
+    ['Tablero original', esc(P.dashboard.name) + '. ' + esc(P.dashboard.scope)],
+  ].map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('');
+}
+
+$('period').onchange = e => set({period: e.target.value});
+$('geo').onchange = e => set({geo: e.target.value});
+writeURL();
+render();
+</script>
+</body>
+</html>
