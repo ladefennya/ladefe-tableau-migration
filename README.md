@@ -62,4 +62,4 @@ La decisión y los bloqueos de asociación entre mapa, serie y distribución est
 
 ## Continuidad de las entregas del 6/11/2026
 
-El [inventario de recuperación](evidence/2026-11-06/README.md) registra las seis entregas, sus hashes, los informes y scripts recuperados, y la nueva verificación de la base maestra. Los ZIP completos siguen pendientes de carga por bloqueo de revisión automática; el inventario no acredita su publicación. El código de las dos rondas está en el [PR #2](https://github.com/ladefennya/ladefe-tableau-migration/pull/2), todavía en borrador.
+El [inventario de recuperación](evidence/2026-11-06/README.md) registra las seis entregas, sus hashes, los informes y scripts recuperados, y la nueva verificación de la base maestra. Las seis entregas completas se conservan en esa carpeta: tres ZIP directos y tres divididos en partes verificables. `python scripts/restore_recovered_evidence.py --assemble-to /ruta/nueva/zips` reconstruye los seis ZIP originales y comprueba sus hashes. El código de las dos rondas está en el [PR #2](https://github.com/ladefennya/ladefe-tableau-migration/pull/2), todavía en borrador.

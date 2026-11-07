@@ -1,6 +1,6 @@
 # Entregas recuperadas — 6 de noviembre de 2026
 
-Estado al 7/11/2026: inventario, documentación y scripts recuperados; **los seis ZIP todavía no están publicados en esta rama**. La revisión automática bloqueó su carga por posible contenido no público. El manifiesto describe los paquetes preparados; su presencia en este documento no acredita su publicación.
+Estado al 7/11/2026: las seis entregas completas están conservadas en esta rama, junto con su inventario, documentación y scripts. Tres ZIP se guardan directamente y tres se conservan divididos en 20 partes de hasta 6.000.000 bytes para respetar el límite de 16 MiB por envío del conector. El restaurador recompone los ZIP originales y verifica sus hashes antes de extraer. La carga fue autorizada expresamente por el usuario luego del bloqueo automático inicial.
 
 El código de los adaptadores, las dos rondas de revisión y el prototipo permanecen en el [PR #2](https://github.com/ladefennya/ladefe-tableau-migration/pull/2), rama `work/native-statistical-contracts-20261106`, HEAD verificado `780f13c314e005597feaba028eb779903cda6b9f`. Este respaldo parte de `main` (`371aaae89c8a91b499d6fac20aec6ff49da376e3`) y lo complementa. No fusiona ese PR ni modifica el observatorio.
 
@@ -34,12 +34,13 @@ El demo histórico conserva 14.016 observaciones. No se reemplazó `results/late
 - Cartografía: descarga pública WFS del IGN; el manifiesto del PR #2 registra URL, SHA-256 y 24 geometrías. El original es demasiado pesado para un frontend.
 - Un barrido local de XML y textos no encontró atributos de contraseña/token/secret/cookie con contenido ni patrones de claves privadas, tokens GitHub o URLs firmadas. Es un control limitado, no una garantía universal.
 
-La conservación de archivos grandes se justifica por el pedido explícito de registrar las bases y todas sus evidencias para continuidad por otras personas y sistemas. Los paquetes comprimidos mantienen la SQLite de 174 MB y el GeoJSON de 112 MB fuera de archivos individuales que excedan el límite de GitHub. La aprobación de la carga de los paquetes sigue pendiente tras el bloqueo automático.
+La conservación de archivos grandes se justifica por el pedido explícito de registrar las bases y todas sus evidencias para continuidad por otras personas y sistemas. Los paquetes comprimidos mantienen la SQLite de 174 MB y el GeoJSON de 112 MB fuera de archivos individuales que excedan el límite de GitHub. La autorización explícita del usuario resolvió el bloqueo inicial. `archive_parts.json` registra el orden, tamaño y SHA-256 de cada parte; `manifest.json` conserva los hashes de los ZIP originales.
 
-## Uso cuando estén disponibles los ZIP
+## Verificar, reconstruir y usar
 
 ```sh
 python scripts/restore_recovered_evidence.py
+python scripts/restore_recovered_evidence.py --assemble-to /ruta/nueva/zips
 python scripts/restore_recovered_evidence.py --extract-to /ruta/nueva/respaldo
 python /ruta/nueva/respaldo/LADEFE_base_maestra_calidad_v1_2026-11-06/verify_master.py \
   /ruta/nueva/respaldo/LADEFE_base_maestra_calidad_v1_2026-11-06 \
@@ -52,4 +53,4 @@ El restaurador falla si falta un ZIP o un hash no coincide; exige un destino ine
 
 Siguen abiertos los conflictos temporales educativos y de comedores, la discrepancia de migraciones, decisiones sobre denominadores y dominios de salud, topología cartográfica y validación temática/funcional. La referencia IGN no habilita mapas automáticamente. El HTML se conserva como evidencia de la entrega anterior; esta tarea no modifica ni valida su diseño.
 
-Próximo paso de este respaldo: completar la carga de los seis ZIP y verificar sus hashes desde un clon nuevo antes de considerar registrado el conjunto completo.
+Próximo paso: revisar los PR #2 y #3 en conjunto y resolver las validaciones temáticas pendientes antes de fusionar o publicar el observatorio. La conservación de las entregas no equivale a aprobación estadística.

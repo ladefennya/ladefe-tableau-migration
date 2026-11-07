@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "chunk_size_bytes": 6000000,
+  "archives": {
+    "evidence/2026-11-06/LADEFE_base_maestra_calidad_v1_2026-11-06.zip": [
+      {
+        "path": "evidence/2026-11-06/parts/LADEFE_base_maestra_calidad_v1_2026-11-06.zip.part000",
+        "size_bytes": 6000000,
+        "sha256": "30128d159863d8dddade6aea91b396502f2562345295c011671148a6d2c9a07e"
+      },
+      {
+        "path": "evidence/2026-11-06/parts/LADEFE_base_maestra_calidad_v1_2026-11-06.zip.part001",
+        "size_bytes": 6000000,
+        "sha256": "539631ecfb3f866d2e253986187316b0e51805bfe6b81cda584cdfe0d7c41e18"
+      },
+      {
+        "path": "evidence/2026-11-06/parts/LADEFE_base_maestra_calidad_v1_2026-11-06.zip.part002",
+        "size_bytes": 6000000,
+        "sha256": "fb65efd68abb6b0929e91c3f10d2a58a78e8d782a170e5c11736cd0e62d5feb8"
+      },
+      {
+        "path": "evidence/2026-11-06/parts/LADEFE_base_maestra_calidad_v1_2026-11-06.zip.part003",
+        "size_bytes": 6000000,
+        "sha256": "4c536e202a383645df616db3ee6ee8d7404d525805f85ee0c0d16c74381fc2ed"
+      },
+      {
+        "path": "evidence/2026-11-06/parts/LADEFE_base_maestra_calidad_v1_2026-11-06.zip.part004",
+        "size_bytes": 6000000,
+        "sha256": "2da44d52b4a793dfb6895bb9c304096400e3c7469541a4447010b9f0a2f889c9"
+      },
+      {
+        "path": "evidence/2026-11-06/parts/LADEFE_base_maestra_calidad_v1_2026-11-06.zip.part005",
+        "size_bytes": 308798,
+        "sha256": "42a2eb344897f18b87529ea9694b712e76fb384cbf97132cff48338bc6f4b074"
+      }
+    ],
+    "evidence/2026-11-06/LADEFE_refinamiento_ronda2_evidencias_2026-11-06.zip": [
+      {
+        "path": "evidence/2026-11-06/parts/LADEFE_refinamiento_ronda2_evidencias_2026-11-06.zip.part000",
+        "size_bytes": 6000000,
+        "sha256": "6228ff70088877c4afa680759d9115e14e20adf7309f46820b7c8733d40d59c6"
+      },
+      {
+        "path": "evidence/2026-11-06/parts/LADEFE_refinamiento_ronda2_evidencias_2026-11-06.zip.part001",
+        "size_bytes": 6000000,
+        "sha256": "26967293c9064bcab764c68406dfa7be940da5ac4e0374fe1d0d8923a0bf7fa7"
+      },
+      {
+        "path": "evidence/2026-11-06/parts/LADEFE_refinamiento_ronda2_evidencias_2026-11-06.zip.part002",
+        "size_bytes": 6000000,
+        "sha256": "c82feb55980d96cb82b0d142e2a4e2f3bcba9d726d2c1616f5ed4fa7d47ac398"
+      },
+      {
+        "path": "evidence/2026-11-06/parts/LADEFE_refinamiento_ronda2_evidencias_2026-11-06.zip.part003",
+        "size_bytes": 6000000,
+        "sha256": "544f982f88cc552046b44063a600e6b6f2a0fea3635aee57d509092e5a5461cb"
+      },
+      {
+        "path": "evidence/2026-11-06/parts/LADEFE_refinamiento_ronda2_evidencias_2026-11-06.zip.part004",
+        "size_bytes": 6000000,
+        "sha256": "85e2468455d649e693160d327375a8cc174185b0078e995837e258dcfa7b45ef"
+      },
+      {
+        "path": "evidence/2026-11-06/parts/LADEFE_refinamiento_ronda2_evidencias_2026-11-06.zip.part005",
+        "size_bytes": 6000000,
+        "sha256": "c4639851a3fbf778cbaf6baf22a9d93fe0c1d487ab31156431e1154dd5e7f314"
+      },
+      {
+        "path": "evidence/2026-11-06/parts/LADEFE_refinamiento_ronda2_evidencias_2026-11-06.zip.part006",
+        "size_bytes": 4429780,
+        "sha256": "c234d3287d8f89b10caa0bd0ea98556f236115c9231f83fe90857c1ab4eef524"
+      }
+    ],
+    "evidence/2026-11-06/LADEFE_validacion_y_bases_2026-11-06.zip": [
+      {
+        "path": "evidence/2026-11-06/parts/LADEFE_validacion_y_bases_2026-11-06.zip.part000",
+        "size_bytes": 6000000,
+        "sha256": "b7f1b16f4b37e3241a9af7960259e534c262f8146028df4b3b5d90c6d8679c50"
+      },
+      {
+        "path": "evidence/2026-11-06/parts/LADEFE_validacion_y_bases_2026-11-06.zip.part001",
+        "size_bytes": 6000000,
+        "sha256": "395213a6426eba09b74e45ffe05afa59e06c8e9b0c361414604027a751ef2911"
+      },
+      {
+        "path": "evidence/2026-11-06/parts/LADEFE_validacion_y_bases_2026-11-06.zip.part002",
+        "size_bytes": 6000000,
+        "sha256": "4363f73fdf78a8f85538cbc2df25ae231cb39dff06a50700c62d521a530651da"
+      },
+      {
+        "path": "evidence/2026-11-06/parts/LADEFE_validacion_y_bases_2026-11-06.zip.part003",
+        "size_bytes": 6000000,
+        "sha256": "6a531c8c51bd7bf0e1b6e7d3ddd45d945e96630ba979da7469b0fb653e3c8280"
+      },
+      {
+        "path": "evidence/2026-11-06/parts/LADEFE_validacion_y_bases_2026-11-06.zip.part004",
+        "size_bytes": 6000000,
+        "sha256": "83a1d93bcc6dd2cec79fc946917122cb62bf57ac9c91099b0d895ebe20ed3303"
+      },
+      {
+        "path": "evidence/2026-11-06/parts/LADEFE_validacion_y_bases_2026-11-06.zip.part005",
+        "size_bytes": 6000000,
+        "sha256": "46134b1261a522cd2f34a28f4aac1739ec41ea610e487a4b4c2190768635b8e6"
+      },
+      {
+        "path": "evidence/2026-11-06/parts/LADEFE_validacion_y_bases_2026-11-06.zip.part006",
+        "size_bytes": 2229985,
+        "sha256": "a581eff727e1831663b17f8ba91550cfd95b1fc02437e6b9f7afb84b3bbebf5b"
+      }
+    ]
+  }
+}
