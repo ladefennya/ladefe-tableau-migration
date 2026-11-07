@@ -1,0 +1,35 @@
+{
+  "boards": 71,
+  "observations": 14156,
+  "indicator_links": 764,
+  "findings_by_rule": {
+    "categorias_no_suman_100": 1,
+    "cobertura_mapa_menor_24": 17,
+    "indice_o_variacion_fuera_0_100": 533,
+    "metadata_incompleta": 353,
+    "periodo_futuro": 6,
+    "porcentaje_fuera_0_100": 25,
+    "salto_interanual_mayor_50pct": 190
+  },
+  "findings_by_severity": {
+    "advertencia": 353,
+    "informativo": 533,
+    "revision_tematica": 239
+  },
+  "changes": {
+    "modificacion": 326,
+    "alta": 1288,
+    "baja": 1148
+  },
+  "changed_boards": 10,
+  "national_comparisons": 0,
+  "distribution_comparisons": 277,
+  "source_records": 973514,
+  "metadata_missing_fields": {
+    "INDICADOR_DEFINICION": 213,
+    "INDICADOR_DESC_METODOLOGICA": 127,
+    "INDICADOR_FORMULA": 13
+  },
+  "sqlite_integrity": "ok",
+  "sqlite_foreign_keys": "ok"
+}

@@ -1,0 +1,126 @@
+[
+  {
+    "source": "educacion_2025",
+    "url": "https://www.argentina.gob.ar/sites/default/files/anuario_estadistico_2025.zip",
+    "http": 200,
+    "bytes": 13593018,
+    "sha256": "ac96949a8c48319b7d2b3b65b894b2ba28ff5907c0bd224f0e432bf149bce2e4",
+    "archive_files": [
+      "Anuario Estadístico 2025/",
+      "Anuario Estadístico 2025/Capítulo 1_ Cuadros Generales/",
+      "Anuario Estadístico 2025/Capítulo 1_ Cuadros Generales/1.1. CUADROS GENERALES.XLSX",
+      "Anuario Estadístico 2025/Capítulo 2_ Educación Común/",
+      "Anuario Estadístico 2025/Capítulo 2_ Educación Común/2.1. RESUMEN 2025.xlsx",
+      "Anuario Estadístico 2025/Capítulo 2_ Educación Común/2.2. INICIAL 2025.xlsx",
+      "Anuario Estadístico 2025/Capítulo 2_ Educación Común/2.3. PRIMARIO 2025.xlsx",
+      "Anuario Estadístico 2025/Capítulo 2_ Educación Común/2.4. SECUNDARIO 2025.xlsx",
+      "Anuario Estadístico 2025/Capítulo 2_ Educación Común/2.5. SUPERIOR 2025.xlsx",
+      "Anuario Estadístico 2025/Capítulo 3_ Modalidades/",
+      "Anuario Estadístico 2025/Capítulo 3_ Modalidades/3.1. EDUCACION ESPECIAL 2025.xlsx",
+      "Anuario Estadístico 2025/Capítulo 3_ Modalidades/3.2. ADULTOS 2025.xlsx",
+      "Anuario Estadístico 2025/Capítulo 3_ Modalidades/3.3. RURAL 2025.xlsx",
+      "Anuario Estadístico 2025/Capítulo 3_ Modalidades/3.4. EDUCACION TÉCNICO-PROFESIONAL 2025.xlsx",
+      "Anuario Estadístico 2025/Capítulo 4_ Alcance del RA/",
+      "Anuario Estadístico 2025/Capítulo 4_ Alcance del RA/4. ALCANCE DEL RA 2025.xlsx",
+      "Anuario Estadístico 2025/Capítulo 5_ Síntesis Jurisdicional/",
+      "Anuario Estadístico 2025/Capítulo 5_ Síntesis Jurisdicional/5. SÍNTESIS JURISDICCIONAL 2025.xlsx",
+      "Anuario Estadístico 2025/Anuario 2025.pdf"
+    ]
+  },
+  {
+    "source": "defunciones_2024",
+    "url": "https://www.argentina.gob.ar/sites/default/files/2021/03/datos_sobre_defunciones_2024.csv",
+    "http": 200,
+    "bytes": 1550317,
+    "sha256": "9b31baa9fb577f7c95fd5b159695a1b970fa2a2b1811f5cd5015cd03370bae5a",
+    "sample": [
+      "PROVRES;SEXO;CAUSA;MAT;GRUPEDAD;CUENTA",
+      "02;1;A16;NULL;10.15 a 19;2",
+      "02;1;A16;NULL;12.25 a 29;1"
+    ],
+    "lines": 54252
+  },
+  {
+    "source": "nacimientos_2024",
+    "url": "https://www.argentina.gob.ar/sites/default/files/2021/03/datos_sobre_nacidos_vivos_2024.csv",
+    "http": 200,
+    "bytes": 1668694,
+    "sha256": "ac0ac5ff8794f73c57a02b494b97401431ce901d4f5f0a5df877f372da9d85d2",
+    "sample": [
+      "PROVRES;TIPPARTO;SEXO;IMEDAD;ITIEMGEST;IMINSTRUC;IPESONAC;CUENTA",
+      "02;1;1;1.Menor de 15;6.37 a 41;3.Primaria/C. EGB Completa;4.1500 a 1999;1",
+      "02;1;1;1.Menor de 15;6.37 a 41;5.Secundaria/Polimodal Completa;8.De 3500 y más;1"
+    ],
+    "lines": 21967
+  },
+  {
+    "source": "ispi_2024",
+    "url": "https://www.argentina.gob.ar/sites/default/files/ispi_2016_2024.xlsx",
+    "http": 200,
+    "bytes": 192749,
+    "sha256": "990efa39e442a5cb059d1f73ec0b1d904e1f4654fe85a75b672c36f1a94ccb95",
+    "archive_files": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "xl/_rels/workbook.xml.rels",
+      "xl/workbook.xml",
+      "xl/worksheets/sheet4.xml",
+      "xl/worksheets/_rels/sheet8.xml.rels",
+      "xl/worksheets/_rels/sheet9.xml.rels",
+      "xl/worksheets/_rels/sheet10.xml.rels",
+      "xl/worksheets/_rels/sheet11.xml.rels",
+      "xl/worksheets/_rels/sheet12.xml.rels",
+      "xl/worksheets/_rels/sheet7.xml.rels",
+      "xl/worksheets/_rels/sheet6.xml.rels",
+      "xl/worksheets/_rels/sheet5.xml.rels",
+      "xl/worksheets/sheet2.xml",
+      "xl/worksheets/_rels/sheet1.xml.rels",
+      "xl/worksheets/_rels/sheet2.xml.rels",
+      "xl/worksheets/_rels/sheet3.xml.rels",
+      "xl/worksheets/_rels/sheet4.xml.rels",
+      "xl/worksheets/_rels/sheet13.xml.rels",
+      "xl/worksheets/_rels/sheet14.xml.rels"
+    ]
+  },
+  {
+    "source": "gpsdn_2024",
+    "url": "https://www.argentina.gob.ar/sites/default/files/gpsdn_2001_2024.xlsx",
+    "http": 200,
+    "bytes": 332608,
+    "sha256": "788a67179093cf2760a9a52e4c05963dd35d4e4bdefaf0a9fbcc88f3afa5129c",
+    "archive_files": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "xl/_rels/workbook.xml.rels",
+      "xl/workbook.xml",
+      "xl/worksheets/sheet4.xml",
+      "xl/worksheets/_rels/sheet8.xml.rels",
+      "xl/worksheets/_rels/sheet9.xml.rels",
+      "xl/worksheets/_rels/sheet10.xml.rels",
+      "xl/worksheets/_rels/sheet11.xml.rels",
+      "xl/worksheets/_rels/sheet12.xml.rels",
+      "xl/worksheets/_rels/sheet7.xml.rels",
+      "xl/worksheets/_rels/sheet6.xml.rels",
+      "xl/worksheets/_rels/sheet5.xml.rels",
+      "xl/worksheets/sheet2.xml",
+      "xl/worksheets/_rels/sheet1.xml.rels",
+      "xl/worksheets/_rels/sheet2.xml.rels",
+      "xl/worksheets/_rels/sheet3.xml.rels",
+      "xl/worksheets/_rels/sheet4.xml.rels",
+      "xl/worksheets/_rels/sheet13.xml.rels",
+      "xl/worksheets/_rels/sheet14.xml.rels"
+    ]
+  },
+  {
+    "source": "abandono",
+    "url": "https://www.argentina.gob.ar/sites/default/files/2018/04/tasa_de_abandono_interanual.zip",
+    "http": 200,
+    "bytes": 247474,
+    "sha256": "18911b578fd943d3fa45fd37b5bd23d40f05543e2a0f4db325e239458c044204",
+    "archive_files": [
+      "Tasa de Abandono Interanual/",
+      "Tasa de Abandono Interanual/Tasa de Abandono Interanual 2016-2003 según estructura nacional homogenea.xlsx",
+      "Tasa de Abandono Interanual/Tasa de Abandono Interanual 2025-2012 según división político-territorial.xlsx"
+    ]
+  }
+]

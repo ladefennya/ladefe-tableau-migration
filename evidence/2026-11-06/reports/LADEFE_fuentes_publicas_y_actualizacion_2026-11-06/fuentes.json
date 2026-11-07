@@ -1,0 +1,20 @@
+{
+  "educacion": "https://www.argentina.gob.ar/educacion/evaluacion-informacion-educativa/anuarios",
+  "indicadores_educativos": "https://www.argentina.gob.ar/educacion/evaluacion-e-informacion-educativa/indicadores",
+  "vitales": "https://www.argentina.gob.ar/salud/deis/datos/defunciones",
+  "nacimientos": "https://www.argentina.gob.ar/salud/deis/datos/nacidosvivos",
+  "indec": "https://www.indec.gob.ar/Institucional/Indec/BasesDeDatos",
+  "censo": "https://www.indec.gob.ar/indec/web/Nivel4-Tema-2-41-165?lang=es",
+  "bess": "https://www.argentina.gob.ar/trabajo/seguridadsocial/bess",
+  "ennys": "https://datos.salud.gob.ar/dataset/ennys2",
+  "pae": "https://www.argentina.gob.ar/node/451503",
+  "linea": "https://www.argentina.gob.ar/capital-humano/familia/analisis-de-la-informacion-social/area-central-linea-102",
+  "penal": "https://datos.gob.ar/fr/dataset/desarrollo-social-dispositivos-aprehension-especializados-para-adolescentes-presuntos-infractores",
+  "proteccion": "https://www.argentina.gob.ar/noticias/el-ministerio-de-capital-humano-comienza-el-relevamiento-federal-de-ninos-y-adolescentes",
+  "fiscal": "https://www.argentina.gob.ar/node/230449",
+  "presupuesto": "https://www.presupuestoabierto.gob.ar/sici/datos-abiertos",
+  "cud": "https://www.argentina.gob.ar/andis/estadisticas/datos-estadisticos",
+  "renaper": "https://www.argentina.gob.ar/interior/renaper/transparencia/datosabiertos",
+  "progresar": "https://www.argentina.gob.ar/educaci%C3%B3n/progresar",
+  "food": "https://www.argentina.gob.ar/node/451131"
+}

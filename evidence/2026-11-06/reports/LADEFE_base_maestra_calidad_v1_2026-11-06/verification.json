@@ -1,0 +1,8 @@
+{
+  "source_files_sha256": 71,
+  "source_records_roundtrip": 973514,
+  "observations_verified": 14156,
+  "sqlite_integrity": "ok",
+  "foreign_keys": "ok",
+  "result": "PASS"
+}
