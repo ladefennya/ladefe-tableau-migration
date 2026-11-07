@@ -69,6 +69,15 @@ class BicontinentalTests(unittest.TestCase):
         self.assertIn("Antártida Argentina", html)
 
 
+class EmbeddingTests(unittest.TestCase):
+    def test_url_compartible_no_rompe_en_vista_previa_aislada(self):
+        html = (HERE / "pilot_template.html").read_text(encoding="utf-8")
+        start = html.index("function writeURL()")
+        body = html[start:html.index("\n}", start)]
+        self.assertIn("try {", body)
+        self.assertIn("location.protocol === 'about:'", body)
+
+
 class RoundingTests(unittest.TestCase):
     def test_half_up_decimal(self):
         self.assertEqual(round1(8.0471945354), 8.0)  # el caso del doble redondeo: el valor exacto da 8,0

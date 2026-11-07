@@ -189,7 +189,12 @@ const state = {level: 'primary', period: P.defaultPeriod, geo: ''};
 function writeURL() {
   const q = new URLSearchParams({nivel: state.level, ciclo: state.period});
   if (state.geo) q.set('jurisdiccion', state.geo);
-  history.replaceState(null, '', location.pathname + '?' + q);
+  // Guardar la selección en la dirección permite compartir el enlace. Dentro de una vista previa aislada
+  // (about:srcdoc, iframes con sandbox) el navegador no lo permite: ahí se omite sin romper la página.
+  try {
+    if (location.protocol === 'about:') return;
+    history.replaceState(null, '', location.pathname + '?' + q);
+  } catch (error) { /* sin URL compartible en este contexto */ }
 }
 function set(patch) { Object.assign(state, patch); writeURL(); render(); }
 
