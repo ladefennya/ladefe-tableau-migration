@@ -1,0 +1,13 @@
+{
+  "verified_on": "2026-11-07",
+  "archives_verified_locally": 6,
+  "members_verified_locally": 259,
+  "source_files_sha256": 71,
+  "source_records_roundtrip": 973514,
+  "observations_verified": 14156,
+  "sqlite_integrity": "ok",
+  "foreign_keys": "ok",
+  "result": "PASS",
+  "scope": "integrity and preservation; not thematic certification",
+  "archive_upload_status": "blocked_by_automatic_approval_review"
+}
