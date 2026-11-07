@@ -1,0 +1,1343 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-06",
+  "archives": [
+    {
+      "path": "evidence/2026-11-06/LADEFE_base_maestra_calidad_v1_2026-11-06.zip",
+      "size_bytes": 30308798,
+      "sha256": "2ef2a5180dec329217a2621d0779056273ee5ca8ce61aef768c0f43e773c21fd",
+      "files": [
+        {
+          "path": "cobertura_71.csv",
+          "size_bytes": 15685,
+          "sha256": "5db7c6cda742ec128cd8aa204500eca0bde30e58466c3f88d1857ce7049973ac"
+        },
+        {
+          "path": "finalize_audit.py",
+          "size_bytes": 2059,
+          "sha256": "09ab4b061280e65cbeff4e6f25b04ea317eabb7d9806d444039a79509baa8d5f"
+        },
+        {
+          "path": "base_maestra.sqlite",
+          "size_bytes": 173998080,
+          "sha256": "a0979670b6d08e223dc0efe2577760fe948d8c96dc10eafb752ccb3613b645b3"
+        },
+        {
+          "path": "diccionario_campos.md",
+          "size_bytes": 3184,
+          "sha256": "60a440eafc7cdb10ae59e2c8c394d877682f42bf1d5d29ec268fbeeb04ab7aec"
+        },
+        {
+          "path": "compact_master.py",
+          "size_bytes": 1669,
+          "sha256": "a691d75134a0dcca0ae2fc2a9cf5de7736a0ecd77d0829bd9086844d6126ac35"
+        },
+        {
+          "path": "source_downloads.json",
+          "size_bytes": 12816,
+          "sha256": "28955667d97809a2c399aff049c14cdb7c7c5bc1164fea4a254fec442ee7e58e"
+        },
+        {
+          "path": "build_master.py",
+          "size_bytes": 13870,
+          "sha256": "24b3617c7b2880aa34eb77a5cc8b5d86fff7042e93a39c8a49d1dee82ed217f4"
+        },
+        {
+          "path": "config_workbooks.csv",
+          "size_bytes": 33624,
+          "sha256": "a3682165292bde1b2e03a6deb06a8c1bee31b0628d8654f794988b4ba8dd62c6"
+        },
+        {
+          "path": "hallazgos.csv",
+          "size_bytes": 667639,
+          "sha256": "07fce3d8d80638301e49445188c80ce1d370bf0d9f0dbd2df3a4239d271ecdab"
+        },
+        {
+          "path": "cambios_vs_github.csv",
+          "size_bytes": 2099671,
+          "sha256": "ab20699d9463511fd223a2e27ad46ec82dbeb60ebf6deb4f6a9073bf83a3781b"
+        },
+        {
+          "path": "manifest.json",
+          "size_bytes": 8284,
+          "sha256": "2adc82ee35a7a5e1744166ccd065483ee84ad67c59883282ad97c4149b892af5"
+        },
+        {
+          "path": "verification.json",
+          "size_bytes": 175,
+          "sha256": "b2704f9e64730957408ebd9b2c5e5c69008ab880285c5a22374471674189c005"
+        },
+        {
+          "path": "resumen.json",
+          "size_bytes": 843,
+          "sha256": "aed737c6569c99072f687abd45543479a9d055c1c038e94db33472d67698bf7b"
+        },
+        {
+          "path": "LEEME.md",
+          "size_bytes": 9211,
+          "sha256": "75d1fceddbac96e6c0fd75df2ed73c17d50281c8a2f2b6f046eb8f6dfa3049f3"
+        },
+        {
+          "path": "verify_master.py",
+          "size_bytes": 1546,
+          "sha256": "fd56acd4dd076b8221947982776fb57f40aa7b19f4c9b0450ca4212017f2b8e5"
+        },
+        {
+          "path": "diccionario_indicadores.csv",
+          "size_bytes": 577627,
+          "sha256": "859f3e9c901b5c0a636ae6c2ddc169eda97b073923303c99b77b94c813b2ec7d"
+        },
+        {
+          "path": "geometria/shp.csv.gz",
+          "size_bytes": 4630638,
+          "sha256": "0cf01e594c886f5b04dbd1827408889db514f801161e0372522c101a73ff41a0"
+        }
+      ]
+    },
+    {
+      "path": "evidence/2026-11-06/LADEFE_evidencias_equipo_migracion_2026-11-06.zip",
+      "size_bytes": 961563,
+      "sha256": "c8e80a725939e6bfe546a3e15591aa17c00f9395cfd07c6ff9bf349aa49093d4",
+      "files": [
+        {
+          "path": "LEEME.md",
+          "size_bytes": 1072,
+          "sha256": "a859178ed1729f551577be6f4c17073b1a016442ffb36ad7ee7f96555b60d193"
+        },
+        {
+          "path": "education/reconciliation_summary.json",
+          "size_bytes": 344,
+          "sha256": "15e8ec94084ad0ddb1348465103b8803cdcfa90ec36abf8672c317711aff2658"
+        },
+        {
+          "path": "education/summary.json",
+          "size_bytes": 508,
+          "sha256": "f748ff507b2a5674d9646df6e2bf09bfcaabf743a8c21842d69ec81eb8599461"
+        },
+        {
+          "path": "education/reconciliation.csv",
+          "size_bytes": 22457,
+          "sha256": "fbc6ca821efe6664c5fc78849f8ebf985f986c8436dc670d5db46e8ce6518119"
+        },
+        {
+          "path": "education/reconciliation.json",
+          "size_bytes": 51490,
+          "sha256": "eb5ef06da9758ea05539d46db74a0cb3710f20c852dec43c27d82952d1e50f03"
+        },
+        {
+          "path": "education/native_candidate.csv",
+          "size_bytes": 2766849,
+          "sha256": "5658db63ccf738cded8726be9e4d2236722bfcc4759be897a31b0ad120942274"
+        },
+        {
+          "path": "education/native_candidate.json",
+          "size_bytes": 5509956,
+          "sha256": "79ad40faa3604c8e1907cadfe8709a2753da451227eb151583ab333c3ed65ef4"
+        },
+        {
+          "path": "health/candidate.json",
+          "size_bytes": 16833,
+          "sha256": "e946ff5ce17a49bbe5205c732298715c8dcc4eb58db7e0b2f9d0943290786fe6"
+        },
+        {
+          "path": "health/reconciliation_summary.json",
+          "size_bytes": 566,
+          "sha256": "4fb7e8a5d3e712d3b27a243412a4e73babbc9ab89f093e106edb640e1b1f8418"
+        },
+        {
+          "path": "health/reconciliation.csv",
+          "size_bytes": 20066,
+          "sha256": "aa0e23e4b9657f3c8a419832c6b5884baa919705b3070a5aa24f6b985ad372bb"
+        },
+        {
+          "path": "health/death_dimensions_2024.csv",
+          "size_bytes": 1821620,
+          "sha256": "95f10142a888d494bb7a9ecc54b86f2b05f141d47b0ed654611c3437a9886888"
+        },
+        {
+          "path": "health/province_aggregates_2024.csv",
+          "size_bytes": 4055,
+          "sha256": "dd8dec4a578e548b53454ed30693380fe394d11e8f3eee8edc1177e16ee68da5"
+        },
+        {
+          "path": "social/reconciliation.csv",
+          "size_bytes": 1353,
+          "sha256": "183e49767b5dd32fa9b990965041fa85312d545db0d028a38073d6b03132a34e"
+        },
+        {
+          "path": "social/diagnostics.json",
+          "size_bytes": 1856,
+          "sha256": "de475fa979f76d0c8bd31e1c2ce87cdbab905f3a7c11113f97e18b8294805bce"
+        },
+        {
+          "path": "social/reconciliation.json",
+          "size_bytes": 3388,
+          "sha256": "f3091ae8a41899f10f27f820d2e1a911551c7b52738e88c7f9b9fbe224dc3a65"
+        },
+        {
+          "path": "social/candidate_migration_national.json",
+          "size_bytes": 8042,
+          "sha256": "be22be0478f2d4661b18d84574995cf3c587101c25d53380270b22c24e52855b"
+        },
+        {
+          "path": "geography/matriz_71_cartografia.csv",
+          "size_bytes": 10284,
+          "sha256": "de1db53468624846449551b8f5a6d71022b1e3c20c35bbcf615c390b5cb1b54f"
+        },
+        {
+          "path": "geography/matriz_indicadores_cartografia.csv",
+          "size_bytes": 203600,
+          "sha256": "d60d6b05db7634ac5ca344109fa112615e4b3ea7293b55c4b06f5f4201514829"
+        },
+        {
+          "path": "geography/cobertura_cortes_mapa.csv",
+          "size_bytes": 92422,
+          "sha256": "f08c99d0c7658e78c7b01c48ea59d44fd075c7b632084c17569562bdee21ca5c"
+        },
+        {
+          "path": "geography/geografia_en_aperturas_candidatos.csv",
+          "size_bytes": 61134,
+          "sha256": "1aae44b77cc7fb2c08dc1a44846980159b6e7e421039843c2866eff1fb428f54"
+        },
+        {
+          "path": "geography/resumen_cartografia.json",
+          "size_bytes": 8015,
+          "sha256": "d911e5a361aaa9742019895c69f561af91bb84a10c6becbd6fdb859d27556773"
+        },
+        {
+          "path": "statistics/evidence.json",
+          "size_bytes": 162851,
+          "sha256": "69fd52177f3cc64e39c6781800a7db0f47aaad85244131e80651f8d12de2e1a4"
+        },
+        {
+          "path": "ux/evidence.json",
+          "size_bytes": 1510,
+          "sha256": "43acd5e4bf3711be72413ddb66049d41b75421aafc3feaac114f30f881a5c8dd"
+        },
+        {
+          "path": "ux/decisiones_ux.csv",
+          "size_bytes": 2534,
+          "sha256": "2405094647a53641e4c749621c887ed32534a3e0316539c1ca1ab136beeee8b1"
+        }
+      ]
+    },
+    {
+      "path": "evidence/2026-11-06/LADEFE_fuentes_publicas_y_actualizacion_2026-11-06.zip",
+      "size_bytes": 17541,
+      "sha256": "bbfa8710a662e0a1e935afe02975590897e84f91720e37d99b726f6d3263481c",
+      "files": [
+        {
+          "path": "matriz_fuentes_71.csv",
+          "size_bytes": 41345,
+          "sha256": "f6c4965a710ba5d32861e4b5f12136a5cf56566f52b19f8243e5505efd1d26ae"
+        },
+        {
+          "path": "pruebas_descarga.json",
+          "size_bytes": 5526,
+          "sha256": "8d3c0f22458787704520b23c725454012208cd3ef627dd463eeeb13a990c8b81"
+        },
+        {
+          "path": "INFORME.md",
+          "size_bytes": 14311,
+          "sha256": "4cfcb1c66913133fe925a4c874908701648450b8def532754616c74691ad86ee"
+        },
+        {
+          "path": "comprobar_recursos.py",
+          "size_bytes": 1510,
+          "sha256": "c722f3a60e132b9614c60067ebc51c38a66d53cf598662596e72988347a3585a"
+        },
+        {
+          "path": "fuentes.json",
+          "size_bytes": 1543,
+          "sha256": "00b2af15de7d62543e0917b5fbe9708aaf13b69d6c766184e1cbc63fbfc8eb80"
+        },
+        {
+          "path": "abandono_contraste.json",
+          "size_bytes": 973,
+          "sha256": "de5e2b2fcc8fb59e3e52e0edc6d92ac072ca1ff9ca74ab5389e20f4b7d0bbaae"
+        },
+        {
+          "path": "resumen_familias.json",
+          "size_bytes": 541,
+          "sha256": "eba9100a44d64916e6bbcbfb73b51a83a83e8ba84e5919f572fdafaf4854e0bf"
+        },
+        {
+          "path": "clasificar_fuentes.py",
+          "size_bytes": 8074,
+          "sha256": "d64685d34f5399b7e017e565ab6de75f3a03e5267fbf041bf10fe7a8dce31f73"
+        }
+      ]
+    },
+    {
+      "path": "evidence/2026-11-06/LADEFE_prototipo_para_abrir.zip",
+      "size_bytes": 18276,
+      "sha256": "befdd6ebd888443a2a4d90766b427f4c278afae885f60927f4beaf03d3e27721",
+      "files": [
+        {
+          "path": "LADEFE_prototipo.html",
+          "size_bytes": 89383,
+          "sha256": "e2d30fa68a900a60b5a9648d298c7f40e41de1890ad1019073088e56a4449177"
+        },
+        {
+          "path": "COMO_ABRIR.txt",
+          "size_bytes": 332,
+          "sha256": "7ba49829b7eb90f5b218f9e5923e221309c05fe9db7528c152c3be6d6fa93c64"
+        }
+      ]
+    },
+    {
+      "path": "evidence/2026-11-06/LADEFE_refinamiento_ronda2_evidencias_2026-11-06.zip",
+      "size_bytes": 40429780,
+      "sha256": "fc384a99b2ff16e7a1fc40ca32b5eff275babe44493c8090a61fcc663616d225",
+      "files": [
+        {
+          "path": "LEEME.md",
+          "size_bytes": 1274,
+          "sha256": "2c63878608310c59f6f231e13563daf38100446ffdde2b62e0ee930c899cc4c8"
+        },
+        {
+          "path": "education/manifest.json",
+          "size_bytes": 990,
+          "sha256": "8b14e3aff44b54d4206fe0b9de2b831c4b03e85fd57561da7bc2c9d628f3d44a"
+        },
+        {
+          "path": "education/reconciliation_summary.json",
+          "size_bytes": 401,
+          "sha256": "423b84ca16620203cc5b62825721b72ed91b183350ddb554b65e2fc7f11dbac5"
+        },
+        {
+          "path": "education/summary.json",
+          "size_bytes": 655,
+          "sha256": "6f329d47cfd1d161c8da2a8223ef460d483218e363e2975b22d1d40085af88d1"
+        },
+        {
+          "path": "education/reconciliation.csv",
+          "size_bytes": 32675,
+          "sha256": "a884e699aa25a9f260dfbf689bcbe26ee61dfad2daadc60c329164c8034e54af"
+        },
+        {
+          "path": "education/reconciliation.json",
+          "size_bytes": 86364,
+          "sha256": "c92704a9bcfb612efeb9f3973444719b6e54d1eac7b5972420c9819a4c352670"
+        },
+        {
+          "path": "education/native_candidate.csv",
+          "size_bytes": 3194077,
+          "sha256": "06fd154609148695ddca7dbf3e21b378a9e7cea7a4a676d7c9ca3cca0f687457"
+        },
+        {
+          "path": "education/native_candidate.json",
+          "size_bytes": 6827736,
+          "sha256": "dba8a16b1df42d4534c0b42ddc3d5cef7107e2027449a94c759e1ba4107adf72"
+        },
+        {
+          "path": "health/output_manifest.json",
+          "size_bytes": 750,
+          "sha256": "b7ef5a54ded085a648d03fdf6a4cd34c32892310fdc64f2a033e6a3ca7d5d293"
+        },
+        {
+          "path": "health/provenance.json",
+          "size_bytes": 404,
+          "sha256": "5ce356422870ae34faf9642ebba411762ed38c881a218cf056555d3cfe146dd6"
+        },
+        {
+          "path": "health/candidate.json",
+          "size_bytes": 25812,
+          "sha256": "2a92ab9b59918d81ae777e16706f4eaab376a5850b6f255a0c55c3cd8531b49a"
+        },
+        {
+          "path": "health/reconciliation_summary.json",
+          "size_bytes": 1584,
+          "sha256": "41c9c222b6676894db13f781d1d0699daa8d2521dd153002a52219b9176c959a"
+        },
+        {
+          "path": "health/reconciliation.csv",
+          "size_bytes": 20066,
+          "sha256": "aa0e23e4b9657f3c8a419832c6b5884baa919705b3070a5aa24f6b985ad372bb"
+        },
+        {
+          "path": "health/maternal_annual_2024.json",
+          "size_bytes": 453,
+          "sha256": "c1f0e6e5a1c461328dc538961f7efe879b8906713c3f47b0c92e11c33ef34493"
+        },
+        {
+          "path": "health/death_dimensions_2024.csv",
+          "size_bytes": 1821620,
+          "sha256": "95f10142a888d494bb7a9ecc54b86f2b05f141d47b0ed654611c3437a9886888"
+        },
+        {
+          "path": "health/province_aggregates_2024.csv",
+          "size_bytes": 5823,
+          "sha256": "dba5db5213887a849986a504f2376b127f3d6ceabd13e024dda0aa6b45a051f0"
+        },
+        {
+          "path": "social2025/completion.json",
+          "size_bytes": 164,
+          "sha256": "4e0f9f04b77d3b5ba81e1e824b0bec3ff89f15f74fbb1f2fb58084e2e2ef88b5"
+        },
+        {
+          "path": "social2025/diagnostics.json",
+          "size_bytes": 1906,
+          "sha256": "457af26ade9f5fa7e9e22e187ba07743e3a46ed349034bd7507e2132f0ea071d"
+        },
+        {
+          "path": "social2025/reconciliation.csv",
+          "size_bytes": 1980,
+          "sha256": "560727b0cf10def5d73413fd2595281d67da40ea1ed59a38452e5dc08fa48e8c"
+        },
+        {
+          "path": "social2025/reconciliation.json",
+          "size_bytes": 5116,
+          "sha256": "629a4fe7f8f4c120cea234e979cf114a67e4a85f1745ad782d117d8e1aa90898"
+        },
+        {
+          "path": "social2025/candidate_migration_national.json",
+          "size_bytes": 16134,
+          "sha256": "0aef9e933ba247b7e568491d86fb3419120dd4d98e44412c84c7a474cd4802ce"
+        },
+        {
+          "path": "social2024/completion.json",
+          "size_bytes": 164,
+          "sha256": "ec5cb07087c626fb813fbc4078e38e2ae6b5c174224117a88f26e2b8bbe2a0b4"
+        },
+        {
+          "path": "social2024/diagnostics.json",
+          "size_bytes": 1929,
+          "sha256": "f952177fb590f6adb3ad86c1b61d262c3e5b0f217adbcabff90b28d62f9367e4"
+        },
+        {
+          "path": "social2024/reconciliation.csv",
+          "size_bytes": 1855,
+          "sha256": "860ff2e018022c3bbfdbc8fe3550fcfae41f1b853a0fc320e270d5e129605e3f"
+        },
+        {
+          "path": "social2024/reconciliation.json",
+          "size_bytes": 4991,
+          "sha256": "c2404d4d746177af53b375b88d858ac41a3162bc734cd852322427af1f72f081"
+        },
+        {
+          "path": "social2024/candidate_migration_national.json",
+          "size_bytes": 16140,
+          "sha256": "9021c36d59100bbbc8f0acfc5a808c7d736f317640a2bb05151dbfa57d73c6b2"
+        },
+        {
+          "path": "geography/topology_results.json",
+          "size_bytes": 16274,
+          "sha256": "f4cd972043f9ef4979ecd100dd549a2e0d66f2987eab37257abcf1a09c076738"
+        },
+        {
+          "path": "geography/source_geometry_comparison.json",
+          "size_bytes": 12823,
+          "sha256": "a6b6dfbbb9552f485a323f2ba4b9a0cf45d7ff0bcd9fa92ef87372c555f550c0"
+        },
+        {
+          "path": "geography/boundary_case_comparisons.json",
+          "size_bytes": 1407,
+          "sha256": "5aedebc5b6b499c1527a5cee8bc16f87f8ed328dc3fe56a8088e821b6987e6c5"
+        },
+        {
+          "path": "geography/ign_download.json",
+          "size_bytes": 308,
+          "sha256": "6467d7ca513af3c5a358479ab511e8f2bab2fc5d4da1c68588c39edace6f7fd2"
+        },
+        {
+          "path": "geography/reference_geometry_manifest.json",
+          "size_bytes": 571,
+          "sha256": "dea0fed3ede87ee2ec9f4071dca9976251597def6007e164b7eb09b3cd256878"
+        },
+        {
+          "path": "geography/reference_geometry_candidate.geojson.gz",
+          "size_bytes": 7277963,
+          "sha256": "015121cb68b133252888ba3862d12062a4b1794650a5a1934b26e4a68fafae79"
+        },
+        {
+          "path": "geography/map_policy_summary.json",
+          "size_bytes": 231,
+          "sha256": "7dec5ad2cef7919ffbb6eaeb43a5f1cef9233fd27ef0b69a53eb5226d34d8433"
+        },
+        {
+          "path": "geography/map_policy_by_slice.json",
+          "size_bytes": 426037,
+          "sha256": "283cc347d17aa12a0f37164f2f0bf37b64a6a77630ab1d07961d3c20ecf9645c"
+        },
+        {
+          "path": "sources/ign_original_24_features.geojson",
+          "size_bytes": 111718447,
+          "sha256": "9afccbbc3862d7943d9f6d83ace934f16f716eb78fb3abe1a0ad058da3c0dccc"
+        }
+      ]
+    },
+    {
+      "path": "evidence/2026-11-06/LADEFE_validacion_y_bases_2026-11-06.zip",
+      "size_bytes": 38229985,
+      "sha256": "6aaa48c89caf26abec32d44430d77579e3999ca8829629aeb4c1b7c773cdc4d9",
+      "files": [
+        {
+          "path": "INFORME.md",
+          "size_bytes": 8007,
+          "sha256": "d84249d8325ada035b4a9a8bcf0d6d564ec73a33ea6610b7569a1f096d8b8c2a"
+        },
+        {
+          "path": "source_tables/8_3cNNyAmigrantes_Losmigrantesenlosregistrosadministrativos.json.gz",
+          "size_bytes": 434917,
+          "sha256": "99c5205d0845b06aaa6893a51f566464d115eea2dc7164d741f4f92e7e54c6b4"
+        },
+        {
+          "path": "source_tables/8_3bNNyAmigrantes_Losmigrantesenlasreasurbanas.json.gz",
+          "size_bytes": 434860,
+          "sha256": "3e0794401409392e1a4d9320fc191212b4d2133592ceb344b6d2e963a4e99b1d"
+        },
+        {
+          "path": "source_tables/8_3aNNyAmigrantes_Losmigrantesenloscensosnacionales.json.gz",
+          "size_bytes": 426884,
+          "sha256": "e1023ac4c57b14b349c0dd919f5f4b4f7a52c736f715f4599c31ab2d7387fe9d"
+        },
+        {
+          "path": "source_tables/8_2NNyAindgenas.json.gz",
+          "size_bytes": 383789,
+          "sha256": "af6cdf9cdc1e7854e9f10493fc52516c9dce2719ded96a5f7ca7e1fb3516b178"
+        },
+        {
+          "path": "source_tables/8_1cNNyAdiscapacidadCaracteristicasurbanos.json.gz",
+          "size_bytes": 372935,
+          "sha256": "eb7ce2e3d3d9dc914e7eeb92bea61a0ebcab51d8a505a5c6c29ae184dffe83a5"
+        },
+        {
+          "path": "source_tables/8_1bNNyAdiscapacidadCaracteristicasCUD.json.gz",
+          "size_bytes": 372869,
+          "sha256": "640ef89706f87e9db0558aa73fe2231f34afecb4eb9a70b22239f5918c70beaa"
+        },
+        {
+          "path": "source_tables/8_1aNNyAdiscapacidadCUD_SS.json.gz",
+          "size_bytes": 391401,
+          "sha256": "506ef77a15ab0c610f142d15b9836e042268067220f1e3fbfbe8ba69877c825a"
+        },
+        {
+          "path": "source_tables/7_4Becasprogresar.json.gz",
+          "size_bytes": 372964,
+          "sha256": "e79685d63c7e9e7cb60562ca68084fb3ee263fde74187816cd469cf463d92733"
+        },
+        {
+          "path": "source_tables/7_3eMortalidadadolescenteSuicidios.json.gz",
+          "size_bytes": 426901,
+          "sha256": "899c59d65eb50bdbf4a8370754883adbb84309c7f4c8644c332d914f968da62e"
+        },
+        {
+          "path": "source_tables/7_3dMortalidadadolescenteAccidentes.json.gz",
+          "size_bytes": 426921,
+          "sha256": "e7434343d19fe51b0ebeb626050cecf89a36aff8e76ded87742e5264a6f6c8f1"
+        },
+        {
+          "path": "source_tables/7_3cMortalidadadolescenteCausasexternas.json.gz",
+          "size_bytes": 426902,
+          "sha256": "a2f882dcf8a0157fa730ec92cfb3a8548a022af3294ce6e8114765c2ea999596"
+        },
+        {
+          "path": "source_tables/7_3bMortalidadadolescenteCausas.json.gz",
+          "size_bytes": 426900,
+          "sha256": "1244ec3012ff534cf9b401b8e4e80de0268e13f42d191b95d89120fbbcc2b0ca"
+        },
+        {
+          "path": "source_tables/7_3aMortalidadadolescenteTasas.json.gz",
+          "size_bytes": 426896,
+          "sha256": "8f22ee75d2738fdd14aed08825fa8b658eaad4d8df9b2bf75be2a69277fd1018"
+        },
+        {
+          "path": "source_tables/7_1SaludsexualyreproductivaFecundidadadolescente.json.gz",
+          "size_bytes": 372921,
+          "sha256": "15eaafd0329e33ab208521b161724a3fef7997a98b0f639131306e1193d0ff43"
+        },
+        {
+          "path": "source_tables/6_2bInversinpblicanacionalyprovincialPrimerainfancia.json.gz",
+          "size_bytes": 362949,
+          "sha256": "b4337758711f9fb03578cb1a74c287ccab9ec86c005f98e4487c1a54b6c2ceb8"
+        },
+        {
+          "path": "source_tables/6_2aInversinpblicanacionalyprovincialNNyA.json.gz",
+          "size_bytes": 363113,
+          "sha256": "5bd5537ea99bfc0d9bf7401e202c997fe0cd72d8c233ad8a15ac7b39df5e5179"
+        },
+        {
+          "path": "source_tables/6_1Inversinpblicapresupuestonacional.json.gz",
+          "size_bytes": 394709,
+          "sha256": "55e4e523d52dc237bb094df1f608df04467d8ca3343cfc45d03771f1aaf466aa"
+        },
+        {
+          "path": "source_tables/5_4bJusticiajuvenilDispositivospenales.json.gz",
+          "size_bytes": 362937,
+          "sha256": "dda6080bd5b8deb942524b8eef7615ded2d16e5f4f77557ff3b3969edfff46ea"
+        },
+        {
+          "path": "source_tables/5_4aJusticiajuvenilAdolescentesyjvenes.json.gz",
+          "size_bytes": 362951,
+          "sha256": "c0064fd5307c6f1b94f86df310d7b438ee3a755240e541f2faf7ec7db3c57827"
+        },
+        {
+          "path": "source_tables/5_3Lnea102.json.gz",
+          "size_bytes": 362908,
+          "sha256": "78259139aca34dcd2daf69532167658d79e70e26e4cfa35df0df5c0b19b0500f"
+        },
+        {
+          "path": "source_tables/5_2PAE.json.gz",
+          "size_bytes": 362960,
+          "sha256": "4b337fea131c7b92334864b6dfe77805b6de603368fd2e1aaa30b2922918b784"
+        },
+        {
+          "path": "source_tables/5_1bNNyAconmedidasdeproteccion_Dispositivos.json.gz",
+          "size_bytes": 362938,
+          "sha256": "774f19ea5038aeb54766fc02dd06b0c627ec3f99541abce8173e471daa9d19f9"
+        },
+        {
+          "path": "source_tables/5_1aNNyAconmedidasdeproteccion_NNyA.json.gz",
+          "size_bytes": 363015,
+          "sha256": "e166138008bab004416bf09e93268391a037f0788d224823f881148834fd5482"
+        },
+        {
+          "path": "source_tables/4_6Nutricin.json.gz",
+          "size_bytes": 372862,
+          "sha256": "8259f12121c921c3a0f26874aa23b0093430ec98729a0c3c55f56a08507de29f"
+        },
+        {
+          "path": "source_tables/4_4bMortalidadNNyACausas.json.gz",
+          "size_bytes": 426897,
+          "sha256": "64917c54a70bf4fee9be93ccde8a2726b1e3f6f83ca514b23d00db3b1f3b645f"
+        },
+        {
+          "path": "source_tables/4_4aMortalidadNNyATasa.json.gz",
+          "size_bytes": 362660,
+          "sha256": "02d8b342eef580286f4484ca5a9f419b3ae8a5d510f5bfadb2949269c2ca4436"
+        },
+        {
+          "path": "source_tables/4_3cMortalidadMaterna.json.gz",
+          "size_bytes": 362829,
+          "sha256": "c78500ac417365cd6285c053ea4e05dbabfff29d2ea8921be7ca7357abc6a1b9"
+        },
+        {
+          "path": "source_tables/4_3bMortalidadinfantilCaractersticas.json.gz",
+          "size_bytes": 362677,
+          "sha256": "5711d0acb042fc60a4aefbb5eb90b882922cff7bb6f9f9594eaf475b01df3153"
+        },
+        {
+          "path": "source_tables/4_3aMortalidadinfantilTasas.json.gz",
+          "size_bytes": 362686,
+          "sha256": "30cdf9ae823275027f7844bef84ca6065a5c4d3317afccbaee1cdfc74e5c1607"
+        },
+        {
+          "path": "source_tables/4_2dNatalidadLactancia.json.gz",
+          "size_bytes": 362650,
+          "sha256": "06c8f4013f62328cc83dce884ebe138faa734c67119ac406cdb04b7a042b7763"
+        },
+        {
+          "path": "source_tables/4_2cNatalidadMadreyparto.json.gz",
+          "size_bytes": 362680,
+          "sha256": "0e59ae45247ea0cbbbd909fd5198677436ee09761d079ad0bdb4910d1589c0d7"
+        },
+        {
+          "path": "source_tables/4_2bNatalidadNacidosvivos.json.gz",
+          "size_bytes": 362654,
+          "sha256": "c1ab4b128509c11b0d7192d4450069497d425251b803d819c9b74f8ecd14a954"
+        },
+        {
+          "path": "source_tables/4_2aNatalidad.json.gz",
+          "size_bytes": 362874,
+          "sha256": "e052a836c7972d72d6403768dbd5cb27174aac1f55b8897fc5fc129db4ae33da"
+        },
+        {
+          "path": "source_tables/4_1Coberturadesalud.json.gz",
+          "size_bytes": 362683,
+          "sha256": "a631194f47d49c3fc9664bb2250614c3bf9d1f321670f8ad48cd3e8d6ffebde9"
+        },
+        {
+          "path": "source_tables/3_5bTICsIEPH.json.gz",
+          "size_bytes": 362698,
+          "sha256": "f7bf63f042f03a3774f5b345425eadc92cfc928b752f29a142c47c73113a8e83"
+        },
+        {
+          "path": "source_tables/3_5aTICsICensal.json.gz",
+          "size_bytes": 362708,
+          "sha256": "903ed3dacf6700c0ad1082ea1b4d0bf6715e3fff9df87cc816aea26e171b0ee2"
+        },
+        {
+          "path": "source_tables/3_4bEducacinespecialMatrcula.json.gz",
+          "size_bytes": 393456,
+          "sha256": "29c0bb0481e40268cad5b4b029ac83cc37500310ede79e9b3c37d8a702968949"
+        },
+        {
+          "path": "source_tables/3_4aEducacinespecialEstablecimientos.json.gz",
+          "size_bytes": 391195,
+          "sha256": "af9690f30deaf67c5ff1efb0aae494b8821868cbc6a291338b7e7c8a087fe53e"
+        },
+        {
+          "path": "source_tables/3_3hMatrculaIETasadeegreso.json.gz",
+          "size_bytes": 362649,
+          "sha256": "cb204e63cc822462097605aceffac0b4e42e754b0fe526cf6f0d30d2759272f4"
+        },
+        {
+          "path": "source_tables/3_3gMatrculaIERepitenciaysobreedad.json.gz",
+          "size_bytes": 386010,
+          "sha256": "096776b94af4389c10403ac2957c180363bd76790313cc09d6c7a8121dcf914b"
+        },
+        {
+          "path": "source_tables/3_3fMatrculaIEPromocinyabandono.json.gz",
+          "size_bytes": 386007,
+          "sha256": "2b7a34560e7d896ced736abc99c07830604b08bedeba8617e17ee94e110eb68a"
+        },
+        {
+          "path": "source_tables/3_3eMatrculaIETasadeescolarizacin.json.gz",
+          "size_bytes": 374775,
+          "sha256": "583a1e5feaafe1af7fcd44d12753f4d1b8ee594a3586ef3be9acbf555ec38176"
+        },
+        {
+          "path": "source_tables/3_3dMatrculaECNivelSecundario.json.gz",
+          "size_bytes": 374762,
+          "sha256": "8dc0c4d9e10dc25fd8cd3edf0c9a0b5449fb4af5341e9e2f4508d0f17adeaa1b"
+        },
+        {
+          "path": "source_tables/3_3cMatrculaECNivelPrimario.json.gz",
+          "size_bytes": 385963,
+          "sha256": "cb43e9bc9900b040272264f34b5f10eb332e233e3ef16c4acb7a252546e13006"
+        },
+        {
+          "path": "source_tables/3_3bMatrculaECNivelInicial.json.gz",
+          "size_bytes": 434791,
+          "sha256": "de8d7f31683ff16d9e7c24102fd78d955ceeb4560bf9753c2de0acae2823b52a"
+        },
+        {
+          "path": "source_tables/3_3aMatrculaECCaractersticas.json.gz",
+          "size_bytes": 434837,
+          "sha256": "4a0680252518149bc5bacaba31696317486a031a1b1dac0a3140ee05e2052119"
+        },
+        {
+          "path": "source_tables/3_2eEstablecimientosEntregadealimentos.json.gz",
+          "size_bytes": 436154,
+          "sha256": "3d3531d93660b13392e1c321be1e4abc85ebdcef3a1dae5e3a9b345315e1c2a7"
+        },
+        {
+          "path": "source_tables/3_2eEstablecimientosLaboratorioinformtica.json.gz",
+          "size_bytes": 434784,
+          "sha256": "2d4bd708b98caabb90b5a6a3e6d87c8ed5355db42aa83ea85b2d57945cc44d57"
+        },
+        {
+          "path": "source_tables/3_2dEstablecimientosAccesoainternet.json.gz",
+          "size_bytes": 434776,
+          "sha256": "351922aa36df1fa8d33ddef1103e98839af08ed665ba8407fa27e89baa6c1fd3"
+        },
+        {
+          "path": "source_tables/3_2cEstablecimientoselectricidad.json.gz",
+          "size_bytes": 434774,
+          "sha256": "360110c734ba9d099985fce0d09541096605d92222951dccedf37f1ba30b193d"
+        },
+        {
+          "path": "source_tables/3_2bEstablecimientosOfertayciclosNI.json.gz",
+          "size_bytes": 434824,
+          "sha256": "9afda785c91bcbb53f750f9b15e5cc9f5b8a75e04142c12e513f8439ccacc80c"
+        },
+        {
+          "path": "source_tables/3_2aEstablecimientosCaracteristicas.json.gz",
+          "size_bytes": 385958,
+          "sha256": "5884cba4e7bd122b918c05d660344b566e1493b3977c4c5efc3dade5a393c13a"
+        },
+        {
+          "path": "source_tables/3_1bAsistenciaEPH.json.gz",
+          "size_bytes": 360687,
+          "sha256": "6572d7fc7cf5b877d1d603f116069a623e647adf1c0b151dba76808565d75805"
+        },
+        {
+          "path": "source_tables/3_1aAsistenciaICensal.json.gz",
+          "size_bytes": 360508,
+          "sha256": "1b97de9fa5be6b30ca07d38dfe2bbda34b627076ce79b17784bfec98242cb442"
+        },
+        {
+          "path": "source_tables/2_6bTrabajoinfantilyadolescenteEANNA.json.gz",
+          "size_bytes": 360719,
+          "sha256": "9c37e5645db71c80cf099db84a13c37b85d9e360e0364c6d390b5eaea588c677"
+        },
+        {
+          "path": "source_tables/2_6aTrabajoadolescenteCenso.json.gz",
+          "size_bytes": 360532,
+          "sha256": "ec11cee018f4639be74a929f865694cc62016e4587ff884652306083e73496ef"
+        },
+        {
+          "path": "source_tables/2_5dViviviendaEPHServicios.json.gz",
+          "size_bytes": 382489,
+          "sha256": "19421c6a92ef44d92fc5aa4f2dd0fbc6d28dc56df204f570f1faadf529742cd6"
+        },
+        {
+          "path": "source_tables/2_5cViviviendaEPHChabitacionales.json.gz",
+          "size_bytes": 382508,
+          "sha256": "3b7c1d44e09bcd33e8e51b2ea3cf3e60afe727798f8ce280467ff4798b421ae9"
+        },
+        {
+          "path": "source_tables/2_5bViviviendaCFServicios.json.gz",
+          "size_bytes": 382488,
+          "sha256": "d904d1770b7f41d346450ce33374f34f26222acf5a6db721fd83201415b9548f"
+        },
+        {
+          "path": "source_tables/2_5aViviviendaCFCHabitacionales.json.gz",
+          "size_bytes": 362549,
+          "sha256": "5272dbb4ed20b315322ff0fedf376eccea6b4b3a94b4d2ceb4b2652995c88bc3"
+        },
+        {
+          "path": "source_tables/2_3Seguridadalimentaria.json.gz",
+          "size_bytes": 387465,
+          "sha256": "f7831c4aa2c392433d6a0bb5c532c8c54fa3d5a2964cdef9f5aeca749dfdf696"
+        },
+        {
+          "path": "source_tables/2_2ePensinmadre7hijos.json.gz",
+          "size_bytes": 393622,
+          "sha256": "231d7ac438809a1a3bad30a64eed414ec3345cb67fd9beab7c8970c4db6437fc"
+        },
+        {
+          "path": "source_tables/2_2dAsignacinembarazo.json.gz",
+          "size_bytes": 393644,
+          "sha256": "a29565b832737e4a8c3a11d136adc0c982f021ebc0f846ee8f0b2e0609efd60d"
+        },
+        {
+          "path": "source_tables/2_2cAAFF.json.gz",
+          "size_bytes": 393548,
+          "sha256": "a4cee3b00e7170f9e0055068b77135f895efa7ca90c0beddfe29c8c6b5296594"
+        },
+        {
+          "path": "source_tables/2_2bAUH.json.gz",
+          "size_bytes": 393656,
+          "sha256": "f544ac09ea23d8a86dbe41b0af43c88eea95c70903e36f7469744b4924bd3c75"
+        },
+        {
+          "path": "source_tables/2_2aSeg_social_General.json.gz",
+          "size_bytes": 393631,
+          "sha256": "552c5134e49ed02fc6fa9205e755379773e3bbc094a146cb2f0fa08f45ca9374"
+        },
+        {
+          "path": "source_tables/2_1bPobrezahogares.json.gz",
+          "size_bytes": 360184,
+          "sha256": "c36daad9b581973b039b0d0d13b50a5725d2ce2dbd9bdf785dff4840cffb20b7"
+        },
+        {
+          "path": "source_tables/2_1aTasasdepobreza.json.gz",
+          "size_bytes": 426478,
+          "sha256": "768edd0aaa12964aeee1528fe39c4d1634092c78f3ec365d8cd2e56e706d368c"
+        },
+        {
+          "path": "source_tables/2_1NBI.json.gz",
+          "size_bytes": 360555,
+          "sha256": "21abc13a9add06ae3d007fc07c07af2e4dbeb488652038131408d4e86d0df169"
+        },
+        {
+          "path": "source_tables/1_2Aspectosdemogrficos_Censal.json.gz",
+          "size_bytes": 382446,
+          "sha256": "929ccf3d4be8377a3b0d372d7825611f4b740d41bb077a3b2a21a691658c915b"
+        },
+        {
+          "path": "source_tables/1_1Aspectosdemogrficos_Informacincensal.json.gz",
+          "size_bytes": 360893,
+          "sha256": "ca1db6480b3d8b8f7e2bf2bce78436f0737b96d783efc61256b8b0e817ea38ac"
+        },
+        {
+          "path": "canonical_github/temas.csv.gz",
+          "size_bytes": 1191,
+          "sha256": "0f51a833075ee63e444e90599c71dcbe334ef56db2c8927205646285db8818ba"
+        },
+        {
+          "path": "canonical_github/tableros.csv.gz",
+          "size_bytes": 6227,
+          "sha256": "a96db89e5731839547e4d9827fa628084187e318f189017e633b24af3bf79f0d"
+        },
+        {
+          "path": "canonical_github/shp.csv.gz",
+          "size_bytes": 4630638,
+          "sha256": "0cf01e594c886f5b04dbd1827408889db514f801161e0372522c101a73ff41a0"
+        },
+        {
+          "path": "canonical_github/schema.json",
+          "size_bytes": 2022,
+          "sha256": "6f72a513f9338fd42b8f942fd1e8fc6720a02291ca1afa7badfa83d60b2ec58d"
+        },
+        {
+          "path": "canonical_github/indicadores.csv.gz",
+          "size_bytes": 66083,
+          "sha256": "9abb7a35dc743b19f32acc141fc01fe69ce24b3fa477e1ef71b8d2eba2f19f33"
+        },
+        {
+          "path": "canonical_github/grupos_indicadores.csv.gz",
+          "size_bytes": 74221,
+          "sha256": "5d98bc83740e142708411e6b7608b30b92a411a4700d45e7cdc6ae0c11dabac3"
+        },
+        {
+          "path": "canonical_github/datos.csv.gz",
+          "size_bytes": 265511,
+          "sha256": "85e2e3b61e7f8671f79fe5a0c3d2fcc888ffee3bd61aca171922b004096813fe"
+        },
+        {
+          "path": "canonical_github/configuracion.csv.gz",
+          "size_bytes": 722,
+          "sha256": "29d69d3b2b254f9f832844b632276abfc886887ca9f6ebd7c56258e5d15fa37b"
+        },
+        {
+          "path": "canonical_github/canonical_stats.csv",
+          "size_bytes": 423,
+          "sha256": "098019f2fd03f07b2b0d9dbe5a8714c947c1a8b849037607e5d22734755fdcd0"
+        },
+        {
+          "path": "canonical_github/CATALOG_SUMMARY.md",
+          "size_bytes": 679,
+          "sha256": "076f392c2783a57b0b7877832335f69060cc0f510a744bc8a02465b25c3349af"
+        },
+        {
+          "path": "canonical_github/CANONICAL_SUMMARY.md",
+          "size_bytes": 759,
+          "sha256": "2e67cabee598aa50154295ade5c77e4b85105f9c92e6c3d82d9679b029bce733"
+        },
+        {
+          "path": "evidence/audit.json",
+          "size_bytes": 91522,
+          "sha256": "7476c437f55062cc628976e7c4c96ef2162f671cb9305804755bdf6d3c5a63ac"
+        },
+        {
+          "path": "evidence/quality.json",
+          "size_bytes": 37116,
+          "sha256": "cebbbcf8959beb725f6d95ab82a9c9103f2b030a7b5edc45f724f84df68d29fe"
+        },
+        {
+          "path": "evidence/downloads.json",
+          "size_bytes": 12816,
+          "sha256": "28955667d97809a2c399aff049c14cdb7c7c5bc1164fea4a254fec442ee7e58e"
+        },
+        {
+          "path": "evidence/matriz_71.csv",
+          "size_bytes": 5128,
+          "sha256": "1ab74161981973879090176d6128dada0a75e9cec16fbb29ba2c14e293981fb0"
+        },
+        {
+          "path": "evidence/semantic_rules.json",
+          "size_bytes": 137690,
+          "sha256": "f051c9b6a7d99ac7aa6f4c3319056bb48c558f721cb8e855eff762aaa91affbd"
+        },
+        {
+          "path": "evidence/semantic_audit_existing.md",
+          "size_bytes": 914,
+          "sha256": "22e563d779578cd9fab57200e3f720c768e792c15d142fcf5f09a1b0dcd06934"
+        },
+        {
+          "path": "scripts/download.py",
+          "size_bytes": 1129,
+          "sha256": "1db60550f520d9add3e302a1644e6e04ff509dfd75e96e8226090ef9fdbc8d39"
+        },
+        {
+          "path": "scripts/audit.py",
+          "size_bytes": 5715,
+          "sha256": "28288b485bc2bced91880adf1927ae76b7a4399170e90f147678cd3e5d12e085"
+        },
+        {
+          "path": "scripts/semantic_rules.py",
+          "size_bytes": 1314,
+          "sha256": "70daaf471890c9a9892d64a04ccd8a2a1b2f589597627fd20f5bb1a63666dbac"
+        },
+        {
+          "path": "scripts/quality.py",
+          "size_bytes": 2043,
+          "sha256": "da3161e6042f45c4d052f7e6b18d0b46d60729d20212a9263915a2827905a5ae"
+        },
+        {
+          "path": "repo_scripts/validate_demo.py",
+          "size_bytes": 5006,
+          "sha256": "aff9eb4faa9d1742975f81c88713084dc221f54329a3bdc1de6ca7f6b9ada028"
+        },
+        {
+          "path": "repo_scripts/tableau_probe.py",
+          "size_bytes": 15464,
+          "sha256": "e5becf649fa16082c386b4d784d0758cf31d199a555e5b8bdf1d56fc89226de8"
+        },
+        {
+          "path": "repo_scripts/prepare_map.py",
+          "size_bytes": 3429,
+          "sha256": "a6582837b5d942a865a0eb5947ebf7a2f426f5194e96aca06e8090a4e3a8f33f"
+        },
+        {
+          "path": "repo_scripts/build_view_mapping_review.py",
+          "size_bytes": 3521,
+          "sha256": "b9aa2290b1d796618ccaadd7832937c91a76633c2115c79251f8ed3259fac83f"
+        },
+        {
+          "path": "repo_scripts/build_pilots.py",
+          "size_bytes": 6976,
+          "sha256": "96d9dac1fb769e81c25bb58c64fe4bbce8131785308581905b31bfed7c3c2143"
+        },
+        {
+          "path": "repo_scripts/build_dashboard_catalog.py",
+          "size_bytes": 11416,
+          "sha256": "43cd34c24f7eb3959f260ba85f705af46be84b8cf9dea91c2ee7acc47be4879d"
+        },
+        {
+          "path": "repo_scripts/build_canonical.py",
+          "size_bytes": 13471,
+          "sha256": "b9912099866235af7dfc373d2290904e505dd4f5d730fbe67a33ba5a11ef1909"
+        },
+        {
+          "path": "repo_scripts/audit_demo_semantics.py",
+          "size_bytes": 4711,
+          "sha256": "3765e9097fe3fa0c01302298e908259755c5ca4ec5691c546d1415c6de227ecc"
+        },
+        {
+          "path": "repo_scripts/analyze_inventory.py",
+          "size_bytes": 9801,
+          "sha256": "e2d8144391ebae92d1abff3177baa2e6a8b069a2ed5bd4f54262170e5e184a66"
+        },
+        {
+          "path": "definitions/8_1bNNyAdiscapacidadCaracteristicasCUD.twb",
+          "size_bytes": 1391294,
+          "sha256": "693ca0d3e3907c299c94dd81e467787bd73245b68f237f572c6695cabd8a5e1a"
+        },
+        {
+          "path": "definitions/8_2NNyAindgenas.twb",
+          "size_bytes": 1384575,
+          "sha256": "e90dce28fcc90ca3c07f36dbe1b1b29d239d39c74b6994f30279df50f04721c8"
+        },
+        {
+          "path": "definitions/8_1aNNyAdiscapacidadCUD_SS.twb",
+          "size_bytes": 1390358,
+          "sha256": "d2ca866e553339f7544d6ac3fca207d59a94a37fd5fd71963f4d055fc07f9caa"
+        },
+        {
+          "path": "definitions/8_3bNNyAmigrantes_Losmigrantesenlasreasurbanas.twb",
+          "size_bytes": 1391726,
+          "sha256": "f59b19b0d6a295353ee1d3cdeeb3cad9de520900521c1df4694f408bd1323c8f"
+        },
+        {
+          "path": "definitions/8_3aNNyAmigrantes_Losmigrantesenloscensosnacionales.twb",
+          "size_bytes": 1392567,
+          "sha256": "fdbca9fbdc134adcd8ae1b0afb78b3e0c4fa1b16093a22af7c5df4bd812fcc7e"
+        },
+        {
+          "path": "definitions/8_1cNNyAdiscapacidadCaracteristicasurbanos.twb",
+          "size_bytes": 1392923,
+          "sha256": "31fd56093505f4deb6a4d5b743e3f87777102b518b7a4c396a839335eb39f353"
+        },
+        {
+          "path": "definitions/8_3cNNyAmigrantes_Losmigrantesenlosregistrosadministrativos.twb",
+          "size_bytes": 1394336,
+          "sha256": "2153e65a429d9a22f88ee4206b6f2e59c49f5a298e9c1ef89e42b778e5f1e419"
+        },
+        {
+          "path": "definitions/7_3eMortalidadadolescenteSuicidios.twb",
+          "size_bytes": 1422877,
+          "sha256": "70883c741aeaf5d967aba1075251cd36c8242da255fdea6c46ffdd578110296d"
+        },
+        {
+          "path": "definitions/7_3bMortalidadadolescenteCausas.twb",
+          "size_bytes": 1389886,
+          "sha256": "6cc7f265e77e0ac8ae2ae34b7242476246b130f319081de318518cd5bcf9c3c0"
+        },
+        {
+          "path": "definitions/7_4Becasprogresar.twb",
+          "size_bytes": 1385853,
+          "sha256": "7328eb60bb139c14f96bc548fd0c424fd9beec3636cb1c01d167b12f909780dd"
+        },
+        {
+          "path": "definitions/6_2bInversinpblicanacionalyprovincialPrimerainfancia.twb",
+          "size_bytes": 1395408,
+          "sha256": "8fb321f3a18b99752972cd82555d721dbce432a2b1ae9f29ee02d7052a67efc0"
+        },
+        {
+          "path": "definitions/7_3dMortalidadadolescenteAccidentes.twb",
+          "size_bytes": 1390261,
+          "sha256": "0ac5d9088d2181d5667fdb41942a09a4f42a3680457cf10e5117190bb242eee8"
+        },
+        {
+          "path": "definitions/7_1SaludsexualyreproductivaFecundidadadolescente.twb",
+          "size_bytes": 1392694,
+          "sha256": "d4d7ecaddb86e43df6cbed0333a3247d12c46385a4703cfa4a72238e4482d916"
+        },
+        {
+          "path": "definitions/7_3cMortalidadadolescenteCausasexternas.twb",
+          "size_bytes": 1394195,
+          "sha256": "59129ded307c5e491ca83afddfe00047375fb8673db6698e47fd87550e3fa67e"
+        },
+        {
+          "path": "definitions/7_3aMortalidadadolescenteTasas.twb",
+          "size_bytes": 1389994,
+          "sha256": "679bebc957d04ebc61569dc98970d6c0b5170ed636694117e45ce11817b4d6c0"
+        },
+        {
+          "path": "definitions/5_4aJusticiajuvenilAdolescentesyjvenes.twb",
+          "size_bytes": 1391931,
+          "sha256": "e65cc899b56dde99355aa5bcc6a32761726acb89a758119406b8284d811b9ca9"
+        },
+        {
+          "path": "definitions/5_1aNNyAconmedidasdeproteccion_NNyA.twb",
+          "size_bytes": 1394299,
+          "sha256": "71382f6807dd490cd767f40169b570751dced52c0ef1c815c58cc17c399d1f12"
+        },
+        {
+          "path": "definitions/5_2PAE.twb",
+          "size_bytes": 1387147,
+          "sha256": "651b10373d94ebe2c4c4b0450fc33e8e752d329f1c43bf9e32c12eea2ae30510"
+        },
+        {
+          "path": "definitions/5_4bJusticiajuvenilDispositivospenales.twb",
+          "size_bytes": 1392017,
+          "sha256": "fb682d38e3ac2165fb6a05fa06ebb7c923371cfb18fa0e2f4a1fa0a1c18a4d92"
+        },
+        {
+          "path": "definitions/6_1Inversinpblicapresupuestonacional.twb",
+          "size_bytes": 1390008,
+          "sha256": "9b8553a65457931a46110215a40d7301b4f2ba7d0317d01581e620f03fe7beb9"
+        },
+        {
+          "path": "definitions/5_1bNNyAconmedidasdeproteccion_Dispositivos.twb",
+          "size_bytes": 1393912,
+          "sha256": "62731b5fda9105d3d0e72ba62d3b62ebe9a026ed98f83a46028551cd9b944671"
+        },
+        {
+          "path": "definitions/6_2aInversinpblicanacionalyprovincialNNyA.twb",
+          "size_bytes": 1394729,
+          "sha256": "56bad227948d9e77364a3f8bc98d94e173709b016f386b76e6088cb751267481"
+        },
+        {
+          "path": "definitions/5_3Lnea102.twb",
+          "size_bytes": 1383445,
+          "sha256": "c59baf9dfd0613cfc65264f0f709de919408a24301fffdfd24594db191274465"
+        },
+        {
+          "path": "definitions/4_2dNatalidadLactancia.twb",
+          "size_bytes": 1388851,
+          "sha256": "479f208b87b4893aa161234258b208bda8beba2a6cd16b5fa6925f43d00122dc"
+        },
+        {
+          "path": "definitions/4_3aMortalidadinfantilTasas.twb",
+          "size_bytes": 1389026,
+          "sha256": "98cbc51b7f01eb435d6b04fcc2093b9d986cedabfc283c3fb9dfaa733c040ef6"
+        },
+        {
+          "path": "definitions/4_3cMortalidadMaterna.twb",
+          "size_bytes": 1385627,
+          "sha256": "24e988b4778eb85274bf6c97a8f5baf21d6d7ae232a049c79f65b96995b5d636"
+        },
+        {
+          "path": "definitions/4_4aMortalidadNNyATasa.twb",
+          "size_bytes": 1387477,
+          "sha256": "0dad1de9d2dfb9390dc522384afee8d3cbce3cf41a16e49e17a93c43120ca0b8"
+        },
+        {
+          "path": "definitions/4_4bMortalidadNNyACausas.twb",
+          "size_bytes": 1388710,
+          "sha256": "b229d26d380064497eed9227305d4ba4b4f84490ea0d5effcedf231c62aeecc5"
+        },
+        {
+          "path": "definitions/4_2cNatalidadMadreyparto.twb",
+          "size_bytes": 1391085,
+          "sha256": "a7c808ec71d67bf3457d6c7716b70310549ce491c8e37316cbc79cb9dca60181"
+        },
+        {
+          "path": "definitions/4_3bMortalidadinfantilCaractersticas.twb",
+          "size_bytes": 1391675,
+          "sha256": "847754ee713349d24e9d61849cfa38ce8b467e18841d70cb686ddc7cc8439d9d"
+        },
+        {
+          "path": "definitions/4_6Nutricin.twb",
+          "size_bytes": 1383629,
+          "sha256": "9cab0f18793b8ac848cc6a8c5aa42f03c532e945a53f76ffc596cbd6ec21bc7e"
+        },
+        {
+          "path": "definitions/3_4aEducacinespecialEstablecimientos.twb",
+          "size_bytes": 1391252,
+          "sha256": "9f68caf35744271a40414f4bed361c38652c74438eebbb803d5954775ae3d0e0"
+        },
+        {
+          "path": "definitions/3_3hMatrculaIETasadeegreso.twb",
+          "size_bytes": 1391205,
+          "sha256": "3fbacf17a04f53fd06e928fcb30c7e738481b5685ea0a3e5f480b76e17b8d2d7"
+        },
+        {
+          "path": "definitions/3_5bTICsIEPH.twb",
+          "size_bytes": 1385593,
+          "sha256": "033306ae2eb895de9a8df99236a53b77f65e7ac8eb327583ff7072d59d0786f5"
+        },
+        {
+          "path": "definitions/3_4bEducacinespecialMatrcula.twb",
+          "size_bytes": 1389622,
+          "sha256": "2147ef6c80768a33af899a76ccafb430cccb4ef0f47a37259c699b85c5a342f4"
+        },
+        {
+          "path": "definitions/4_2aNatalidad.twb",
+          "size_bytes": 1387705,
+          "sha256": "6626523c6c89df7cca7c923a0283ef84f4df8386ea81c2a68a3902c740743e73"
+        },
+        {
+          "path": "definitions/3_5aTICsICensal.twb",
+          "size_bytes": 1386751,
+          "sha256": "f8bf7eae89e84a9bc50edc4b2017bfc416124e816cedca9acba0afc6d486a37b"
+        },
+        {
+          "path": "definitions/4_2bNatalidadNacidosvivos.twb",
+          "size_bytes": 1390955,
+          "sha256": "08f6b7878481666a03e9e20828c0af5487c8af4dc24b8fd24ede34b3e410385c"
+        },
+        {
+          "path": "definitions/4_1Coberturadesalud.twb",
+          "size_bytes": 1385973,
+          "sha256": "78c908a487fa49ba097f659d29d6bc884199bf7e81d0513152676ecf6d96591f"
+        },
+        {
+          "path": "definitions/3_3eMatrculaIETasadeescolarizacin.twb",
+          "size_bytes": 1392755,
+          "sha256": "fd80bd371853f1fb39002821abf312270e4844200dd150e09d1d8c10e4dbc7cd"
+        },
+        {
+          "path": "definitions/3_3aMatrculaECCaractersticas.twb",
+          "size_bytes": 1390317,
+          "sha256": "08dd78a02381dae0d202c01e4ca3b84a068f38313868d5a809926a86c332aece"
+        },
+        {
+          "path": "definitions/3_3gMatrculaIERepitenciaysobreedad.twb",
+          "size_bytes": 1392795,
+          "sha256": "bc34da4748d6d81e9689f158cde48e2b103c8d45af2164865995f288c8f22a81"
+        },
+        {
+          "path": "definitions/3_3dMatrculaECNivelSecundario.twb",
+          "size_bytes": 1389628,
+          "sha256": "f7de587de985fd656acff9e8fdf87da6ea40b49308631299807ff39c85391ce4"
+        },
+        {
+          "path": "definitions/3_2eEstablecimientosLaboratorioinformtica.twb",
+          "size_bytes": 1394131,
+          "sha256": "99419461c92f0b263281b48f00a4089c81bb6bf3c74c7d9829cdc5f964ee2469"
+        },
+        {
+          "path": "definitions/3_3bMatrculaECNivelInicial.twb",
+          "size_bytes": 1389062,
+          "sha256": "791bb8343f36a0b2937e4191c15b4ae20cb865ebb6085dbfee0ce0356ff6767c"
+        },
+        {
+          "path": "definitions/3_3cMatrculaECNivelPrimario.twb",
+          "size_bytes": 1389204,
+          "sha256": "5d4b529a4b847c948d924a1ea5c6b2efe3a09c4fefb843277cccea43764ed434"
+        },
+        {
+          "path": "definitions/3_3fMatrculaIEPromocinyabandono.twb",
+          "size_bytes": 1393912,
+          "sha256": "6712ffe56d13cb7d1b9d10bf516578b19c3c221eb8e26fcbaf5d978dfe6f1ac6"
+        },
+        {
+          "path": "definitions/3_2dEstablecimientosAccesoainternet.twb",
+          "size_bytes": 1390867,
+          "sha256": "ac36c19573173570d72e1615bd14bfcc8d908545d23ba90b9d56faa69ccde618"
+        },
+        {
+          "path": "definitions/3_1aAsistenciaICensal.twb",
+          "size_bytes": 1389383,
+          "sha256": "27d301f3e6d2c64f45b41dd5d1071eb31c2220c08ed70eb14aeb09968888a88a"
+        },
+        {
+          "path": "definitions/3_2eEstablecimientosEntregadealimentos.twb",
+          "size_bytes": 1392629,
+          "sha256": "9d20a2b3e0fcebb2928cdabaaa9fc6653f8c42e0d4aaf523fe2615629f718c27"
+        },
+        {
+          "path": "definitions/3_1bAsistenciaEPH.twb",
+          "size_bytes": 1387512,
+          "sha256": "47673e2bb688c518c3a1eca44ccbed71da37f1f5a8f7ae2b1b22db2080812474"
+        },
+        {
+          "path": "definitions/3_2aEstablecimientosCaracteristicas.twb",
+          "size_bytes": 1393584,
+          "sha256": "e52a8645f42008bd334116a2f857769e9d3484761fb5f6e708afa6ed7eee0ba2"
+        },
+        {
+          "path": "definitions/3_2cEstablecimientoselectricidad.twb",
+          "size_bytes": 1391740,
+          "sha256": "045548185941a04734f06c7f9a34b64cca9a7d8d0c6f867e7ecc6716004c76f7"
+        },
+        {
+          "path": "definitions/3_2bEstablecimientosOfertayciclosNI.twb",
+          "size_bytes": 1392313,
+          "sha256": "2a380788d5515787db3e557b217a68b5517ba1b6e52dcc973896d29807c3c40a"
+        },
+        {
+          "path": "definitions/2_6bTrabajoinfantilyadolescenteEANNA.twb",
+          "size_bytes": 1390814,
+          "sha256": "c551b7003bfadc3de10c9244c470a9b9306e89d66579387cb8b3bfa17e760217"
+        },
+        {
+          "path": "definitions/2_6aTrabajoadolescenteCenso.twb",
+          "size_bytes": 1388292,
+          "sha256": "5e2cba013a735d2a88a3308dfaeb40bee8acff785a9766f001dbf2a872381b55"
+        },
+        {
+          "path": "definitions/2_2ePensinmadre7hijos.twb",
+          "size_bytes": 1388892,
+          "sha256": "82aae280d5d1295bc599432c84c56dfe844cfcac3c71bac3173e4aec0036840c"
+        },
+        {
+          "path": "definitions/2_5dViviviendaEPHServicios.twb",
+          "size_bytes": 1390451,
+          "sha256": "bc0e90eb79e894c9a1697b3137a37bf51d9d2cb9d723f1f2d4fa25e4e7bc13c1"
+        },
+        {
+          "path": "definitions/2_5bViviviendaCFServicios.twb",
+          "size_bytes": 1389875,
+          "sha256": "e121b4ec832fe4bfcb7fdc7178974626521461159baa85c434420bd24849fb7e"
+        },
+        {
+          "path": "definitions/2_2dAsignacinembarazo.twb",
+          "size_bytes": 1388212,
+          "sha256": "bf8e0b337b3b583f229fe57ac53e83aa21bc93f61b649c84c34c889680be614d"
+        },
+        {
+          "path": "definitions/2_5aViviviendaCFCHabitacionales.twb",
+          "size_bytes": 1424040,
+          "sha256": "a285eeb582e412c21b358e276db6143d8217a060e1c019a0db1408874c4ba992"
+        },
+        {
+          "path": "definitions/2_3Seguridadalimentaria.twb",
+          "size_bytes": 1386967,
+          "sha256": "a9e21513cba3d9f1806b7bc1f156b47aefe95faa6ce9ebd63503419fcd1d161c"
+        },
+        {
+          "path": "definitions/2_5cViviviendaEPHChabitacionales.twb",
+          "size_bytes": 1391856,
+          "sha256": "5e3572e142b19f9167697457e1e1fa47f46114b3f8aa5296674a09dd3a2e595c"
+        },
+        {
+          "path": "definitions/2_1bPobrezahogares.twb",
+          "size_bytes": 1389284,
+          "sha256": "3474448e36286cf6bf9bd607af0477b42696668f05a00195e60db371f668785e"
+        },
+        {
+          "path": "definitions/2_2aSeg_social_General.twb",
+          "size_bytes": 1387273,
+          "sha256": "6aaf9449fb448ca8f245421011770819998ce041931c70dc7d62b6842dec09ae"
+        },
+        {
+          "path": "definitions/2_2cAAFF.twb",
+          "size_bytes": 1387130,
+          "sha256": "39d6b5087ce77955a054a49922f250672ed88c9303afa08c3d785b321c0d9062"
+        },
+        {
+          "path": "definitions/2_1aTasasdepobreza.twb",
+          "size_bytes": 1387863,
+          "sha256": "d481d8b5b68d9feb1bbdf56465b475d42ef92242f6336a6f13f608b38f9cc1ac"
+        },
+        {
+          "path": "definitions/1_1Aspectosdemogrficos_Informacincensal.twb",
+          "size_bytes": 1390061,
+          "sha256": "a879c97a21a6a2f9462cb3e937f03b6c27504183c3be53db7577b178fa50368d"
+        },
+        {
+          "path": "definitions/2_1NBI.twb",
+          "size_bytes": 1385514,
+          "sha256": "727e5e0274ad947c4f7a0d583d4b1c3acd7e1082450c0aafc7b9d39d65c7ac1d"
+        },
+        {
+          "path": "definitions/1_2Aspectosdemogrficos_Censal.twb",
+          "size_bytes": 1389236,
+          "sha256": "2e5ac2b94a3b9fcd7e254d3daae9ccdafa361aec5963a5b7270d52bb387b0060"
+        },
+        {
+          "path": "definitions/2_2bAUH.twb",
+          "size_bytes": 1386928,
+          "sha256": "391710ce80383de3a3586387b96f8b211fa962cfef2a18cee04686555cd300bc"
+        }
+      ]
+    }
+  ]
+}

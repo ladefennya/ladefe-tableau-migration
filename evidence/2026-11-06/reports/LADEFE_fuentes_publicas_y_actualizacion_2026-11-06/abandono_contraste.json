@@ -1,0 +1,38 @@
+[
+  {
+    "sheet": "2024-2025",
+    "row": 24,
+    "province": "Jujuy                                             ",
+    "primary_total": -0.05007455544921166
+  },
+  {
+    "sheet": "2024-2025",
+    "row": 25,
+    "province": "La Pampa                                          ",
+    "primary_total": -0.12991329043173538
+  },
+  {
+    "sheet": "2024-2025",
+    "row": 29,
+    "province": "Neuquén                                           ",
+    "primary_total": -0.2763459851734313
+  },
+  {
+    "sheet": "2023-2024",
+    "row": 24,
+    "province": "Jujuy                                             ",
+    "primary_total": -0.06730717038483924
+  },
+  {
+    "sheet": "2023-2024",
+    "row": 25,
+    "province": "La Pampa                                          ",
+    "primary_total": 0.13085501858735427
+  },
+  {
+    "sheet": "2023-2024",
+    "row": 29,
+    "province": "Neuquén                                           ",
+    "primary_total": -0.6130304614361122
+  }
+]

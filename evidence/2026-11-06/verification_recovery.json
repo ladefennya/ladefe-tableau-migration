@@ -1,0 +1,21 @@
+{
+  "verified_on": "2026-11-07",
+  "archives_verified_locally": 6,
+  "members_verified_locally": 259,
+  "source_files_sha256": 71,
+  "source_records_roundtrip": 973514,
+  "observations_verified": 14156,
+  "sqlite_integrity": "ok",
+  "foreign_keys": "ok",
+  "result": "PASS",
+  "scope": "integrity and preservation; not thematic certification",
+  "archive_upload_status": "complete_three_direct_zips_and_twenty_verified_parts",
+  "remote_verification": {
+    "commit": "f6f6f7d10fb813b62262083692e872ad9a9be556",
+    "method": "git fetch and separate clean worktree; reconstruct and extract using repository script",
+    "archives_verified": 6,
+    "members_verified": 259,
+    "result": "PASS"
+  },
+  "corruption_test": "modified part rejected before output creation"
+}

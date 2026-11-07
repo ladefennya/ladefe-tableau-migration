@@ -59,3 +59,7 @@ La decisión y los bloqueos de asociación entre mapa, serie y distribución est
 ## Matriz previa de los cinco pilotos
 
 `docs/piloto_5_matriz.csv` resume la fuente de reemplazo probable y los filtros/variables que esperamos contrastar contra el `.twb/.hyper`. Sirve para distinguir qué metadatos son sustantivos y cuáles son elementos administrativos del dashboard.
+
+## Continuidad de las entregas del 6/11/2026
+
+El [inventario de recuperación](evidence/2026-11-06/README.md) registra las seis entregas, sus hashes, los informes y scripts recuperados, y la nueva verificación de la base maestra. Las seis entregas completas se conservan en esa carpeta: tres ZIP directos y tres divididos en partes verificables. `python scripts/restore_recovered_evidence.py --assemble-to /ruta/nueva/zips` reconstruye los seis ZIP originales y comprueba sus hashes. El código de las dos rondas está en el [PR #2](https://github.com/ladefennya/ladefe-tableau-migration/pull/2), todavía en borrador.
