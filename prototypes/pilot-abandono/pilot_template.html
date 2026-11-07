@@ -402,8 +402,8 @@ function drawGrades(lvl, per) {
     sets.forEach((set, k) => {
       const r = set.rows.find(x => x.grade === gr); if (!r) return;
       const x = cx - (geos.length * bw) / 2 + k * bw, y0 = sy(0), y1 = sy(r.value);
-      s += `<rect x="${x}" y="${Math.min(y0, y1)}" width="${bw - 3}" height="${Math.max(1, Math.abs(y1 - y0))}" fill="${r.value < 0 ? 'var(--neg)' : colors[k]}"><title>${esc(shortName(set.g) + ' · ' + gradeLabel(lvl, gr) + ': ' + fmt(r.value) + ' %')}</title></rect>`;
-      s += `<text x="${x + (bw - 3) / 2}" y="${r.value < 0 ? y1 + 12 : y1 - 4}" text-anchor="middle" font-size="10" fill="#33495a">${fmt(r.value)}</text>`;
+      s += `<rect x="${x}" y="${Math.min(y0, y1)}" width="${bw - 3}" height="${Math.max(1, Math.abs(y1 - y0))}" fill="${round1(r.value) < 0 ? 'var(--neg)' : colors[k]}"><title>${esc(shortName(set.g) + ' · ' + gradeLabel(lvl, gr) + ': ' + fmt(r.value) + ' %')}</title></rect>`;
+      s += `<text x="${x + (bw - 3) / 2}" y="${round1(r.value) < 0 ? y1 + 12 : y1 - 4}" text-anchor="middle" font-size="10" fill="#33495a">${fmt(r.value)}</text>`;
     });
   });
   sets.forEach((set, k) => s += `<text x="${m.l + 4 + k * 150}" y="14" font-size="13" fill="${colors[k]}" font-weight="700">■ ${esc(shortName(set.g))}</text>`);

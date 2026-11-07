@@ -2,10 +2,10 @@
   "entrypoint": "index.html",
   "external_dependencies": [],
   "network_requests_required": false,
-  "html_sha256": "9a44ad8d85f28e8e1dd54808e3ea8cfd932812004919e0f9cb87e01d4e830cdc",
+  "html_sha256": "dd162bbfed74e0ba5ebb23d21dd58fb0f9e25c44b570504982c2b2828337649d",
   "inputs_sha256": {
     "payload": "a31c3ea50e9004d0599323eaf3f16c964991930fd9352929bd12708104ba1eb3",
-    "template": "06d48a650f703712eac06af72bd0590a5642e620a18e12f67fe695dcb41e4b31"
+    "template": "72a3826cd156ce575e342b9e91839fcf9e873f9666a8bfb9a8087fb2987845ab"
   },
   "approval_status": "pilot_candidate_not_approved"
 }
