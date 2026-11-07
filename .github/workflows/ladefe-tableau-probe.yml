@@ -50,18 +50,10 @@ jobs:
       - name: Build complete dashboard catalog
         run: python scripts/build_dashboard_catalog.py --canonical output/canonical --config config/all_workbooks.csv --families output/workbook_signatures.csv --demo demo
 
-      - name: Prepare official IGN province map
-        run: |
-          curl --fail --location --retry 3 --get \
-            'https://wms.ign.gob.ar/geoserver/ows' \
-            --data-urlencode 'service=WFS' \
-            --data-urlencode 'version=1.0.0' \
-            --data-urlencode 'request=GetFeature' \
-            --data-urlencode 'typeName=ign:provincia' \
-            --data-urlencode 'outputFormat=application/json' \
-            --data-urlencode 'srsName=EPSG:4326' \
-            --output /tmp/provincias.geojson
-          python scripts/prepare_map.py /tmp/provincias.geojson demo/provincias.geojson
+      # El mapa provincial del demo (demo/provincias.geojson) es un archivo versionado y validado:
+      # no se regenera en cada corrida. Se construye con topología compartida desde una descarga IGN
+      # verificada por hash (ver native/geography/INFORME_GEOMETRIA_PILOTO.md) y validate_demo.py
+      # comprueba validez, superposiciones y presencia de las Islas Malvinas.
 
       - name: Validate demo semantic contract
         run: |

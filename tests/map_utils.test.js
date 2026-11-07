@@ -23,4 +23,14 @@ assert.equal(scale.color(null),map.MISSING,"Missing values need a neutral color"
 assert.equal(map.territoryLabel("SANTIAGO DEL ESTERO"),"Santiago del Estero");
 assert.equal(map.territoryLabel("CIUDAD AUTÓNOMA DE BUENOS AIRES"),"CABA");
 assert.equal(map.territoryLabel("TIERRA DEL FUEGO"),"Tierra del Fuego");
-console.log("Map projection, colors and territory labels passed");
+// Recuadro bicontinental: sector antártico e islas del Atlántico Sur dentro de su caja, Polo Sur abajo.
+const inset=JSON.parse(fs.readFileSync(path.join(__dirname,"..","demo","antartida.geojson"),"utf8"));
+const box={x:432,y:240,w:122,h:222},insetProject=map.insetProjector(inset,box);
+for(const ring of map.rings(inset.features[0].geometry))for(const coordinate of ring){
+  const [x,y]=insetProject(coordinate);
+  assert.ok(x>=box.x-0.1&&x<=box.x+box.w+0.1&&y>=box.y-0.1&&y<=box.y+box.h+0.1,"Inset must fit inside its box");
+}
+assert.ok(insetProject([-49.5,-90])[1]>insetProject([-36.5,-54.3])[1],"South Pole must render below the Georgias del Sur");
+assert.ok(map.insetPath(inset.features[0],insetProject).startsWith("M"),"Inset path required");
+assert.ok(geo.features.some(f=>map.provinceKey(map.featureName(f))===map.provinceKey(map.featureName(inset.features[0]))),"Inset must share the Tierra del Fuego key");
+console.log("Map projection, colors, territory labels and bicontinental inset passed");

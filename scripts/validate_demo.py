@@ -9,6 +9,8 @@ import re
 import unicodedata
 from pathlib import Path
 
+from shapely.geometry import box, shape
+
 
 FACTORS = {
     "PORCENTAJE": 100,
@@ -18,6 +20,50 @@ FACTORS = {
     "TASA_X_CIENMIL": 100_000,
     "TASA_X_MILLON": 1_000_000,
 }
+
+
+def check_map_topology(geo):
+    """El mapa provincial debe ser válido, sin superposiciones entre provincias y con las Islas Malvinas.
+
+    La geometría es un archivo versionado y validado (native/geography/INFORME_GEOMETRIA_PILOTO.md);
+    este control impide que una versión con fronteras simplificadas por separado vuelva al demo.
+    """
+    shapes = {}
+    for feature in geo["features"]:
+        props = feature["properties"]
+        code = props.get("in1")
+        assert code and code not in shapes, f"Province map needs unique in1 codes: {props.get('nam')}"
+        geom = shape(feature["geometry"])
+        assert geom.is_valid, f"Invalid province geometry: {props.get('nam')}"
+        shapes[code] = geom
+    codes = sorted(shapes)
+    for i, a in enumerate(codes):
+        for b in codes[i + 1:]:
+            if shapes[a].intersects(shapes[b]):
+                # ~1e-4 grados² ≈ 1 km² en estas latitudes: tolera solo el redondeo de vértices.
+                overlap = shapes[a].intersection(shapes[b]).area
+                assert overlap < 1e-4, f"Provinces {a} and {b} overlap ({overlap:.5f} deg²)"
+    malvinas = shapes["94"].intersection(box(-61.6, -52.6, -57.5, -50.9)).area
+    assert malvinas > 1.0, "The province map must include the Islas Malvinas (Ley 26.651)"
+
+
+def check_bicontinental_inset(path):
+    """Mapa bicontinental (Ley 26.651): recuadro con el sector antártico argentino e islas del Atlántico Sur."""
+    assert path.is_file(), "Missing demo/antartida.geojson (bicontinental inset)"
+    inset = json.loads(path.read_text(encoding="utf-8"))
+    features = inset.get("features", [])
+    assert len(features) == 1 and features[0]["properties"].get("in1") == "94", "Inset must be Tierra del Fuego, Antártida e Islas del Atlántico Sur"
+    geom = shape(features[0]["geometry"])
+    assert geom.is_valid, "Invalid bicontinental inset geometry"
+    parts = {
+        "Península Antártica": (-70, -70, -55, -63),
+        "Islas Orcadas del Sur": (-47, -61.2, -44, -60.3),
+        "Islas Georgias del Sur": (-38.5, -55, -35.5, -53.9),
+        "Islas Sandwich del Sur": (-28, -59.6, -26, -56.2),
+    }
+    for name, bbox in parts.items():
+        assert geom.intersection(box(*bbox)).area > 0.005, f"Bicontinental inset is missing {name}"
+    assert path.stat().st_size < 60_000, "Bicontinental inset too large"
 
 
 def number(value):
@@ -80,6 +126,8 @@ def main() -> int:
     geo = json.loads(geo_path.read_text(encoding="utf-8"))
     assert len(geo.get("features", [])) == 24, "Province map must contain 24 jurisdictions"
     assert geo_path.stat().st_size < 250_000, f"Province map too large: {geo_path.stat().st_size:,} bytes"
+    check_map_topology(geo)
+    check_bicontinental_inset(args.demo / "antartida.geojson")
 
     auh = json.loads((args.demo / "data/2-2bauh.json").read_text(encoding="utf-8"))
     indicators = {str(row["id"]): row for row in auh["indicators"]}
@@ -95,6 +143,7 @@ def main() -> int:
     assert "view-relations.json" in app, "Demo must load explicit curated view relations"
     assert (args.demo / "map-utils.js").is_file(), "Missing tested map projection utilities"
     assert "LadefeMap" in app, "Demo must use the tested map projection utilities"
+    assert "antartida.geojson" in app and "paintInset" in app, "Demo maps must draw the bicontinental inset"
     assert (args.demo / "ui-utils.js").is_file(), "Missing tested navigation utilities"
     assert "LadefeUI" in app, "Demo must use the tested navigation utilities"
     html = (args.demo / "index.html").read_text(encoding="utf-8")

@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+"""REEMPLAZADO: no usar para el demo.
+
+Simplificaba cada anillo por separado (Douglas-Peucker), así dos provincias vecinas quedaban con
+fronteras distintas: 8 geometrías inválidas y 30 pares superpuestos. El mapa del demo ahora se construye
+con topología compartida (native/geography/build_display_geometry.sh) y se valida en validate_demo.py.
+Se conserva solo como referencia histórica.
+"""
 from __future__ import annotations
 
 import argparse
