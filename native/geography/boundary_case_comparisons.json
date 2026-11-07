@@ -1,0 +1,74 @@
+[
+  {
+    "pair": [
+      "Ciudad Autónoma de Buenos Aires",
+      "Buenos Aires"
+    ],
+    "original": {
+      "valid": [
+        true,
+        true
+      ],
+      "area_a_km2": 205.61789582281065,
+      "intersection_km2": 0.0,
+      "intersection_area_caution": false
+    },
+    "simplified": {
+      "valid": [
+        true,
+        false
+      ],
+      "area_a_km2": 177.79963779646684,
+      "intersection_km2": 3.5608565531215666,
+      "intersection_area_caution": true
+    }
+  },
+  {
+    "pair": [
+      "San Luis",
+      "Córdoba"
+    ],
+    "original": {
+      "valid": [
+        true,
+        true
+      ],
+      "area_a_km2": 75563.68748871986,
+      "intersection_km2": 0.0,
+      "intersection_area_caution": false
+    },
+    "simplified": {
+      "valid": [
+        true,
+        true
+      ],
+      "area_a_km2": 75275.36697889194,
+      "intersection_km2": 142.29217829553275,
+      "intersection_area_caution": false
+    }
+  },
+  {
+    "pair": [
+      "San Luis",
+      "Mendoza"
+    ],
+    "original": {
+      "valid": [
+        true,
+        true
+      ],
+      "area_a_km2": 75563.68748871986,
+      "intersection_km2": 0.0,
+      "intersection_area_caution": false
+    },
+    "simplified": {
+      "valid": [
+        true,
+        true
+      ],
+      "area_a_km2": 75275.36697889194,
+      "intersection_km2": 70.00226499365235,
+      "intersection_area_caution": false
+    }
+  }
+]

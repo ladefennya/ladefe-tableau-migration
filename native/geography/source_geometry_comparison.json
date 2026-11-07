@@ -1,0 +1,427 @@
+{
+  "source_file_sha256": "9afccbbc3862d7943d9f6d83ace934f16f716eb78fb3abe1a0ad058da3c0dccc",
+  "source_bytes": 111718447,
+  "common_comparison_frame": [
+    -74.5,
+    -56,
+    -52.5,
+    -20
+  ],
+  "source_valid_count": 24,
+  "current_valid_count": 16,
+  "features": [
+    {
+      "name": "Ciudad Autónoma de Buenos Aires",
+      "source_in1": "02",
+      "source_geometry_valid": true,
+      "source_validity_diagnostics": [],
+      "current_simplified_valid": true,
+      "source_clipped_valid": true,
+      "source_clipped_area_m2": 205617895.82283217,
+      "current_simplified_area_m2": 177799637.79646683,
+      "relative_area_difference_pct": -13.529103541811633,
+      "source_envelope": [
+        -58.53151211,
+        -58.3351458,
+        -34.70541232,
+        -34.52652552
+      ]
+    },
+    {
+      "name": "San Luis",
+      "source_in1": "74",
+      "source_geometry_valid": true,
+      "source_validity_diagnostics": [],
+      "current_simplified_valid": true,
+      "source_clipped_valid": true,
+      "source_clipped_area_m2": 75563687488.71945,
+      "current_simplified_area_m2": 75275366978.89194,
+      "relative_area_difference_pct": -0.3815596080730664,
+      "source_envelope": [
+        -67.38379347,
+        -64.88269854,
+        -36.0011754,
+        -31.83380468
+      ]
+    },
+    {
+      "name": "Santa Fe",
+      "source_in1": "82",
+      "source_geometry_valid": true,
+      "source_validity_diagnostics": [],
+      "current_simplified_valid": true,
+      "source_clipped_valid": true,
+      "source_clipped_area_m2": 133292349220.59067,
+      "current_simplified_area_m2": 132937952130.77005,
+      "relative_area_difference_pct": -0.2658795436444084,
+      "source_envelope": [
+        -62.88390871,
+        -58.88082188,
+        -34.38654977,
+        -27.99768449
+      ]
+    },
+    {
+      "name": "Tucumán",
+      "source_in1": "90",
+      "source_geometry_valid": true,
+      "source_validity_diagnostics": [],
+      "current_simplified_valid": true,
+      "source_clipped_valid": true,
+      "source_clipped_area_m2": 22598490580.22405,
+      "current_simplified_area_m2": 22422897149.383778,
+      "relative_area_difference_pct": -0.777013978951023,
+      "source_envelope": [
+        -66.17693244,
+        -64.48178758,
+        -28.01412272,
+        -26.05828795
+      ]
+    },
+    {
+      "name": "Jujuy",
+      "source_in1": "38",
+      "source_geometry_valid": true,
+      "source_validity_diagnostics": [],
+      "current_simplified_valid": true,
+      "source_clipped_valid": true,
+      "source_clipped_area_m2": 53240532514.74587,
+      "current_simplified_area_m2": 52966246522.178986,
+      "relative_area_difference_pct": -0.5151826618017368,
+      "source_envelope": [
+        -67.21304744,
+        -64.15076964,
+        -24.61335717,
+        -21.78085676
+      ]
+    },
+    {
+      "name": "Santiago del Estero",
+      "source_in1": "86",
+      "source_geometry_valid": true,
+      "source_validity_diagnostics": [],
+      "current_simplified_valid": true,
+      "source_clipped_valid": true,
+      "source_clipped_area_m2": 136990223401.01082,
+      "current_simplified_area_m2": 137090032926.0556,
+      "relative_area_difference_pct": 0.0728588672730408,
+      "source_envelope": [
+        -65.18832537,
+        -61.71176802,
+        -30.48043252,
+        -25.64909487
+      ]
+    },
+    {
+      "name": "Córdoba",
+      "source_in1": "14",
+      "source_geometry_valid": true,
+      "source_validity_diagnostics": [],
+      "current_simplified_valid": true,
+      "source_clipped_valid": true,
+      "source_clipped_area_m2": 164670353345.68933,
+      "current_simplified_area_m2": 165158659976.62555,
+      "relative_area_difference_pct": 0.29653584935906796,
+      "source_envelope": [
+        -65.77145966,
+        -61.77155221,
+        -35.01533023,
+        -29.49867371
+      ]
+    },
+    {
+      "name": "La Pampa",
+      "source_in1": "42",
+      "source_geometry_valid": true,
+      "source_validity_diagnostics": [],
+      "current_simplified_valid": true,
+      "source_clipped_valid": true,
+      "source_clipped_area_m2": 143210951412.10553,
+      "current_simplified_area_m2": 143427065968.56143,
+      "relative_area_difference_pct": 0.15090644557901742,
+      "source_envelope": [
+        -68.29660771,
+        -63.38305188,
+        -39.33045286,
+        -35.00221765
+      ]
+    },
+    {
+      "name": "Chaco",
+      "source_in1": "22",
+      "source_geometry_valid": true,
+      "source_validity_diagnostics": [],
+      "current_simplified_valid": true,
+      "source_clipped_valid": true,
+      "source_clipped_area_m2": 99774807951.40642,
+      "current_simplified_area_m2": 100000264024.4669,
+      "relative_area_difference_pct": 0.22596492811120245,
+      "source_envelope": [
+        -63.42241184,
+        -58.37823562,
+        -28.06682488,
+        -24.07867557
+      ]
+    },
+    {
+      "name": "Formosa",
+      "source_in1": "34",
+      "source_geometry_valid": true,
+      "source_validity_diagnostics": [],
+      "current_simplified_valid": true,
+      "source_clipped_valid": true,
+      "source_clipped_area_m2": 75478181857.76779,
+      "current_simplified_area_m2": 74782065477.2976,
+      "relative_area_difference_pct": -0.9222749718348494,
+      "source_envelope": [
+        -62.34234497,
+        -57.55938805,
+        -26.87984234,
+        -22.4609407
+      ]
+    },
+    {
+      "name": "Chubut",
+      "source_in1": "26",
+      "source_geometry_valid": true,
+      "source_validity_diagnostics": [],
+      "current_simplified_valid": false,
+      "source_clipped_valid": true,
+      "source_clipped_area_m2": 224316833363.03882,
+      "current_simplified_area_m2": 225047438116.72687,
+      "relative_area_difference_pct": 0.325702152056339,
+      "source_envelope": [
+        -72.18850293,
+        -63.58280266,
+        -45.99999996,
+        -41.99998806
+      ]
+    },
+    {
+      "name": "Río Negro",
+      "source_in1": "62",
+      "source_geometry_valid": true,
+      "source_validity_diagnostics": [],
+      "current_simplified_valid": false,
+      "source_clipped_valid": true,
+      "source_clipped_area_m2": 202227345768.78085,
+      "current_simplified_area_m2": 202345481504.1056,
+      "relative_area_difference_pct": 0.05841729014225876,
+      "source_envelope": [
+        -71.91295075,
+        -62.78966657,
+        -42.00000099,
+        -37.57193121
+      ]
+    },
+    {
+      "name": "Misiones",
+      "source_in1": "54",
+      "source_geometry_valid": true,
+      "source_validity_diagnostics": [],
+      "current_simplified_valid": false,
+      "source_clipped_valid": true,
+      "source_clipped_area_m2": 29909904241.48852,
+      "current_simplified_area_m2": 29612501163.961864,
+      "relative_area_difference_pct": -0.9943297548713793,
+      "source_envelope": [
+        -56.05864362,
+        -53.63736944,
+        -28.16422277,
+        -25.49431474
+      ]
+    },
+    {
+      "name": "Salta",
+      "source_in1": "66",
+      "source_geometry_valid": true,
+      "source_validity_diagnostics": [],
+      "current_simplified_valid": true,
+      "source_clipped_valid": true,
+      "source_clipped_area_m2": 155368665357.8468,
+      "current_simplified_area_m2": 154952981659.09012,
+      "relative_area_difference_pct": -0.26754667538610577,
+      "source_envelope": [
+        -68.56875908,
+        -62.34141086,
+        -26.41679934,
+        -21.99876787
+      ]
+    },
+    {
+      "name": "Buenos Aires",
+      "source_in1": "06",
+      "source_geometry_valid": true,
+      "source_validity_diagnostics": [],
+      "current_simplified_valid": false,
+      "source_clipped_valid": true,
+      "source_clipped_area_m2": 306063202122.6241,
+      "current_simplified_area_m2": 305708518660.2121,
+      "relative_area_difference_pct": -0.11588569287394554,
+      "source_envelope": [
+        -63.38594001,
+        -56.66499118,
+        -41.03791406,
+        -33.26185025
+      ]
+    },
+    {
+      "name": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "source_in1": "94",
+      "source_geometry_valid": true,
+      "source_validity_diagnostics": [],
+      "current_simplified_valid": false,
+      "source_clipped_valid": true,
+      "source_clipped_area_m2": 32820399319.387234,
+      "current_simplified_area_m2": 31731902573.765907,
+      "relative_area_difference_pct": -3.3165249911458083,
+      "source_envelope": [
+        -74.0,
+        -25.0,
+        -90.00000001,
+        -50.996547
+      ]
+    },
+    {
+      "name": "Entre Ríos",
+      "source_in1": "30",
+      "source_geometry_valid": true,
+      "source_validity_diagnostics": [],
+      "current_simplified_valid": false,
+      "source_clipped_valid": true,
+      "source_clipped_area_m2": 78393504704.98761,
+      "current_simplified_area_m2": 78633664922.24184,
+      "relative_area_difference_pct": 0.3063521884344929,
+      "source_envelope": [
+        -60.77618408,
+        -57.79739717,
+        -34.03977485,
+        -30.15897074
+      ]
+    },
+    {
+      "name": "Corrientes",
+      "source_in1": "18",
+      "source_geometry_valid": true,
+      "source_validity_diagnostics": [],
+      "current_simplified_valid": false,
+      "source_clipped_valid": true,
+      "source_clipped_area_m2": 89125508762.16235,
+      "current_simplified_area_m2": 88829699257.20866,
+      "relative_area_difference_pct": -0.3319021782451508,
+      "source_envelope": [
+        -59.71201325,
+        -55.62023667,
+        -30.73020248,
+        -27.25396604
+      ]
+    },
+    {
+      "name": "Mendoza",
+      "source_in1": "50",
+      "source_geometry_valid": true,
+      "source_validity_diagnostics": [],
+      "current_simplified_valid": true,
+      "source_clipped_valid": true,
+      "source_clipped_area_m2": 149088854509.9276,
+      "current_simplified_area_m2": 148306769807.6247,
+      "relative_area_difference_pct": -0.5245762366836346,
+      "source_envelope": [
+        -70.58368569,
+        -66.4779952,
+        -37.57525056,
+        -31.99938477
+      ]
+    },
+    {
+      "name": "San Juan",
+      "source_in1": "70",
+      "source_geometry_valid": true,
+      "source_validity_diagnostics": [],
+      "current_simplified_valid": true,
+      "source_clipped_valid": true,
+      "source_clipped_area_m2": 88371246321.30241,
+      "current_simplified_area_m2": 88301621059.53676,
+      "relative_area_difference_pct": -0.07878723528749411,
+      "source_envelope": [
+        -70.56929168,
+        -66.6617883,
+        -32.6263605,
+        -28.38875189
+      ]
+    },
+    {
+      "name": "Neuquén",
+      "source_in1": "58",
+      "source_geometry_valid": true,
+      "source_validity_diagnostics": [],
+      "current_simplified_valid": true,
+      "source_clipped_valid": true,
+      "source_clipped_area_m2": 94367297337.1475,
+      "current_simplified_area_m2": 94818922609.7838,
+      "relative_area_difference_pct": 0.4785823959997104,
+      "source_envelope": [
+        -71.9679237,
+        -67.99808848,
+        -41.10058594,
+        -36.10990833
+      ]
+    },
+    {
+      "name": "La Rioja",
+      "source_in1": "46",
+      "source_geometry_valid": true,
+      "source_validity_diagnostics": [],
+      "current_simplified_valid": true,
+      "source_clipped_valid": true,
+      "source_clipped_area_m2": 91414396974.91533,
+      "current_simplified_area_m2": 91269529592.97484,
+      "relative_area_difference_pct": -0.1584732675972727,
+      "source_envelope": [
+        -69.63497276,
+        -65.42298522,
+        -31.99839765,
+        -27.70711534
+      ]
+    },
+    {
+      "name": "Catamarca",
+      "source_in1": "10",
+      "source_geometry_valid": true,
+      "source_validity_diagnostics": [],
+      "current_simplified_valid": true,
+      "source_clipped_valid": true,
+      "source_clipped_area_m2": 101489221275.37708,
+      "current_simplified_area_m2": 101338182963.70401,
+      "relative_area_difference_pct": -0.14882202245225967,
+      "source_envelope": [
+        -69.09536453,
+        -64.78096512,
+        -30.11960248,
+        -25.16832845
+      ]
+    },
+    {
+      "name": "Santa Cruz",
+      "source_in1": "78",
+      "source_geometry_valid": true,
+      "source_validity_diagnostics": [],
+      "current_simplified_valid": false,
+      "source_clipped_valid": true,
+      "source_clipped_area_m2": 244462622392.4249,
+      "current_simplified_area_m2": 244624990865.94507,
+      "relative_area_difference_pct": 0.06641852727061452,
+      "source_envelope": [
+        -73.56658935,
+        -65.71069336,
+        -52.39768966,
+        -45.99987169
+      ]
+    }
+  ],
+  "cautions": [
+    "Area comparisons are diagnostics of the two files within the comparison frame, not official areas.",
+    "Intersection of invalid source or current geometries is not a certified area result.",
+    "A fresh WFS response is not a byte-identical reconstruction of the historical source download."
+  ]
+}

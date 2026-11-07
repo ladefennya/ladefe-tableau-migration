@@ -1,0 +1,14 @@
+{
+  "year": 2024,
+  "measure": "annual_maternal_mortality_ratio",
+  "maternal_deaths_M": 183,
+  "late_maternal_deaths_T_excluded": 81,
+  "maternal_sequelae_S_separate": 0,
+  "births_denominator": 413135,
+  "unit": "per_10000_live_births",
+  "publication_status": "candidate_not_approved",
+  "source_basis": "DEIS2024 annual registered events; not a triennium",
+  "value": 4.429544821910514,
+  "tableau_annual_value": 4.4,
+  "matches_one_decimal": true
+}

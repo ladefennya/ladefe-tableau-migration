@@ -1,0 +1,192 @@
+{
+  "schema_version": "deis-vitales-2024/2.0.0",
+  "reference_year": 2024,
+  "time_basis": "registered events; births include current-year and prior-year occurrences registered in reference year as defined by DEIS",
+  "approved_files": {
+    "births": "ac0ac5ff8794f73c57a02b494b97401431ce901d4f5f0a5df877f372da9d85d2",
+    "deaths": "9b31baa9fb577f7c95fd5b159695a1b970fa2a2b1811f5cd5015cd03370bae5a"
+  },
+  "domains": {
+    "births": {
+      "PROVRES": [
+        "02",
+        "06",
+        "10",
+        "14",
+        "18",
+        "22",
+        "26",
+        "30",
+        "34",
+        "38",
+        "42",
+        "46",
+        "50",
+        "54",
+        "58",
+        "62",
+        "66",
+        "70",
+        "74",
+        "78",
+        "82",
+        "86",
+        "90",
+        "94",
+        "98",
+        "99"
+      ],
+      "TIPPARTO": [
+        "1",
+        "2",
+        "9"
+      ],
+      "SEXO": [
+        "1",
+        "2",
+        "3",
+        "9"
+      ],
+      "IMEDAD": [
+        "1.Menor de 15",
+        "2.15 a 19",
+        "3.20 a 24",
+        "4.25 a 29",
+        "5.30 a 34",
+        "6.35 a 39",
+        "7.40 a 44",
+        "8.De 45 y más",
+        "9.Sin especificar"
+      ],
+      "ITIEMGEST": [
+        "1.Menos de 22",
+        "2.22 a 23",
+        "3.24 a 27",
+        "4.28 a 31",
+        "5.32 a 36",
+        "6.37 a 41",
+        "7.42 y más",
+        "8.Sin especificar"
+      ],
+      "IMINSTRUC": [
+        "1.Sin instrucción",
+        "2.Primaria/C. EGB Incompleta",
+        "3.Primaria/C. EGB Completa",
+        "4.Secundaria/Polimodal Incompleta",
+        "5.Secundaria/Polimodal Completa",
+        "6.Terciaria/Universitaria Incompleta",
+        "7.Terciaria/Universitaria Completa",
+        "8.Sin especificar"
+      ],
+      "IPESONAC": [
+        "1.Menor de 500",
+        "2.500 a 999",
+        "3.1000 a 1499",
+        "4.1500 a 1999",
+        "5.2000 a 2499",
+        "6.2500 a 2999",
+        "7.3000 a 3499",
+        "8.De 3500 y más",
+        "9.Sin especificar"
+      ]
+    },
+    "deaths": {
+      "PROVRES": [
+        "02",
+        "06",
+        "10",
+        "14",
+        "18",
+        "22",
+        "26",
+        "30",
+        "34",
+        "38",
+        "42",
+        "46",
+        "50",
+        "54",
+        "58",
+        "62",
+        "66",
+        "70",
+        "74",
+        "78",
+        "82",
+        "86",
+        "90",
+        "94",
+        "98",
+        "99"
+      ],
+      "SEXO": [
+        "1",
+        "2",
+        "3",
+        "9"
+      ],
+      "MAT": [
+        "M",
+        "NULL",
+        "S",
+        "T"
+      ],
+      "GRUPEDAD": [
+        "01.0 a 6 días",
+        "02.7 a 27 días",
+        "03.28 días a 11 meses",
+        "031. Menor de 1 año – Sin especificar",
+        "04.1 año",
+        "05.2 años",
+        "06.3 años",
+        "07.4 años",
+        "08.5 a 9",
+        "09.10 a 14",
+        "10.15 a 19",
+        "11.20 a 24",
+        "12.25 a 29",
+        "13.30 a 34",
+        "14.35 a 39",
+        "15.40 a 44",
+        "16.45 a 49",
+        "17.50 a 54",
+        "18.55 a 59",
+        "19.60 a 64",
+        "20.65 a 69",
+        "21.70 a 74",
+        "22.75 a 79",
+        "23.80 a 84",
+        "24.85 y más",
+        "25.Sín especificar"
+      ]
+    }
+  },
+  "codebook_gaps": {
+    "sex_code_3": "observed in pinned CSV but absent from downloaded official dictionaries; preserve raw, no semantic label or sex-specific publication"
+  },
+  "known_weight_codes": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+  ],
+  "known_gestation_codes": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+  ],
+  "maternal_flag_semantics": {
+    "M": "maternal death",
+    "T": "late maternal death; excluded from maternal mortality ratio",
+    "S": "sequela of obstetric cause; not merged automatically",
+    "NULL": "not maternal death (dictionary label Nulo)"
+  }
+}

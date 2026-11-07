@@ -1,0 +1,47 @@
+{
+  "maternal_annual_comparison": {
+    "year": 2024,
+    "measure": "annual_maternal_mortality_ratio",
+    "maternal_deaths_M": 183,
+    "late_maternal_deaths_T_excluded": 81,
+    "maternal_sequelae_S_separate": 0,
+    "births_denominator": 413135,
+    "unit": "per_10000_live_births",
+    "publication_status": "candidate_not_approved",
+    "source_basis": "DEIS2024 annual registered events; not a triennium",
+    "value": 4.429544821910514,
+    "tableau_annual_value": 4.4,
+    "matches_one_decimal": true
+  },
+  "unlabelled_sex_code_3": {
+    "births": 6,
+    "deaths": 10
+  },
+  "year": 2024,
+  "birth_source_rows": 21966,
+  "death_source_rows": 54251,
+  "births_all_codes": 413135,
+  "deaths_all_codes": 376405,
+  "infant_deaths_all_codes": 3513,
+  "province_codes": 26,
+  "map_provinces": 24,
+  "nonmap_codes": [
+    "98",
+    "99"
+  ],
+  "comparison_cases": 121,
+  "exact_component_matches": 121,
+  "differences": 0,
+  "status": "candidate_not_published",
+  "schema_version": "deis-vitales-2024/2.0.0",
+  "publication_gate": {
+    "primary_count_infant_measures": "technical_and_primary_documentation_reconciled; thematic_and_UI_review_pending",
+    "low_weight": "denominator_documented_DEIS2024_table6; thematic_and_UI_review_pending",
+    "preterm": "components_match_Tableau; percentage_denominator_policy_requires_thematic_signoff",
+    "sex_specific": "blocked_for_code3_semantics"
+  },
+  "sha256": {
+    "births": "ac0ac5ff8794f73c57a02b494b97401431ce901d4f5f0a5df877f372da9d85d2",
+    "deaths": "9b31baa9fb577f7c95fd5b159695a1b970fa2a2b1811f5cd5015cd03370bae5a"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schema_version": "0.2.0",
+  "default": "deny_unregistered_view",
+  "contracts_state": "proposed_not_human_approved",
+  "views": [
+    {
+      "required_context": [
+        "source_sha256",
+        "snapshot",
+        "indicator_id",
+        "reference_period"
+      ],
+      "allowed_aggregations": [
+        "published_value"
+      ],
+      "required_decision_state": "approved_for_exact_source_scope",
+      "authenticity_note": "configuration validator does not authenticate decision authors",
+      "view_id": "education.dropout.province",
+      "allowed_presentations": [
+        "map",
+        "bar",
+        "table"
+      ]
+    },
+    {
+      "required_context": [
+        "source_sha256",
+        "snapshot",
+        "indicator_id",
+        "reference_period"
+      ],
+      "allowed_aggregations": [
+        "ratio_of_eligible_sums"
+      ],
+      "required_decision_state": "approved_for_exact_source_scope",
+      "authenticity_note": "configuration validator does not authenticate decision authors",
+      "view_id": "health.low_birth_weight.province",
+      "allowed_presentations": [
+        "map",
+        "bar",
+        "table"
+      ],
+      "requires_known_denominator": true,
+      "allowed_denominator_rules": [
+        "specified_birth_weight_2024"
+      ]
+    },
+    {
+      "required_context": [
+        "source_sha256",
+        "snapshot",
+        "indicator_id",
+        "reference_period"
+      ],
+      "allowed_aggregations": [
+        "ratio_of_eligible_sums"
+      ],
+      "required_decision_state": "approved_for_exact_source_scope",
+      "authenticity_note": "configuration validator does not authenticate decision authors",
+      "view_id": "health.preterm.province",
+      "allowed_presentations": [
+        "map",
+        "bar",
+        "table"
+      ],
+      "requires_known_denominator": true,
+      "allowed_denominator_rules": [
+        "specified_gestation_2024"
+      ]
+    },
+    {
+      "required_context": [
+        "source_sha256",
+        "snapshot",
+        "indicator_id",
+        "reference_period"
+      ],
+      "allowed_aggregations": [
+        "weighted_disjoint_share"
+      ],
+      "required_decision_state": "approved_for_exact_source_scope",
+      "authenticity_note": "configuration validator does not authenticate decision authors",
+      "view_id": "social.migration.ephu.total_urban",
+      "allowed_presentations": [
+        "bar",
+        "table"
+      ],
+      "survey": true
+    },
+    {
+      "required_context": [
+        "source_sha256",
+        "snapshot",
+        "indicator_id",
+        "reference_period"
+      ],
+      "allowed_aggregations": [
+        "published_value"
+      ],
+      "required_decision_state": "approved_for_exact_source_scope",
+      "authenticity_note": "configuration validator does not authenticate decision authors",
+      "view_id": "health.census.coverage.age_comparison",
+      "allowed_presentations": [
+        "grouped_bar",
+        "table"
+      ],
+      "period_rule": "explicit_census_dimension_candidate; no time axis until approved"
+    },
+    {
+      "required_context": [
+        "source_sha256",
+        "snapshot",
+        "indicator_id",
+        "reference_period"
+      ],
+      "allowed_aggregations": [
+        "published_value"
+      ],
+      "required_decision_state": "approved_for_exact_source_scope",
+      "authenticity_note": "configuration validator does not authenticate decision authors",
+      "view_id": "education.meals.level_ambit",
+      "allowed_presentations": [
+        "grouped_bar",
+        "table"
+      ],
+      "period_rule": "unknown; block until primary table and cutoff confirmed"
+    }
+  ]
+}

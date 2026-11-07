@@ -1,0 +1,12 @@
+{
+  "schema_version": "deis-vitales-2024/2.0.0",
+  "files": {
+    "candidate.json": "2a92ab9b59918d81ae777e16706f4eaab376a5850b6f255a0c55c3cd8531b49a",
+    "death_dimensions_2024.csv": "95f10142a888d494bb7a9ecc54b86f2b05f141d47b0ed654611c3437a9886888",
+    "maternal_annual_2024.json": "c1f0e6e5a1c461328dc538961f7efe879b8906713c3f47b0c92e11c33ef34493",
+    "provenance.json": "5ce356422870ae34faf9642ebba411762ed38c881a218cf056555d3cfe146dd6",
+    "province_aggregates_2024.csv": "dba5db5213887a849986a504f2376b127f3d6ceabd13e024dda0aa6b45a051f0",
+    "reconciliation.csv": "aa0e23e4b9657f3c8a419832c6b5884baa919705b3070a5aa24f6b985ad372bb",
+    "reconciliation_summary.json": "41c9c222b6676894db13f781d1d0699daa8d2521dd153002a52219b9176c959a"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "entrypoint": "index.html",
+  "external_dependencies": [],
+  "network_requests_required": false,
+  "resources": [
+    {
+      "path": "index.html",
+      "sha256": "e2d30fa68a900a60b5a9648d298c7f40e41de1890ad1019073088e56a4449177",
+      "role": "self-contained candidate interface; all CSS JS data embedded"
+    }
+  ],
+  "build_inputs_sha256": {
+    "frozen_payload": "10bee830ba10c83e2fcf3ada9b80970937b2780400edb360464542e20e92c2e3",
+    "template": "794e3e9d3711e7d811198de609e8d82b923f77431ca7a6d923717736f0b56c91",
+    "query_contract": "e4aaa33bf123c0a719f2774af057b04154ffa7e7699b7d5192f243260693b875"
+  },
+  "sources": [
+    {
+      "dataset": "education",
+      "release": "18911b578fd943d3fa45fd37b5bd23d40f05543e2a0f4db325e239458c044204",
+      "snapshot": "2026-11-06",
+      "url": "https://www.argentina.gob.ar/sites/default/files/2018/04/tasa_de_abandono_interanual.zip",
+      "rows": 312
+    },
+    {
+      "dataset": "health",
+      "release": "ac0ac5ff8794f73c57a02b494b97401431ce901d4f5f0a5df877f372da9d85d2",
+      "snapshot": "2026-11-06",
+      "url": "https://www.argentina.gob.ar/sites/default/files/2021/03/datos_sobre_nacidos_vivos_2024.csv",
+      "rows": 24
+    },
+    {
+      "dataset": "migration",
+      "release": "EPHU-2025-T3-show_unknown-all-review",
+      "snapshot": "2026-11-06",
+      "url": "https://www.indec.gob.ar/Institucional/Indec/BasesDeDatos",
+      "rows": 4
+    }
+  ],
+  "approval_status": "prototype_not_approved",
+  "map_gate": {
+    "status": "blocked_geometry_review",
+    "reason": "La revisión GIS detectó geometrías inválidas y superposiciones en el recurso simplificado. No se presenta un mapa como validado. La selección territorial sigue disponible mediante lista y barras.",
+    "candidate": true
+  }
+}

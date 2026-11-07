@@ -1,0 +1,30 @@
+{
+  "method": "sites-preview + cua_repl integrated browser",
+  "prototype_sha256": "e2d30fa68a900a60b5a9648d298c7f40e41de1890ad1019073088e56a4449177",
+  "results": {
+    "desktop_render": "observed",
+    "province_selection_table_detail": "passed",
+    "two_province_comparison": "passed_after_detail_copy_fix",
+    "series_window_does_not_change_table_period": "passed",
+    "browser_back_restores_state": "passed",
+    "invalid_qv_99_default_deny": "passed",
+    "health_24_provinces": "observed",
+    "keyboard_enter_on_bar_updates_selection": "passed",
+    "narrow_viewport": "iframe390px,document375px; horizontal scrollWidth375=clientWidth375",
+    "map": "blocked_geometry_review; interaction not tested",
+    "download": "not tested in browser"
+  },
+  "limitations": [
+    "not a real mobile device emulation",
+    "no 320px check",
+    "no screen reader certification",
+    "no usability study with people",
+    "mobile filter hierarchy remains verbose",
+    "no thematic or publication approval"
+  ],
+  "cartographic_processing_reproduction": {
+    "byte_identical": true,
+    "sha256": "3ad4209856ec265ffb100edd596a412ed461612f5b57c17935db7a9c1ce519e3",
+    "does_not_claim_historical_input_byte_identity": true
+  }
+}

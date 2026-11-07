@@ -1,0 +1,1466 @@
+{
+  "schema_version": "0.2.0",
+  "raw_data_modified": false,
+  "records": [
+    {
+      "raw_source": {
+        "ANIO": 2022,
+        "APERTURA_DESCRIPCION": "Comparación intercensal del % de NNya sin obra social o prepaga en cada grupo de edad",
+        "APERTURA_NIVEL_1": "Grupo de edad",
+        "APERTURA_NIVEL_2": "Año Censal",
+        "DATO_DE_SISTEMA": null,
+        "GRUPO_INDICADOR_ID": "125",
+        "ID_DATO_SM": 124968,
+        "INDICADOR_ID": "789",
+        "MES": null,
+        "MODALIDAD_APERTURA_NIVEL_1": "Total NNyA",
+        "MODALIDAD_APERTURA_NIVEL_2": "2010",
+        "SECCION_ID": 91,
+        "SECCION_NOMBRE": "Situación General",
+        "SUB_UNIDAD_GEOGRAFICA": null,
+        "TABLERO_ID": "63",
+        "TEMA_ID": "1",
+        "TEMA_NOMBRE": "4. Salud",
+        "TIPO_DE_DATO": "APERTURA",
+        "UNIDAD_GEOGRAFICA_CODIGO": "00",
+        "UNIDAD_GEOGRAFICA_NOMBRE": "TOTAL PAÍS",
+        "VALOR": 46.3,
+        "VALOR_AUXILIAR": null
+      },
+      "raw_year": 2022,
+      "reference_period_candidate": 2010,
+      "normalization_status": "explicit_census_dimension_candidate",
+      "temporal_axis_supported": false,
+      "effective_period_approved": false,
+      "period_role": "categorical_comparison",
+      "workbook": "4_1Coberturadesalud",
+      "observation_key": "565b0864a9f2e6c5295d84a6dc1ec0e3cea200f0b73f1f2396e08fd90bfff2c5",
+      "decision": {
+        "state": "pending",
+        "approver": null,
+        "approved_at": null,
+        "evidence": {
+          "source_sqlite": "/workspace/scratch/e1753b36d366/ladefe-master-v1/base_maestra.sqlite",
+          "source_id": 124968,
+          "xml_sha256": "784282b98442c82b320d4d89219133215061ff21d1a3b644ae22d7d9609b88f6",
+          "xml_file": "4.1 Cobertura de salud.twb",
+          "worksheets": [
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Barras",
+              "shelves": {
+                "rows": "[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[avg:VALOR:qk]",
+                "cols": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))"
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            },
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Tabla",
+              "shelves": {
+                "rows": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))",
+                "cols": null
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            }
+          ]
+        },
+        "scope": {
+          "snapshot": "2026-11-06",
+          "workbook": "4_1Coberturadesalud",
+          "indicator_id": "789",
+          "observation_key": "565b0864a9f2e6c5295d84a6dc1ec0e3cea200f0b73f1f2396e08fd90bfff2c5"
+        }
+      }
+    },
+    {
+      "raw_source": {
+        "ANIO": 2023,
+        "APERTURA_DESCRIPCION": "Comparación intercensal del % de NNya sin obra social o prepaga en cada grupo de edad",
+        "APERTURA_NIVEL_1": "Grupo de edad",
+        "APERTURA_NIVEL_2": "Año Censal",
+        "DATO_DE_SISTEMA": null,
+        "GRUPO_INDICADOR_ID": "125",
+        "ID_DATO_SM": 124969,
+        "INDICADOR_ID": "789",
+        "MES": null,
+        "MODALIDAD_APERTURA_NIVEL_1": "Total NNyA",
+        "MODALIDAD_APERTURA_NIVEL_2": "2022",
+        "SECCION_ID": 91,
+        "SECCION_NOMBRE": "Situación General",
+        "SUB_UNIDAD_GEOGRAFICA": null,
+        "TABLERO_ID": "63",
+        "TEMA_ID": "1",
+        "TEMA_NOMBRE": "4. Salud",
+        "TIPO_DE_DATO": "APERTURA",
+        "UNIDAD_GEOGRAFICA_CODIGO": "00",
+        "UNIDAD_GEOGRAFICA_NOMBRE": "TOTAL PAÍS",
+        "VALOR": 46.9,
+        "VALOR_AUXILIAR": null
+      },
+      "raw_year": 2023,
+      "reference_period_candidate": 2022,
+      "normalization_status": "explicit_census_dimension_candidate",
+      "temporal_axis_supported": false,
+      "effective_period_approved": false,
+      "period_role": "categorical_comparison",
+      "workbook": "4_1Coberturadesalud",
+      "observation_key": "c7328cef72d852b90319aa5114e09325325e4c9c9f1e96b54c298620b0010cec",
+      "decision": {
+        "state": "pending",
+        "approver": null,
+        "approved_at": null,
+        "evidence": {
+          "source_sqlite": "/workspace/scratch/e1753b36d366/ladefe-master-v1/base_maestra.sqlite",
+          "source_id": 124969,
+          "xml_sha256": "784282b98442c82b320d4d89219133215061ff21d1a3b644ae22d7d9609b88f6",
+          "xml_file": "4.1 Cobertura de salud.twb",
+          "worksheets": [
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Barras",
+              "shelves": {
+                "rows": "[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[avg:VALOR:qk]",
+                "cols": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))"
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            },
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Tabla",
+              "shelves": {
+                "rows": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))",
+                "cols": null
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            }
+          ]
+        },
+        "scope": {
+          "snapshot": "2026-11-06",
+          "workbook": "4_1Coberturadesalud",
+          "indicator_id": "789",
+          "observation_key": "c7328cef72d852b90319aa5114e09325325e4c9c9f1e96b54c298620b0010cec"
+        }
+      }
+    },
+    {
+      "raw_source": {
+        "ANIO": 2024,
+        "APERTURA_DESCRIPCION": "Comparación intercensal del % de NNya sin obra social o prepaga en cada grupo de edad",
+        "APERTURA_NIVEL_1": "Grupo de edad",
+        "APERTURA_NIVEL_2": "Año Censal",
+        "DATO_DE_SISTEMA": null,
+        "GRUPO_INDICADOR_ID": "125",
+        "ID_DATO_SM": 124970,
+        "INDICADOR_ID": "789",
+        "MES": null,
+        "MODALIDAD_APERTURA_NIVEL_1": "De 0 a 5 años",
+        "MODALIDAD_APERTURA_NIVEL_2": "2010",
+        "SECCION_ID": 91,
+        "SECCION_NOMBRE": "Situación General",
+        "SUB_UNIDAD_GEOGRAFICA": null,
+        "TABLERO_ID": "63",
+        "TEMA_ID": "1",
+        "TEMA_NOMBRE": "4. Salud",
+        "TIPO_DE_DATO": "APERTURA",
+        "UNIDAD_GEOGRAFICA_CODIGO": "00",
+        "UNIDAD_GEOGRAFICA_NOMBRE": "TOTAL PAÍS",
+        "VALOR": 47.4,
+        "VALOR_AUXILIAR": null
+      },
+      "raw_year": 2024,
+      "reference_period_candidate": 2010,
+      "normalization_status": "explicit_census_dimension_candidate",
+      "temporal_axis_supported": false,
+      "effective_period_approved": false,
+      "period_role": "categorical_comparison",
+      "workbook": "4_1Coberturadesalud",
+      "observation_key": "8365ff7217882576b021b05bcdf4f4c7478ccde8eca245ae67968e0504d48a6a",
+      "decision": {
+        "state": "pending",
+        "approver": null,
+        "approved_at": null,
+        "evidence": {
+          "source_sqlite": "/workspace/scratch/e1753b36d366/ladefe-master-v1/base_maestra.sqlite",
+          "source_id": 124970,
+          "xml_sha256": "784282b98442c82b320d4d89219133215061ff21d1a3b644ae22d7d9609b88f6",
+          "xml_file": "4.1 Cobertura de salud.twb",
+          "worksheets": [
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Barras",
+              "shelves": {
+                "rows": "[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[avg:VALOR:qk]",
+                "cols": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))"
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            },
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Tabla",
+              "shelves": {
+                "rows": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))",
+                "cols": null
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            }
+          ]
+        },
+        "scope": {
+          "snapshot": "2026-11-06",
+          "workbook": "4_1Coberturadesalud",
+          "indicator_id": "789",
+          "observation_key": "8365ff7217882576b021b05bcdf4f4c7478ccde8eca245ae67968e0504d48a6a"
+        }
+      }
+    },
+    {
+      "raw_source": {
+        "ANIO": 2025,
+        "APERTURA_DESCRIPCION": "Comparación intercensal del % de NNya sin obra social o prepaga en cada grupo de edad",
+        "APERTURA_NIVEL_1": "Grupo de edad",
+        "APERTURA_NIVEL_2": "Año Censal",
+        "DATO_DE_SISTEMA": null,
+        "GRUPO_INDICADOR_ID": "125",
+        "ID_DATO_SM": 124971,
+        "INDICADOR_ID": "789",
+        "MES": null,
+        "MODALIDAD_APERTURA_NIVEL_1": "De 0 a 5 años",
+        "MODALIDAD_APERTURA_NIVEL_2": "2022",
+        "SECCION_ID": 91,
+        "SECCION_NOMBRE": "Situación General",
+        "SUB_UNIDAD_GEOGRAFICA": null,
+        "TABLERO_ID": "63",
+        "TEMA_ID": "1",
+        "TEMA_NOMBRE": "4. Salud",
+        "TIPO_DE_DATO": "APERTURA",
+        "UNIDAD_GEOGRAFICA_CODIGO": "00",
+        "UNIDAD_GEOGRAFICA_NOMBRE": "TOTAL PAÍS",
+        "VALOR": 50.1,
+        "VALOR_AUXILIAR": null
+      },
+      "raw_year": 2025,
+      "reference_period_candidate": 2022,
+      "normalization_status": "explicit_census_dimension_candidate",
+      "temporal_axis_supported": false,
+      "effective_period_approved": false,
+      "period_role": "categorical_comparison",
+      "workbook": "4_1Coberturadesalud",
+      "observation_key": "0ae54392ffc5873ce2691fe5ec2d7e82f3c5c717716364d88b2fba7d9ee048ed",
+      "decision": {
+        "state": "pending",
+        "approver": null,
+        "approved_at": null,
+        "evidence": {
+          "source_sqlite": "/workspace/scratch/e1753b36d366/ladefe-master-v1/base_maestra.sqlite",
+          "source_id": 124971,
+          "xml_sha256": "784282b98442c82b320d4d89219133215061ff21d1a3b644ae22d7d9609b88f6",
+          "xml_file": "4.1 Cobertura de salud.twb",
+          "worksheets": [
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Barras",
+              "shelves": {
+                "rows": "[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[avg:VALOR:qk]",
+                "cols": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))"
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            },
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Tabla",
+              "shelves": {
+                "rows": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))",
+                "cols": null
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            }
+          ]
+        },
+        "scope": {
+          "snapshot": "2026-11-06",
+          "workbook": "4_1Coberturadesalud",
+          "indicator_id": "789",
+          "observation_key": "0ae54392ffc5873ce2691fe5ec2d7e82f3c5c717716364d88b2fba7d9ee048ed"
+        }
+      }
+    },
+    {
+      "raw_source": {
+        "ANIO": 2026,
+        "APERTURA_DESCRIPCION": "Comparación intercensal del % de NNya sin obra social o prepaga en cada grupo de edad",
+        "APERTURA_NIVEL_1": "Grupo de edad",
+        "APERTURA_NIVEL_2": "Año Censal",
+        "DATO_DE_SISTEMA": null,
+        "GRUPO_INDICADOR_ID": "125",
+        "ID_DATO_SM": 124972,
+        "INDICADOR_ID": "789",
+        "MES": null,
+        "MODALIDAD_APERTURA_NIVEL_1": "De 6 a 11 años",
+        "MODALIDAD_APERTURA_NIVEL_2": "2010",
+        "SECCION_ID": 91,
+        "SECCION_NOMBRE": "Situación General",
+        "SUB_UNIDAD_GEOGRAFICA": null,
+        "TABLERO_ID": "63",
+        "TEMA_ID": "1",
+        "TEMA_NOMBRE": "4. Salud",
+        "TIPO_DE_DATO": "APERTURA",
+        "UNIDAD_GEOGRAFICA_CODIGO": "00",
+        "UNIDAD_GEOGRAFICA_NOMBRE": "TOTAL PAÍS",
+        "VALOR": 45.6,
+        "VALOR_AUXILIAR": null
+      },
+      "raw_year": 2026,
+      "reference_period_candidate": 2010,
+      "normalization_status": "explicit_census_dimension_candidate",
+      "temporal_axis_supported": false,
+      "effective_period_approved": false,
+      "period_role": "categorical_comparison",
+      "workbook": "4_1Coberturadesalud",
+      "observation_key": "42d3c09a4bafa0db1c909c708f3eb9f97fa5f368057a0ec7df5541bd792c40da",
+      "decision": {
+        "state": "pending",
+        "approver": null,
+        "approved_at": null,
+        "evidence": {
+          "source_sqlite": "/workspace/scratch/e1753b36d366/ladefe-master-v1/base_maestra.sqlite",
+          "source_id": 124972,
+          "xml_sha256": "784282b98442c82b320d4d89219133215061ff21d1a3b644ae22d7d9609b88f6",
+          "xml_file": "4.1 Cobertura de salud.twb",
+          "worksheets": [
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Barras",
+              "shelves": {
+                "rows": "[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[avg:VALOR:qk]",
+                "cols": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))"
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            },
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Tabla",
+              "shelves": {
+                "rows": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))",
+                "cols": null
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            }
+          ]
+        },
+        "scope": {
+          "snapshot": "2026-11-06",
+          "workbook": "4_1Coberturadesalud",
+          "indicator_id": "789",
+          "observation_key": "42d3c09a4bafa0db1c909c708f3eb9f97fa5f368057a0ec7df5541bd792c40da"
+        }
+      }
+    },
+    {
+      "raw_source": {
+        "ANIO": 2027,
+        "APERTURA_DESCRIPCION": "Comparación intercensal del % de NNya sin obra social o prepaga en cada grupo de edad",
+        "APERTURA_NIVEL_1": "Grupo de edad",
+        "APERTURA_NIVEL_2": "Año Censal",
+        "DATO_DE_SISTEMA": null,
+        "GRUPO_INDICADOR_ID": "125",
+        "ID_DATO_SM": 124973,
+        "INDICADOR_ID": "789",
+        "MES": null,
+        "MODALIDAD_APERTURA_NIVEL_1": "De 6 a 11 años",
+        "MODALIDAD_APERTURA_NIVEL_2": "2022",
+        "SECCION_ID": 91,
+        "SECCION_NOMBRE": "Situación General",
+        "SUB_UNIDAD_GEOGRAFICA": null,
+        "TABLERO_ID": "63",
+        "TEMA_ID": "1",
+        "TEMA_NOMBRE": "4. Salud",
+        "TIPO_DE_DATO": "APERTURA",
+        "UNIDAD_GEOGRAFICA_CODIGO": "00",
+        "UNIDAD_GEOGRAFICA_NOMBRE": "TOTAL PAÍS",
+        "VALOR": 46.5,
+        "VALOR_AUXILIAR": null
+      },
+      "raw_year": 2027,
+      "reference_period_candidate": 2022,
+      "normalization_status": "explicit_census_dimension_candidate",
+      "temporal_axis_supported": false,
+      "effective_period_approved": false,
+      "period_role": "categorical_comparison",
+      "workbook": "4_1Coberturadesalud",
+      "observation_key": "75fbc5c78fabf232875d7778d902c077f8e5d000f435cddfc1a6307fa666b5f6",
+      "decision": {
+        "state": "pending",
+        "approver": null,
+        "approved_at": null,
+        "evidence": {
+          "source_sqlite": "/workspace/scratch/e1753b36d366/ladefe-master-v1/base_maestra.sqlite",
+          "source_id": 124973,
+          "xml_sha256": "784282b98442c82b320d4d89219133215061ff21d1a3b644ae22d7d9609b88f6",
+          "xml_file": "4.1 Cobertura de salud.twb",
+          "worksheets": [
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Barras",
+              "shelves": {
+                "rows": "[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[avg:VALOR:qk]",
+                "cols": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))"
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            },
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Tabla",
+              "shelves": {
+                "rows": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))",
+                "cols": null
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            }
+          ]
+        },
+        "scope": {
+          "snapshot": "2026-11-06",
+          "workbook": "4_1Coberturadesalud",
+          "indicator_id": "789",
+          "observation_key": "75fbc5c78fabf232875d7778d902c077f8e5d000f435cddfc1a6307fa666b5f6"
+        }
+      }
+    },
+    {
+      "raw_source": {
+        "ANIO": 2028,
+        "APERTURA_DESCRIPCION": "Comparación intercensal del % de NNya sin obra social o prepaga en cada grupo de edad",
+        "APERTURA_NIVEL_1": "Grupo de edad",
+        "APERTURA_NIVEL_2": "Año Censal",
+        "DATO_DE_SISTEMA": null,
+        "GRUPO_INDICADOR_ID": "125",
+        "ID_DATO_SM": 124974,
+        "INDICADOR_ID": "789",
+        "MES": null,
+        "MODALIDAD_APERTURA_NIVEL_1": "De 12 a 17 años",
+        "MODALIDAD_APERTURA_NIVEL_2": "2010",
+        "SECCION_ID": 91,
+        "SECCION_NOMBRE": "Situación General",
+        "SUB_UNIDAD_GEOGRAFICA": null,
+        "TABLERO_ID": "63",
+        "TEMA_ID": "1",
+        "TEMA_NOMBRE": "4. Salud",
+        "TIPO_DE_DATO": "APERTURA",
+        "UNIDAD_GEOGRAFICA_CODIGO": "00",
+        "UNIDAD_GEOGRAFICA_NOMBRE": "TOTAL PAÍS",
+        "VALOR": 46.0,
+        "VALOR_AUXILIAR": null
+      },
+      "raw_year": 2028,
+      "reference_period_candidate": 2010,
+      "normalization_status": "explicit_census_dimension_candidate",
+      "temporal_axis_supported": false,
+      "effective_period_approved": false,
+      "period_role": "categorical_comparison",
+      "workbook": "4_1Coberturadesalud",
+      "observation_key": "f8b9a1cd3f22902dc11496adec8435a2c50f60198e2b538ea153d31b032e3a78",
+      "decision": {
+        "state": "pending",
+        "approver": null,
+        "approved_at": null,
+        "evidence": {
+          "source_sqlite": "/workspace/scratch/e1753b36d366/ladefe-master-v1/base_maestra.sqlite",
+          "source_id": 124974,
+          "xml_sha256": "784282b98442c82b320d4d89219133215061ff21d1a3b644ae22d7d9609b88f6",
+          "xml_file": "4.1 Cobertura de salud.twb",
+          "worksheets": [
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Barras",
+              "shelves": {
+                "rows": "[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[avg:VALOR:qk]",
+                "cols": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))"
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            },
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Tabla",
+              "shelves": {
+                "rows": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))",
+                "cols": null
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            }
+          ]
+        },
+        "scope": {
+          "snapshot": "2026-11-06",
+          "workbook": "4_1Coberturadesalud",
+          "indicator_id": "789",
+          "observation_key": "f8b9a1cd3f22902dc11496adec8435a2c50f60198e2b538ea153d31b032e3a78"
+        }
+      }
+    },
+    {
+      "raw_source": {
+        "ANIO": 2029,
+        "APERTURA_DESCRIPCION": "Comparación intercensal del % de NNya sin obra social o prepaga en cada grupo de edad",
+        "APERTURA_NIVEL_1": "Grupo de edad",
+        "APERTURA_NIVEL_2": "Año Censal",
+        "DATO_DE_SISTEMA": null,
+        "GRUPO_INDICADOR_ID": "125",
+        "ID_DATO_SM": 124975,
+        "INDICADOR_ID": "789",
+        "MES": null,
+        "MODALIDAD_APERTURA_NIVEL_1": "De 12 a 17 años",
+        "MODALIDAD_APERTURA_NIVEL_2": "2022",
+        "SECCION_ID": 91,
+        "SECCION_NOMBRE": "Situación General",
+        "SUB_UNIDAD_GEOGRAFICA": null,
+        "TABLERO_ID": "63",
+        "TEMA_ID": "1",
+        "TEMA_NOMBRE": "4. Salud",
+        "TIPO_DE_DATO": "APERTURA",
+        "UNIDAD_GEOGRAFICA_CODIGO": "00",
+        "UNIDAD_GEOGRAFICA_NOMBRE": "TOTAL PAÍS",
+        "VALOR": 44.5,
+        "VALOR_AUXILIAR": null
+      },
+      "raw_year": 2029,
+      "reference_period_candidate": 2022,
+      "normalization_status": "explicit_census_dimension_candidate",
+      "temporal_axis_supported": false,
+      "effective_period_approved": false,
+      "period_role": "categorical_comparison",
+      "workbook": "4_1Coberturadesalud",
+      "observation_key": "d7b1a4ab65a32d51aaefd56601d8675f0aaea9f300661c6163a0ce598ee53535",
+      "decision": {
+        "state": "pending",
+        "approver": null,
+        "approved_at": null,
+        "evidence": {
+          "source_sqlite": "/workspace/scratch/e1753b36d366/ladefe-master-v1/base_maestra.sqlite",
+          "source_id": 124975,
+          "xml_sha256": "784282b98442c82b320d4d89219133215061ff21d1a3b644ae22d7d9609b88f6",
+          "xml_file": "4.1 Cobertura de salud.twb",
+          "worksheets": [
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Barras",
+              "shelves": {
+                "rows": "[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[avg:VALOR:qk]",
+                "cols": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))"
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            },
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Tabla",
+              "shelves": {
+                "rows": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))",
+                "cols": null
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            }
+          ]
+        },
+        "scope": {
+          "snapshot": "2026-11-06",
+          "workbook": "4_1Coberturadesalud",
+          "indicator_id": "789",
+          "observation_key": "d7b1a4ab65a32d51aaefd56601d8675f0aaea9f300661c6163a0ce598ee53535"
+        }
+      }
+    },
+    {
+      "raw_source": {
+        "ANIO": 2024,
+        "APERTURA_DESCRIPCION": "Establecimientos que entregan comidas principales por ámbito según nivel",
+        "APERTURA_NIVEL_1": "Nivel",
+        "APERTURA_NIVEL_2": "Ámbito",
+        "DATO_DE_SISTEMA": null,
+        "GRUPO_INDICADOR_ID": "90",
+        "ID_DATO_SM": 143518,
+        "INDICADOR_ID": "465",
+        "MES": null,
+        "MODALIDAD_APERTURA_NIVEL_1": "Total estab.",
+        "MODALIDAD_APERTURA_NIVEL_2": "Rural",
+        "SECCION_ID": 91,
+        "SECCION_NOMBRE": "Situación General",
+        "SUB_UNIDAD_GEOGRAFICA": null,
+        "TABLERO_ID": "68",
+        "TEMA_ID": "4",
+        "TEMA_NOMBRE": "3. Educación y cuidado",
+        "TIPO_DE_DATO": "APERTURA",
+        "UNIDAD_GEOGRAFICA_CODIGO": "00",
+        "UNIDAD_GEOGRAFICA_NOMBRE": "TOTAL PAÍS",
+        "VALOR": 55.8,
+        "VALOR_AUXILIAR": null
+      },
+      "raw_year": 2024,
+      "reference_period_candidate": null,
+      "normalization_status": "requires_primary_cutoff_and_table",
+      "temporal_axis_supported": false,
+      "effective_period_approved": false,
+      "period_role": "categorical_cross_section",
+      "workbook": "3_2eEstablecimientosEntregadealimentos",
+      "observation_key": "0a5d41f9248bf28c442538f18cd3fe06bc334110e7efcb08d25192f89e1d1f81",
+      "decision": {
+        "state": "pending",
+        "approver": null,
+        "approved_at": null,
+        "evidence": {
+          "source_sqlite": "/workspace/scratch/e1753b36d366/ladefe-master-v1/base_maestra.sqlite",
+          "source_id": 143518,
+          "xml_sha256": "ecdb6d74d739f572f1f7c9a9eef6a447ae43c19a153bbcf2d19de3dfd38d013a",
+          "xml_file": "3.2e Establecimientos Entrega de alimentos.twb",
+          "worksheets": [
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Barras",
+              "shelves": {
+                "rows": "[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[avg:VALOR:qk]",
+                "cols": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))"
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            },
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Tabla",
+              "shelves": {
+                "rows": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))",
+                "cols": null
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            }
+          ]
+        },
+        "scope": {
+          "snapshot": "2026-11-06",
+          "workbook": "3_2eEstablecimientosEntregadealimentos",
+          "indicator_id": "465",
+          "observation_key": "0a5d41f9248bf28c442538f18cd3fe06bc334110e7efcb08d25192f89e1d1f81"
+        }
+      }
+    },
+    {
+      "raw_source": {
+        "ANIO": 2024,
+        "APERTURA_DESCRIPCION": "Establecimientos que entregan comidas principales por ámbito según nivel",
+        "APERTURA_NIVEL_1": "Nivel",
+        "APERTURA_NIVEL_2": "Ámbito",
+        "DATO_DE_SISTEMA": null,
+        "GRUPO_INDICADOR_ID": "90",
+        "ID_DATO_SM": 143519,
+        "INDICADOR_ID": "465",
+        "MES": null,
+        "MODALIDAD_APERTURA_NIVEL_1": "Nivel inicial",
+        "MODALIDAD_APERTURA_NIVEL_2": "Total",
+        "SECCION_ID": 91,
+        "SECCION_NOMBRE": "Situación General",
+        "SUB_UNIDAD_GEOGRAFICA": null,
+        "TABLERO_ID": "68",
+        "TEMA_ID": "4",
+        "TEMA_NOMBRE": "3. Educación y cuidado",
+        "TIPO_DE_DATO": "APERTURA",
+        "UNIDAD_GEOGRAFICA_CODIGO": "00",
+        "UNIDAD_GEOGRAFICA_NOMBRE": "TOTAL PAÍS",
+        "VALOR": 39.6,
+        "VALOR_AUXILIAR": null
+      },
+      "raw_year": 2024,
+      "reference_period_candidate": null,
+      "normalization_status": "requires_primary_cutoff_and_table",
+      "temporal_axis_supported": false,
+      "effective_period_approved": false,
+      "period_role": "categorical_cross_section",
+      "workbook": "3_2eEstablecimientosEntregadealimentos",
+      "observation_key": "3fc812c12c661c5ecf04ee8b0fe99a3a0641593c3e181c15ffad538cb8a7e2f7",
+      "decision": {
+        "state": "pending",
+        "approver": null,
+        "approved_at": null,
+        "evidence": {
+          "source_sqlite": "/workspace/scratch/e1753b36d366/ladefe-master-v1/base_maestra.sqlite",
+          "source_id": 143519,
+          "xml_sha256": "ecdb6d74d739f572f1f7c9a9eef6a447ae43c19a153bbcf2d19de3dfd38d013a",
+          "xml_file": "3.2e Establecimientos Entrega de alimentos.twb",
+          "worksheets": [
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Barras",
+              "shelves": {
+                "rows": "[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[avg:VALOR:qk]",
+                "cols": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))"
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            },
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Tabla",
+              "shelves": {
+                "rows": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))",
+                "cols": null
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            }
+          ]
+        },
+        "scope": {
+          "snapshot": "2026-11-06",
+          "workbook": "3_2eEstablecimientosEntregadealimentos",
+          "indicator_id": "465",
+          "observation_key": "3fc812c12c661c5ecf04ee8b0fe99a3a0641593c3e181c15ffad538cb8a7e2f7"
+        }
+      }
+    },
+    {
+      "raw_source": {
+        "ANIO": 2024,
+        "APERTURA_DESCRIPCION": "Establecimientos que entregan comidas principales por ámbito según nivel",
+        "APERTURA_NIVEL_1": "Nivel",
+        "APERTURA_NIVEL_2": "Ámbito",
+        "DATO_DE_SISTEMA": null,
+        "GRUPO_INDICADOR_ID": "90",
+        "ID_DATO_SM": 143522,
+        "INDICADOR_ID": "465",
+        "MES": null,
+        "MODALIDAD_APERTURA_NIVEL_1": "Nivel primario",
+        "MODALIDAD_APERTURA_NIVEL_2": "Total",
+        "SECCION_ID": 91,
+        "SECCION_NOMBRE": "Situación General",
+        "SUB_UNIDAD_GEOGRAFICA": null,
+        "TABLERO_ID": "68",
+        "TEMA_ID": "4",
+        "TEMA_NOMBRE": "3. Educación y cuidado",
+        "TIPO_DE_DATO": "APERTURA",
+        "UNIDAD_GEOGRAFICA_CODIGO": "00",
+        "UNIDAD_GEOGRAFICA_NOMBRE": "TOTAL PAÍS",
+        "VALOR": 51.2,
+        "VALOR_AUXILIAR": null
+      },
+      "raw_year": 2024,
+      "reference_period_candidate": null,
+      "normalization_status": "requires_primary_cutoff_and_table",
+      "temporal_axis_supported": false,
+      "effective_period_approved": false,
+      "period_role": "categorical_cross_section",
+      "workbook": "3_2eEstablecimientosEntregadealimentos",
+      "observation_key": "fc705e79b4b7636f2399063d07c2daeb8028bfbce14d12f8754b164cce0201ee",
+      "decision": {
+        "state": "pending",
+        "approver": null,
+        "approved_at": null,
+        "evidence": {
+          "source_sqlite": "/workspace/scratch/e1753b36d366/ladefe-master-v1/base_maestra.sqlite",
+          "source_id": 143522,
+          "xml_sha256": "ecdb6d74d739f572f1f7c9a9eef6a447ae43c19a153bbcf2d19de3dfd38d013a",
+          "xml_file": "3.2e Establecimientos Entrega de alimentos.twb",
+          "worksheets": [
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Barras",
+              "shelves": {
+                "rows": "[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[avg:VALOR:qk]",
+                "cols": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))"
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            },
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Tabla",
+              "shelves": {
+                "rows": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))",
+                "cols": null
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            }
+          ]
+        },
+        "scope": {
+          "snapshot": "2026-11-06",
+          "workbook": "3_2eEstablecimientosEntregadealimentos",
+          "indicator_id": "465",
+          "observation_key": "fc705e79b4b7636f2399063d07c2daeb8028bfbce14d12f8754b164cce0201ee"
+        }
+      }
+    },
+    {
+      "raw_source": {
+        "ANIO": 2024,
+        "APERTURA_DESCRIPCION": "Establecimientos que entregan comidas principales por ámbito según nivel",
+        "APERTURA_NIVEL_1": "Nivel",
+        "APERTURA_NIVEL_2": "Ámbito",
+        "DATO_DE_SISTEMA": null,
+        "GRUPO_INDICADOR_ID": "90",
+        "ID_DATO_SM": 143516,
+        "INDICADOR_ID": "465",
+        "MES": null,
+        "MODALIDAD_APERTURA_NIVEL_1": "Total estab.",
+        "MODALIDAD_APERTURA_NIVEL_2": "Total",
+        "SECCION_ID": 91,
+        "SECCION_NOMBRE": "Situación General",
+        "SUB_UNIDAD_GEOGRAFICA": null,
+        "TABLERO_ID": "68",
+        "TEMA_ID": "4",
+        "TEMA_NOMBRE": "3. Educación y cuidado",
+        "TIPO_DE_DATO": "APERTURA",
+        "UNIDAD_GEOGRAFICA_CODIGO": "00",
+        "UNIDAD_GEOGRAFICA_NOMBRE": "TOTAL PAÍS",
+        "VALOR": 36.7,
+        "VALOR_AUXILIAR": null
+      },
+      "raw_year": 2024,
+      "reference_period_candidate": null,
+      "normalization_status": "requires_primary_cutoff_and_table",
+      "temporal_axis_supported": false,
+      "effective_period_approved": false,
+      "period_role": "categorical_cross_section",
+      "workbook": "3_2eEstablecimientosEntregadealimentos",
+      "observation_key": "993117e7766c232aacc7e218fa20dd8094d9d453948807b8c2b088f92c93451a",
+      "decision": {
+        "state": "pending",
+        "approver": null,
+        "approved_at": null,
+        "evidence": {
+          "source_sqlite": "/workspace/scratch/e1753b36d366/ladefe-master-v1/base_maestra.sqlite",
+          "source_id": 143516,
+          "xml_sha256": "ecdb6d74d739f572f1f7c9a9eef6a447ae43c19a153bbcf2d19de3dfd38d013a",
+          "xml_file": "3.2e Establecimientos Entrega de alimentos.twb",
+          "worksheets": [
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Barras",
+              "shelves": {
+                "rows": "[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[avg:VALOR:qk]",
+                "cols": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))"
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            },
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Tabla",
+              "shelves": {
+                "rows": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))",
+                "cols": null
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            }
+          ]
+        },
+        "scope": {
+          "snapshot": "2026-11-06",
+          "workbook": "3_2eEstablecimientosEntregadealimentos",
+          "indicator_id": "465",
+          "observation_key": "993117e7766c232aacc7e218fa20dd8094d9d453948807b8c2b088f92c93451a"
+        }
+      }
+    },
+    {
+      "raw_source": {
+        "ANIO": 2024,
+        "APERTURA_DESCRIPCION": "Establecimientos que entregan comidas principales por ámbito según nivel",
+        "APERTURA_NIVEL_1": "Nivel",
+        "APERTURA_NIVEL_2": "Ámbito",
+        "DATO_DE_SISTEMA": null,
+        "GRUPO_INDICADOR_ID": "90",
+        "ID_DATO_SM": 143517,
+        "INDICADOR_ID": "465",
+        "MES": null,
+        "MODALIDAD_APERTURA_NIVEL_1": "Total estab.",
+        "MODALIDAD_APERTURA_NIVEL_2": "Urbano",
+        "SECCION_ID": 91,
+        "SECCION_NOMBRE": "Situación General",
+        "SUB_UNIDAD_GEOGRAFICA": null,
+        "TABLERO_ID": "68",
+        "TEMA_ID": "4",
+        "TEMA_NOMBRE": "3. Educación y cuidado",
+        "TIPO_DE_DATO": "APERTURA",
+        "UNIDAD_GEOGRAFICA_CODIGO": "00",
+        "UNIDAD_GEOGRAFICA_NOMBRE": "TOTAL PAÍS",
+        "VALOR": 27.6,
+        "VALOR_AUXILIAR": null
+      },
+      "raw_year": 2024,
+      "reference_period_candidate": null,
+      "normalization_status": "requires_primary_cutoff_and_table",
+      "temporal_axis_supported": false,
+      "effective_period_approved": false,
+      "period_role": "categorical_cross_section",
+      "workbook": "3_2eEstablecimientosEntregadealimentos",
+      "observation_key": "65e48dbe1c166a08a20c7c4bd0c254cacd71b8633c148a291755c0cedb7a9424",
+      "decision": {
+        "state": "pending",
+        "approver": null,
+        "approved_at": null,
+        "evidence": {
+          "source_sqlite": "/workspace/scratch/e1753b36d366/ladefe-master-v1/base_maestra.sqlite",
+          "source_id": 143517,
+          "xml_sha256": "ecdb6d74d739f572f1f7c9a9eef6a447ae43c19a153bbcf2d19de3dfd38d013a",
+          "xml_file": "3.2e Establecimientos Entrega de alimentos.twb",
+          "worksheets": [
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Barras",
+              "shelves": {
+                "rows": "[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[avg:VALOR:qk]",
+                "cols": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))"
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            },
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Tabla",
+              "shelves": {
+                "rows": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))",
+                "cols": null
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            }
+          ]
+        },
+        "scope": {
+          "snapshot": "2026-11-06",
+          "workbook": "3_2eEstablecimientosEntregadealimentos",
+          "indicator_id": "465",
+          "observation_key": "65e48dbe1c166a08a20c7c4bd0c254cacd71b8633c148a291755c0cedb7a9424"
+        }
+      }
+    },
+    {
+      "raw_source": {
+        "ANIO": 2025,
+        "APERTURA_DESCRIPCION": "Establecimientos que entregan comidas principales por ámbito según nivel",
+        "APERTURA_NIVEL_1": "Nivel",
+        "APERTURA_NIVEL_2": "Ámbito",
+        "DATO_DE_SISTEMA": null,
+        "GRUPO_INDICADOR_ID": "90",
+        "ID_DATO_SM": 143520,
+        "INDICADOR_ID": "465",
+        "MES": null,
+        "MODALIDAD_APERTURA_NIVEL_1": "Nivel inicial",
+        "MODALIDAD_APERTURA_NIVEL_2": "Urbano",
+        "SECCION_ID": 91,
+        "SECCION_NOMBRE": "Situación General",
+        "SUB_UNIDAD_GEOGRAFICA": null,
+        "TABLERO_ID": "68",
+        "TEMA_ID": "4",
+        "TEMA_NOMBRE": "3. Educación y cuidado",
+        "TIPO_DE_DATO": "APERTURA",
+        "UNIDAD_GEOGRAFICA_CODIGO": "00",
+        "UNIDAD_GEOGRAFICA_NOMBRE": "TOTAL PAÍS",
+        "VALOR": 27.5,
+        "VALOR_AUXILIAR": null
+      },
+      "raw_year": 2025,
+      "reference_period_candidate": null,
+      "normalization_status": "requires_primary_cutoff_and_table",
+      "temporal_axis_supported": false,
+      "effective_period_approved": false,
+      "period_role": "categorical_cross_section",
+      "workbook": "3_2eEstablecimientosEntregadealimentos",
+      "observation_key": "9a68220d2cac9463eccc0ae3eccb4b09d280689574ad9538c1d5a52b7c766f30",
+      "decision": {
+        "state": "pending",
+        "approver": null,
+        "approved_at": null,
+        "evidence": {
+          "source_sqlite": "/workspace/scratch/e1753b36d366/ladefe-master-v1/base_maestra.sqlite",
+          "source_id": 143520,
+          "xml_sha256": "ecdb6d74d739f572f1f7c9a9eef6a447ae43c19a153bbcf2d19de3dfd38d013a",
+          "xml_file": "3.2e Establecimientos Entrega de alimentos.twb",
+          "worksheets": [
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Barras",
+              "shelves": {
+                "rows": "[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[avg:VALOR:qk]",
+                "cols": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))"
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            },
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Tabla",
+              "shelves": {
+                "rows": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))",
+                "cols": null
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            }
+          ]
+        },
+        "scope": {
+          "snapshot": "2026-11-06",
+          "workbook": "3_2eEstablecimientosEntregadealimentos",
+          "indicator_id": "465",
+          "observation_key": "9a68220d2cac9463eccc0ae3eccb4b09d280689574ad9538c1d5a52b7c766f30"
+        }
+      }
+    },
+    {
+      "raw_source": {
+        "ANIO": 2025,
+        "APERTURA_DESCRIPCION": "Establecimientos que entregan comidas principales por ámbito según nivel",
+        "APERTURA_NIVEL_1": "Nivel",
+        "APERTURA_NIVEL_2": "Ámbito",
+        "DATO_DE_SISTEMA": null,
+        "GRUPO_INDICADOR_ID": "90",
+        "ID_DATO_SM": 143523,
+        "INDICADOR_ID": "465",
+        "MES": null,
+        "MODALIDAD_APERTURA_NIVEL_1": "Nivel primario",
+        "MODALIDAD_APERTURA_NIVEL_2": "Urbano",
+        "SECCION_ID": 91,
+        "SECCION_NOMBRE": "Situación General",
+        "SUB_UNIDAD_GEOGRAFICA": null,
+        "TABLERO_ID": "68",
+        "TEMA_ID": "4",
+        "TEMA_NOMBRE": "3. Educación y cuidado",
+        "TIPO_DE_DATO": "APERTURA",
+        "UNIDAD_GEOGRAFICA_CODIGO": "00",
+        "UNIDAD_GEOGRAFICA_NOMBRE": "TOTAL PAÍS",
+        "VALOR": 40.2,
+        "VALOR_AUXILIAR": null
+      },
+      "raw_year": 2025,
+      "reference_period_candidate": null,
+      "normalization_status": "requires_primary_cutoff_and_table",
+      "temporal_axis_supported": false,
+      "effective_period_approved": false,
+      "period_role": "categorical_cross_section",
+      "workbook": "3_2eEstablecimientosEntregadealimentos",
+      "observation_key": "74d6ae57c83149940c1df3df27a8f18444d15aa77f8658f713b343f479a5581a",
+      "decision": {
+        "state": "pending",
+        "approver": null,
+        "approved_at": null,
+        "evidence": {
+          "source_sqlite": "/workspace/scratch/e1753b36d366/ladefe-master-v1/base_maestra.sqlite",
+          "source_id": 143523,
+          "xml_sha256": "ecdb6d74d739f572f1f7c9a9eef6a447ae43c19a153bbcf2d19de3dfd38d013a",
+          "xml_file": "3.2e Establecimientos Entrega de alimentos.twb",
+          "worksheets": [
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Barras",
+              "shelves": {
+                "rows": "[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[avg:VALOR:qk]",
+                "cols": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))"
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            },
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Tabla",
+              "shelves": {
+                "rows": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))",
+                "cols": null
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            }
+          ]
+        },
+        "scope": {
+          "snapshot": "2026-11-06",
+          "workbook": "3_2eEstablecimientosEntregadealimentos",
+          "indicator_id": "465",
+          "observation_key": "74d6ae57c83149940c1df3df27a8f18444d15aa77f8658f713b343f479a5581a"
+        }
+      }
+    },
+    {
+      "raw_source": {
+        "ANIO": 2026,
+        "APERTURA_DESCRIPCION": "Establecimientos que entregan comidas principales por ámbito según nivel",
+        "APERTURA_NIVEL_1": "Nivel",
+        "APERTURA_NIVEL_2": "Ámbito",
+        "DATO_DE_SISTEMA": null,
+        "GRUPO_INDICADOR_ID": "90",
+        "ID_DATO_SM": 143521,
+        "INDICADOR_ID": "465",
+        "MES": null,
+        "MODALIDAD_APERTURA_NIVEL_1": "Nivel inicial",
+        "MODALIDAD_APERTURA_NIVEL_2": "Rural",
+        "SECCION_ID": 91,
+        "SECCION_NOMBRE": "Situación General",
+        "SUB_UNIDAD_GEOGRAFICA": null,
+        "TABLERO_ID": "68",
+        "TEMA_ID": "4",
+        "TEMA_NOMBRE": "3. Educación y cuidado",
+        "TIPO_DE_DATO": "APERTURA",
+        "UNIDAD_GEOGRAFICA_CODIGO": "00",
+        "UNIDAD_GEOGRAFICA_NOMBRE": "TOTAL PAÍS",
+        "VALOR": 61.1,
+        "VALOR_AUXILIAR": null
+      },
+      "raw_year": 2026,
+      "reference_period_candidate": null,
+      "normalization_status": "requires_primary_cutoff_and_table",
+      "temporal_axis_supported": false,
+      "effective_period_approved": false,
+      "period_role": "categorical_cross_section",
+      "workbook": "3_2eEstablecimientosEntregadealimentos",
+      "observation_key": "2b704cd4b27a7a827b85e702241d8044a4e99fdd56f26fec201fd9830795e127",
+      "decision": {
+        "state": "pending",
+        "approver": null,
+        "approved_at": null,
+        "evidence": {
+          "source_sqlite": "/workspace/scratch/e1753b36d366/ladefe-master-v1/base_maestra.sqlite",
+          "source_id": 143521,
+          "xml_sha256": "ecdb6d74d739f572f1f7c9a9eef6a447ae43c19a153bbcf2d19de3dfd38d013a",
+          "xml_file": "3.2e Establecimientos Entrega de alimentos.twb",
+          "worksheets": [
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Barras",
+              "shelves": {
+                "rows": "[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[avg:VALOR:qk]",
+                "cols": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))"
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            },
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Tabla",
+              "shelves": {
+                "rows": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))",
+                "cols": null
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            }
+          ]
+        },
+        "scope": {
+          "snapshot": "2026-11-06",
+          "workbook": "3_2eEstablecimientosEntregadealimentos",
+          "indicator_id": "465",
+          "observation_key": "2b704cd4b27a7a827b85e702241d8044a4e99fdd56f26fec201fd9830795e127"
+        }
+      }
+    },
+    {
+      "raw_source": {
+        "ANIO": 2026,
+        "APERTURA_DESCRIPCION": "Establecimientos que entregan comidas principales por ámbito según nivel",
+        "APERTURA_NIVEL_1": "Nivel",
+        "APERTURA_NIVEL_2": "Ámbito",
+        "DATO_DE_SISTEMA": null,
+        "GRUPO_INDICADOR_ID": "90",
+        "ID_DATO_SM": 143524,
+        "INDICADOR_ID": "465",
+        "MES": null,
+        "MODALIDAD_APERTURA_NIVEL_1": "Nivel primario",
+        "MODALIDAD_APERTURA_NIVEL_2": "Rural",
+        "SECCION_ID": 91,
+        "SECCION_NOMBRE": "Situación General",
+        "SUB_UNIDAD_GEOGRAFICA": null,
+        "TABLERO_ID": "68",
+        "TEMA_ID": "4",
+        "TEMA_NOMBRE": "3. Educación y cuidado",
+        "TIPO_DE_DATO": "APERTURA",
+        "UNIDAD_GEOGRAFICA_CODIGO": "00",
+        "UNIDAD_GEOGRAFICA_NOMBRE": "TOTAL PAÍS",
+        "VALOR": 65.0,
+        "VALOR_AUXILIAR": null
+      },
+      "raw_year": 2026,
+      "reference_period_candidate": null,
+      "normalization_status": "requires_primary_cutoff_and_table",
+      "temporal_axis_supported": false,
+      "effective_period_approved": false,
+      "period_role": "categorical_cross_section",
+      "workbook": "3_2eEstablecimientosEntregadealimentos",
+      "observation_key": "344d211fa094eaf11e2ed1399be52c25ded965360032bf9e2f5a78891c8033e8",
+      "decision": {
+        "state": "pending",
+        "approver": null,
+        "approved_at": null,
+        "evidence": {
+          "source_sqlite": "/workspace/scratch/e1753b36d366/ladefe-master-v1/base_maestra.sqlite",
+          "source_id": 143524,
+          "xml_sha256": "ecdb6d74d739f572f1f7c9a9eef6a447ae43c19a153bbcf2d19de3dfd38d013a",
+          "xml_file": "3.2e Establecimientos Entrega de alimentos.twb",
+          "worksheets": [
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Barras",
+              "shelves": {
+                "rows": "[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[avg:VALOR:qk]",
+                "cols": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))"
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            },
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Tabla",
+              "shelves": {
+                "rows": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))",
+                "cols": null
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            }
+          ]
+        },
+        "scope": {
+          "snapshot": "2026-11-06",
+          "workbook": "3_2eEstablecimientosEntregadealimentos",
+          "indicator_id": "465",
+          "observation_key": "344d211fa094eaf11e2ed1399be52c25ded965360032bf9e2f5a78891c8033e8"
+        }
+      }
+    },
+    {
+      "raw_source": {
+        "ANIO": 2027,
+        "APERTURA_DESCRIPCION": "Establecimientos que entregan comidas principales por ámbito según nivel",
+        "APERTURA_NIVEL_1": "Nivel",
+        "APERTURA_NIVEL_2": "Ámbito",
+        "DATO_DE_SISTEMA": null,
+        "GRUPO_INDICADOR_ID": "90",
+        "ID_DATO_SM": 143525,
+        "INDICADOR_ID": "465",
+        "MES": null,
+        "MODALIDAD_APERTURA_NIVEL_1": "Nivel secundario",
+        "MODALIDAD_APERTURA_NIVEL_2": "Total",
+        "SECCION_ID": 91,
+        "SECCION_NOMBRE": "Situación General",
+        "SUB_UNIDAD_GEOGRAFICA": null,
+        "TABLERO_ID": "68",
+        "TEMA_ID": "4",
+        "TEMA_NOMBRE": "3. Educación y cuidado",
+        "TIPO_DE_DATO": "APERTURA",
+        "UNIDAD_GEOGRAFICA_CODIGO": "00",
+        "UNIDAD_GEOGRAFICA_NOMBRE": "TOTAL PAÍS",
+        "VALOR": 22.4,
+        "VALOR_AUXILIAR": null
+      },
+      "raw_year": 2027,
+      "reference_period_candidate": null,
+      "normalization_status": "requires_primary_cutoff_and_table",
+      "temporal_axis_supported": false,
+      "effective_period_approved": false,
+      "period_role": "categorical_cross_section",
+      "workbook": "3_2eEstablecimientosEntregadealimentos",
+      "observation_key": "179d2fa223ab4beb75f9c52512763183cd741dbd5f4daddfbc8afae232c4f89e",
+      "decision": {
+        "state": "pending",
+        "approver": null,
+        "approved_at": null,
+        "evidence": {
+          "source_sqlite": "/workspace/scratch/e1753b36d366/ladefe-master-v1/base_maestra.sqlite",
+          "source_id": 143525,
+          "xml_sha256": "ecdb6d74d739f572f1f7c9a9eef6a447ae43c19a153bbcf2d19de3dfd38d013a",
+          "xml_file": "3.2e Establecimientos Entrega de alimentos.twb",
+          "worksheets": [
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Barras",
+              "shelves": {
+                "rows": "[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[avg:VALOR:qk]",
+                "cols": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))"
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            },
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Tabla",
+              "shelves": {
+                "rows": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))",
+                "cols": null
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            }
+          ]
+        },
+        "scope": {
+          "snapshot": "2026-11-06",
+          "workbook": "3_2eEstablecimientosEntregadealimentos",
+          "indicator_id": "465",
+          "observation_key": "179d2fa223ab4beb75f9c52512763183cd741dbd5f4daddfbc8afae232c4f89e"
+        }
+      }
+    },
+    {
+      "raw_source": {
+        "ANIO": 2028,
+        "APERTURA_DESCRIPCION": "Establecimientos que entregan comidas principales por ámbito según nivel",
+        "APERTURA_NIVEL_1": "Nivel",
+        "APERTURA_NIVEL_2": "Ámbito",
+        "DATO_DE_SISTEMA": null,
+        "GRUPO_INDICADOR_ID": "90",
+        "ID_DATO_SM": 143526,
+        "INDICADOR_ID": "465",
+        "MES": null,
+        "MODALIDAD_APERTURA_NIVEL_1": "Nivel secundario",
+        "MODALIDAD_APERTURA_NIVEL_2": "Urbano",
+        "SECCION_ID": 91,
+        "SECCION_NOMBRE": "Situación General",
+        "SUB_UNIDAD_GEOGRAFICA": null,
+        "TABLERO_ID": "68",
+        "TEMA_ID": "4",
+        "TEMA_NOMBRE": "3. Educación y cuidado",
+        "TIPO_DE_DATO": "APERTURA",
+        "UNIDAD_GEOGRAFICA_CODIGO": "00",
+        "UNIDAD_GEOGRAFICA_NOMBRE": "TOTAL PAÍS",
+        "VALOR": 16.2,
+        "VALOR_AUXILIAR": null
+      },
+      "raw_year": 2028,
+      "reference_period_candidate": null,
+      "normalization_status": "requires_primary_cutoff_and_table",
+      "temporal_axis_supported": false,
+      "effective_period_approved": false,
+      "period_role": "categorical_cross_section",
+      "workbook": "3_2eEstablecimientosEntregadealimentos",
+      "observation_key": "13a04b72a3384ab1dd439370baa2bcf18a6a40cec750b7aaebb89b7f92ac6e61",
+      "decision": {
+        "state": "pending",
+        "approver": null,
+        "approved_at": null,
+        "evidence": {
+          "source_sqlite": "/workspace/scratch/e1753b36d366/ladefe-master-v1/base_maestra.sqlite",
+          "source_id": 143526,
+          "xml_sha256": "ecdb6d74d739f572f1f7c9a9eef6a447ae43c19a153bbcf2d19de3dfd38d013a",
+          "xml_file": "3.2e Establecimientos Entrega de alimentos.twb",
+          "worksheets": [
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Barras",
+              "shelves": {
+                "rows": "[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[avg:VALOR:qk]",
+                "cols": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))"
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            },
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Tabla",
+              "shelves": {
+                "rows": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))",
+                "cols": null
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            }
+          ]
+        },
+        "scope": {
+          "snapshot": "2026-11-06",
+          "workbook": "3_2eEstablecimientosEntregadealimentos",
+          "indicator_id": "465",
+          "observation_key": "13a04b72a3384ab1dd439370baa2bcf18a6a40cec750b7aaebb89b7f92ac6e61"
+        }
+      }
+    },
+    {
+      "raw_source": {
+        "ANIO": 2029,
+        "APERTURA_DESCRIPCION": "Establecimientos que entregan comidas principales por ámbito según nivel",
+        "APERTURA_NIVEL_1": "Nivel",
+        "APERTURA_NIVEL_2": "Ámbito",
+        "DATO_DE_SISTEMA": null,
+        "GRUPO_INDICADOR_ID": "90",
+        "ID_DATO_SM": 143527,
+        "INDICADOR_ID": "465",
+        "MES": null,
+        "MODALIDAD_APERTURA_NIVEL_1": "Nivel secundario",
+        "MODALIDAD_APERTURA_NIVEL_2": "Rural",
+        "SECCION_ID": 91,
+        "SECCION_NOMBRE": "Situación General",
+        "SUB_UNIDAD_GEOGRAFICA": null,
+        "TABLERO_ID": "68",
+        "TEMA_ID": "4",
+        "TEMA_NOMBRE": "3. Educación y cuidado",
+        "TIPO_DE_DATO": "APERTURA",
+        "UNIDAD_GEOGRAFICA_CODIGO": "00",
+        "UNIDAD_GEOGRAFICA_NOMBRE": "TOTAL PAÍS",
+        "VALOR": 40.5,
+        "VALOR_AUXILIAR": null
+      },
+      "raw_year": 2029,
+      "reference_period_candidate": null,
+      "normalization_status": "requires_primary_cutoff_and_table",
+      "temporal_axis_supported": false,
+      "effective_period_approved": false,
+      "period_role": "categorical_cross_section",
+      "workbook": "3_2eEstablecimientosEntregadealimentos",
+      "observation_key": "84cab3ec042fc515dac1b3615c870eb1c837c6a38fd7bceec1edf5c1c940cc58",
+      "decision": {
+        "state": "pending",
+        "approver": null,
+        "approved_at": null,
+        "evidence": {
+          "source_sqlite": "/workspace/scratch/e1753b36d366/ladefe-master-v1/base_maestra.sqlite",
+          "source_id": 143527,
+          "xml_sha256": "ecdb6d74d739f572f1f7c9a9eef6a447ae43c19a153bbcf2d19de3dfd38d013a",
+          "xml_file": "3.2e Establecimientos Entrega de alimentos.twb",
+          "worksheets": [
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Barras",
+              "shelves": {
+                "rows": "[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[avg:VALOR:qk]",
+                "cols": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))"
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            },
+            {
+              "name": "Cruces Relevantes - Aperturas y Grupos - Tabla",
+              "shelves": {
+                "rows": "([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:APERTURA_DESCRIPCION:nk] / ([federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_1:nk] / [federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:MODALIDAD_APERTURA_NIVEL_2:nk]))",
+                "cols": null
+              },
+              "year_filters": [
+                "<filter xmlns:ns0=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0qiz8oi1sb3cd813zi06q01yhyh5].[none:ANIO:ok]\" filter-group=\"5\">\n            <groupfilter function=\"level-members\" level=\"[none:ANIO:ok]\" ns0:ui-enumeration=\"all\" ns0:ui-marker=\"enumerate\" />\n          </filter>\n          "
+              ]
+            }
+          ]
+        },
+        "scope": {
+          "snapshot": "2026-11-06",
+          "workbook": "3_2eEstablecimientosEntregadealimentos",
+          "indicator_id": "465",
+          "observation_key": "84cab3ec042fc515dac1b3615c870eb1c837c6a38fd7bceec1edf5c1c940cc58"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,625 @@
+{
+  "source_sha256": "3ad4209856ec265ffb100edd596a412ed461612f5b57c17935db7a9c1ce519e3",
+  "gdal": "3100300",
+  "geos": "3.13.1",
+  "features": [
+    {
+      "name": "Ciudad Autónoma de Buenos Aires",
+      "valid_geos": true,
+      "diagnostics": [],
+      "bbox_lonlat": [
+        -58.53151211,
+        -58.3351458,
+        -34.70541232,
+        -34.52776288
+      ],
+      "area_m2_epsg6933": 177799637.79646683,
+      "components": 1,
+      "geometry_type": "MULTIPOLYGON"
+    },
+    {
+      "name": "San Luis",
+      "valid_geos": true,
+      "diagnostics": [],
+      "bbox_lonlat": [
+        -67.38197033,
+        -64.90946221,
+        -36.00059326,
+        -31.85605263
+      ],
+      "area_m2_epsg6933": 75275366978.89194,
+      "components": 1,
+      "geometry_type": "MULTIPOLYGON"
+    },
+    {
+      "name": "Santa Fe",
+      "valid_geos": true,
+      "diagnostics": [],
+      "bbox_lonlat": [
+        -62.88390871,
+        -58.88400467,
+        -34.38654977,
+        -27.99800094
+      ],
+      "area_m2_epsg6933": 132937952130.77005,
+      "components": 1,
+      "geometry_type": "MULTIPOLYGON"
+    },
+    {
+      "name": "Tucumán",
+      "valid_geos": true,
+      "diagnostics": [],
+      "bbox_lonlat": [
+        -66.17693244,
+        -64.49752311,
+        -28.01412272,
+        -26.05943769
+      ],
+      "area_m2_epsg6933": 22422897149.383778,
+      "components": 1,
+      "geometry_type": "MULTIPOLYGON"
+    },
+    {
+      "name": "Jujuy",
+      "valid_geos": true,
+      "diagnostics": [],
+      "bbox_lonlat": [
+        -67.21304744,
+        -64.15705693,
+        -24.61335717,
+        -21.78835416
+      ],
+      "area_m2_epsg6933": 52966246522.178986,
+      "components": 1,
+      "geometry_type": "MULTIPOLYGON"
+    },
+    {
+      "name": "Santiago del Estero",
+      "valid_geos": true,
+      "diagnostics": [],
+      "bbox_lonlat": [
+        -65.18832537,
+        -61.71181555,
+        -30.48043252,
+        -25.65194996
+      ],
+      "area_m2_epsg6933": 137090032926.0556,
+      "components": 1,
+      "geometry_type": "MULTIPOLYGON"
+    },
+    {
+      "name": "Córdoba",
+      "valid_geos": true,
+      "diagnostics": [],
+      "bbox_lonlat": [
+        -65.77145966,
+        -61.78766839,
+        -35.01533023,
+        -29.49867371
+      ],
+      "area_m2_epsg6933": 165158659976.62555,
+      "components": 1,
+      "geometry_type": "MULTIPOLYGON"
+    },
+    {
+      "name": "La Pampa",
+      "valid_geos": true,
+      "diagnostics": [],
+      "bbox_lonlat": [
+        -68.2964103,
+        -63.38326942,
+        -39.3284916,
+        -35.01092791
+      ],
+      "area_m2_epsg6933": 143427065968.56143,
+      "components": 1,
+      "geometry_type": "MULTIPOLYGON"
+    },
+    {
+      "name": "Chaco",
+      "valid_geos": true,
+      "diagnostics": [],
+      "bbox_lonlat": [
+        -63.42241184,
+        -58.38151982,
+        -28.05665346,
+        -24.12318409
+      ],
+      "area_m2_epsg6933": 100000264024.4669,
+      "components": 1,
+      "geometry_type": "MULTIPOLYGON"
+    },
+    {
+      "name": "Formosa",
+      "valid_geos": true,
+      "diagnostics": [],
+      "bbox_lonlat": [
+        -62.34215689,
+        -57.56060157,
+        -26.86967387,
+        -22.48665959
+      ],
+      "area_m2_epsg6933": 74782065477.2976,
+      "components": 1,
+      "geometry_type": "MULTIPOLYGON"
+    },
+    {
+      "name": "Chubut",
+      "valid_geos": false,
+      "diagnostics": [
+        "Self-intersection at or near point -65.867829605041848 -45.033878140223059"
+      ],
+      "bbox_lonlat": [
+        -72.17870399,
+        -63.58280266,
+        -45.99991231,
+        -41.99998806
+      ],
+      "area_m2_epsg6933": 225047438116.72687,
+      "components": 67,
+      "geometry_type": "MULTIPOLYGON"
+    },
+    {
+      "name": "Río Negro",
+      "valid_geos": false,
+      "diagnostics": [
+        "Self-intersection at or near point -64.906186765543282 -40.740863400938458"
+      ],
+      "bbox_lonlat": [
+        -71.91295075,
+        -62.78966657,
+        -42.00000005,
+        -37.58521798
+      ],
+      "area_m2_epsg6933": 202345481504.1056,
+      "components": 4,
+      "geometry_type": "MULTIPOLYGON"
+    },
+    {
+      "name": "Misiones",
+      "valid_geos": false,
+      "diagnostics": [
+        "Nested shells at or near point -56.003000550000003 -27.337085269999999"
+      ],
+      "bbox_lonlat": [
+        -56.05864362,
+        -53.64154864,
+        -28.16422277,
+        -25.49431474
+      ],
+      "area_m2_epsg6933": 29612501163.961864,
+      "components": 3,
+      "geometry_type": "MULTIPOLYGON"
+    },
+    {
+      "name": "Salta",
+      "valid_geos": true,
+      "diagnostics": [],
+      "bbox_lonlat": [
+        -68.56875543,
+        -62.34234111,
+        -26.41679934,
+        -21.99937691
+      ],
+      "area_m2_epsg6933": 154952981659.09012,
+      "components": 1,
+      "geometry_type": "MULTIPOLYGON"
+    },
+    {
+      "name": "Buenos Aires",
+      "valid_geos": false,
+      "diagnostics": [
+        "Self-intersection at or near point -61.898008706951238 -39.132214218029183"
+      ],
+      "bbox_lonlat": [
+        -63.38508318,
+        -56.66609763,
+        -41.02416378,
+        -33.27285358
+      ],
+      "area_m2_epsg6933": 305708518660.2121,
+      "components": 95,
+      "geometry_type": "MULTIPOLYGON"
+    },
+    {
+      "name": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "valid_geos": false,
+      "diagnostics": [
+        "Self-intersection at or near point -58.306648878529806 -51.421885435443045"
+      ],
+      "bbox_lonlat": [
+        -68.609416,
+        -57.687687,
+        -55.063507,
+        -50.996952
+      ],
+      "area_m2_epsg6933": 31731902573.765907,
+      "components": 668,
+      "geometry_type": "MULTIPOLYGON"
+    },
+    {
+      "name": "Entre Ríos",
+      "valid_geos": false,
+      "diagnostics": [
+        "Self-intersection at or near point -58.12634146315807 -33.023817972670734"
+      ],
+      "bbox_lonlat": [
+        -60.77618408,
+        -57.79739717,
+        -34.03839716,
+        -30.15901768
+      ],
+      "area_m2_epsg6933": 78633664922.24184,
+      "components": 1,
+      "geometry_type": "MULTIPOLYGON"
+    },
+    {
+      "name": "Corrientes",
+      "valid_geos": false,
+      "diagnostics": [
+        "Self-intersection at or near point -56.73922741231798 -27.559777217804168"
+      ],
+      "bbox_lonlat": [
+        -59.71201325,
+        -55.62023667,
+        -30.73020248,
+        -27.25489993
+      ],
+      "area_m2_epsg6933": 88829699257.20866,
+      "components": 65,
+      "geometry_type": "MULTIPOLYGON"
+    },
+    {
+      "name": "Mendoza",
+      "valid_geos": true,
+      "diagnostics": [],
+      "bbox_lonlat": [
+        -70.58331441,
+        -66.47811404,
+        -37.57525056,
+        -32.00290724
+      ],
+      "area_m2_epsg6933": 148306769807.6247,
+      "components": 1,
+      "geometry_type": "MULTIPOLYGON"
+    },
+    {
+      "name": "San Juan",
+      "valid_geos": true,
+      "diagnostics": [],
+      "bbox_lonlat": [
+        -70.56738439,
+        -66.6617883,
+        -32.62243439,
+        -28.41160569
+      ],
+      "area_m2_epsg6933": 88301621059.53676,
+      "components": 1,
+      "geometry_type": "MULTIPOLYGON"
+    },
+    {
+      "name": "Neuquén",
+      "valid_geos": true,
+      "diagnostics": [],
+      "bbox_lonlat": [
+        -71.96525987,
+        -67.99808848,
+        -41.05597585,
+        -36.13804804
+      ],
+      "area_m2_epsg6933": 94818922609.7838,
+      "components": 1,
+      "geometry_type": "MULTIPOLYGON"
+    },
+    {
+      "name": "La Rioja",
+      "valid_geos": true,
+      "diagnostics": [],
+      "bbox_lonlat": [
+        -69.63497276,
+        -65.42298522,
+        -31.99839765,
+        -27.70711534
+      ],
+      "area_m2_epsg6933": 91269529592.97484,
+      "components": 1,
+      "geometry_type": "MULTIPOLYGON"
+    },
+    {
+      "name": "Catamarca",
+      "valid_geos": true,
+      "diagnostics": [],
+      "bbox_lonlat": [
+        -69.09526471,
+        -64.78120306,
+        -30.11960248,
+        -25.16832845
+      ],
+      "area_m2_epsg6933": 101338182963.70401,
+      "components": 1,
+      "geometry_type": "MULTIPOLYGON"
+    },
+    {
+      "name": "Santa Cruz",
+      "valid_geos": false,
+      "diagnostics": [
+        "Self-intersection at or near point -67.70862115254964 -49.270576870117829"
+      ],
+      "bbox_lonlat": [
+        -73.56658935,
+        -65.7141037,
+        -52.39768966,
+        -45.99987169
+      ],
+      "area_m2_epsg6933": 244624990865.94507,
+      "components": 37,
+      "geometry_type": "MULTIPOLYGON"
+    }
+  ],
+  "invalid_features": 8,
+  "pair_count": 276,
+  "overlaps_larger_than_1m2": [
+    {
+      "a": "Ciudad Autónoma de Buenos Aires",
+      "b": "Buenos Aires",
+      "intersection_area_m2": 3560856.553121567,
+      "share_smaller_pct": 2.00273554955033,
+      "both_geometries_valid": false
+    },
+    {
+      "a": "San Luis",
+      "b": "Córdoba",
+      "intersection_area_m2": 142292178.29553276,
+      "share_smaller_pct": 0.18902887359610362,
+      "both_geometries_valid": true
+    },
+    {
+      "a": "San Luis",
+      "b": "La Pampa",
+      "intersection_area_m2": 17005587.195059896,
+      "share_smaller_pct": 0.02259117142508047,
+      "both_geometries_valid": true
+    },
+    {
+      "a": "San Luis",
+      "b": "Mendoza",
+      "intersection_area_m2": 70002264.99365234,
+      "share_smaller_pct": 0.0929949169338248,
+      "both_geometries_valid": true
+    },
+    {
+      "a": "San Luis",
+      "b": "San Juan",
+      "intersection_area_m2": 4783539.144580245,
+      "share_smaller_pct": 0.006354720457120592,
+      "both_geometries_valid": true
+    },
+    {
+      "a": "San Luis",
+      "b": "La Rioja",
+      "intersection_area_m2": 5901137.756332397,
+      "share_smaller_pct": 0.007839400846743323,
+      "both_geometries_valid": true
+    },
+    {
+      "a": "Santa Fe",
+      "b": "Chaco",
+      "intersection_area_m2": 13752968.445809245,
+      "share_smaller_pct": 0.013752932134703492,
+      "both_geometries_valid": true
+    },
+    {
+      "a": "Santa Fe",
+      "b": "Buenos Aires",
+      "intersection_area_m2": 25306666.136767447,
+      "share_smaller_pct": 0.019036449509823555,
+      "both_geometries_valid": false
+    },
+    {
+      "a": "Santa Fe",
+      "b": "Entre Ríos",
+      "intersection_area_m2": 151888564.2922399,
+      "share_smaller_pct": 0.19315971656978898,
+      "both_geometries_valid": false
+    },
+    {
+      "a": "Santa Fe",
+      "b": "Corrientes",
+      "intersection_area_m2": 105519425.72317505,
+      "share_smaller_pct": 0.11878845319248561,
+      "both_geometries_valid": false
+    },
+    {
+      "a": "Tucumán",
+      "b": "Santiago del Estero",
+      "intersection_area_m2": 13793266.95088005,
+      "share_smaller_pct": 0.06151420514034296,
+      "both_geometries_valid": true
+    },
+    {
+      "a": "Tucumán",
+      "b": "Salta",
+      "intersection_area_m2": 1030692.3654254675,
+      "share_smaller_pct": 0.004596606578351062,
+      "both_geometries_valid": true
+    },
+    {
+      "a": "Tucumán",
+      "b": "Catamarca",
+      "intersection_area_m2": 75228631.12643433,
+      "share_smaller_pct": 0.3354991579600665,
+      "both_geometries_valid": true
+    },
+    {
+      "a": "Jujuy",
+      "b": "Salta",
+      "intersection_area_m2": 136372105.44405138,
+      "share_smaller_pct": 0.25746983106863575,
+      "both_geometries_valid": true
+    },
+    {
+      "a": "Santiago del Estero",
+      "b": "Córdoba",
+      "intersection_area_m2": 12015816.991600037,
+      "share_smaller_pct": 0.00876490926082219,
+      "both_geometries_valid": true
+    },
+    {
+      "a": "Santiago del Estero",
+      "b": "Chaco",
+      "intersection_area_m2": 2508135.423017025,
+      "share_smaller_pct": 0.002508128800943329,
+      "both_geometries_valid": true
+    },
+    {
+      "a": "Santiago del Estero",
+      "b": "Salta",
+      "intersection_area_m2": 137230104.36704826,
+      "share_smaller_pct": 0.10010217478105662,
+      "both_geometries_valid": true
+    },
+    {
+      "a": "Santiago del Estero",
+      "b": "Catamarca",
+      "intersection_area_m2": 81676755.5161351,
+      "share_smaller_pct": 0.08059820408008403,
+      "both_geometries_valid": true
+    },
+    {
+      "a": "La Pampa",
+      "b": "Mendoza",
+      "intersection_area_m2": 18443574.004572958,
+      "share_smaller_pct": 0.012859200514229096,
+      "both_geometries_valid": true
+    },
+    {
+      "a": "Chaco",
+      "b": "Formosa",
+      "intersection_area_m2": 184948670.67782593,
+      "share_smaller_pct": 0.2473168793846337,
+      "both_geometries_valid": true
+    },
+    {
+      "a": "Chubut",
+      "b": "Río Negro",
+      "intersection_area_m2": 368028.9543088139,
+      "share_smaller_pct": 0.00018188147893055207,
+      "both_geometries_valid": false
+    },
+    {
+      "a": "Misiones",
+      "b": "Corrientes",
+      "intersection_area_m2": 40547935.93497801,
+      "share_smaller_pct": 0.1369284401559584,
+      "both_geometries_valid": false
+    },
+    {
+      "a": "Salta",
+      "b": "Catamarca",
+      "intersection_area_m2": 23750742.016220093,
+      "share_smaller_pct": 0.02343711059505263,
+      "both_geometries_valid": true
+    },
+    {
+      "a": "Entre Ríos",
+      "b": "Corrientes",
+      "intersection_area_m2": 9058303.14454487,
+      "share_smaller_pct": 0.01151962477331092,
+      "both_geometries_valid": false
+    },
+    {
+      "a": "Mendoza",
+      "b": "San Juan",
+      "intersection_area_m2": 82412542.70464659,
+      "share_smaller_pct": 0.09333072452778698,
+      "both_geometries_valid": true
+    },
+    {
+      "a": "Mendoza",
+      "b": "Neuquén",
+      "intersection_area_m2": 70859611.85119724,
+      "share_smaller_pct": 0.07473150917650867,
+      "both_geometries_valid": true
+    },
+    {
+      "a": "San Juan",
+      "b": "La Rioja",
+      "intersection_area_m2": 159426452.74297714,
+      "share_smaller_pct": 0.18054759451752866,
+      "both_geometries_valid": true
+    },
+    {
+      "a": "La Rioja",
+      "b": "Catamarca",
+      "intersection_area_m2": 11217349.016487122,
+      "share_smaller_pct": 0.012290354805718795,
+      "both_geometries_valid": true
+    }
+  ],
+  "intersection_diagnostics": [
+    {
+      "a": "Córdoba",
+      "b": "La Pampa",
+      "diagnostics": [
+        "OGR_G_Area() called against non-surface geometry type."
+      ]
+    },
+    {
+      "a": "Córdoba",
+      "b": "Buenos Aires",
+      "diagnostics": [
+        "TopologyException: side location conflict at -6008250.1835940676 -4588615.1848756168. This can occur if the input geometry is invalid."
+      ]
+    },
+    {
+      "a": "La Pampa",
+      "b": "Neuquén",
+      "diagnostics": [
+        "OGR_G_Area() called against non-surface geometry type."
+      ]
+    },
+    {
+      "a": "Chaco",
+      "b": "Salta",
+      "diagnostics": [
+        "OGR_G_Area() called against non-surface geometry type."
+      ]
+    },
+    {
+      "a": "Chaco",
+      "b": "Corrientes",
+      "diagnostics": [
+        "TopologyException: side location conflict at -5614412.0300110457 -3351204.1221628785. This can occur if the input geometry is invalid."
+      ]
+    },
+    {
+      "a": "Río Negro",
+      "b": "Buenos Aires",
+      "diagnostics": [
+        "TopologyException: side location conflict at -6248710.8839408914 -4783219.1279947888. This can occur if the input geometry is invalid."
+      ]
+    },
+    {
+      "a": "Buenos Aires",
+      "b": "Entre Ríos",
+      "diagnostics": [
+        "TopologyException: side location conflict at -5607293.0775313741 -3988137.7049873737. This can occur if the input geometry is invalid."
+      ]
+    },
+    {
+      "a": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "b": "Santa Cruz",
+      "diagnostics": [
+        "TopologyException: side location conflict at -6697980.6233514808 -5703313.2528431118. This can occur if the input geometry is invalid."
+      ]
+    }
+  ],
+  "tdf_components_intersecting_malvinas_bbox": 584,
+  "limitations": [
+    "Validity/overlap refer only to simplified file, not authoritative boundary correctness.",
+    "EPSG6933 used for numerical area diagnostics; not prescribed display CRS.",
+    "1m2 is diagnostic noise threshold, not an acceptable cartographic tolerance.",
+    "No source-original overlay was available to quantify simplification drift."
+  ],
+  "overlap_pairs_both_valid": 21
+}
